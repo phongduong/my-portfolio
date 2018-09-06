@@ -4,10 +4,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build && mv _redirects .vuepress/dist"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vuepress": "^0.14.2"
+  },
   "devDependencies": {
     "sass-loader": "^7.1.0"
   }
