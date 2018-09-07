@@ -1,8 +1,8 @@
 backend:
-  name: git-gateway
-  accept_roles: 
-    - admin
-  # repo: phongduong/portfolio
+  name: github
+  # accept_roles: 
+  #   - admin
+  repo: phongduong/portfolio
   branch: develop
 publish_mode: editorial_workflow
 media_folder: ".vuepress/public/images"
