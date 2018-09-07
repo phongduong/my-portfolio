@@ -1,18 +1,25 @@
 backend:
   name: github
   repo: phongduong/portfolio
-  branch: master
+  branch: develop
 publish_mode: editorial_workflow
 media_folder: ".vuepress/public/images"
 public_folder: ".vuepress/dist"
 collections:
-  - name: "project" 
+  - name: "project"
     label: "Project"
-    folder: "projects" 
-    create: true 
-    slug: "{{slug}}" 
+    folder: "projects"
+    create: true
+    slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "title", widget: "string"}
-      - {label: "Release Date", name: "date", widget: "datetime"}
-      - {label: "Logo", name: "logo", widget: "image"}
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          default: false,
+        }
+      - { label: "Release Date", name: "date", widget: "date" }
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Public link", name: "public-link", widget: "string" }
+      - { label: "Source Link", name: "source-link", widget: "string" }
