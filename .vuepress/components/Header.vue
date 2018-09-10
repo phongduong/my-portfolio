@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
-    <h3>{{ description }}</h3>
+    <h2>{{ description }}</h2>
+    <p>sds</p>
   </div>
 </template>
 

@@ -1,8 +1,6 @@
 backend:
-  name: git-gateway
-  accept_roles: 
-    - admin
-  # repo: phongduong/portfolio
+  name: github
+  repo: phongduong/portfolio
   branch: develop
 publish_mode: editorial_workflow
 media_folder: ".vuepress/public/images"
@@ -23,5 +21,5 @@ collections:
         }
       - { label: "Release Date", name: "date", widget: "date" }
       - { label: "Logo", name: "logo", widget: "image" }
-      - { label: "Public link", name: "public-link", widget: "string" }
-      - { label: "Source Link", name: "source-link", widget: "string" }
+      - { label: "Public URL", name: "public-url", widget: "string" }
+      - { label: "Source URL", name: "source-url", widget: "string" }
