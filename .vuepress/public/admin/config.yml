@@ -4,7 +4,7 @@ backend:
   branch: develop
 publish_mode: editorial_workflow
 media_folder: ".vuepress/public/images"
-public_folder: ".vuepress/dist"
+public_folder: ".vuepress/dist/images"
 collections:
   - name: "project"
     label: "Project"
