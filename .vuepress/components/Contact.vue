@@ -48,7 +48,7 @@ li {
     display: inline-block;
     color: var(--sub-color);
     font-size: 1.8em;
-    transition: all 0.7s;
+    transition: all 0.4s;
     border-radius: 50%;
     width: 1.8em;
     line-height: 1.8em;

@@ -3,6 +3,7 @@ module.exports = {
   description: "Self-taught, full-stack developer",
   base: "/",
   serviceWorker: true,
+  ga: "UA-123178606-2",
   head: [
     [
       "link",
