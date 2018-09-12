@@ -1,11 +1,11 @@
 <template>
-  <main>
+  <section>
     <Project 
       v-for="project in this.projects"
       :key="project.key"
       :project="project"
     />
-  </main>
+  </section>
 </template>
 
 <script>
@@ -22,11 +22,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background: var(--body-background);
-  padding: 4em 0;
-}
 </style>

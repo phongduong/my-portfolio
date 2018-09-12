@@ -1,15 +1,19 @@
 <template>
-  <div>
-    <Header 
-      :title="$site.title" 
-      :description="$site.description" 
-      :contacts="$site.pages.filter(({frontmatter}) => frontmatter.type === `contact`)"
-      />
-    <Body 
-      :projects="$site.pages.filter(({frontmatter}) => frontmatter.type === `project`)"
-      />
-    <Footer />
-  </div>
+  <main>
+    <section class="text">
+      <Header 
+        :title="$site.title" 
+        :description="$site.description" 
+        :contacts="$site.pages.filter(({frontmatter}) => frontmatter.type === `contact`)"
+        />
+      <Body 
+        :projects="$site.pages.filter(({frontmatter}) => frontmatter.type === `project`)"
+        />
+      <Footer />
+    </section>
+    <section class="background">
+    </section>
+  </main>
 </template>
 
 <script>
@@ -37,6 +41,22 @@ export default {
 }
 
 body {
+  width: 100%;
   margin: 0;
+
+  main {
+    display: flex;
+
+    .text {
+      flex-basis: 50%;
+    }
+
+    .background {
+      flex-basis: 50%;
+      background: url(("/images/background.jpg"));
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
 }
 </style>
