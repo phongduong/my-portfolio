@@ -13,9 +13,6 @@ export default {};
 <style lang="scss" scoped>
 nav {
   display: flex;
-  position: sticky;
-  top: 0;
-  z-index: 1;
   margin: 0;
   padding: 0;
   background: var(--sub-background-light);

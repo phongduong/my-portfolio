@@ -44,6 +44,7 @@ export default {
 * {
   font-family: var(--font-family);
   letter-spacing: 1px;
+  color: var(--color);
 }
 
 html {

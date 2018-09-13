@@ -27,7 +27,8 @@ export default {
   position: sticky;
   top: 0;
   z-index: 3;
-  padding: 2.5em 2.5em;
+  padding: 2.5em;
+  padding-bottom: 7em;
   background: #fff;
 
   h2 {
