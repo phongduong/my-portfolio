@@ -1,5 +1,6 @@
 <template>
-  <section>
+  <section id="projects" class="projects">
+    <h2>Some projects i worked on</h2>
     <Project 
       v-for="project in this.projects"
       :key="project.key"
@@ -22,4 +23,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.projects {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 2.5em 2.5em;
+  background: #fff;
+
+  h2 {
+    margin: 1.5em 0;
+    text-align: center;
+    font-size: 2em;
+    color: var(--color);
+  }
+}
 </style>

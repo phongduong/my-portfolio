@@ -11,16 +11,9 @@
         <p>{{ information.description}}</p>
       </div>
       <div class="buttons">
-        <button>
-          <a :href="information['public-url']" target="_blank">
-            <i class="fas fa-globe" /> Website
-          </a>
-        </button>
-        <button>
-          <a :href="information['source-url']" target="_blank">
-            <i class="fab fa-github-alt"></i> Source code
-          </a>
-        </button>
+        <a :href="information['public-url']" target="_blank">
+          Go to project
+        </a>
       </div>
     </div>
   </section>
@@ -45,5 +38,44 @@ export default {
 
 <style lang="scss" scoped>
 section {
+  display: flex;
+  padding: 2em 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px dashed var(--background);
+  }
+
+  .logo {
+    padding: 1em;
+
+    img {
+      width: 10em;
+    }
+  }
+
+  .information {
+    padding: 1em;
+
+    h3 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+  }
+
+  .buttons {
+    margin-top: 2em;
+
+    a {
+      text-decoration: none;
+      color: var(--background);
+      border: 3px solid var(--background);
+      padding: 0.4em;
+      font-weight: 700;
+
+      &:hover {
+        background: var(--sub-background-light);
+      }
+    }
+  }
 }
 </style>

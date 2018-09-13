@@ -1,9 +1,7 @@
 <template>
-  <li>
-    <a :href="getURL" target="_blank">
-      {{ getTitle }}
-    </a>
-  </li>
+  <a :href="getURL" target="_blank">
+    {{ getTitle }}
+  </a>
 </template>
 
 <script>
@@ -19,7 +17,7 @@ export default {
   computed: {
     getTitle: function() {
       const { frontmatter: { title } } = this.contact;
-      
+
       return title;
     },
 
@@ -33,22 +31,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-li {
-  flex-basis: 40%;
-  list-style: none;
-  border: 4px solid var(--background);
-  padding: 0.5em;
+a {
+  cursor: pointer;
+  flex-basis: 45%;
+  text-align: center;
+  border: 5px solid var(--background);
+  margin-bottom: 2em;
+  text-decoration: none;
+  color: var(--background);
+  font-size: 2em;
+  font-weight: 700;
 
   &:hover {
-    cursor: pointer;
-    background: var(--sub-background);
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--background);
-    font-weight: bold;
-    font-size: 1.2em;
+    background: var(--sub-background-light);
   }
 }
 </style>

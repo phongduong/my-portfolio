@@ -1,50 +1,36 @@
 <template>
-  <header>
-    <h1>{{ title }}</h1>
+  <header id="about">
+    <h1>Hi, i am {{ title }}</h1>
     <h2>{{ description }}</h2>
-    <ul class="contacts">
-      <Contact 
-        v-for="contact in contacts" 
-        :key="contact.key" 
-        :contact="contact"
-      />
-    </ul>
   </header>
 </template>
 
 <script>
-import Contact from "./Contact.vue";
-
 export default {
   props: {
     title: String,
-    description: String,
-    contacts: Array
-  },
-  components: {
-    Contact
+    description: String
   }
 };
 </script>
 
 <style lang="scss" scoped>
 header {
-  text-align: center;
-
+  padding: 5em 2.5em;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+  
   h1 {
-    font-size: 2em;
+    font-size: 3em;
     color: var(--color);
+    margin-top: 0;
   }
 
   h2 {
+    font-size: 2em;
     color: var(--color);
-  }
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0;
   }
 }
 </style>

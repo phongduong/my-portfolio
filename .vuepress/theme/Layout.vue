@@ -1,12 +1,13 @@
 <template>
   <main>
     <section class="text">
+      <Navbar />
       <Header 
         :title="$site.title" 
         :description="$site.description" 
-        :contacts="$site.pages.filter(({frontmatter}) => frontmatter.type === `contact`)"
         />
-      <Body 
+      <Contacts :contacts="$site.pages.filter(({frontmatter}) => frontmatter.type === `contact`)" />
+      <Projects 
         :projects="$site.pages.filter(({frontmatter}) => frontmatter.type === `project`)"
         />
       <Footer />
@@ -17,14 +18,18 @@
 </template>
 
 <script>
+import Navbar from "../components/Navbar.vue";
 import Header from "../components/Header.vue";
-import Body from "../components/Body.vue";
+import Contacts from "../components/Contacts.vue";
+import Projects from "../components/Projects.vue";
 import Footer from "../components/Footer.vue";
 
 export default {
   components: {
+    Navbar,
     Header,
-    Body,
+    Contacts,
+    Projects,
     Footer
   },
   data: function() {
@@ -38,6 +43,11 @@ export default {
 
 * {
   font-family: var(--font-family);
+  letter-spacing: 1px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -48,11 +58,11 @@ body {
     display: flex;
 
     .text {
-      flex-basis: 50%;
+      flex-basis: 70%;
     }
 
     .background {
-      flex-basis: 50%;
+      flex-basis: 30%;
       background: url(("/images/background.jpg"));
       background-repeat: no-repeat;
       background-size: cover;
