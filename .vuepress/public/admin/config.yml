@@ -4,7 +4,7 @@ backend:
     - admin
   # name: github
   # repo: phongduong/my-portfolio
-  branch: develop
+  branch: master
 publish_mode: editorial_workflow
 media_folder: ".vuepress/public/images"
 public_folder: "images"
