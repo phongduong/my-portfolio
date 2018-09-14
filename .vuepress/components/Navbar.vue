@@ -11,6 +11,8 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+@import "../style/style.scss";
+
 nav {
   display: flex;
   margin: 0;
@@ -30,6 +32,20 @@ nav {
       cursor: pointer;
       background: var(--sub-background-dark);
     }
+  }
+
+  @media screen and (max-width: $xs-break-point) {
+    & {
+      a {
+        font-size: 1em;
+      }
+    }
+  }
+  @media screen and (min-width: $sm-break-point) {
+  }
+  @media screen and (min-width: $md-break-point) {
+  }
+  @media screen and (min-width: $lg-break-point) {
   }
 }
 </style>

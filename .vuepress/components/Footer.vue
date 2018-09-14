@@ -5,17 +5,15 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
 footer {
-  z-index: 4;
-  position: sticky;
   padding: 0.5em;
   background: var(--sub-background-light);
+  position: sticky;
+  z-index: 999;
 
   p {
     text-align: center;

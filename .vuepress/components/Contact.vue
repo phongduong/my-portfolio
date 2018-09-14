@@ -31,6 +31,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/style.scss";
+
 a {
   cursor: pointer;
   flex-basis: 45%;
@@ -44,6 +46,19 @@ a {
 
   &:hover {
     background: var(--sub-background-light);
+  }
+
+  @media screen and (max-width: $xs-break-point) {
+    & {
+      flex-basis: 100%;
+      margin-bottom: 1em;
+    }
+  }
+  @media screen and (min-width: $sm-break-point) {
+  }
+  @media screen and (min-width: $md-break-point) {
+  }
+  @media screen and (min-width: $lg-break-point) {
   }
 }
 </style>

@@ -37,6 +37,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/style.scss";
+
 section {
   display: flex;
   padding: 2em 0;
@@ -60,6 +62,10 @@ section {
       margin: 0;
       font-size: 1.5em;
     }
+
+    p {
+      font-size: 1.2em;
+    }
   }
 
   .buttons {
@@ -76,6 +82,37 @@ section {
         background: var(--sub-background-light);
       }
     }
+  }
+
+  @media screen and (max-width: $xs-break-point) {
+    & {
+      padding: 1em 0;
+      flex-direction: column;
+
+      .logo {
+        text-align: center;
+        padding: 0;
+
+        img {
+          width: 6em;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $sm-break-point) {
+    & {
+      padding: 1em 0;
+
+      .logo {
+        img {
+          width: 5em;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $md-break-point) {
+  }
+  @media screen and (min-width: $lg-break-point) {
   }
 }
 </style>

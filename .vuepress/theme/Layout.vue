@@ -69,5 +69,25 @@ body {
       background-size: cover;
     }
   }
+
+  @media screen and (max-width: $xs-break-point) {
+    & {
+      main {
+        .text {
+          flex-basis: 100%;
+        }
+
+        .background {
+          flex-basis: 0;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $sm-break-point) {
+  }
+  @media screen and (min-width: $md-break-point) {
+  }
+  @media screen and (min-width: $lg-break-point) {
+  }
 }
 </style>
