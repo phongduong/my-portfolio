@@ -1,15 +1,23 @@
 <template>
-  <header id="about">
-    <h1>Hi, i am {{ title }}</h1>
-    <h2>{{ description }}</h2>
-  </header>
+  <section id="projects" class="projects">
+    <h2>Some projects i worked on</h2>
+    <Project 
+      v-for="project in this.projects"
+      :key="project.key"
+      :project="project"
+    />
+  </section>
 </template>
 
 <script>
+import Project from "./Project.vue";
+
 export default {
   props: {
-    title: String,
-    description: String
+    projects: Array
+  },
+  components: {
+    Project
   }
 };
 </script>
@@ -17,46 +25,35 @@ export default {
 <style lang="scss" scoped>
 @import "../style/style.scss";
 
-header {
-  padding: 5em 2.5em;
+.projects {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
+  margin-bottom: 4.3em;
+  padding: 2.5em;
   background: #fff;
 
-  h1 {
-    font-size: 3em;
-    color: var(--color);
-  }
-
   h2 {
+    margin: 1.5em 0;
+    text-align: center;
     font-size: 2em;
     color: var(--color);
   }
 
   @media screen and (max-width: $xs-break-point) {
     & {
-      margin-bottom: 4em;
+      margin-bottom: 3.9em;
       padding: 1em;
-
-      h1 {
-        font-size: 2.7em;
-      }
+      padding-bottom: 2em;
 
       h2 {
-        font-size: 1.7em;
+        margin: 1em 0;
       }
     }
   }
   @media screen and (min-width: $sm-break-point) {
-    & {
-      padding: 1em 2.5em;
-    }
   }
   @media screen and (min-width: $md-break-point) {
-    & {
-      margin-bottom: 4em;
-    }
   }
   @media screen and (min-width: $lg-break-point) {
   }
