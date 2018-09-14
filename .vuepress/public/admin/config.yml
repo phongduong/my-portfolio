@@ -25,7 +25,6 @@ collections:
       - { label: "Release Date", name: "date", widget: "date" }
       - { label: "Logo", name: "logo", widget: "image" }
       - { label: "Public URL", name: "public-url", widget: "string" }
-      - { label: "Source URL", name: "source-url", widget: "string" }
       - { label: "Type", name: "type", widget: "string", default: "project" }
   - name: "contact"
     label: "Contact"
