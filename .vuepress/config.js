@@ -10,6 +10,7 @@ module.exports = {
       "link",
       {
         href: "https://fonts.googleapis.com/css?family=Roboto+Slab",
+        rel: "preload",
         rel: "stylesheet"
       }
     ],
@@ -70,7 +71,10 @@ module.exports = {
     ],
     [
       "script",
-      { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
+        async: true
+      }
     ]
   ]
 };
