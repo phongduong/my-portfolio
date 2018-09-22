@@ -11,7 +11,7 @@
         <p>{{ information.description}}</p>
       </div>
       <div class="buttons">
-        <a :href="information['public-url']" target="_blank" rel="noopener">
+        <a :href="information['public-url']" target="_blank" rel="noopener noreferrer nofollow">
           Go to project
         </a>
       </div>
