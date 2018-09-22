@@ -1,5 +1,5 @@
 <template>
-  <a :href="getURL" target="_blank" rel="noopener">
+  <a :href="getURL" target="_blank" rel="noopener noreferrer nofollow">
     {{ getTitle }}
   </a>
 </template>
