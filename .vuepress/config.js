@@ -1,7 +1,7 @@
 module.exports = {
   title: "Phong Duong",
   description:
-    "A self-taught and full-stack developer. I am interested in learning and trying new technologies. Beside coding, i also like gardening, reading and sport.",
+    "A self-taught and full-stack developer. I am interested in learning and trying new technologies. Beside coding, I also like gardening, reading and sport.",
   base: "/",
   serviceWorker: true,
   ga: "UA-123178606-2",
