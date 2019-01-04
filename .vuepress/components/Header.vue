@@ -1,6 +1,6 @@
 <template>
   <header id="about">
-    <h1>Hi, i am {{ title }}</h1>
+    <h1>Hi, I am {{ title }}</h1>
     <h2>{{ description }}</h2>
   </header>
 </template>
