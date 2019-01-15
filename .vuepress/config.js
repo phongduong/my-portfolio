@@ -75,6 +75,13 @@ module.exports = {
         src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
         async: true
       }
+    ],
+    [
+      "script",
+      {
+        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        async: true
+      }
     ]
   ]
 };
