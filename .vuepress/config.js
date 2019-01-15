@@ -79,8 +79,17 @@ module.exports = {
     [
       "script",
       {
-        src: "adSense.js",
+        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        async: true
       }
+    ],
+    [
+      "script",
+      {},
+      `(adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8072886212233580",
+          enable_page_level_ads: true
+      });`
     ]
   ]
 };
