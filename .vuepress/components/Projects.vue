@@ -1,7 +1,11 @@
 <template>
   <section id="projects" class="projects">
+    <<<<<<< HEAD
     <h2>Some projects I worked on</h2>
-    <Project 
+    =======
+    <h2>Some projects i worked on</h2>
+    >>>>>>> c85b5215d2d9ea782bdbfb1be67723c016b932b5
+    <Project
       v-for="project in this.projects"
       :key="project.key"
       :project="project"
@@ -26,7 +30,6 @@ export default {
 @import "../style/style.scss";
 
 .projects {
-
   @media screen and (max-width: $xs-break-point) {
   }
   @media screen and (min-width: $sm-break-point) {
