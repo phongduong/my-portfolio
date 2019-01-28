@@ -1,7 +1,6 @@
 <template>
   <main>
     <section class="text">
-      <Navbar/>
       <Header :title="$site.title" :description="$site.description"/>
       <Contacts :contacts="$site.pages.filter(({frontmatter}) => frontmatter.type === `contact`)"/>
       <Projects :projects="$site.pages.filter(({frontmatter}) => frontmatter.type === `project`)"/>
@@ -11,7 +10,6 @@
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
 import Header from "../components/Header.vue";
 import Contacts from "../components/Contacts.vue";
 import Projects from "../components/Projects.vue";
@@ -19,7 +17,6 @@ import Footer from "../components/Footer.vue";
 
 export default {
   components: {
-    Navbar,
     Header,
     Contacts,
     Projects,

@@ -18,6 +18,8 @@ export default {
 @import "../style/style.scss";
 
 header {
+  text-align: center;
+
   @media screen and (max-width: $xs-break-point) {
   }
   @media screen and (min-width: $sm-break-point) {

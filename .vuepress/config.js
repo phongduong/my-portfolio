@@ -1,7 +1,7 @@
 module.exports = {
   title: "Phong Duong",
   description:
-    "‍👨‍💻Coder👨‍💻 ✈️Traveller✈️ 👨‍🌾Farmer👨‍🌾 💰Entrepreneur💰. Also like sport and books.",
+    "👨‍💻Coder👨‍💻 ✈️Traveller✈️ 👨‍🌾Farmer👨‍🌾 💰Entrepreneur💰. I also like sport and books.",
   base: "/",
   serviceWorker: true,
   ga: "UA-123178606-2",

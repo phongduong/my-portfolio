@@ -22,7 +22,6 @@ collections:
           widget: "text",
           default: false,
         }
-      - { label: "Release Date", name: "date", widget: "date" }
       - { label: "Logo", name: "logo", widget: "image" }
       - { label: "Public URL", name: "public-url", widget: "string" }
       - { label: "Type", name: "type", widget: "string", default: "project" }
