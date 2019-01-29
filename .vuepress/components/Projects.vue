@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="projects">
+  <section id="projects">
     <h2>Some projects I worked on</h2>
     <Project
       v-for="project in this.projects"
@@ -25,7 +25,11 @@ export default {
 <style lang="scss" scoped>
 @import "../style/style.scss";
 
-.projects {
+#projects {
+  h2 {
+    text-align: center;
+  }
+
   @media screen and (max-width: $xs-break-point) {
   }
   @media screen and (min-width: $sm-break-point) {
