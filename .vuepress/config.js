@@ -52,21 +52,21 @@ module.exports = {
       {
         href: "images/safari-pinned-tab.svg",
         rel: "mask-icon",
-        color: "#113322"
+        color: "#283c86"
       }
     ],
     [
       "meta",
       {
         name: "msapplication-TileColor",
-        content: "#ccddbb"
+        content: "#283c86"
       }
     ],
     [
       "meta",
       {
         name: "theme-color",
-        content: "#ccddbb"
+        content: "#ffffff"
       }
     ],
     [
@@ -75,21 +75,6 @@ module.exports = {
         src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
         async: true
       }
-    ],
-    [
-      "script",
-      {
-        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-        async: true
-      }
-    ],
-    [
-      "script",
-      {},
-      `(adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8072886212233580",
-          enable_page_level_ads: true
-      });`
     ]
   ]
 };
