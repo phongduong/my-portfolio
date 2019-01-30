@@ -40,6 +40,8 @@ export default {
 @import "../style/style.scss";
 
 section {
+  margin: 3em 0;
+
   @media screen and (max-width: $xs-break-point) {
   }
   @media screen and (min-width: $sm-break-point) {

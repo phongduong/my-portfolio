@@ -19,6 +19,7 @@ export default {
 
 header {
   text-align: center;
+  padding: 3em 0;
 
   @media screen and (max-width: $xs-break-point) {
   }

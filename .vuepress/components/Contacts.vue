@@ -2,7 +2,11 @@
   <section id="contacts">
     <h2>Keep in touch with me</h2>
     <section class="contacts">
-      <Contact v-for="contact in contacts" :key="contact.key" :contact="contact"/>
+      <Contact
+        v-for="contact in contacts"
+        :key="contact.key"
+        :contact="contact"
+      />
     </section>
   </section>
 </template>
@@ -24,6 +28,7 @@ export default {
 @import "../style/style.scss";
 #contacts {
   text-align: center;
+  padding: 3em 0;
 
   .contacts {
     display: flex;

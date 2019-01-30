@@ -26,6 +26,8 @@ export default {
 @import "../style/style.scss";
 
 #projects {
+  padding: 3em;
+
   h2 {
     text-align: center;
   }
