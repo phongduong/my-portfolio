@@ -2,24 +2,24 @@ backend:
   #
   # prod congfigure
   #
-  name: git-gateway
-  accept_roles:
-    - admin
+  # name: git-gateway
+  # accept_roles:
+  #   - admin
 
   #
   # dev configure
   #
-  # name: github
-  # repo: phongduong/my-portfolio
+  name: github
+  repo: phongduong/my-portfolio
 
   branch: master
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 media_folder: ".vuepress/public/images/upload"
 public_folder: "images/upload"
 collections:
   - name: "project"
     label: "Project"
-    folder: "projects"
+    folder: "portfolio/projects"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }

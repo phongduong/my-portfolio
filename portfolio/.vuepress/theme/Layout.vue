@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <section>{{ $site }}</section>
+</template>
 
 <script></script>
 

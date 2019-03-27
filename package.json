@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^0.14.2"
+    "vuepress": "^0.14.10"
   },
   "devDependencies": {
     "husky": "^1.3.1",
