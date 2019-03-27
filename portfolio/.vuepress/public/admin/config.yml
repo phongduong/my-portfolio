@@ -1,0 +1,32 @@
+backend:
+  #
+  # prod congfigure
+  #
+  name: git-gateway
+  accept_roles:
+    - admin
+
+  #
+  # dev configure
+  #
+  # name: github
+  # repo: phongduong/my-portfolio
+
+  branch: master
+publish_mode: editorial_workflow
+media_folder: ".vuepress/public/images/upload"
+public_folder: "images/upload"
+collections:
+  - name: "project"
+    label: "Project"
+    folder: "projects"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          default: false,
+        }
+      - { label: "Public URL", name: "public-url", widget: "string" }
