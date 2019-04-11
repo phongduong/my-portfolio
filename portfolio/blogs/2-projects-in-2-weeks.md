@@ -13,10 +13,10 @@ content: >-
 
   I began developing an application that helps me rent my books. I released an
   MVP of my project after 2 weeks and got no user in first days. A user
-  commented on my Facebook page that I had my amount of books was poor. So I
-  plan to turn the application in to a platform with 2 application. It works
-  like a marketplace. An application that allows user rent books and another
-  manages books. 
+  commented on my Facebook page that my amount of books was poor. So I plan to
+  turn the application in to a platform with 2 application. It works like a
+  marketplace. An application that allows user rent books and another manages
+  books. 
 
 
   I developed them in 2 weeks and deployed them today. I do not know whether it
