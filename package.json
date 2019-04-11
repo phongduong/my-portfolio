@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev pages",
-    "build": "vuepress build pages"
+    "dev": "vuepress dev portfolio",
+    "build": "vuepress build portfolio"
   },
   "dependencies": {
     "vuepress": "^0.14.10"
