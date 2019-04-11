@@ -39,15 +39,15 @@ module.exports = {
     ["meta", { property: "og:image", content: "/og-image.jpg" }],
     ["meta", { property: "og:image:width", content: "255" }],
     ["meta", { property: "og:image:height", content: "255" }],
-    ["meta", { property: "og:title", content: "Phong Duong" }][
-      ("meta", { property: "og:url", content: "https://phongduong.me" })
-    ][
-      ("meta",
+    ["meta", { property: "og:title", content: "Phong Duong" }],
+    [("meta", { property: "og:url", content: "https://phongduong.me" })],
+    [
+      "meta",
       {
         property: "og:description",
         content:
           "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into reality."
-      })
+      }
     ]
   ],
   ga: "UA-123178606-2"
