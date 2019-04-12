@@ -2,7 +2,7 @@
 title: 2 projects in 2 weeks
 description: Recently I have developed and deployed two apps for my project.
 publish_date: 04-11-2019
-category: project
+tag: programming
 content: >-
   I have an idea about a platform that helps users rent books. I am quite a
   bookworm. I read a lot so that there are many books on my bookshelf.
