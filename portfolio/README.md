@@ -1,1 +1,1 @@
-<Pages-Post />
+<pages-Posts />

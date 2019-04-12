@@ -1,16 +1,16 @@
 <template>
   <main class="section is-main">
-    <div class="columns">
-      <section class="column is-9">
-        <div class="section box">
+    <div class="container">
+      <div class="columns">
+        <section class="column is-9">
           <Content/>
-        </div>
-      </section>
-      <section class="column is-3">
-        <div class="section box">
-          <Sidebar/>
-        </div>
-      </section>
+        </section>
+        <section class="column is-3">
+          <div class="section box">
+            <Sidebar/>
+          </div>
+        </section>
+      </div>
     </div>
   </main>
 </template>
