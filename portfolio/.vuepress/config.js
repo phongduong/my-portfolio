@@ -48,6 +48,13 @@ module.exports = {
         content:
           "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into reality."
       }
+    ],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
+      }
     ]
   ],
   ga: "UA-123178606-2"
