@@ -1,7 +1,7 @@
 ---
 title: 2 projects in 2 weeks
 description: Recently I have developed and deployed two apps for my project.
-publish_date: 2019-04-11T15:12:10.815Z
+publish_date: 04-11-2019
 category: project
 content: >-
   I have an idea about a platform that helps users rent books. I am quite a
@@ -19,8 +19,9 @@ content: >-
   books. 
 
 
-  I developed them in 2 weeks and deployed them today. I do not know whether any user will use my platform to rent books or not. But it will help me
-  solve the problem with my books.
+  I developed them in 2 weeks and deployed them today. I do not know whether any
+  user will use my platform to rent books or not. But it will help me solve the
+  problem with my books.
 
 
   These are my applications
@@ -32,3 +33,4 @@ content: >-
   [Weali Shop](https://weali-shop.netlify.com/): An application helps users
   manage books
 ---
+
