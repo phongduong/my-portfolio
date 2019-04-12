@@ -40,7 +40,7 @@ module.exports = {
     ["meta", { property: "og:image:width", content: "255" }],
     ["meta", { property: "og:image:height", content: "255" }],
     ["meta", { property: "og:title", content: "Phong Duong" }],
-    [("meta", { property: "og:url", content: "https://phongduong.me" })],
+    ["meta", { property: "og:url", content: "https://phongduong.me" }],
     [
       "meta",
       {
