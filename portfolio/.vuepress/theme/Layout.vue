@@ -28,7 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 .is-main {
-  background: #00949c;
+  background: #f5f8f8;
 }
 </style>
 

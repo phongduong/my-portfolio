@@ -1,24 +1,24 @@
 backend:
   name: github
   repo: phongduong/my-portfolio
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 site_url: https://phongduong.me
 display_url: https://phongduong.me
 logo_url: https://phongduong.me/logo.svg
 media_folder: "portfolio/.vuepress/public/uploads"
 public_folder: "/images/uploads"
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "portfolio/blogs"
+  - label: "Post"
+    name: "post"
+    folder: "portfolio/posts"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Publish Date", name: "publish_date", widget: "date" }
+      - { label: "Publish Date", name: "publish_date", widget: "date", format: "MM-DD-YYYY" }
       - {
-          label: "Category",
-          name: "category",
+          label: "Tag",
+          name: "tag",
           widget: "select",
           default: "programming",
           options:
