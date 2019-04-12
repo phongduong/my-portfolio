@@ -1,15 +1,16 @@
 <template>
   <div class="section box">
     <h2 class="title is-2">
-      <a :href="post.path">{{ post.title }}</a>
+      <router-link class="has-text-dark" :to="post.path">{{ post.title }}</router-link>
     </h2>
     <h5 class="subtitle has-text-grey-light">
       {{post.frontmatter.publish_date}} |
-      <a class="has-text-grey-light"
-        :href="`/tag/${post.frontmatter.tag}`"
-      >#{{ post.frontmatter.tag }}</a>
+      <router-link
+        class="has-text-grey-light"
+        :to="`/tag/${post.frontmatter.tag}`"
+      >#{{ post.frontmatter.tag }}</router-link>
     </h5>
-    <p class="has-text-dark is-size-5">{{ post.frontmatter.description }}</p>
+    <p class="is-size-5">{{ post.frontmatter.description }}</p>
   </div>
 </template>
 
@@ -18,8 +19,6 @@ export default {
   props: {
     post: Object
   },
-  mounted: function() {
-    console.log(this.post);
-  }
+  mounted: function() {}
 };
 </script>

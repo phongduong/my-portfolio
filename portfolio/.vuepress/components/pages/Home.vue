@@ -16,7 +16,7 @@ export default {
   },
   mounted: function() {
     this.posts = this.$site.pages.filter(page =>
-      page.path.startsWith("/blogs/")
+      page.path.startsWith("/posts/")
     );
   }
 };
