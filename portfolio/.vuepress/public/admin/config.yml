@@ -15,7 +15,13 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Publish Date", name: "publish_date", widget: "date", format: "MM-DD-YYYY" }
+      - {
+          label: "Publish Date",
+          name: "publish_date",
+          widget: "date",
+          format: "MM-DD-YYYY",
+        }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "PostLayout"}
       - {
           label: "Tag",
           name: "tag",

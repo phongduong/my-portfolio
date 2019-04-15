@@ -3,10 +3,10 @@
     <div class="container">
       <div class="columns">
         <section class="column is-9">
-          <Content/>
+          <component :is="layout"/>
         </section>
         <section class="column is-3">
-          <div class="section box">
+          <div class="section">
             <Sidebar/>
           </div>
         </section>
@@ -18,17 +18,36 @@
 <script>
 import bulma from "bulma";
 import Sidebar from "../components/Sidebar.vue";
+import HomeLayout from "./HomeLayout.vue";
+import PostLayout from "./PostLayout.vue";
 
 export default {
   components: {
-    Sidebar
+    Sidebar,
+    HomeLayout,
+    PostLayout
+  },
+  data: function() {
+    return {};
+  },
+  computed: {
+    layout: function() {
+      return this.$page.frontmatter.layout
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
 .is-main {
-  background: #f5f8f8;
+  background-image: linear-gradient(
+    to left top,
+    #00949c,
+    #167da2,
+    #4c6292,
+    #654770,
+    #663145
+  );
 }
 </style>
 

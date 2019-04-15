@@ -1,1 +1,5 @@
+---
+layout: HomeLayout
+---
+
 <pages-Home />

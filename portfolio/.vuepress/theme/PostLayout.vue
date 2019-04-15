@@ -1,0 +1,27 @@
+<template>
+  <div>
+    <h1 class="title is-1 has-text-white">{{ $page.frontmatter.title }}</h1>
+    <h5 class="subtitle is-5 has-text-grey-lighter">
+      Published {{ $page.frontmatter.publish_date }} |
+      <router-link
+        class="has-text-grey-lighter"
+        :to="`/tag/${$page.frontmatter.tag}`"
+      >#{{ $page.frontmatter.tag }}</router-link>
+    </h5>
+    <p class="is-size-4 has-text-white">{{ $page.frontmatter.description }}</p>
+    <hr>
+    <p class="is-size-4 has-text-white">{{ $page.frontmatter.content }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  mounted: function() {
+    console.log(this.$page);
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
+

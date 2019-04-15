@@ -1,7 +1,7 @@
 module.exports = {
   title: "Phong Duong",
   description:
-    "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into reality.",
+    "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into real projects.",
   head: [
     [
       "link",
@@ -46,7 +46,7 @@ module.exports = {
       {
         property: "og:description",
         content:
-          "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into reality."
+          "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into real projects."
       }
     ],
     [
