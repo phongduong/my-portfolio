@@ -3,7 +3,7 @@
     <h2 class="title is-2">
       <router-link class="has-text-white" :to="post.path">{{ post.title }}</router-link>
     </h2>
-    <h5 class="subtitle has-text-grey-lighter">
+    <h5 class="subtitle is-5 has-text-grey-lighter">
       {{post.frontmatter.publish_date}} |
       <router-link
         class="has-text-grey-lighter"

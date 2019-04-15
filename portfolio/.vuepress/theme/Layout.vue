@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import bulma from "bulma";
 import Sidebar from "../components/Sidebar.vue";
 import HomeLayout from "./HomeLayout.vue";
 import PostLayout from "./PostLayout.vue";
@@ -32,13 +31,26 @@ export default {
   },
   computed: {
     layout: function() {
-      return this.$page.frontmatter.layout
+      return this.$page.frontmatter.layout || "PostLayout";
     }
+  },
+  mounted: function() {
+    console.log(this.$page.frontmatter, this.$page.frontmatter.layout)
   }
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@charset "utf-8";
+
+.blog-layout, .sidebar {
+  a {
+    color: #fff;
+  }
+}
+
+@import "~bulma";
+
 .is-main {
   background-image: linear-gradient(
     to left top,

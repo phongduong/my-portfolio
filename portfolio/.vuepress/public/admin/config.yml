@@ -35,4 +35,4 @@ collections:
               { label: "Project", value: "project" },
             ],
         }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }

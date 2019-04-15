@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="blog-layout">
     <h1 class="title is-1 has-text-white">{{ $page.frontmatter.title }}</h1>
     <h5 class="subtitle is-5 has-text-grey-lighter">
       Published {{ $page.frontmatter.publish_date }} |
@@ -10,16 +10,14 @@
     </h5>
     <p class="is-size-4 has-text-white">{{ $page.frontmatter.description }}</p>
     <hr>
-    <p class="is-size-4 has-text-white">{{ $page.frontmatter.content }}</p>
+    <div class="is-size-5 has-text-white">
+      <Content/>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  mounted: function() {
-    console.log(this.$page);
-  }
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
