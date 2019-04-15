@@ -1,5 +1,5 @@
 ---
-title: 2 projects in 2 weeks
+title: 2 projects in 2 week
 description: Recently I have developed and deployed 2 apps for my project in 2 weeks.
 publish_date: 04-11-2019
 tag: programming
