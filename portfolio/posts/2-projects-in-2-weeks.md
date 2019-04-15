@@ -24,10 +24,10 @@ content: >-
   problem with my books.
 
 
-  When I finished deploying 2 apps, I realize that I just spend 2 weeks to
+  When I finished deploying 2 apps, I realize that I just spent 2 weeks to
   developing them. That is incredible. Because it often takes me 2-3 weeks to
-  develop an app even it is just a single page app with front-end. But two apps
-  are full-stack apps so I think it is a new record.
+  develop an app even it is just a single page app with front-end. But these
+  apps are full-stack apps so I think it is a new record.
 
 
   These are my applications
