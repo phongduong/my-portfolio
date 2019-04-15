@@ -13,6 +13,12 @@ collections:
     folder: "portfolio/posts"
     create: true
     fields:
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "PostLayout",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - {
@@ -21,7 +27,6 @@ collections:
           widget: "date",
           format: "MM-DD-YYYY",
         }
-      - {label: "Layout", name: "layout", widget: "hidden", default: "PostLayout"}
       - {
           label: "Tag",
           name: "tag",
