@@ -2,6 +2,15 @@ module.exports = {
   title: "Phong Duong",
   description:
     "💻Coder, 💤Dreamer, 🎒Traveller and 🐌Gardener. I like turning my ideas into real projects.",
+  themeConfig: {
+    nav: [
+      { text: "📰 Blog", link: "/" },
+      { text: "👻 About me", link: "/about" },
+      { text: "📦 Projects", link: "/projects" },
+      { text: "📞 Contact", link: "/contact" }
+    ]
+  },
+  ga: "UA-123178606-2",
   head: [
     [
       "link",
@@ -56,6 +65,5 @@ module.exports = {
         content: "width=device-width, initial-scale=1"
       }
     ]
-  ],
-  ga: "UA-123178606-2"
+  ]
 };

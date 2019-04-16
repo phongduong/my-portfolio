@@ -1,11 +1,11 @@
 <template>
-  <main class="section is-main">
+  <main class="is-main">
     <div class="container">
       <div class="columns">
-        <section class="column is-9">
+        <section class="column is-8">
           <component :is="layout"/>
         </section>
-        <section class="column is-3">
+        <section class="column is-4">
           <div class="section">
             <Sidebar/>
           </div>
@@ -19,21 +19,22 @@
 import Sidebar from "../components/Sidebar.vue";
 import HomeLayout from "./HomeLayout.vue";
 import PostLayout from "./PostLayout.vue";
-import TagLayout from "./TagLayout.vue";
+import CategoryLayout from "./CategoryLayout.vue";
 
 export default {
   components: {
     Sidebar,
     HomeLayout,
     PostLayout,
-    TagLayout
+    CategoryLayout
   },
   data: function() {
     return {};
   },
   computed: {
     layout: function() {
-      return this.$page.frontmatter.layout || "PostLayout";
+      console.log(this.$site)
+      return this.$page.frontmatter.layout;
     }
   }
 };

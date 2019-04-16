@@ -5,8 +5,8 @@
       Published {{ $page.frontmatter.publish_date }} |
       <router-link
         class="has-text-grey-lighter"
-        :to="`/tag.html#${$page.frontmatter.tag}`"
-      >#{{ $page.frontmatter.tag }}</router-link>
+        :to="`/category.html#${$page.frontmatter.category}`"
+      >#️⃣{{ $page.frontmatter.category }}</router-link>
     </h5>
     <p class="is-size-4 has-text-white">{{ $page.frontmatter.description }}</p>
     <hr>

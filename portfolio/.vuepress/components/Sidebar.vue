@@ -6,28 +6,32 @@
     <p class="has-text-white">{{ $site.description }}</p>
     <hr>
     <div class="links">
-      <p>
-        <router-link to="/">📰 Blog</router-link>
-      </p>
-      <p>
-        <router-link to="/about">👾 About me</router-link>
-      </p>
-      <p>
-        <router-link to="/projects">📦 Projects</router-link>
-      </p>
-      <p>
-        <router-link to="/contact">📞 Contact</router-link>
+      <p v-for="item in navItems" :key="item.link">
+        <router-link :to="item.link">{{ item.text }}</router-link>
       </p>
     </div>
-    <div class="">
-      <p class="has-text-white has-text-centered">&copy; {{ new Date().getFullYear() }} - Phong Duong</p>
+    <div class>
+      <p
+        class="has-text-white has-text-centered"
+      >&copy; {{ new Date().getFullYear() }} - Phong Duong</p>
     </div>
   </div>
 </template>
 
+<script>
+export default {
+  computed: {
+    navItems: function() {
+      return this.$site.themeConfig.nav;
+    }
+  }
+};
+</script>
+
+
 <style lang="scss" scoped>
 .links {
-  margin-bottom: 2em
+  margin-bottom: 2em;
 }
 </style>
 

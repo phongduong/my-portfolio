@@ -28,16 +28,16 @@ collections:
           format: "MM-DD-YYYY",
         }
       - {
-          label: "Tag",
-          name: "tag",
+          label: "Category",
+          name: "category",
           widget: "select",
-          default: "programming",
+          default: "project",
           options:
             [
+              { label: "Project", value: "project" },
               { label: "Programming", value: "programming" },
               { label: "Life", value: "life" },
               { label: "Idea", value: "idea" },
-              { label: "Project", value: "project" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
