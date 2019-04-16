@@ -1,5 +1,4 @@
 ---
-layout: ProjectsLayout
 title: Projects
 projects:
   - description: >-
@@ -17,4 +16,4 @@ projects:
     name: movie-info-cli
     url: 'https://www.npmjs.com/package/movie-info-cli'
 ---
-
+<pages-Projects />
