@@ -1,4 +1,5 @@
 ---
+layout: ContactLayout
 title: Contact
 contact:
   - name: Email

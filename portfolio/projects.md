@@ -1,4 +1,5 @@
 ---
+layout: ProjectsLayout
 title: Projects
 projects:
   - description: >-

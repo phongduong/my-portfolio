@@ -1,19 +1,17 @@
 <template>
-  <section class="sidebar section has-background-black">
+  <section class="sidebar section has-background-white">
     <h4 class="title is-4">
-      <router-link class="has-text-white" to="/">{{ $site.title }}</router-link>
+      <router-link class="has-text-black" to="/">{{ $site.title }}</router-link>
     </h4>
-    <p class="has-text-white">{{ $site.description }}</p>
+    <p>{{ $site.description }}</p>
     <hr>
     <div class="links">
       <p v-for="item in navItems" :key="item.link">
-        <router-link :to="item.link">{{ item.text }}</router-link>
+        <router-link class="has-text-black" :to="item.link">{{ item.text }}</router-link>
       </p>
     </div>
     <div class>
-      <p
-        class="has-text-white has-text-centered"
-      >&copy; {{ new Date().getFullYear() }} - Phong Duong</p>
+      <p class="has-text-centered">&copy; {{ new Date().getFullYear() }} - Phong Duong</p>
     </div>
   </section>
 </template>

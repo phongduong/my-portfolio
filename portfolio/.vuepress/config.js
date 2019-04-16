@@ -10,6 +10,7 @@ module.exports = {
     ]
   },
   ga: "UA-123178606-2",
+  serviceWorker: process.env.NODE_ENV === "prod",
   head: [
     [
       "link",

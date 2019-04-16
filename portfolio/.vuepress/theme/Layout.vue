@@ -4,7 +4,7 @@
       <div class="columns">
         <div class="column is-8">
           <section class="section">
-            <div class="has-background-black">
+            <div class="has-background-white">
               <component :is="layout"/>
             </div>
           </section>
@@ -37,7 +37,6 @@ export default {
   },
   computed: {
     layout: function() {
-      console.log(this.$site);
       return this.$page.frontmatter.layout;
     }
   }
@@ -47,10 +46,9 @@ export default {
 <style lang="scss">
 @charset "utf-8";
 
-.blog-layout,
-.sidebar {
+.blog-layout {
   a {
-    color: #fff;
+    color: hsl(0, 0%, 4%);
   }
 }
 
