@@ -1,23 +1,21 @@
 <template>
   <div>
-    <PostItem v-for="post in posts" :post="post" :key="post.key"/>
+    <PostList :posts="posts"/>
   </div>
 </template>
 
 <script>
-import PostItem from "../utils/PostItem.vue";
+import PostList from "../utils/PostList.vue";
 
 export default {
-  components: { PostItem },
+  components: { PostList },
   data: function() {
-    return {
-      posts: []
-    };
+    return {};
   },
-  mounted: function() {
-    this.posts = this.$site.pages.filter(page =>
-      page.path.startsWith("/posts/")
-    );
-  }
+  computed: {
+    posts: function() {
+      return this.$site.pages.filter(page => page.path.startsWith("/posts/"));
+    }
+  },
 };
 </script>

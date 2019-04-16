@@ -19,12 +19,14 @@
 import Sidebar from "../components/Sidebar.vue";
 import HomeLayout from "./HomeLayout.vue";
 import PostLayout from "./PostLayout.vue";
+import TagLayout from "./TagLayout.vue";
 
 export default {
   components: {
     Sidebar,
     HomeLayout,
-    PostLayout
+    PostLayout,
+    TagLayout
   },
   data: function() {
     return {};
@@ -33,9 +35,6 @@ export default {
     layout: function() {
       return this.$page.frontmatter.layout || "PostLayout";
     }
-  },
-  mounted: function() {
-    console.log(this.$page.frontmatter, this.$page.frontmatter.layout)
   }
 };
 </script>
@@ -43,7 +42,8 @@ export default {
 <style lang="scss">
 @charset "utf-8";
 
-.blog-layout, .sidebar {
+.blog-layout,
+.sidebar {
   a {
     color: #fff;
   }
@@ -53,12 +53,12 @@ export default {
 
 .is-main {
   background-image: linear-gradient(
-    to left top,
-    #00949c,
-    #167da2,
-    #4c6292,
-    #654770,
-    #663145
+    to bottom,
+    #663145,
+    #583d61,
+    #3a4b71,
+    #105771,
+    #0c5f64
   );
 }
 </style>

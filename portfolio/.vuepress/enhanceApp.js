@@ -5,10 +5,4 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements to the app
-  router.addRoutes([
-    {
-      path: "/tag/:tag",
-      component: import("./components/pages/Tag.vue")
-    }
-  ]);
 };
