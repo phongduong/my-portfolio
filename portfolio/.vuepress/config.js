@@ -5,8 +5,8 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "📰 Blog", link: "/" },
-      { text: "📦 Projects", link: "/projects" },
-      { text: "📞 Contact", link: "/contact" }
+      { text: "📦 Projects", link: "/projects.html" },
+      { text: "📞 Contact", link: "/contact.html" }
     ]
   },
   ga: "UA-123178606-2",
