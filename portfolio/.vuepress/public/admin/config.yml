@@ -41,3 +41,51 @@ collections:
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Contact"
+        name: "contact"
+        file: "portfolio/contact.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "ContactLayout",
+            }
+          - { label: Title, name: title, widget: string, default: "Contact" }
+          - label: "Contact Information"
+            name: "contact_information"
+            widget: "list"
+            allow_add: true
+            field:
+              - label: Contact
+                name: contact
+                widget: object
+                fields:
+                  - { label: Type, name: type, widget: string }
+                  - { label: URL, name: url, widget: string }
+      - label: "Projects"
+        name: "projects"
+        file: "portfolio/projects.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "ProjectsLayout",
+            }
+          - { label: Title, name: title, widget: string, default: "Projects" }
+          - label: "Project Information"
+            name: "project_information"
+            widget: "list"
+            allow_add: true
+            field:
+              - label: Project
+                name: project
+                widget: object
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: URL, name: url, widget: string }

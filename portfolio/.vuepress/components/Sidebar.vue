@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <section class="sidebar section has-background-black">
     <h4 class="title is-4">
       <router-link class="has-text-white" to="/">{{ $site.title }}</router-link>
     </h4>
@@ -15,7 +15,7 @@
         class="has-text-white has-text-centered"
       >&copy; {{ new Date().getFullYear() }} - Phong Duong</p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

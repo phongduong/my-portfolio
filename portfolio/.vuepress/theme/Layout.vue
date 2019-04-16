@@ -2,14 +2,18 @@
   <main class="is-main">
     <div class="container">
       <div class="columns">
-        <section class="column is-8">
-          <component :is="layout"/>
-        </section>
-        <section class="column is-4">
-          <div class="section">
+        <div class="column is-8">
+          <section class="section">
+            <div class="has-background-black">
+              <component :is="layout"/>
+            </div>
+          </section>
+        </div>
+        <div class="column is-4">
+          <section class="section">
             <Sidebar/>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
     </div>
   </main>
@@ -33,7 +37,7 @@ export default {
   },
   computed: {
     layout: function() {
-      console.log(this.$site)
+      console.log(this.$site);
       return this.$page.frontmatter.layout;
     }
   }
