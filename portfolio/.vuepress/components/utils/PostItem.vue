@@ -8,7 +8,7 @@
       <router-link
         class="has-text-grey-lighter"
         :to="`/category.html#${post.frontmatter.category}`"
-      >#️⃣{{ post.frontmatter.category }}</router-link>
+      >{{ post.frontmatter.category }}</router-link>
     </h5>
     <p class="is-size-5 has-text-white">{{ post.frontmatter.description }}</p>
   </div>

@@ -6,7 +6,7 @@
       <router-link
         class="has-text-grey-lighter"
         :to="`/category.html#${$page.frontmatter.category}`"
-      >#️⃣{{ $page.frontmatter.category }}</router-link>
+      >{{ $page.frontmatter.category }}</router-link>
     </h5>
     <p class="is-size-4 has-text-white">{{ $page.frontmatter.description }}</p>
     <hr>

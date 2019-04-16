@@ -15,7 +15,7 @@ export default {
   computed: {
     posts: function() {
       return this.$site.pages.filter(
-        page => `#${page.frontmatter.tag}` === this.$route.hash
+        page => `#${page.frontmatter.category}` === this.$route.hash
       );
     }
   }
