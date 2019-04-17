@@ -81,6 +81,8 @@ module.exports = {
     // Facebook meta
     ["meta", { property: "og:title", content: siteConfig.title }],
     ["meta", { property: "og:image", content: siteConfig.image }],
+    ["meta", { property: "og:image:width", content: "256" }],
+    ["meta", { property: "og:image:height ", content: "256" }],
     ["meta", { property: "og:url", content: siteConfig.url }],
     ["meta", { property: "og:type", content: "website" }],
     [

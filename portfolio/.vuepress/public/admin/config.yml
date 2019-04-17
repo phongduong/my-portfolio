@@ -2,9 +2,9 @@ backend:
   name: github
   repo: phongduong/my-portfolio
 publish_mode: editorial_workflow
-site_url: https://phongduong.me
-display_url: https://phongduong.me
-logo_url: https://phongduong.me/logo.png
+site_url: https://www.phongduong.me
+display_url: https://www.phongduong.me
+logo_url: https://www.phongduong.me/logo.png
 media_folder: "portfolio/.vuepress/public/uploads"
 public_folder: "/images/uploads"
 collections:
