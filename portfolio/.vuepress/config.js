@@ -81,8 +81,8 @@ module.exports = {
     // Facebook meta
     ["meta", { property: "og:title", content: siteConfig.title }],
     ["meta", { property: "og:image", content: siteConfig.image }],
-    // ["meta", { property: "og:image:width", content: "255" }],
-    // ["meta", { property: "og:image:height", content: "255" }],
+    ["meta", { property: "og:image:width", content: "255" }],
+    ["meta", { property: "og:image:height", content: "255" }],
     ["meta", { property: "og:url", content: siteConfig.url }],
     ["meta", { property: "og:type", content: "website" }],
     [
@@ -94,7 +94,7 @@ module.exports = {
     ],
 
     // Twitter meta
-    ["meta", { property: "twitter:card", content: "summary_large_image" }],
+    ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:url", content: siteConfig.url }],
     ["meta", { property: "twitter:title", content: siteConfig.title }],
     [
