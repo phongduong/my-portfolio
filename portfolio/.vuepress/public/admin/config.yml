@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: phongduong/my-portfolio
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 site_url: https://phongduong.me
 display_url: https://phongduong.me
 logo_url: https://phongduong.me/logo.svg
