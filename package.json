@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "bulma": "^0.7.4",
-    "vuepress": "^0.14.10"
+    "vuepress": "^0.14.10",
+    "vuepress-plugin-sitemap": "^2.1.2"
   },
   "devDependencies": {
     "dotenv": "^7.0.0",

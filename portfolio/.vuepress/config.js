@@ -1,9 +1,16 @@
 require("dotenv").config();
 
-module.exports = {
+const siteConfig = {
   title: "Phong Duong",
   description:
     "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects.",
+  image: "/og-image.jpg",
+  url: "https://phongduong.me"
+};
+
+module.exports = {
+  title: siteConfig.title,
+  description: siteConfig.description,
   themeConfig: {
     nav: [
       { text: "📰 Blog", link: "/" },
@@ -72,36 +79,39 @@ module.exports = {
     ],
 
     // Facebook meta
-    ["meta", { property: "og:image", content: "/og-image.jpg" }],
+    ["meta", { property: "og:title", content: siteConfig.title }],
+    ["meta", { property: "og:image", content: siteConfig.image }],
     // ["meta", { property: "og:image:width", content: "255" }],
     // ["meta", { property: "og:image:height", content: "255" }],
-    ["meta", { property: "og:title", content: "Phong Duong" }],
-    ["meta", { property: "og:url", content: "https://phongduong.me" }],
+    ["meta", { property: "og:url", content: siteConfig.url }],
     ["meta", { property: "og:type", content: "website" }],
     [
       "meta",
       {
         property: "og:description",
-        content:
-          "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects."
+        content: siteConfig.description
       }
     ],
 
     // Twitter meta
     ["meta", { property: "twitter:card", content: "summary_large_image" }],
-    [
-      "meta",
-      { property: "twitter:url", content: "https://www.phongduong.me/" }
-    ],
-    ["meta", { property: "twitter:title", content: "Phong Duong" }],
+    ["meta", { property: "twitter:url", content: siteConfig.url }],
+    ["meta", { property: "twitter:title", content: siteConfig.title }],
     [
       "meta",
       {
         property: "twitter:description",
-        content:
-          "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects."
+        content: siteConfig.description
       }
     ],
-    ["meta", { property: "twitter:image", content: "/og-image.jpg" }]
-  ]
+    ["meta", { property: "twitter:image", content: siteConfig.image }]
+  ],
+  plugins: {
+    sitemap:
+      process.env.NODE_ENV !== "dev"
+        ? {
+            hostname: "https://phongduong.me"
+          }
+        : {}
+  }
 };
