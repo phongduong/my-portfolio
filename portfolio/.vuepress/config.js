@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = {
   title: "Phong Duong",
   description:
@@ -10,7 +12,7 @@ module.exports = {
     ]
   },
   ga: "UA-123178606-2",
-  serviceWorker: process.env.NODE_ENV === "prod",
+  serviceWorker: process.env.NODE_ENV !== "dev",
   head: [
     [
       "link",
