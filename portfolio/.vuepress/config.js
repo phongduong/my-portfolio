@@ -60,21 +60,21 @@ module.exports = {
       {
         name: "keywords",
         content:
-          "Phong Duong, Indie hacker, coder, traveler, dreamer, gardener, projects, ideas, maker, developer"
+          "Phong Duong, indie hacker, coder, traveler, dreamer, gardener, projects, ideas, maker, developer"
       }
     ],
     [
       "meta",
       {
         name: "author",
-        content: "John Doe"
+        content: "Phong Duong"
       }
     ],
 
     // Facebook meta
     ["meta", { property: "og:image", content: "/og-image.jpg" }],
-    ["meta", { property: "og:image:width", content: "255" }],
-    ["meta", { property: "og:image:height", content: "255" }],
+    // ["meta", { property: "og:image:width", content: "255" }],
+    // ["meta", { property: "og:image:height", content: "255" }],
     ["meta", { property: "og:title", content: "Phong Duong" }],
     ["meta", { property: "og:url", content: "https://phongduong.me" }],
     ["meta", { property: "og:type", content: "website" }],
