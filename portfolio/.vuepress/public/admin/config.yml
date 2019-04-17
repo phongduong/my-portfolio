@@ -48,6 +48,12 @@ collections:
         name: "contact"
         file: "portfolio/contact.md"
         fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: "ContactLayout",
+            }
           - { label: Title, name: title, widget: string, default: "Contact" }
           - label: "Contact"
             name: "contact"
@@ -56,12 +62,17 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
-          - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Projects"
         name: "projects"
         file: "portfolio/projects.md"
         fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: "ProjectsLayout",
+            }
           - { label: Title, name: title, widget: string, default: "Projects" }
           - label: "Projects"
             name: "projects"
@@ -71,4 +82,3 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: URL, name: url, widget: string }
-          - { label: "Body", name: "body", widget: "markdown" }

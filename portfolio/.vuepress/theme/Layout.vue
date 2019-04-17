@@ -24,13 +24,17 @@ import Sidebar from "../components/Sidebar.vue";
 import HomeLayout from "./HomeLayout.vue";
 import PostLayout from "./PostLayout.vue";
 import CategoryLayout from "./CategoryLayout.vue";
+import ContactLayout from "./ContactLayout.vue";
+import ProjectsLayout from "./ProjectsLayout.vue";
 
 export default {
   components: {
     Sidebar,
     HomeLayout,
     PostLayout,
-    CategoryLayout
+    CategoryLayout,
+    ContactLayout,
+    ProjectsLayout
   },
   data: function() {
     return {};
@@ -45,13 +49,6 @@ export default {
 
 <style lang="scss">
 @charset "utf-8";
-
-.blog-layout {
-  a {
-    color: hsl(0, 0%, 4%);
-  }
-}
-
 @import "~bulma";
 
 .is-main {

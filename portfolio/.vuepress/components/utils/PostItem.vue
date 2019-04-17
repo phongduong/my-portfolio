@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <h2 class="title is-2">
-      <router-link class="has-text-black" :to="post.path">{{ post.title }}</router-link>
+      <router-link class="has-text-dark" :to="post.path">{{ post.title }}</router-link>
     </h2>
     <h5 class="subtitle is-5 has-text-grey">
       {{post.frontmatter.publish_date}} |

@@ -1,13 +1,13 @@
 <template>
   <section class="sidebar section has-background-white">
     <h4 class="title is-4">
-      <router-link class="has-text-black" to="/">{{ $site.title }}</router-link>
+      <router-link class="has-text-dark" to="/">{{ $site.title }}</router-link>
     </h4>
     <p>{{ $site.description }}</p>
     <hr>
     <div class="links">
       <p v-for="item in navItems" :key="item.link">
-        <router-link class="has-text-black" :to="item.link">{{ item.text }}</router-link>
+        <router-link class="has-text-dark" :to="item.link">{{ item.text }}</router-link>
       </p>
     </div>
     <div class>
