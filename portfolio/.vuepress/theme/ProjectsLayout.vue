@@ -9,8 +9,5 @@
 
 <script>
 export default {
-  mounted: function() {
-    console.log(this.$page)
-  }
 }
 </script>
