@@ -1,21 +1,19 @@
 <template>
   <main class="is-main">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-8">
-          <section class="section">
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8">
             <div class="has-background-white">
               <component :is="layout"/>
             </div>
-          </section>
-        </div>
-        <div class="column is-4">
-          <section class="section">
+          </div>
+          <div class="column is-4">
             <Sidebar/>
-          </section>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
 </template>
 
@@ -52,6 +50,7 @@ export default {
 @import "~bulma";
 
 .is-main {
+  min-height: 100vh;
   background-image: linear-gradient(
     to bottom,
     #663145,

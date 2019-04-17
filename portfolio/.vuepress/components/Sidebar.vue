@@ -5,12 +5,12 @@
     </h4>
     <p>{{ $site.description }}</p>
     <hr>
-    <div class="links">
+    <div class="sidebar__links">
       <p v-for="item in navItems" :key="item.link">
         <router-link class="has-text-dark" :to="item.link">{{ item.text }}</router-link>
       </p>
     </div>
-    <div class>
+    <div>
       <p class="has-text-centered">&copy; {{ new Date().getFullYear() }} - Phong Duong</p>
     </div>
   </section>
@@ -28,8 +28,10 @@ export default {
 
 
 <style lang="scss" scoped>
-.links {
-  margin-bottom: 2em;
+.sidebar {
+  &__links {
+    margin-bottom: 2em;
+  }
 }
 </style>
 
