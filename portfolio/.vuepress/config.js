@@ -5,7 +5,7 @@ const siteConfig = {
   description:
     "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects.",
   image: "/og-image.jpg",
-  url: "https://phongduong.me"
+  url: "https://www.phongduong.me"
 };
 
 module.exports = {
@@ -105,13 +105,5 @@ module.exports = {
       }
     ],
     ["meta", { property: "twitter:image", content: siteConfig.image }]
-  ],
-  plugins: {
-    sitemap:
-      process.env.NODE_ENV !== "dev"
-        ? {
-            hostname: "https://phongduong.me"
-          }
-        : {}
-  }
+  ]
 };
