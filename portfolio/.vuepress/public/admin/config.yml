@@ -4,7 +4,7 @@ backend:
 publish_mode: editorial_workflow
 site_url: https://phongduong.me
 display_url: https://phongduong.me
-logo_url: https://phongduong.me/logo.svg
+logo_url: https://phongduong.me/logo.png
 media_folder: "portfolio/.vuepress/public/uploads"
 public_folder: "/images/uploads"
 collections:
