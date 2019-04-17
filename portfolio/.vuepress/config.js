@@ -4,7 +4,7 @@ const siteConfig = {
   title: "Phong Duong",
   description:
     "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects.",
-  image: "https://www.phongduong.me/og-image.jpg",
+  image: "https://www.phongduong.me/logo.jpg",
   url: "https://www.phongduong.me"
 };
 
