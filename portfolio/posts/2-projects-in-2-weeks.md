@@ -4,14 +4,6 @@ title: 2 projects in 2 weeks
 description: Recently I have developed and deployed 2 apps for my project in 2 weeks.
 publish_date: 04-11-2019
 category: project
-profile:
-  address:
-    city: Thua Thien Hue
-    post-code: '530000'
-    street: 37 Au Trieu
-  birthdate: 04/01/2019
-  name: Duong Le Hoai Phong
-  public: true
 ---
 
 I have an idea about a platform that helps users rent books. I am quite a
