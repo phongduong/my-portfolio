@@ -5,9 +5,7 @@ description: Recently I have developed and deployed 2 apps for my project in 2 w
 publish_date: 04-11-2019
 category: project
 meta:
-  - '1'
-  - '24'
-  - '2'
+  - ''
 ---
 
 I have an idea about a platform that helps users rent books. I am quite a
