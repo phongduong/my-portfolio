@@ -40,11 +40,6 @@ collections:
               { label: "Idea", value: "idea" },
             ],
         }
-      # Meta
-      - label: "Meta"
-        name: "meta"
-        widget: "meta"
-
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Pages"
     name: "pages"

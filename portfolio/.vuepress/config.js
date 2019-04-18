@@ -67,7 +67,7 @@ module.exports = {
       {
         name: "keywords",
         content:
-          "Phong Duong, indie hacker, coder, traveler, dreamer, gardener, projects, ideas, maker, developer"
+          "indie hacker, coder, traveler, dreamer, gardener"
       }
     ],
     [
