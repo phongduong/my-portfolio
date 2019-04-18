@@ -5,78 +5,83 @@ backend:
 site_url: https://www.phongduong.me
 display_url: https://www.phongduong.me
 logo_url: https://www.phongduong.me/logo.png
-media_folder: "portfolio/.vuepress/public/uploads"
-public_folder: "/images/uploads"
+media_folder: portfolio/.vuepress/public/uploads
+public_folder: /images/uploads
 collections:
-  - label: "Post"
-    name: "post"
-    folder: "portfolio/posts"
+  - label: Post
+    name: post
+    folder: portfolio/posts
     create: true
     fields:
       - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "PostLayout",
+          label: Layout,
+          name: layout,
+          widget: hidden,
+          default: PostLayout,
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
       - {
-          label: "Publish Date",
-          name: "publish_date",
-          widget: "date",
-          format: "MM-DD-YYYY",
+          label: Publish Date,
+          name: publish_date,
+          widget: date,
+          format: MM-DD-YYYY,
         }
       - {
-          label: "Category",
-          name: "category",
-          widget: "select",
-          default: "project",
+          label: Category,
+          name: category,
+          widget: select,
+          default: project,
           options:
             [
-              { label: "Project", value: "project" },
-              { label: "Programming", value: "programming" },
-              { label: "Life", value: "life" },
-              { label: "Idea", value: "idea" },
+              { label: Project, value: project },
+              { label: Programming, value: programming },
+              { label: Life, value: life },
+              { label: Idea, value: idea },
             ],
         }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Pages"
-    name: "pages"
+
+      # Meta start
+      - { label: Meta, name: meta , widget: meta}
+      # Meta finish
+
+      - { label: Body, name: body, widget: markdown }
+  - label: Pages
+    name: pages
     files:
-      - label: "Contact"
-        name: "contact"
-        file: "portfolio/contact.md"
+      - label: Contact
+        name: contact
+        file: portfolio/contact.md
         fields:
           - {
               label: Layout,
               name: layout,
               widget: hidden,
-              default: "ContactLayout",
+              default: ContactLayout,
             }
-          - { label: Title, name: title, widget: string, default: "Contact" }
-          - label: "Contact"
-            name: "contact"
-            widget: "list"
+          - { label: Title, name: title, widget: string, default: Contact }
+          - label: Contact
+            name: contact
+            widget: list
             allow_add: true
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
 
-      - label: "Projects"
-        name: "projects"
-        file: "portfolio/projects.md"
+      - label: Projects
+        name: projects
+        file: portfolio/projects.md
         fields:
           - {
               label: Layout,
               name: layout,
               widget: hidden,
-              default: "ProjectsLayout",
+              default: ProjectsLayout,
             }
-          - { label: Title, name: title, widget: string, default: "Projects" }
-          - label: "Projects"
-            name: "projects"
-            widget: "list"
+          - { label: Title, name: title, widget: string, default: Projects }
+          - label: Projects
+            name: projects
+            widget: list
             allow_add: true
             fields:
               - { label: Name, name: name, widget: string }
