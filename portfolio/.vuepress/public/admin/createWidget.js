@@ -5,6 +5,7 @@ var CategoriesControl = createClass({
 
   render: function() {
     var value = this.props.value;
+    // console.log(this.props.loadEntry());
     return h("input", {
       type: "text",
       value: value ? value.join(" ") : "",
