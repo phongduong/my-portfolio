@@ -5,7 +5,7 @@ description: Recently I have developed and deployed 2 apps for my project in 2 w
 publish_date: 04-11-2019
 category: project
 meta:
-  - content: 'renting books platform, project, full-stack, problem solving, adasda, adsd'
+  - content: 'renting books platform, project, full-stack, problem solving'
     name: keywords
   - content: 2 projects in 2 weeks
     property: 'og:title'
