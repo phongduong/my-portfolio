@@ -4,21 +4,6 @@ title: 2 projects in 2 weeks
 description: Recently I have developed and deployed 2 apps for my project in 2 weeks.
 publish_date: 04-11-2019
 category: project
-meta:
-  - name: keyword
-    content: renting books platform, project, full-stack, problem solving
-  - property: og:title
-    content: 2 projects in 2 weeks
-  - property: og:description
-    content: Recently I have developed and deployed 2 apps for my project in 2 weeks.
-  - property: og:url
-    content: https://www.phongduong.me/posts/2-projects-in-2-weeks.html
-  - property: twitter:title
-    content: 2 projects in 2 weeks
-  - property: twitter:description
-    content: Recently I have developed and deployed 2 apps for my project in 2 weeks.
-  - property: twitter:url
-    content: https://www.phongduong.me/posts/2-projects-in-2-weeks.html
 ---
 
 I have an idea about a platform that helps users rent books. I am quite a
