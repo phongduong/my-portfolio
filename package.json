@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bulma": "^0.7.4",
-    "vuepress": "^0.14.10"
+    "vuepress": "^0.14.11"
   },
   "devDependencies": {
     "dotenv": "^7.0.0",
