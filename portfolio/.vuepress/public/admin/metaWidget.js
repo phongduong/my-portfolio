@@ -17,7 +17,7 @@ const convertToSlug = str => {
   return slug;
 };
 
-const CategoriesControl = createClass({
+const MetaControl = createClass({
   getInitialState: function() {
     return {
       title: "",
@@ -26,38 +26,40 @@ const CategoriesControl = createClass({
     };
   },
 
-  componentDidMount: function() {
-    this.updateMetaData();
-  },
+  // componentDidMount: function() {
+  // this.updateMetaData();
+  // },
 
   updateMetaData: function() {
     this.setState(
       {
-        title: document.querySelector("#title-field-1").value.trim(),
-        description: document.querySelector("#description-field-2").value.trim()
+        title: document.querySelector("input[id^=title]").value.trim(),
+        description: document
+          .querySelector("textarea[id^=description]")
+          .value.trim()
       },
       function() {
         const { title, description, keywords } = this.state;
         const hostname = "https://www.phongduong.me";
         const slug = convertToSlug(title);
         const url = `${hostname}/posts/${slug}.html`;
-        const data = [
-          [["name", "keyword"], ["content", keywords]],
-          [["property", "og:title"], ["content", title]],
-          [["property", "og:description"], ["content", description]],
-          [["property", "og:url"], ["content", url]],
-          [["property", "twitter:title"], ["content", title]],
-          [["property", "twitter:description"], ["content", description]],
-          [["property", "twitter:url"], ["content", url]]
+        const meta = [
+          { name: "keywords", content: keywords },
+          { property: "og:title", content: title },
+          { property: "og:description", content: description },
+          { property: "og:url", content: url },
+          { property: "twitter:title", content: title },
+          { property: "twitter:description", content: description },
+          { property: "twitter:url", content: url }
         ];
 
-        this.props.onChange(data);
+        this.props.onChange(meta);
       }
     );
   },
 
   handleChangeKeyworks: function(e) {
-    this.setState({ keywords: e.target.value.trim() }, function() {
+    this.setState({ keywords: e.target.value }, function() {
       this.updateMetaData();
     });
   },
@@ -81,29 +83,36 @@ const CategoriesControl = createClass({
         )
       ]);
 
-    const formattedValue = value.map(val => {
-      return val.reduce((pre, cur) => ({ ...pre, [cur[0]]: cur[1] }), {});
-    });
+    let formattedValue = value.toString().startsWith("List")
+      ? Array.from(value).reduce((obj, [first, second]) => {
+          return [...obj, { [first[0]]: first[1], [second[0]]: second[1] }];
+        }, [])
+      : value;
 
     return h("div", { className: "box" }, [
       formattedValue.map(meta => {
         let label = "";
-        const isKeyworks = meta.hasOwnProperty("name");
+        const isName = meta.hasOwnProperty("name");
 
-        if (isKeyworks) label = meta.name;
+        if (isName) label = meta.name;
         else label = meta.property;
 
         return h("div", { className: "box field" }, [
           h("label", { className: "label" }, label),
           h(
             "div",
-            { className: "control" },
+            {
+              className: "control"
+            },
             h("input", {
               className: "input",
               type: "text",
-              disabled: isKeyworks ? "" : "disabled",
+              disabled: isName && meta.name === "keywords" ? "" : "disabled",
               value: meta.content,
-              ...(isKeyworks && { onInput: this.handleChangeKeyworks })
+              ...(isName &&
+                meta.name === "keywords" && {
+                  onInput: this.handleChangeKeyworks
+                })
             })
           )
         ]);
@@ -124,26 +133,28 @@ const CategoriesControl = createClass({
   }
 });
 
-const CategoriesPreview = createClass({
+const MetaPreview = createClass({
   render: function() {
     const value = this.props.value;
-    
+
     if (!value) return h("p", {});
 
-    return value
-      .map(val => {
-        return val.reduce((pre, cur) => ({ ...pre, [cur[0]]: cur[1] }), {});
-      })
-      .map(meta => {
-        let label = "";
-        const isKeyworks = meta.hasOwnProperty("name");
+    let formattedValue = value.toString().startsWith("List")
+      ? Array.from(value).reduce((obj, [first, second]) => {
+          return [...obj, { [first[0]]: first[1], [second[0]]: second[1] }];
+        }, [])
+      : value;
 
-        if (isKeyworks) label = meta.name;
-        else label = meta.property;
+    return formattedValue.map(meta => {
+      let label = "";
+      const isKeyworks = meta.hasOwnProperty("name");
 
-        return h("p", {}, `${label}: ${meta.content}`);
-      });
+      if (isKeyworks) label = meta.name;
+      else label = meta.property;
+
+      return h("p", {}, `${label}: ${meta.content}`);
+    });
   }
 });
 
-CMS.registerWidget("meta", CategoriesControl, CategoriesPreview);
+CMS.registerWidget("meta", MetaControl, MetaPreview);

@@ -52,22 +52,13 @@ module.exports = {
       "link",
       { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#00949c" }
     ],
-    [
-      "meta",
-      {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1"
-      }
-    ],
     ["meta", { name: "msapplication-TileColor", content: "#00949c" }],
     ["meta", { name: "theme-color", content: "#00949c" }],
-    ["meta", { charset: "UTF-8" }],
     [
       "meta",
       {
         name: "keywords",
-        content:
-          "indie hacker, coder, traveler, dreamer, gardener"
+        content: "indie hacker, coder, traveler, dreamer, gardener"
       }
     ],
     [
