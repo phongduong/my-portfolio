@@ -7,6 +7,10 @@ const siteConfig = {
   image: "https://www.phongduong.me/logo.png",
   url: "https://www.phongduong.me"
 };
+const adScript = `(adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8072886212233580",
+    enable_page_level_ads: true
+  });`;
 
 module.exports = {
   title: siteConfig.title,
@@ -95,6 +99,14 @@ module.exports = {
         content: siteConfig.description
       }
     ],
-    ["meta", { property: "twitter:image", content: siteConfig.image }]
+    ["meta", { property: "twitter:image", content: siteConfig.image }],
+    [
+      "script",
+      {
+        async: true,
+        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      }
+    ],
+    ["script", {}, adScript]
   ]
 };
