@@ -1,17 +1,5 @@
 require("dotenv").config();
 
-const siteConfig = {
-  title: "Phong Duong",
-  description:
-    "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects.",
-  image: "https://www.phongduong.me/logo.png",
-  url: "https://www.phongduong.me"
-};
-const adScript = `(adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8072886212233580",
-    enable_page_level_ads: true
-  });`;
-
 module.exports = {
   title: siteConfig.title,
   description: siteConfig.description,
@@ -100,13 +88,6 @@ module.exports = {
       }
     ],
     ["meta", { property: "twitter:image", content: siteConfig.image }],
-    [
-      "script",
-      {
-        async: true,
-        src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      }
-    ],
-    ["script", {}, adScript]
+    ["meta", { name: "propeller", content: "95e7d11d4e04c6231221dd5993c02995" }]
   ]
 };
