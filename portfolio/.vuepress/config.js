@@ -95,6 +95,7 @@ module.exports = {
         content: siteConfig.description
       }
     ],
-    ["meta", { property: "twitter:image", content: siteConfig.image }]
+    ["meta", { property: "twitter:image", content: siteConfig.image }],
+    ["meta", { name:"propeller", content:"95e7d11d4e04c6231221dd5993c02995"}]
   ]
 };
