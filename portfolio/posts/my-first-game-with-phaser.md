@@ -7,7 +7,7 @@ description: >-
 publish_date: 04-30-2019
 category: idea
 meta:
-  - content: ''
+  - content: 'phaser, game, tapping, shapes'
     name: keywords
   - content: My first game with Phaser
     property: 'og:title'
