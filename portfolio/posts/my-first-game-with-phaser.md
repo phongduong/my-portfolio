@@ -5,7 +5,7 @@ description: >-
   I built Tapping Shapes with Phaser. I'd love to hear your feedback about my
   game.
 publish_date: 04-30-2019
-category: project
+category: idea
 meta:
   - content: ''
     name: keywords
