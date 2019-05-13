@@ -95,42 +95,8 @@ module.exports = {
         content: siteConfig.description
       }
     ],
-    ["meta", { property: "twitter:image", content: siteConfig.image }],
+    ["meta", { property: "twitter:image", content: siteConfig.image }]
 
     // Ads
-    [
-      "script",
-      {
-        "data-cfasync": "false",
-        type: "text/javascript",
-        src: "//p350505.clksite.com/adServe/banners?tid=350505_685599_0"
-      }
-    ],
-    [
-      "script",
-      {
-        "data-cfasync": "false",
-        type: "text/javascript",
-        src: "//p350505.clksite.com/adServe/banners?tid=350505_685599_5&size=7"
-      }
-    ],
-    [
-      "script",
-      {
-        "data-cfasync": "false",
-        type: "text/javascript",
-        src:
-          "//p350505.clksite.com/adServe/banners?tid=350505_685599_4&type=shadowbox&size=38"
-      }
-    ],
-    [
-      "script",
-      {
-        "data-cfasync": "false",
-        type: "text/javascript",
-        src:
-          "//p350505.clksite.com/adServe/banners?tid=350505_685599_6&type=slider&side=center&size=38&position=bottom"
-      }
-    ]
   ]
 };
