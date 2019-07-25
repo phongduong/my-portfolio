@@ -22,4 +22,6 @@ meta:
 ---
 I develop Color Bubbles for UDGJ#2. After polishing and editing, it is available and free to play on Play Store now. It also has a web version on itch.io
 
+![color bubbles menu](/images/uploads/screenshot_20190717-221433.png "color bubbles menu")
+
 You can download it [here](https://play.google.com/store/apps/details?id=com.phongduong.colorbubbles) or play it on [itch.io](https://phongduong.itch.io/color-bubbles)
