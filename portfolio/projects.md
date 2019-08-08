@@ -8,7 +8,7 @@ projects:
   - description: A PWA combines Pomodoro technique and to do list
     name: Pomotasks
     url: 'https://pomotasks.surge.sh'
-  - description: A Chrome extension to block specific websites.
+  - description: A Chrome extension to block specific websites
     name: Blockpage
     url: 'https://github.com/phongduong/blockpage/blob/master/blockpage.crx'
 ---
