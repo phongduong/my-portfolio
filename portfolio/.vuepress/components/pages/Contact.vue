@@ -1,9 +1,9 @@
 <template>
   <div>
     <div v-for="contact in contacts" :key="contact.name">
-      <a class="is-size-2" :href="`mailto:${contact.url}`" v-if="contact.name === 'Email'">{{ contact.name }}</a>
+      <a class="is-size-3" :href="`mailto:${contact.url}`" v-if="contact.name === 'Email'">{{ contact.name }}</a>
       <a
-        class="is-size-2"
+        class="is-size-3"
         :href="contact.url"
         target="_blank"
         rel="noopener noreferrer"
