@@ -6,25 +6,6 @@ description: >-
   game.
 publish_date: 04-30-2019
 category: idea
-meta:
-  - content: 'phaser, game, tapping, shapes'
-    name: keywords
-  - content: My first game with Phaser
-    property: 'og:title'
-  - content: >-
-      I built Tapping Shapes with Phaser. I'd love to hear your feedback about
-      my game.
-    property: 'og:description'
-  - content: 'https://www.phongduong.me/posts/my-first-game-with-phaser.html'
-    property: 'og:url'
-  - content: My first game with Phaser
-    property: 'twitter:title'
-  - content: >-
-      I built Tapping Shapes with Phaser. I'd love to hear your feedback about
-      my game.
-    property: 'twitter:description'
-  - content: 'https://www.phongduong.me/posts/my-first-game-with-phaser.html'
-    property: 'twitter:url'
 ---
 I had an idea about this game when I took courses about Game Development. The courses were provided by Michigan State University. Those course were great. I just enrolled 3 courses but it was amazing. They provided knowledge about game development and business. They were very useful.
 

@@ -1,11 +1,11 @@
 backend:
   name: github
   repo: phongduong/my-portfolio
-site_url: https://www.phongduong.me
-display_url: https://www.phongduong.me
-logo_url: https://www.phongduong.me/logo.png
+site_url: https://phongduong.netlify.com
+display_url: https://phongduong.netlify.com
+logo_url: https://phongduong.netlify.com/logo.png
 media_folder: portfolio/.vuepress/public/uploads
-public_folder: /images/uploads
+public_folder: /uploads
 collections:
   - label: Post
     name: post
@@ -39,11 +39,6 @@ collections:
               { label: Idea, value: idea },
             ],
         }
-
-      # Meta start
-      - { label: Meta, name: meta , widget: meta}
-      # Meta finish
-
       - { label: Body, name: body, widget: markdown }
   - label: Pages
     name: pages

@@ -16,3 +16,4 @@ contact:
     url: 'https://phongduong.itch.io/'
 ---
 
+<pages-Contact />

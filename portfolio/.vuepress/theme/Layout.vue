@@ -51,14 +51,7 @@ export default {
 
 .is-main {
   min-height: 100vh;
-  background-image: linear-gradient(
-    to bottom,
-    #663145,
-    #583d61,
-    #3a4b71,
-    #105771,
-    #0c5f64
-  );
+  background: #00949c;
 }
 </style>
 

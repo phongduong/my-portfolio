@@ -3,7 +3,7 @@ require("dotenv").config();
 const siteConfig = {
   title: "Phong Duong",
   description:
-    "💻Indie hacker, 💤Dreamer, 🎒Traveler and 🌳Gardener. I like turning my ideas into real projects.",
+    "💻Indie dev, 💤Dreamer, 🎒Backpacker and 🌳Gardener. I like turning ideas into real projects.",
   image: "https://www.phongduong.me/logo.png",
   url: "https://www.phongduong.me"
 };
@@ -58,7 +58,7 @@ module.exports = {
       "meta",
       {
         name: "keywords",
-        content: "indie hacker, coder, traveler, dreamer, gardener"
+        content: "indie hacker, coder, backpacker, dreamer, gardener"
       }
     ],
     [
