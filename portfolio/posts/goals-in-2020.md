@@ -8,9 +8,9 @@ category: life
 In 2019, I did a lot of interesting things:
 
 * Start and shut down my company KOOGIO
-* Begin game development and publish 3 games
+* Begin game development and publish 3 games on Google Play
 * Begin my blog
-* Start new job
+* Start a new job
 
 In 2020, I have some goals:
 
