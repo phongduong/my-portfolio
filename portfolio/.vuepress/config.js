@@ -18,7 +18,6 @@ module.exports = {
       { text: "📞 Contact", link: "/contact.html" }
     ]
   },
-  ga: "UA-123178606-2",
   serviceWorker: process.env.NODE_ENV !== "dev",
   head: [
     [
@@ -96,7 +95,5 @@ module.exports = {
       }
     ],
     ["meta", { property: "twitter:image", content: siteConfig.image }]
-
-    // Ads
   ]
 };
