@@ -1,7 +1,7 @@
 ---
 layout: PostLayout
-title: Goals in 2020
-description: A summary for 2019 and goals in 2020
+title: Resolutions in 2020
+description: A summary for 2019 and resolutions in 2020
 publish_date: 01-01-2020
 category: life
 ---
@@ -12,7 +12,7 @@ In 2019, I did a lot of interesting things:
 * Begin my blog
 * Start a new job
 
-In 2020, I have some goals:
+In 2020, there are some goals I want to archive:
 
 * Begin mobile development
 * Continue travelling because in 2019 I didn't travel much
