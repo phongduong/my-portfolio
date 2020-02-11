@@ -1,14 +1,11 @@
 <template>
   <div>
-    <PostList :posts="posts"/>
+    <PostList :posts="posts" />
   </div>
 </template>
 
 <script>
-import PostList from "../utils/PostList.vue";
-
 export default {
-  components: { PostList },
   computed: {
     posts: function() {
       return this.$site.pages

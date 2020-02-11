@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 const siteConfig = {
   title: "Phong Duong",
   description:
@@ -18,7 +16,17 @@ module.exports = {
       { text: "📞 Contact", link: "/contact.html" }
     ]
   },
-  serviceWorker: process.env.NODE_ENV !== "dev",
+  plugins: [
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ],
+    "@vuepress/back-to-top",
+    "@vuepress/blog"
+  ],
   head: [
     [
       "link",
@@ -57,7 +65,7 @@ module.exports = {
       "meta",
       {
         name: "keywords",
-        content: "full-stack developer, indie dev"
+        content: "full-stack developer, indie dev, nodejs, javascript"
       }
     ],
     [
