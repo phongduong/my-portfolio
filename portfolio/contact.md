@@ -12,8 +12,6 @@ contact:
     url: 'https://github.com/phongduong'
   - name: LinkedIn
     url: 'https://www.linkedin.com/in/phong-duong'
-  - name: Itch.io
-    url: 'https://phongduong.itch.io/'
 ---
 
 <pages-Contact />

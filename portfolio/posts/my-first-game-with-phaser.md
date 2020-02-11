@@ -1,9 +1,6 @@
 ---
 layout: PostLayout
 title: My first game with Phaser
-description: >-
-  I built Tapping Shapes with Phaser. I'd love to hear your feedback about my
-  game
 publish_date: 04-30-2019
 category: idea
 ---

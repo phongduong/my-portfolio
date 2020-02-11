@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
 title: Speedy Ball
-description: 'Slow down, Speedy Ball'
 publish_date: 08-08-2019
 category: project
 ---

@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
 title: Resolutions in 2020
-description: A summary for 2019 and resolutions in 2020
 publish_date: 01-01-2020
 category: life
 ---

@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
 title: Color Bubbles
-description: Color Bubbles is available and free to play on Play Store now
 publish_date: 07-25-2019
 category: project
 ---

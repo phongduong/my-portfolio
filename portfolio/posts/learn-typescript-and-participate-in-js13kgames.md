@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
-title: 'Learn Typescript and participate in Js13kGames '
-description: A great opportunity to learn new language
+title: 'Learn Typescript and participate in Js13kGames'
 publish_date: 08-17-2019
 category: programming
 ---

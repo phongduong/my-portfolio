@@ -1,9 +1,7 @@
 <template>
   <div class="projects-layout">
-    <section class="section">
-      <h1 class="title is-1 has-text-centered">Projects I worked on</h1>
-      <Content/>
-    </section>
+    <h1 class="">Projects I worked on</h1>
+    <Content />
   </div>
 </template>
 

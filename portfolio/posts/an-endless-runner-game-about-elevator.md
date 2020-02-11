@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
 title: An endless runner game about elevator
-description: An endless runner game about elevator
 publish_date: 05-11-2019
 category: idea
 ---

@@ -19,7 +19,6 @@ collections:
           default: PostLayout,
         }
       - { label: Title, name: title, widget: string }
-      - { label: Description, name: description, widget: text }
       - {
           label: Publish Date,
           name: publish_date,

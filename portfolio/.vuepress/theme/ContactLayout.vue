@@ -1,9 +1,7 @@
 <template>
-  <div class="contact-layout has-text-centered">
-    <section class="section">
-      <h1 class="title is-1">Keep in touch with me</h1>
-      <Content/>
-    </section>
+  <div class="contact-layout">
+    <h1 class="">Keep in touch with me</h1>
+    <Content />
   </div>
 </template>
 
@@ -11,6 +9,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
-
+<style lang="scss" scoped></style>

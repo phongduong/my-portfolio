@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
 title: Coiner
-description: Coiner is available on Google Play
 publish_date: 10-22-2019
 category: project
 ---

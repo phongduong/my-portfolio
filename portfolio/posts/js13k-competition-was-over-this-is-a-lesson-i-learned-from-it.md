@@ -1,7 +1,6 @@
 ---
 layout: PostLayout
 title: js13k competition was over. This is a lesson I learned from it
-description: Nothing is impossible
 publish_date: 09-21-2019
 category: life
 ---
@@ -13,4 +12,4 @@ When this year js13k competition started, I planned to develop 2 games for it. I
 
 I developed 2 games [Coiner ](http://js13kgames.com/entries/coiner)and [Luon](http://js13kgames.com/entries/luon). I limited my self using 4-color palette for game graphic. Because of the game's constraint, I couldn't use heavyweight assets like sprite sheet or sound for the games. Luckily, Canvas and Web Audio made my life easier and kept games size was under 13kb. 
 
-By developing 2 games with so much constraints like size and colors, I believe that I can do anything in my life with constraints. **Nothing is impossible.**
+By developing 2 games with so much constraints like size and colors, I believe that I can do anything in my life with any constraint. **Nothing is impossible.**

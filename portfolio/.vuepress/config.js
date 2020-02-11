@@ -4,8 +4,8 @@ const siteConfig = {
   title: "Phong Duong",
   description:
     "💻Indie dev, 💤Dreamer, 🎒Backpacker and 🌳Gardener. I like turning ideas into real projects.",
-  image: "https://www.phongduong.me/logo.png",
-  url: "https://www.phongduong.me"
+  image: "https://phongduong.netlify.com/logo.png",
+  url: "https://phongduong.netlify.com/"
 };
 
 module.exports = {
@@ -57,7 +57,7 @@ module.exports = {
       "meta",
       {
         name: "keywords",
-        content: "indie hacker, coder, backpacker, dreamer, gardener"
+        content: "full-stack developer, indie dev"
       }
     ],
     [

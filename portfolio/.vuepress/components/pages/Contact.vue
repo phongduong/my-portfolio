@@ -1,16 +1,22 @@
 <template>
-  <div>
-    <div v-for="contact in contacts" :key="contact.name">
-      <a class="is-size-3" :href="`mailto:${contact.url}`" v-if="contact.name === 'Email'">{{ contact.name }}</a>
+  <ul>
+    <li v-for="contact in contacts" :key="contact.name">
       <a
-        class="is-size-3"
+        class=""
+        :href="`mailto:${contact.url}`"
+        v-if="contact.name === 'Email'"
+        >{{ contact.name }}</a
+      >
+      <a
+        class=""
         :href="contact.url"
         target="_blank"
         rel="noopener noreferrer"
         v-else
-      >{{ contact.name }}</a>
-    </div>
-  </div>
+        >{{ contact.name }}</a
+      >
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -22,4 +28,3 @@ export default {
   }
 };
 </script>
-

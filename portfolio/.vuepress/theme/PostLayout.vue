@@ -1,18 +1,12 @@
 <template>
-  <div class="post-layout section">
-    <h1 class="title is-1">{{ $page.frontmatter.title }}</h1>
-    <h5 class="subtitle is-5 has-text-grey">
-      Published {{ $page.frontmatter.publish_date }} |
-      <router-link
-        class="has-text-grey"
-        :to="`/category.html#${$page.frontmatter.category}`"
-      >{{ $page.frontmatter.category }}</router-link>
-    </h5>
-    <p class="is-size-4">{{ $page.frontmatter.description }}</p>
-    <hr>
-    <div class="is-size-5">
-      <Content/>
-    </div>
+  <div class="post-layout">
+    <h1 class="">{{ $page.frontmatter.title }}</h1>
+    <h3 class="">
+      <router-link class="" :to="`/category.html#${$page.frontmatter.category}`"
+        >#{{ $page.frontmatter.category }}</router-link
+      >
+    </h3>
+    <Content />
   </div>
 </template>
 
@@ -20,6 +14,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
-
+<style lang="scss" scoped></style>
