@@ -5,7 +5,12 @@
 </template>
 
 <script>
+import PostList from "../utils/PostList";
+
 export default {
+  components: {
+    PostList
+  },
   computed: {
     posts: function() {
       return this.$site.pages
