@@ -1,5 +1,5 @@
 <template>
-  <main class="global-layout container mx-auto my-4 px-2 md:px-0">
+  <main class="global-layout container mx-auto my-4 px-2">
     <Header />
     <component class="my-10" :is="layout" />
     <Footer />
@@ -50,6 +50,10 @@ ol {
 
   img {
     @apply w-1/4 my-4 mx-auto;
+  }
+
+  p {
+    @apply text-lg
   }
 }
 

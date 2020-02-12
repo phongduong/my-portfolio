@@ -7,12 +7,7 @@ const siteConfig = {
 };
 
 const purgecss = require("@fullhuman/postcss-purgecss")({
-  content: [
-    "./dist/**/*.html",
-    "./components/**/*.vue",
-    "./theme/**/*.vue"
-  ],
-
+  content: ["./**/*.vue"],
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
 });
 
@@ -25,6 +20,13 @@ module.exports = {
       { text: "📝 Blog", link: "/" },
       { text: "📦 Projects", link: "/projects.html" },
       { text: "📞 Contact", link: "/contact.html" }
+    ]
+  },
+  postcss: {
+    plugins: [
+      require("tailwindcss"),
+      require("autoprefixer"),
+      ...(process.env.NODE_ENV !== "development" ? [purgecss] : [])
     ]
   },
   plugins: [
@@ -129,12 +131,5 @@ module.exports = {
       }
     ],
     ["meta", { property: "twitter:image", content: siteConfig.image }]
-  ],
-  postcss: {
-    plugins: [
-      require("tailwindcss"),
-      require("autoprefixer"),
-      // ...(process.env.NODE_ENV !== "development" ? [purgecss] : [])
-    ]
-  }
+  ]
 };
