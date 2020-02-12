@@ -30,14 +30,7 @@ module.exports = {
     ]
   },
   plugins: [
-    [
-      "@vuepress/pwa",
-      {
-        serviceWorker: true,
-        updatePopup: true
-      }
-    ],
-    "@vuepress/back-to-top",
+    "@vuepress/pwa",
     [
       "@vuepress/blog",
       {
