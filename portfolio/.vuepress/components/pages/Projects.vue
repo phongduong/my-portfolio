@@ -1,27 +1,17 @@
 <template>
-  <ul>
-    <li class="" v-for="(project, i) in projects" :key="i">
-      <h3 class="">
-        <a
-          class=""
-          :href="project.url"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {{ project.name }}
-        </a>
+  <div class="project-list">
+    <h1 class="text-3xl text-center">My projects</h1>
+    <div
+      class="project-item my-4"
+      v-for="(project, i) in $frontmatter.projects"
+      :key="i"
+    >
+      <h3 class="text-xl">
+        <a :href="project.url" target="_blank" rel="noopener noreferrer">{{
+          project.name
+        }}</a>
       </h3>
       <p>{{ project.description }}</p>
-    </li>
-  </ul>
+    </div>
+  </div>
 </template>
-
-<script>
-export default {
-  computed: {
-    projects: function() {
-      return this.$page.frontmatter.projects;
-    }
-  }
-};
-</script>

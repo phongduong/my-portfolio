@@ -2,16 +2,27 @@ const siteConfig = {
   title: "Phong Duong",
   description:
     "💻Indie dev, 💤Dreamer, 🎒Backpacker and 🌳Gardener. I like turning ideas into real projects.",
-  image: "https://phongduong.netlify.com/logo.png",
-  url: "https://phongduong.netlify.com/"
+  image: "https://phongduong.netlify.com/img/logo.png",
+  url: "https://phongduong.netlify.com"
 };
+
+const purgecss = require("@fullhuman/postcss-purgecss")({
+  content: [
+    "./dist/**/*.html",
+    "./components/**/*.vue",
+    "./theme/**/*.vue"
+  ],
+
+  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+});
 
 module.exports = {
   title: siteConfig.title,
   description: siteConfig.description,
+  host: "localhost",
   themeConfig: {
     nav: [
-      { text: "📰 Blog", link: "/" },
+      { text: "📝 Blog", link: "/" },
       { text: "📦 Projects", link: "/projects.html" },
       { text: "📞 Contact", link: "/contact.html" }
     ]
@@ -25,7 +36,22 @@ module.exports = {
       }
     ],
     "@vuepress/back-to-top",
-    "@vuepress/blog"
+    [
+      "@vuepress/blog",
+      {
+        directories: [
+          {
+            layout: "PostListLayout",
+            itemLayout: "PostLayout",
+            id: "blog",
+            dirname: "posts",
+            path: "/"
+          }
+        ],
+        sitemap: { hostname: siteConfig.url },
+        feed: { canonical_base: siteConfig.url }
+      }
+    ]
   ],
   head: [
     [
@@ -33,7 +59,7 @@ module.exports = {
       {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/apple-touch-icon.png"
+        href: "/img/apple-touch-icon.png"
       }
     ],
     [
@@ -42,7 +68,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/favicon-32x32.png"
+        href: "/img/favicon-32x32.png"
       }
     ],
     [
@@ -51,13 +77,13 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/favicon-16x16.png"
+        href: "/img/favicon-16x16.png"
       }
     ],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     [
       "link",
-      { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#00949c" }
+      { rel: "mask-icon", href: "/img/safari-pinned-tab.svg", color: "#00949c" }
     ],
     ["meta", { name: "msapplication-TileColor", content: "#00949c" }],
     ["meta", { name: "theme-color", content: "#00949c" }],
@@ -103,5 +129,12 @@ module.exports = {
       }
     ],
     ["meta", { property: "twitter:image", content: siteConfig.image }]
-  ]
+  ],
+  postcss: {
+    plugins: [
+      require("tailwindcss"),
+      require("autoprefixer"),
+      ...(process.env.NODE_ENV !== "development" ? [purgecss] : [])
+    ]
+  }
 };

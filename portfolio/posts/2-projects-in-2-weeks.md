@@ -1,8 +1,6 @@
 ---
-layout: PostLayout
 title: 2 projects in 2 weeks
-publish_date: 04-11-2019
-category: project
+date: 04-11-2019
 ---
 
 I have an idea about a platform that helps users rent books. I am quite a

@@ -1,8 +1,6 @@
 ---
-layout: PostLayout
 title: Coiner
-publish_date: 10-22-2019
-category: project
+date: 10-22-2019
 ---
 Coiner is now available on Google Play. It was originally developed for js13k competition. I developed a version for mobile using Defold engine. Click the link below to download it on Android
 

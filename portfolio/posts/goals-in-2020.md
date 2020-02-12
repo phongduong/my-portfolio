@@ -1,8 +1,6 @@
 ---
-layout: PostLayout
 title: Resolutions in 2020
-publish_date: 01-01-2020
-category: life
+date: 01-01-2020
 ---
 In 2019, I did a lot of interesting things:
 

@@ -4,17 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev portfolio --open",
+    "dev": "vuepress dev portfolio --no-clear-screen",
     "build": "vuepress build portfolio"
   },
   "dependencies": {
     "vuepress": "^1.3.0"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
     "@vuepress/plugin-back-to-top": "^1.3.0",
     "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-pwa": "^1.3.0",
     "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "^1.2.0"
   }
 }

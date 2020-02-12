@@ -1,8 +1,6 @@
 ---
-layout: PostLayout
 title: Speedy Ball
-publish_date: 08-08-2019
-category: project
+date: 08-08-2019
 ---
 Speedy Ball is a simple game with a ball I name it Speedy Ball and blocks. The Speedy Ball is moving too fast and it is going to collide with blocks. You help it avoid blocks by tapping to slow it down.
 

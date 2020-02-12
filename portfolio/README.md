@@ -1,5 +1,0 @@
----
-layout: HomeLayout
----
-
-<pages-Home />

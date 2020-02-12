@@ -1,8 +1,6 @@
 ---
-layout: PostLayout
 title: Color Bubbles
-publish_date: 07-25-2019
-category: project
+date: 07-25-2019
 ---
 I develop Color Bubbles for UDGJ#2. After polishing and editing, it is available and free to play on Play Store now. It also has a web version on itch.io. 
 

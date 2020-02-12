@@ -1,5 +1,5 @@
 <template>
-  <section class="layout">
+  <section class="other-layout">
     <Content />
   </section>
 </template>

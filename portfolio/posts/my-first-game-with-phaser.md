@@ -1,8 +1,6 @@
 ---
-layout: PostLayout
 title: My first game with Phaser
-publish_date: 04-30-2019
-category: idea
+date: 04-30-2019
 ---
 I had an idea about this game when I took courses about Game Development. The courses were provided by Michigan State University. Those course were great. I just enrolled 3 courses but it was amazing. They provided knowledge about game development and business. They were very useful.
 

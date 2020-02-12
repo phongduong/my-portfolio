@@ -3,7 +3,7 @@ backend:
   repo: phongduong/my-portfolio
 site_url: https://phongduong.netlify.com
 display_url: https://phongduong.netlify.com
-logo_url: https://phongduong.netlify.com/logo.png
+logo_url: https://phongduong.netlify.com/img/logo.png
 media_folder: portfolio/.vuepress/public/uploads
 public_folder: /uploads
 collections:
@@ -12,31 +12,12 @@ collections:
     folder: portfolio/posts
     create: true
     fields:
-      - {
-          label: Layout,
-          name: layout,
-          widget: hidden,
-          default: PostLayout,
-        }
       - { label: Title, name: title, widget: string }
       - {
-          label: Publish Date,
-          name: publish_date,
+          label: Date,
+          name: date,
           widget: date,
           format: MM-DD-YYYY,
-        }
-      - {
-          label: Category,
-          name: category,
-          widget: select,
-          default: project,
-          options:
-            [
-              { label: Project, value: project },
-              { label: Programming, value: programming },
-              { label: Life, value: life },
-              { label: Idea, value: idea },
-            ],
         }
       - { label: Body, name: body, widget: markdown }
   - label: Pages
@@ -50,7 +31,7 @@ collections:
               label: Layout,
               name: layout,
               widget: hidden,
-              default: ContactLayout,
+              default: OtherLayout,
             }
           - { label: Title, name: title, widget: string, default: Contact }
           - label: Contact
@@ -69,7 +50,7 @@ collections:
               label: Layout,
               name: layout,
               widget: hidden,
-              default: ProjectsLayout,
+              default: OtherLayout,
             }
           - { label: Title, name: title, widget: string, default: Projects }
           - label: Projects
