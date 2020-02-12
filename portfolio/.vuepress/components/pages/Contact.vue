@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-list text-center">
+  <div class="contact-list">
     <h1 class="text-3xl">Keep in touch with me</h1>
     <h3
       class="contact-item my-4 text-xl"

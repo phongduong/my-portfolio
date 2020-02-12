@@ -1,6 +1,6 @@
 <template>
   <div class="project-list">
-    <h1 class="text-3xl text-center">My projects</h1>
+    <h1 class="text-3xl">My projects</h1>
     <div
       class="project-item my-4"
       v-for="(project, i) in $frontmatter.projects"
