@@ -1,6 +1,6 @@
 ---
 layout: OtherLayout
-title: Project
+title: Projects
 projects:
   - description: >-
       KOOGIO is an indie game studio. I create KOOGIO project to learn new tools
