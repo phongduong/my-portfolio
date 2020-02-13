@@ -36,12 +36,10 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
-          - {
-              label: Body,
-              name: body,
-              widget: hidden,
-              default: <pages-Contact />,
-            }
+          - label: Body
+            name: body
+            widget: hidden
+            default: <pages-Contact />
 
       - label: Projects
         name: projects
@@ -62,9 +60,7 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: URL, name: url, widget: string }
-          - {
-              label: Body,
-              name: body,
-              widget: hidden,
-              default: <pages-Projects />,
-            }
+          - label: Body
+            name: body
+            widget: hidden
+            default: <pages-Projects />
