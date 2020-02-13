@@ -1,6 +1,6 @@
 ---
 layout: OtherLayout
-title: Contact
+title: Contac
 contact:
   - name: Email
     url: phongduong1710@gmail.com
