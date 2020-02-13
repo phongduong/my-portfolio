@@ -13,12 +13,7 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string }
-      - {
-          label: Date,
-          name: date,
-          widget: date,
-          format: MM-DD-YYYY,
-        }
+      - { label: Date, name: date, widget: date, format: MM-DD-YYYY }
       - { label: Body, name: body, widget: markdown }
   - label: Pages
     name: pages
@@ -41,6 +36,12 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
+          - {
+              label: Body,
+              name: body,
+              widget: hidden,
+              default: <pages-Contact />,
+            }
 
       - label: Projects
         name: projects
@@ -61,3 +62,9 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: URL, name: url, widget: string }
+          - {
+              label: Body,
+              name: body,
+              widget: hidden,
+              default: <pages-Projects />,
+            }
