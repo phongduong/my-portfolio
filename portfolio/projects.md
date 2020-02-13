@@ -1,6 +1,6 @@
 ---
 layout: OtherLayout
-title: Project
+title: Projects
 projects:
   - description: >-
       KOOGIO is an indie game studio. I create KOOGIO project to learn new tools
@@ -17,4 +17,4 @@ projects:
     name: Blockpage
     url: 'https://github.com/phongduong/blockpage/blob/master/blockpage.crx'
 ---
-
+<pages-Projects />
