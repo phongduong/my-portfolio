@@ -13,4 +13,4 @@ contact:
   - name: LinkedIn
     url: 'https://www.linkedin.com/in/phong-duong'
 ---
-
+<pages-Contact />
