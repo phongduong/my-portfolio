@@ -33,7 +33,8 @@ ol {
 }
 
 .post-layout,
-.other-layout {
+.other-layout,
+.content {
   a {
     @apply text-primary underline;
   }
@@ -53,7 +54,7 @@ ol {
   }
 
   p {
-    @apply text-lg
+    @apply text-lg;
   }
 }
 
