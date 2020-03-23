@@ -1,7 +1,7 @@
 const siteConfig = {
   title: "Phong Duong",
   description:
-    "💻Indie dev, 💤Dreamer, 🎒Backpacker and 🌳Gardener. I like turning ideas into real projects.",
+    "💻Indie dev, 🎒Backpacker and 🌳Gardener. I like turning ideas into real projects.",
   image: "https://phongduong.netlify.com/img/logo.png",
   url: "https://phongduong.netlify.com"
 };
