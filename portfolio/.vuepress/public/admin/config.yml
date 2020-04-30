@@ -1,11 +1,12 @@
 backend:
   name: github
   repo: phongduong/my-portfolio
-site_url: https://phongduong.netlify.com
-display_url: https://phongduong.netlify.com
-logo_url: https://phongduong.netlify.com/img/logo.png
+site_url: https://phongduong.netlify.app
+display_url: https://phongduong.netlify.app
+logo_url: https://phongduong.netlify.app/img/logo.png
 media_folder: portfolio/.vuepress/public/uploads
 public_folder: /uploads
+publish_mode: editorial_workflow
 collections:
   - label: Post
     name: post
