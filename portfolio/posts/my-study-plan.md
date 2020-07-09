@@ -8,4 +8,4 @@ With blog posts, I am going to share what I learn from developing projects and t
 
 With Youtube videos, I am going to record the process I build projects. Because I have a full-time job and part-time bachelor degree so I will try to publish content once a month.
 
-Update: I quit my job and will create Youtube videos full-time. Subscribe my channel to get more tutorial about programming
+Update: I quit my job and will create Youtube videos full-time. Check out and subscribe my channel to get more tutorial about programming
