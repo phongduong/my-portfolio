@@ -1,6 +1,8 @@
 ---
 title: js13k competition was over. This is a lesson I learned from it
-date: 09-21-2019
+description: I have learned a lot from js13k competition
+date: 18-08-2019
+tag: learn
 ---
 I heard about js13k last year while I was reading Javascript Weekly newsletter. I thought it was fun to develop a game using Javascript. But at that time, I didn't have any experience about game development so I didn't join it. 
 
