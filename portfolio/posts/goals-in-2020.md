@@ -1,7 +1,7 @@
 ---
 title: Resolutions in 2020
 description: Let's review 2019 and set goals for 2020
-date: January 1, 2020 8:20 PM
+date: 2020-01-01T13:20:00.000Z
 tag: misc
 ---
 In 2019, I did a lot of interesting things:
