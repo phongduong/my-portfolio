@@ -1,3 +1,3 @@
 ---
-title: Pug
+title: pug
 ---
