@@ -1,3 +1,3 @@
 ---
-title: Javacript
+title: Javascript
 ---
