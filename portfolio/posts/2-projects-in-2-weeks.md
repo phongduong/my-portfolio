@@ -1,7 +1,7 @@
 ---
 title: 2 projects in 2 weeks
 description: How I can build 2 projects in 2 weeks?
-date: 04-11-2019
+date: 2019-04-10T17:00:00.000Z
 tag: misc
 ---
 
