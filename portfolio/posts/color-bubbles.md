@@ -1,6 +1,8 @@
 ---
 title: Color Bubbles
-date: 07-25-2019
+description: My new game about green and purple bubbles
+date: 23-07-2019
+tag: gamedev
 ---
 I develop Color Bubbles for UDGJ#2. After polishing and editing, it is available and free to play on Play Store now. It also has a web version on itch.io. 
 
