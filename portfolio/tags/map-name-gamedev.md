@@ -1,4 +1,0 @@
----
-name: Gamedev
-title: Javascript
----
