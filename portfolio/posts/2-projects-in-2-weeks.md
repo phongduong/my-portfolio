@@ -1,6 +1,8 @@
 ---
 title: 2 projects in 2 weeks
+description: How I can build 2 projects in 2 weeks?
 date: 04-11-2019
+tag: misc
 ---
 
 I have an idea about a platform that helps users rent books. I am quite a
