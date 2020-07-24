@@ -1,3 +1,4 @@
 ---
 name: Misc
+title: Svelte
 ---
