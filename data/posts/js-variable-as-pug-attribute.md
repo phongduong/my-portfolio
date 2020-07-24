@@ -13,3 +13,5 @@ a(href=url) Another link
 <a href="https://example.com/">Another link</a>
 */
 ```
+
+I create a video if you prefer learning by watching <https://youtu.be/myv8ktOJuJI>
