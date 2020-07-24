@@ -1,4 +1,0 @@
----
-name: Pug
-title: Gamedev
----
