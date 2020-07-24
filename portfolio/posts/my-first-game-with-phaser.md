@@ -1,7 +1,7 @@
 ---
 title: My first game with Phaser
 description: I begin my game development with a simple game built with Phaser
-date: 2019-06-08T17:00:00.000Z
+date: 2019-05-02T17:00:00.000Z
 tag: gamedev
 ---
 I had an idea about this game when I took courses about Game Development. The courses were provided by Michigan State University. Those course were great. I just enrolled 3 courses but it was amazing. They provided knowledge about game development and business. They were very useful.
