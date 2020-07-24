@@ -1,6 +1,8 @@
 ---
 title: Coiner
-date: 10-22-2019
+description: I ported a js13k entry to a Defold-powered game
+date: 13-08-2019
+tag: gamedev
 ---
 Coiner is now available on Google Play. It was originally developed for js13k competition. I developed a version for mobile using Defold engine. Click the link below to download it on Android
 
