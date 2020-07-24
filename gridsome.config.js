@@ -1,11 +1,15 @@
+// This is where project configuration and plugin options are located.
+// Learn more: https://gridsome.org/docs/config
+
+// Changes here require a server restart.
+// To restart press CTRL + C in terminal and run `gridsome develop`
+
 module.exports = {
-  siteName: "Phong Duong",
-  siteDescription:
-    "Fullstack developer, Youtuber. I experiment new tools and create funny projects, programming tutorials",
+  siteName: "Gridsome",
+  siteDescription: "",
   siteUrl: "",
   templates: {
     BlogPost: "/blog/:title",
-    Tag: "/tag/:title",
   },
   plugins: [
     {
@@ -14,16 +18,6 @@ module.exports = {
         path: "data/posts/**/*.md",
         typeName: "BlogPost",
       },
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "data/tags/**/*.md",
-        typeName: "Tag",
-      },
-    },
-    {
-      use: "gridsome-plugin-tailwindcss",
     },
   ],
 };
