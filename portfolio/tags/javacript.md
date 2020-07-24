@@ -1,3 +1,3 @@
 ---
-title: Javascript
+title: javascript
 ---
