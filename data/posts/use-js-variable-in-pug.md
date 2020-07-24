@@ -24,3 +24,5 @@ Every dash represents a line of JS code. If  you want to use multiple lines of J
     "array"
   ]
 ```
+
+I create a video if you prefer learning by watching: <https://youtu.be/BUMBlt3VdLw>
