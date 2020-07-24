@@ -1,7 +1,7 @@
 ---
 title: Speedy Ball
 description: Speedy Ball is live
-date: 08-08-2019
+date: 2019-08-07T17:00:00.000Z
 tag: gamedev
 ---
 Speedy Ball is a simple game with a ball I name it Speedy Ball and blocks. The Speedy Ball is moving too fast and it is going to collide with blocks. You help it avoid blocks by tapping to slow it down.
