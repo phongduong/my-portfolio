@@ -8,6 +8,6 @@ Hyperapp is a fast and lightweight front-end framework. It can help you build yo
 
 Electronjs is a framework that allows you to build a desktop application using HTML, CSS and JS. It means you can combine Hyperapp with Electronjs
 
-I create a tutorial that will help you learn how to create an application with Hyperapp and bundle it into a desktop application with Electronjs
+I create a video that will help you learn how to create an application with Hyperapp and bundle it into a desktop application with Electronjs
 
 You can watch the video here: <https://youtu.be/k9tRyfSngkA>
