@@ -17,3 +17,5 @@ To define a single line JS object or array, you initialize them as a normal JS l
      type: "string"
   }
 ```
+
+I create a video if you prefer learning by watching <https://youtu.be/seJ2Ro-rsPA>
