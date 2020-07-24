@@ -82,3 +82,13 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+*.log
+.cache
+.DS_Store
+src/.temp
+node_modules
+dist
+.env
+.env.*
+src/.temp

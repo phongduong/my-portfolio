@@ -1,5 +1,0 @@
-<template>
-  <section class="layout">
-    <Content />
-  </section>
-</template>
