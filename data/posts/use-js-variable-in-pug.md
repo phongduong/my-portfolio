@@ -5,7 +5,7 @@ description: How to use JS variable in Pug? This tutorial explain how to
 date: 2020-07-16T14:53:38.634Z
 tag: pug
 ---
-Pug allows you to use JS code inside the template. In this tutorial, I will show you how to unbuffered code. When you start using unbuffered JS code, you need to put a dash (`-`) before the line. After that, you can use your JS code normally. 
+Pug allows you to use JS code inside the template. There are 3 types of code. In this tutorial, I will show you how to unbuffered code. When you start using unbuffered JS code, you need to put a dash (`-`) before the line. After that, you can use your JS code normally. 
 
 ```javascript
 - const a = "text"
