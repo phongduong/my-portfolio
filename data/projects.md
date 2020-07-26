@@ -14,8 +14,8 @@ projects:
     name: Weali
     url: https://weali.netlify.com/
     date: 2019-08-13T17:00:00.000Z
-  - description: KOOGIO is an indie game studio. I create KOOGIO project to learn
-      new tools and advertise it
+  - description: KOOGIO is a collection of projects. I create these projects to
+      learn about mobile and desktop application development
     name: KOOGIO
     url: https://phongduong.github.io/koogio/#/
     date: 2020-04-29T17:00:00.000Z
