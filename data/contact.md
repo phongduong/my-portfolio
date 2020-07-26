@@ -4,8 +4,6 @@ title: Contact
 contact:
   - name: Email
     url: phongduong1710@gmail.com
-  - name: Facebook
-    url: https://www.facebook.com/koogio/
   - name: Github
     url: https://github.com/phongduong
   - name: LinkedIn
