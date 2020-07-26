@@ -10,6 +10,8 @@ contact:
     url: https://github.com/phongduong
   - name: LinkedIn
     url: https://www.linkedin.com/in/phong-duong
+  - name: DEV
+    url: https://dev.to/phongduong
   - url: https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA
     name: Youtube
 ---
