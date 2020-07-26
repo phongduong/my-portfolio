@@ -3,7 +3,7 @@ layout: OtherLayout
 title: Contact
 contact:
   - name: Email
-    url: phongduong1710@gmail.com
+    url: mailto:phongduong1710@gmail.com
   - name: Twitter
     url: https://twitter.com/koo_gio
   - name: Github
