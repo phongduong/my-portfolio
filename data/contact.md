@@ -5,7 +5,7 @@ contact:
   - name: Email
     url: phongduong1710@gmail.com
   - name: Twitter
-    url: https://twitter.com/phong_lh_duong
+    url: https://twitter.com/koo_gio
   - name: Github
     url: https://github.com/phongduong
   - name: LinkedIn
