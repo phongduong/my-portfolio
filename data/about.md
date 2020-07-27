@@ -2,7 +2,7 @@
 
 I am a full-stack developer from Vietnam. I have started my developer
 
-journey from 2016. My main stack is React, Vue and Nodejs currently. I
+journey from 2016. My main stack is Javascript fullstack currently. I
 
 also focus on Progressive Web App and JAMstack technologies.
 
