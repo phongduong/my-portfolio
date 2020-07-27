@@ -24,10 +24,8 @@ mobile development. I also create Youtube channel to share my tutorials to
 
 people who prefer learning by watching videos.
 
-If you like my content and want to receive more, please:
+This website is open source. You are welcome to make contribution if you find any spelling error or fix bugs. 
 
-[Subscribe my newsletter](https://tinyletter.com/phongduong)
+You can make a pull request here
 
-[Subscribe my Youtube channel](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA)
-
-Or [Buy me a coffee](https://www.buymeacoffee.com/phongduong)
+<https://github.com/phongduong/my-portfolio>
