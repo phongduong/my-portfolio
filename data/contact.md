@@ -14,5 +14,9 @@ contact:
     url: https://dev.to/phongduong
   - url: https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA
     name: Youtube
+  - name: Buy me a coffee
+    url: https://www.buymeacoffee.com/phongduong
+  - url: https://tinyletter.com/phongduong
+    name: Newsletter
 ---
 <pages-Contact />
