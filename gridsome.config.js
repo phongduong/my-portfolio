@@ -3,13 +3,8 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const purgecss = require("@fullhuman/postcss-purgecss");
-
-const postcssPlugins = [];
+const postcssPlugins = [require("autoprefixer")];
 const URL = "https://phongduong.netlify.app";
-
-if (process.env.NODE_ENV === "production")
-  postcssPlugins.push(purgecss(require("./purgecss.config.js")));
 
 module.exports = {
   siteName: "Phong Duong",

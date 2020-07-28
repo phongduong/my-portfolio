@@ -16,13 +16,12 @@
   },
   "devDependencies": {
     "@brettanda/gridsome-plugin-scheduled-posts": "^0.0.6",
-    "@fullhuman/postcss-purgecss": "^2.3.0",
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.1",
+    "autoprefixer": "^9.8.5",
     "gridsome-plugin-rss": "^1.2.0",
     "gridsome-plugin-tailwindcss": "^3.0.1",
-    "netlify-cms": "^2.10.54",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.2",
     "tailwindcss": "^1.5.2"
