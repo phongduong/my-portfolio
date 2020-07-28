@@ -6,6 +6,4 @@ As a part of my learning process, I want to share my knowledge to everyone. I cr
 
 This website is open source. You are welcome to make your contribution if you find any spelling error or fix bugs. 
 
-You can make a pull request here
-
-<https://github.com/phongduong/my-portfolio>
+You can make a pull request here: <https://github.com/phongduong/my-portfolio>
