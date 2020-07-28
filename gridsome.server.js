@@ -5,12 +5,19 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
+module.exports = function(api) {
+  api.loadSource(({ addCollection, addMetadata }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  })
+    addMetadata("author", "Phong Duong");
+    addMetadata(
+      "keywords",
+      "developer, Youtuber, Javascript, Nodejs, experiment new tools, programming, tutorials, web development, pwa, progressive web app, fullstack, frontend, backend, funny projects, project ideas"
+    );
+    addMetadata("twitter_card", "summary");
+    addMetadata("twitter_creator", "@koo_gio");
+  });
 
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  })
-}
+  });
+};

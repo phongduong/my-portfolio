@@ -1,7 +1,60 @@
-<template></template>
+<template>
+  <Layout>
+    <SEO
+      :title="$page.tag.title"
+      :description="$page.metadata.siteDescription"
+      :path="$page.tag.path"
+    />
+    <h1 class="tag">#{{ $page.tag.title }}</h1>
+    <BlogItem v-for="(post, index) in posts" :key="index" :post="post" />
+  </Layout>
+</template>
 
 <script>
-export default {};
+import BlogItem from "~/components/blog/BlogItem.vue";
+import SEO from "~/components/layout/SEO.vue";
+
+export default {
+  components: {
+    BlogItem,
+    SEO,
+  },
+  computed: {
+    posts() {
+      return this.$page.tag.belongsTo.posts;
+    },
+  },
+};
 </script>
 
-<style></style>
+<page-query>
+query($id: ID!) {
+  metadata {
+    siteDescription
+    siteUrl
+  }
+
+  tag(id: $id) {
+    title
+    path
+    belongsTo {
+      posts: edges {
+        node {
+          ... on BlogPost {
+            id
+            path
+            title
+            date (format: "DD-MM-YYYY")
+          }
+        }
+      }
+    }
+  }
+}
+</page-query>
+
+<style lang="scss" scoped>
+.tag {
+  @apply my-6;
+}
+</style>

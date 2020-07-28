@@ -1,18 +1,21 @@
 <template>
-  <main>
-    <ul>
-      <Item v-for="post in posts" :post="post" :key="post.id" />
-    </ul>
-  </main>
+  <Layout>
+    <SEO
+      title="Blog"
+      :description="$page.metadata.siteDescription"
+      :path="$page.page.path"
+    />
+    <h1>Blog</h1>
+    <BlogItem v-for="(post, index) in posts" :key="index" :post="post" />
+  </Layout>
 </template>
 
 <script>
-import Item from "~/components/blog/Item.vue";
+import BlogItem from "~/components/blog/BlogItem.vue";
+import SEO from "~/components/layout/SEO.vue";
 
 export default {
-  components: {
-    Item,
-  },
+  components: { BlogItem, SEO },
   computed: {
     posts() {
       return this.$page.posts.edges;
@@ -22,22 +25,36 @@ export default {
 </script>
 
 <page-query>
-  query {
-    posts: allBlogPost {
-      edges {
-        node {
-          id
-          path
-          content
-          excerpt
+query {
+  metadata {
+    siteDescription
+  }
+
+  page(path: "/blog") {
+    path
+  }
+
+  posts: allBlogPost {
+    edges {
+      node {
+        id
+        path
+        content
+        excerpt
+        title
+        description
+        date (format: "DD-MM-YYYY")
+        tag {
           title
-          description
-          date
-          tag
         }
       }
     }
   }
+}
 </page-query>
 
-<style></style>
+<style lang="scss" scoped>
+h1 {
+  @apply my-6;
+}
+</style>

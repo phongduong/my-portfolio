@@ -1,5 +1,5 @@
 module.exports = {
   theme: {
-    extend: { colors: { primary: "#00949c" } }
-  }
+    extend: { colors: { primary: "#00838a" } },
+  },
 };

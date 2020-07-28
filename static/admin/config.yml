@@ -3,7 +3,7 @@ backend:
   repo: phongduong/my-portfolio
 site_url: https://phongduong.netlify.app
 display_url: https://phongduong.netlify.app
-logo_url: https://phongduong.netlify.app/image/logo.png
+logo_url: ../image/logo.png
 media_folder: static/uploads
 public_folder: /uploads
 # publish_mode: editorial_workflow
@@ -15,7 +15,12 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Description, name: description, widget: string }
-      - { label: Date, name: date, widget: datetime }
+      - {
+          label: Date,
+          name: date,
+          widget: datetime,
+          default: "2020-07-27T15:00:00.000Z",
+        }
       - {
           label: Tag,
           name: tag,
@@ -61,3 +66,8 @@ collections:
               - { label: Description, name: description, widget: text }
               - { label: URL, name: url, widget: string }
               - { label: Date, name: date, widget: datetime }
+      - label: About
+        name: about
+        file: data/about.md
+        fields:
+          - { label: Body, name: body, widget: markdown }

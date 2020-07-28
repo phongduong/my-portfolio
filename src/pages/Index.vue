@@ -1,37 +1,82 @@
 <template>
   <Layout>
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-        >Gridsome Docs</a
-      >
-      <a
-        href="https://github.com/gridsome/gridsome"
-        target="_blank"
-        rel="noopener"
-        >GitHub</a
-      >
-    </p>
+    <SEO
+      title="Home"
+      :description="$page.metadata.siteDescription"
+      :path="$page.page.path"
+    />
+    <Section title="Blog" link="/blog">
+      <BlogItem v-for="(post, index) in posts" :key="index" :post="post" />
+    </Section>
+    <Section title="Projects" link="/projects">
+      <ProjectItem
+        v-for="(project, index) in projects"
+        :key="index"
+        :project="project"
+      />
+    </Section>
   </Layout>
 </template>
 
 <script>
+import Section from "~/components/home/Section.vue";
+import BlogItem from "~/components/blog/BlogItem.vue";
+import ProjectItem from "~/components/projects/ProjectItem.vue";
+import SEO from "~/components/layout/SEO.vue";
+
 export default {
-  metaInfo: {
-    title: "Hello, world!",
+  components: {
+    Section,
+    BlogItem,
+    ProjectItem,
+    SEO,
+  },
+  computed: {
+    posts() {
+      return this.$page.posts.edges;
+    },
+    projects() {
+      return this.$page.projects.edges[0].node.projects
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .slice(0, 5);
+    },
   },
 };
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<page-query>
+query {
+  metadata {
+    siteDescription
+  }
+
+  page(path: "/") {
+    path
+  }
+
+  posts: allBlogPost(limit: 5) {
+    edges {
+      node {
+        path
+        title
+        date (format: "DD-MM-YYYY")
+      }
+    }
+  }
+
+  projects: allProject {
+    edges {
+      node {
+        projects {
+          name
+          description
+          date
+          url
+        }
+      }
+    }
+  }
 }
-</style>
+</page-query>
+
+<style></style>
