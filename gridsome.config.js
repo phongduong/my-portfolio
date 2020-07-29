@@ -108,6 +108,7 @@ module.exports = {
         shortName: NAME,
         description: DESCRIPTION,
         categories: ["productivity", "personalization", "education"],
+        maskableIcon: true,
         // Microsoft Windows Meta Tags
         msTileColor: "#00838a",
         // Apple MacOS Meta Tags
