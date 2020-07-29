@@ -92,3 +92,4 @@ dist
 .env
 .env.*
 src/.temp
+static/rss.xml

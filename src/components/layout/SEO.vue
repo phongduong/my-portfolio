@@ -4,33 +4,43 @@
 export default {
   props: ["title", "description", "path"],
   metaInfo() {
+    const { title, description, path } = this;
+    const url = `${this.$static.metadata.siteUrl}${path}`;
+
     return {
-      title: this.title,
+      title,
       meta: [
         {
           key: "twitter:title",
           name: "twitter:title",
-          content: this.title,
+          content: title,
         },
         {
           key: "twitter:description",
           name: "twitter:description",
-          content: this.description,
+          content: description,
         },
         {
           key: "og:title",
           property: "og:title",
-          content: this.title,
+          content: title,
         },
         {
           key: "og:description",
           property: "og:description",
-          content: this.description,
+          content: description,
         },
         {
           key: "og:url",
           property: "og:url",
-          content: `${this.$static.metadata.siteUrl}${this.path}`,
+          content: url,
+        },
+      ],
+      link: [
+        {
+          key: "canonical",
+          rel: "canonical",
+          href: url,
         },
       ],
     };
@@ -42,7 +52,6 @@ export default {
 query {
   metadata {
     siteUrl
-    siteDescription
   }
 }
 

@@ -11,7 +11,7 @@ module.exports = function(api) {
     addMetadata("author", "Phong Duong");
     addMetadata(
       "keywords",
-      "developer, Youtuber, Javascript, Nodejs, experiment new tools, programming, tutorials, web development, pwa, progressive web app, fullstack, frontend, backend, funny projects, project ideas"
+      "developer, Youtuber, Javascript, Nodejs, experiment new things, programming, tutorials, web development, pwa, progressive web app, fullstack, frontend, backend, funny projects, project ideas"
     );
     addMetadata("twitter_card", "summary");
     addMetadata("twitter_creator", "@koo_gio");

@@ -1,5 +1,4 @@
 module.exports = {
-  enabled: process.env.NODE_ENV === "production",
   content: [
     "./src/**/*.vue",
     "./src/**/*.js",
@@ -8,19 +7,15 @@ module.exports = {
     "./src/**/*.pug",
     "./src/**/*.md",
   ],
-  whitelist: [
-    "body",
-    "html",
-    "img",
-    "a",
-    "g-image",
-    "g-image--lazy",
-    "g-image--loaded",
-  ],
-  extractors: [
-    {
-      extractor: (content) => content.match(/[A-z0-9-:\\/]+/g),
-      extensions: ["vue", "js", "jsx", "md", "html", "pug"],
-    },
-  ],
+  options: {
+    whitelist: [
+      "body",
+      "html",
+      "img",
+      "a",
+      "g-image",
+      "g-image--lazy",
+      "g-image--loaded",
+    ],
+  },
 };
