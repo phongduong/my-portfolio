@@ -4,7 +4,7 @@ description: If you create a mixin with some default attributes, you can change 
 date: 2020-07-28T15:00:00.000Z
 tag: pug
 ---
-When you create a mixin in Pug, you usually use a default attribute value for all cases generally. Pug has an ability allowing you to override and change your default attributes. With `&attributes` keyword, you can pass new attributes for specific cases and override default attributes
+When you create a mixin in Pug, you usually use a default attribute value for all cases generally. Pug has an ability allowing you to override and change your default attributes. With `&attributes`, you can pass new attributes for specific cases and override default attributes
 
 ```javascript
 mixin inputField(type, id)
