@@ -6,7 +6,7 @@ display_url: https://phongduong.netlify.app
 logo_url: ../image/logo.png
 media_folder: static/uploads
 public_folder: /uploads
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 collections:
   - label: Post
     name: post
