@@ -28,4 +28,4 @@ foo.bar = 'baz';
 
 This quote from Svelte describes exactly how updating states works
 
-> A simple rule of thumb: the name of the updated variable must appear on the left hand side of the assignment
+> A simple rule of thumb: the name of the updated variable must appear on the left hand side of the assignment - Svelte
