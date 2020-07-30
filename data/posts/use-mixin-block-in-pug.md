@@ -1,10 +1,10 @@
 ---
 title: Use mixin block in Pug
-description: Extend your mixin elements with block keyword
+description: Extend your mixin elements with block
 date: 2020-07-29T15:00:00.000Z
 tag: pug
 ---
-When using mixin, you can define your elements generally for all use cases. In some specific cases, you need to pass more elements. Pug allows you to do that with `block` keyword. You can conditionally render elements by checking the `block` variable. When you append new elements inside your mixin call, the `block` variable is truthy. 
+When using mixin, you can define your elements generally for all use cases. In some specific cases, you need to pass more elements. Pug allows you to do that with `block`. You can conditionally render elements by checking the `block` variable. When you append new elements inside your mixin call, the `block` variable is truthy. 
 
 ```javascript
 mixin article(title)
