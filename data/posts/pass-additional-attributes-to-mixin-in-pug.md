@@ -13,3 +13,5 @@ mixin link(href, name)
 
 +link('/foo', 'foo')(class="btn")
 ```
+
+If you prefer learning by watching video, you can watch this tutorial here <https://youtu.be/o4wXnyHgO28>
