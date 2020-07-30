@@ -105,6 +105,10 @@ ul {
   @apply list-disc list-inside;
 }
 
+code {
+  @apply text-gray-900 bg-gray-300;
+}
+
 .layout {
   @apply bg-gray-900;
 
