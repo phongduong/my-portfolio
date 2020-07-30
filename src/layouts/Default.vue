@@ -27,7 +27,7 @@ export default {
         },
         {
           name: "twitter:image",
-          content: "/image/logo.png",
+          content: `${this.$static.metadata.siteUrl}/image/logo.png`,
         },
         { property: "og:site_name", content: this.$static.metadata.siteName },
         {
@@ -36,7 +36,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "/image/logo.png",
+          content: `${this.$static.metadata.siteUrl}/image/logo.png`,
         },
         {
           property: "og:image:width",
@@ -55,6 +55,7 @@ export default {
 <static-query>
 query {
   metadata {
+    siteUrl
     siteName
     siteDescription
     author
