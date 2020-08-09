@@ -16,7 +16,7 @@ contact:
     name: Youtube
   - name: Buy me a coffee
     url: https://www.buymeacoffee.com/phongduong
-  - url: https://tinyletter.com/phongduong
+  - url: https://koogio.substack.com/
     name: Newsletter
 ---
 <pages-Contact />
