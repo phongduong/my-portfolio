@@ -1,0 +1,45 @@
+---
+title: "How to create pattern with CSS #3"
+description: Learn how to use CSS to create a simple and beautifull pattern
+date: 2020-08-21T12:48:35.820Z
+tag: css
+---
+```html
+<div></div>
+```
+
+```css
+div {
+  background: radial-gradient(
+      var(--transparent) 0 3.5rem,
+      var(--yellow) 3.5rem 4rem,
+      var(--transparent) 4rem
+    ),
+    radial-gradient(
+      at 0 0,
+      var(--transparent) 0 3.5rem,
+      var(--yellow) 3.5rem 4rem,
+      var(--transparent) 4rem
+    ),
+    radial-gradient(
+      at 0 100%,
+      var(--transparent) 0 3.5rem,
+      var(--yellow) 3.5rem 4rem,
+      var(--transparent) 4rem
+    ),
+    radial-gradient(
+      at 100% 0,
+      var(--transparent) 0 3.5rem,
+      var(--yellow) 3.5rem 4rem,
+      var(--transparent) 4rem
+    ),
+    radial-gradient(
+      at 100% 100%,
+      var(--transparent) 0 3.5rem,
+      var(--yellow) 3.5rem 4rem,
+      var(--transparent) 4rem
+    ),
+    var(--red);
+  background-size: 8rem 8rem;
+}
+```
