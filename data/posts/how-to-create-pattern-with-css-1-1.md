@@ -1,5 +1,5 @@
 ---
-title: "How to create pattern with CSS #1  "
+title: "How to create pattern with CSS #19"
 description: Learn how to use CSS to create a simple and beautifull pattern
 date: 2020-09-15T14:25:27.661Z
 tag: css
@@ -9,6 +9,11 @@ tag: css
 ```
 
 ```css
+:root {
+  --red: red;
+  --yellow: yellow;
+  --transparent: #0000;
+}
 div {
   min-height: 100vh;
   background: conic-gradient(
