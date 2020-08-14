@@ -43,3 +43,7 @@ div {
   background-size: 8rem 8rem;
 }
 ```
+
+Result
+
+![Pattern 3](/uploads/ptrn-3-sound.mp4_snapshot_00.27_-2020.08.12_20.33.19-.jpg)
