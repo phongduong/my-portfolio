@@ -1,6 +1,6 @@
 ---
 title: "How to create pattern with CSS #16"
-description: Learn how to use CSS to create a simple and beautifull pattern
+description: Learn how to use CSS to create a simple and beautiful pattern
 date: 2020-09-10T13:42:38.911Z
 tag: css
 ---
