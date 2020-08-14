@@ -2,7 +2,7 @@
 title: How to create a simple application with Svelte
 description: Learn main concepts of Svelte by building a simple application to
   fetch dog's images
-date: 2020-07-27T15:00:00.000Z
+date: 2020-08-18T07:06:32.488Z
 tag: svelte
 ---
 I have started learning Svelte recently. I think creating something is a best way to learn anything. So I created a simple application that fetches dog's images from <http://dog.ceo/> with Svelte. In this tutorial, I will show you how I created it.
@@ -178,7 +178,6 @@ export const formatList = (list) => {
       ];
     }, []);
 };
-
 ```
 
 In `Input` component, we will format the `breedList` as soon as it is updated
@@ -259,10 +258,9 @@ export const getImageByBreed = async (breedPath) => {
 	<Input {breedList} on:submit={getImage} />
 	<Image {image} />
 </main>
-
 ```
 
-In the code above, it will fetch the image based on the breed users selected and update the `src` property of `image` state. When the application mounted, we will get a random image. `on:submit` directive is the event listener for submit event. In the `getImage` event handler, you can see I retrieve `value` from `detail` property of event parameter instead of target as usual. This is because I forward submit event from `Input `component to `App` component. We will see how it works
+In the code above, it will fetch the image based on the breed users selected and update the `src` property of `image` state. When the application mounted, we will get a random image. `on:submit` directive is the event listener for submit event. In the `getImage` event handler, you can see I retrieve `value` from `detail` property of event parameter instead of target as usual. This is because I forward submit event from `Input`component to `App` component. We will see how it works
 
 ```html
 // Input.svelte
@@ -294,6 +292,8 @@ We import `createEventDispatcher` from Svelte and create `dispatch` function. We
 ## Summary
 
 In this post, I introduced to you some concepts of Svelte and how to use them to create a simple application. My post doesn't cover concepts like Stores, Transition and Slot. These concepts are useful when your application scales.
+
+If you prefer learning by watching video, you can watch it here <https://youtu.be/8IyR6eTuikM>
 
 ## Sources
 
