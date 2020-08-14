@@ -1,6 +1,6 @@
 ---
 title: "How to create pattern with CSS #17"
-description: Learn how to use CSS to create a simple and beautifull pattern
+description: Learn how to use CSS to create a simple and beautiful pattern
 date: 2020-09-11T14:20:40.123Z
 tag: css
 ---
@@ -42,5 +42,7 @@ div {
   background-size: 6rem 8rem;
 }
 ```
+
+Result
 
 ![Pattern 17](/uploads/ptrn-17-sound.mp4_snapshot_00.20_-2020.08.12_20.35.27-.jpg)
