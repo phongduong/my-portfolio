@@ -9,6 +9,11 @@ tag: css
 ```
 
 ```css
+:root {
+  --red: red;
+  --yellow: yellow;
+  --transparent: #0000;
+}
 div {
   min-height: 100vh;
   background: conic-gradient(
