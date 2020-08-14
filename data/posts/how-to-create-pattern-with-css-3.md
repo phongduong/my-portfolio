@@ -10,6 +10,7 @@ tag: css
 
 ```css
 div {
+  min-height: 100vh;
   background: radial-gradient(
       var(--transparent) 0 3.5rem,
       var(--yellow) 3.5rem 4rem,
