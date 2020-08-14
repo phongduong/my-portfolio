@@ -7,7 +7,7 @@ tag: svelte
 ---
 I have started learning Svelte recently. I think creating something is a best way to learn anything. So I created a simple application that fetches dog's images from <http://dog.ceo/> with Svelte. In this tutorial, I will show you how I created it.
 
-This is [project's source code](https://github.com/phongduong/dog-image-app)
+[Source code](https://github.com/phongduong/dog-image-app)
 
 ## Set up
 
@@ -268,7 +268,7 @@ export const getImageByBreed = async (breedPath) => {
 </main>
 ```
 
-In the code above, it will fetch the image based on the breed users selected and update the `src` property of `image` state. When the application mounted, we will get a random image. `on:submit` directive is the event listener for submit event. In the `getImage` event handler, I retrieve `value` property from `detail` property of event parameter instead of target as usual. This is because I forward submit event from `Input `component to `App` component. We will see how it works
+In the code above, it will fetch the image based on the breed users selected and update the `src` property of `image` state. When the application mounted, we will get a random image. `on:submit` directive is the event listener for submit event. In the `getImage` event handler, I retrieve `value` property from `detail` property of event parameter instead of target as usual. This is because I forward submit event from `Input`component to `App` component. We will see how it works
 
 ```html
 // Input.svelte
