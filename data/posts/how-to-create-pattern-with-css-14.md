@@ -71,4 +71,6 @@ div {
 }
 ```
 
+Result
+
 ![Pattern 14](/uploads/ptrn-14.mp4_snapshot_00.32_-2020.08.12_20.35.06-.jpg)
