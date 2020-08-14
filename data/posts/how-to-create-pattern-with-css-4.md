@@ -1,7 +1,7 @@
 ---
 title: "How to create pattern with CSS #4"
 description: Learn how to use CSS to create a simple and beautifull pattern
-date: 2020-08-14T12:50:24.039Z
+date: 2020-08-24T12:50:24.039Z
 tag: css
 ---
 ```html
