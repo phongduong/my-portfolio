@@ -12,6 +12,7 @@ tag: css
 
 ```css
 div {
+  min-height: 100vh;
   background: linear-gradient(
       135deg,
       var(--transparent) 0 3.8rem,
