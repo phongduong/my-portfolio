@@ -11,6 +11,7 @@ tag: css
 
 ```css
 div {
+  min-height: 100vh;
   background: conic-gradient(
       at 0 2rem,
       var(--red) 45deg,
