@@ -5,12 +5,15 @@ date: 2020-08-19T15:00:00.000Z
 tag: css
 ---
 ```html
-<!-- index.html -->
-<div>
-</div>
+<div></div>
 ```
 
 ```css
+:root {
+  --red: red;
+  --yellow: yellow;
+  --transparent: #0000;
+}
 div {
   min-height: 100vh;
   background: linear-gradient(
