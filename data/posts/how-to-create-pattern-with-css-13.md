@@ -2,7 +2,7 @@
 title: "How to create pattern with CSS #13"
 description: Learn how to use CSS to create a simple and beautifull pattern
 date: 2020-09-07T13:36:13.249Z
-tag: electronjs
+tag: css
 ---
 ```html
 <div></div>
