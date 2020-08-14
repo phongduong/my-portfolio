@@ -4,13 +4,16 @@ description: Learn how to use CSS to create a simple and beautifull pattern
 date: 2020-08-27T13:02:09.115Z
 tag: css
 ---
-
-
 ```html
 <div></div>
 ```
 
 ```css
+:root {
+  --red: red;
+  --yellow: yellow;
+  --transparent: #0000;
+}
 div {
  min-height: 100vh;
   background: conic-gradient(
