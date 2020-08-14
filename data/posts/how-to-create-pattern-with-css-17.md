@@ -43,4 +43,6 @@ div {
 }
 ```
 
+Result
+
 ![Pattern 17](/uploads/ptrn-17-sound.mp4_snapshot_00.20_-2020.08.12_20.35.27-.jpg)
