@@ -27,7 +27,7 @@ export default {
         },
         {
           name: "twitter:image",
-          content: `${this.$static.metadata.siteUrl}/image/logo.png`,
+          content: `${this.$static.metadata.siteUrl}/image/logo_social.png`,
         },
         { property: "og:site_name", content: this.$static.metadata.siteName },
         {
@@ -36,15 +36,15 @@ export default {
         },
         {
           property: "og:image",
-          content: `${this.$static.metadata.siteUrl}/image/logo.png`,
+          content: `${this.$static.metadata.siteUrl}/image/logo_social.png`,
         },
         {
           property: "og:image:width",
-          content: "279",
+          content: "256",
         },
         {
           property: "og:image:height",
-          content: "279",
+          content: "256",
         },
       ],
     };
