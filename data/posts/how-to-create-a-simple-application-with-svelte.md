@@ -30,7 +30,7 @@ In `App.svelte` file, you keep the style and change the title of the page in `h1
 
 You define a state named `image` in the `script` tag. You can remove `name` property or change its name to `image` and assign a object
 
-```html
+```javascript
 // App.svelte
 <script>
   let image = {
@@ -53,13 +53,13 @@ We need a component the that receives `image` state as property and display the 
 
 You may wonder how I name variables with a same name. I will explain this later. For HTML of `Image` component, you create a image element and spread the `image` property as its attribute
 
-```html
+```javascript
 <img {...image} />
 ```
 
 In `App` component, you import the `Image` component, put it under the title and pass the `image` state to the `Image` component
 
-```html
+```javascript
 // App.svelte
 <script>
   import Image from "./Image.svelte"
@@ -73,13 +73,13 @@ In `App` component, you import the `Image` component, put it under the title and
 
 You can see that we repeat image twice. Svelte allows us to use shorthand attributes if the name and value are same. 
 
-```html
+```javascript
 <Image {image}/>
 ```
 
 Our application needs to allow users to select the dog breed they want or we can fetch random images. You create an `Input` component, define a state with default value and export a `breedList` property.
 
-```html
+```javascript
 // Input.svelte
 <script>
   let value = "random"
@@ -93,7 +93,11 @@ Our application needs to allow users to select the dog breed they want or we can
 </form>
 ```
 
-As you can see, we can bind state to the element's value attribute using `bind:value` directive. You don't need to create event handler for onInput event and update the state. The `bind:value` can use shorthand form if the variable's name is `value`. We will fetch the breed list using axios
+As you can see, we can bind state to the element's value attribute using `bind:value` directive. You don't need to create event handler for onInput event and update the state. The `bind:value` can use shorthand form if the variable's name is `value`. We will fetch the breed list using axios. We need to install axios and config utilities to do that
+
+```
+yarn add axios
+```
 
 ```javascript
 // config.js
@@ -112,7 +116,7 @@ const instance = axios.create({ baseURL: config.BASE_URL });
 export default instance;
 ```
 
-We create an axios instance with dog.ceo api as base url. Next we will call the api and get the breed list. 
+We create an axios instance with [dog.ceo](http://dog.ceo/) api as base url. Next we will call the api and get the breed list. 
 
 ```javascript
 // utils.js
@@ -125,9 +129,9 @@ export const getBreedList = async () => {
 };
 ```
 
-We want to call this api when the application mounted and display to user. In the App component, you import `onMount` lifecycle event and Input component. We will call `getBreedList` function after the component mounted and update the `breedList` state
+We want to call this api when the application mounted and display to user. In the App component, you import `onMount` lifecycle event and `Input` component. We will call `getBreedList` function after the component mounted and update the `breedList` state
 
-```html
+```javascript
 // App.svelte
 <script>
   ...
@@ -270,7 +274,7 @@ export const getImageByBreed = async (breedPath) => {
 
 In the code above, it will fetch the image based on the breed users selected and update the `src` property of `image` state. When the application mounted, we will get a random image. `on:submit` directive is the event listener for submit event. In the `getImage` event handler, I retrieve `value` property from `detail` property of event parameter instead of target as usual. This is because I forward submit event from `Input`component to `App` component. We will see how it works
 
-```html
+```javascript
 // Input.svelte
 <script>
   ...
@@ -299,9 +303,9 @@ We import `createEventDispatcher` from Svelte and create `dispatch` function. We
 
 ## Summary
 
-In this post, I introduced to you some concepts of Svelte and how to use them to create a simple application. My post doesn't cover concepts like Stores, Transition and Slot. These concepts are useful when your application scales.
+In this post, I introduce to you some concepts of Svelte and how to use them to create a simple application. My post doesn't cover concepts like stores, transition and slot. These concepts are useful when your application scales.
 
-If you prefer learning by watching video, you can watch this tutorial  here <https://youtu.be/8IyR6eTuikM>
+If you prefer learning by watching video, you can watch this tutorial here <https://youtu.be/8IyR6eTuikM>
 
 ## Sources
 
