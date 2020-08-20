@@ -34,6 +34,10 @@ export default {
           title: "😀About me",
           url: "/about",
         },
+        {
+          title: "📞Contact",
+          url: "/contact",
+        },
       ],
     };
   },
@@ -70,10 +74,10 @@ nav {
   nav {
     ul {
       & {
-        @apply grid grid-cols-3;
+        @apply grid grid-cols-4;
 
         li {
-          @apply text-center my-0;
+          @apply my-0;
         }
       }
     }

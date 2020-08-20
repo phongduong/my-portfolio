@@ -7,10 +7,13 @@
     />
     <div v-html="$page.about.edges[0].node.content"></div>
     <p>You can find me on</p>
+    <a :href="email.url">
+      {{ email.name }}
+    </a>
     <Link
       class="contact-link"
-      v-for="(contact, index) in contacts"
-      :key="index"
+      v-for="(contact, i) in contactList"
+      :key="i"
       :to="contact.url"
     >
       {{ contact.name }}
@@ -21,15 +24,22 @@
 <script>
 import Link from "~/components/layout/Link.vue";
 import SEO from "~/components/layout/SEO.vue";
+import { Contacts } from "~/utils";
 
 export default {
   components: { SEO, Link },
   computed: {
     contacts() {
-      const contactList = ["Email", "Twitter", "Github", "LinkedIn", "DEV"];
+      return new Contacts(this.$page.contact);
+    },
+    email() {
+      return this.contacts.getContactDetail("Email");
+    },
+    contactList() {
+      const contactList = ["Twitter", "Facebook", "Github", "Twitch", "DEV"];
 
-      return this.$page.contact.edges[0].node.contact.filter(({ name }) =>
-        contactList.includes(name)
+      return contactList.map((contact) =>
+        this.contacts.getContactDetail(contact)
       );
     },
   },
@@ -69,6 +79,6 @@ query {
 
 <style lang="scss" scoped>
 .contact-link {
-  @apply ml-4;
+  @apply ml-2;
 }
 </style>

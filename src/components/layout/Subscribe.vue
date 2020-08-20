@@ -1,8 +1,8 @@
 <template>
   <section class="subscribe">
     <h3>If you like my content and want to get more, you can</h3>
-    <p><Link :to="youtube.url">📺 Subscribe my Youtube channel</Link></p>
-    <p><Link :to="newsletter.url">💌 Subscribe my weekly newsletter</Link></p>
+    <p><Link :to="youtube.url">📺 Subscribe to my Youtube channel</Link></p>
+    <p><Link :to="newsletter.url">💌 Subscribe to my newsletter</Link></p>
     <h3>Or</h3>
     <p><Link :to="buyMeACoffee.url">💰 Buy me a coffee</Link></p>
   </section>
@@ -10,23 +10,24 @@
 
 <script>
 import Link from "./Link.vue";
+import { Contacts } from "~/utils";
 
 export default {
   components: {
     Link,
   },
   computed: {
-    contact() {
-      return this.$static.contact.edges[0].node.contact;
+    contacts() {
+      return new Contacts(this.$static.contact);
     },
     buyMeACoffee() {
-      return this.contact.find((item) => item.name === "Buy me a coffee");
+      return this.contacts.getContactDetail("Buy me a coffee");
     },
     youtube() {
-      return this.contact.find((item) => item.name === "Youtube");
+      return this.contacts.getContactDetail("Youtube");
     },
     newsletter() {
-      return this.contact.find((item) => item.name === "Newsletter");
+      return this.contacts.getContactDetail("Newsletter");
     },
   },
 };
