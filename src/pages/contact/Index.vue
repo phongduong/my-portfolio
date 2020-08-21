@@ -23,7 +23,7 @@
     </p>
     <p>
       I also write on <Link :to="dev.url">{{ dev.name }}</Link> and stream on
-      <Link :to="twitch.url">{{ twitch.name }}</Link>
+      <Link :to="youtube.url">{{ youtube.name }}</Link>
     </p>
     <p>
       You can find my code on <Link :to="github.url">{{ github.name }}</Link>
@@ -50,11 +50,11 @@ export default {
         this.contacts.getContactDetail(social)
       );
     },
-    twitch() {
-      return this.contacts.getContactDetail("Twitch");
-    },
     dev() {
       return this.contacts.getContactDetail("DEV");
+    },
+    youtube() {
+      return this.contacts.getContactDetail("Youtube");
     },
     github() {
       return this.contacts.getContactDetail("Github");

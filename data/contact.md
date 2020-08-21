@@ -14,8 +14,6 @@ contact:
     url: https://github.com/phongduong
   - name: DEV
     url: https://dev.to/phongduong
-  - name: Twitch
-    url: https://www.twitch.tv/koogio
   - name: Buy me a coffee
     url: https://www.buymeacoffee.com/phongduong
   - url: https://koogio.substack.com/
