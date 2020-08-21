@@ -6,7 +6,7 @@
 const postcssPlugins = [require("tailwindcss"), require("autoprefixer")];
 const NAME = "Phong Duong";
 const DESCRIPTION =
-  "Developer, Youtuber. I experiment new things, create funny projects and programming tutorials";
+  "Developer. I experiment new things, create funny projects and programming tutorials";
 const URL = "https://phongduong.dev";
 
 module.exports = {
