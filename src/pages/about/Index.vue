@@ -7,9 +7,9 @@
     />
     <div v-html="$page.about.edges[0].node.content"></div>
     <p>You can find me on</p>
-    <a :href="email.url">
+    <Link :to="email.url">
       {{ email.name }}
-    </a>
+    </Link>
     <Link
       class="contact-link"
       v-for="(contact, i) in contactList"

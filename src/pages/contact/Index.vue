@@ -7,9 +7,9 @@
     />
     <p>
       If you want to contact me, you can email me at
-      <a :href="email.url">
+      <Link :to="email.url">
         {{ email.url.split("mailto:")[1] }}
-      </a>
+      </Link>
     </p>
     <p>
       Follow me on
