@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import BlogItem from "~/components/blog/BlogItem.vue";
-import SEO from "~/components/layout/SEO.vue";
+import { BlogItem } from "~/components/blog";
+import { SEO } from "~/components/layout";
 
 export default {
   components: {

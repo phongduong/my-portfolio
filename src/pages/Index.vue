@@ -20,9 +20,9 @@
 
 <script>
 import Section from "~/components/home/Section.vue";
-import BlogItem from "~/components/blog/BlogItem.vue";
+import { BlogItem } from "~/components/blog";
 import ProjectItem from "~/components/projects/ProjectItem.vue";
-import SEO from "~/components/layout/SEO.vue";
+import { SEO } from "~/components/layout";
 
 export default {
   components: {

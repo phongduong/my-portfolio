@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Link from "~/components/layout/Link.vue";
+import { Link } from "~/components/layout";
 
 export default {
   components: {
@@ -47,7 +47,7 @@ footer {
     @apply list-none grid grid-cols-2;
 
     li {
-      @apply py-1;
+      @apply py-1 font-semibold;
     }
   }
 

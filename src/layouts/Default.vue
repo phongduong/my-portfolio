@@ -73,7 +73,7 @@ h3,
 p,
 a,
 li {
-  @apply text-gray-100 text-lg;
+  @apply text-black text-lg;
 }
 
 h1 {
@@ -97,7 +97,7 @@ a {
 
   &:hover,
   & > *:hover {
-    @apply text-gray-500;
+    @apply text-gray-800;
   }
 }
 
@@ -106,12 +106,10 @@ ul {
 }
 
 code {
-  @apply text-gray-900 bg-gray-300;
+  @apply text-gray-900 bg-gray-300 px-1;
 }
 
 .layout {
-  @apply bg-gray-900;
-
   .container {
     @apply max-w-3xl mx-auto p-4;
 

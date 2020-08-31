@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Link from "~/components/layout/Link.vue";
+import { Link } from "~/components/layout";
 
 export default {
   props: ["project"],

@@ -16,7 +16,7 @@
 
 <script>
 import ProjectItem from "~/components/projects/ProjectItem.vue";
-import SEO from "~/components/layout/SEO.vue";
+import { SEO } from "~/components/layout";
 
 export default {
   components: {

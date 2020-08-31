@@ -24,12 +24,12 @@ export default {
   @apply mb-6;
 
   p {
-    @apply my-2 text-gray-400;
+    @apply my-2 text-gray-800;
   }
 
   @screen sm {
     @apply grid grid-cols-4;
-    
+
     &__title {
       @apply col-span-3;
     }

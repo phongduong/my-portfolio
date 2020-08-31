@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import SEO from "~/components/layout/SEO.vue";
+import { SEO } from "~/components/layout";
 
 export default {
   components: {
@@ -57,11 +57,11 @@ export default {
   }
 
   &__info {
-    @apply text-gray-400 my-4;
+    @apply text-gray-800 my-4;
   }
 
   &__description {
-    @apply text-gray-300;
+    @apply text-gray-900;
   }
 
   &__content {

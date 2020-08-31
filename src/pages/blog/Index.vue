@@ -7,15 +7,16 @@
     />
     <h1>Blog</h1>
     <BlogItem v-for="(post, index) in posts" :key="index" :post="post" />
+    <Pager :info="$page.posts.pageInfo" />
   </Layout>
 </template>
 
 <script>
-import BlogItem from "~/components/blog/BlogItem.vue";
-import SEO from "~/components/layout/SEO.vue";
+import { BlogItem } from "~/components/blog";
+import { SEO, Pager } from "~/components/layout";
 
 export default {
-  components: { BlogItem, SEO },
+  components: { BlogItem, SEO, Pager },
   computed: {
     posts() {
       return this.$page.posts.edges;
@@ -25,7 +26,7 @@ export default {
 </script>
 
 <page-query>
-query {
+query($page: Int) {
   metadata {
     siteDescription
   }
@@ -34,19 +35,17 @@ query {
     path
   }
 
-  posts: allBlogPost {
+  posts: allBlogPost(perPage: 20, page: $page) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
+
     edges {
       node {
-        id
         path
-        content
-        excerpt
         title
-        description
-        date (format: "DD-MM-YYYY")
-        tag {
-          title
-        }
+        date(format: "DD-MM-YYYY")
       }
     }
   }

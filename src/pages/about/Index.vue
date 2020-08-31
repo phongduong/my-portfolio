@@ -22,8 +22,7 @@
 </template>
 
 <script>
-import Link from "~/components/layout/Link.vue";
-import SEO from "~/components/layout/SEO.vue";
+import { SEO, Link } from "~/components/layout";
 import { Contacts } from "~/utils";
 
 export default {

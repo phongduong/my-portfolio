@@ -77,7 +77,7 @@ nav {
         @apply grid grid-cols-4;
 
         li {
-          @apply my-0;
+          @apply my-0 font-semibold;
         }
       }
     }
