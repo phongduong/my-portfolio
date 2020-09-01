@@ -72,7 +72,8 @@ h2,
 h3,
 p,
 a,
-li {
+li,
+button {
   @apply text-black text-lg;
 }
 
@@ -93,7 +94,7 @@ p {
 }
 
 a {
-  @apply underline;
+  @apply underline font-semibold;
 
   &:hover,
   & > *:hover {
@@ -107,6 +108,10 @@ ul {
 
 code {
   @apply text-gray-900 bg-gray-300 px-1;
+}
+
+blockquote {
+  @apply border-l-4 border-gray-800 px-4 italic;
 }
 
 .layout {

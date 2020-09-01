@@ -6,11 +6,13 @@
           {{ $static.metadata.siteName }}
         </h1>
       </g-link>
-      <p>{{ $static.metadata.siteDescription }}</p>
+      <g-link :to="searchLink.url">
+        {{ searchLink.title }}
+      </g-link>
     </section>
-    <nav class="nav">
+    <nav class="navigation">
       <ul>
-        <li v-for="(link, i) in links" :key="i">
+        <li v-for="(link, i) in navigationLink" :key="i">
           <g-link :to="link.url">
             {{ link.title }}
           </g-link>
@@ -38,8 +40,17 @@ export default {
           title: "📞Contact",
           url: "/contact",
         },
+        { title: "🔎Search", url: "/search" },
       ],
     };
+  },
+  computed: {
+    navigationLink() {
+      return this.links.filter((link) => link.url !== "/search");
+    },
+    searchLink() {
+      return this.links.find((link) => link.url === "/search");
+    },
   },
 };
 </script>
@@ -54,30 +65,32 @@ query {
 </static-query>
 
 <style lang="scss" scoped>
-p {
-  @apply my-2;
-}
+.header {
+  &__brand {
+    @apply flex flex-row items-center justify-between;
+  }
 
-nav {
-  @apply my-4;
+  .navigation {
+    @apply my-4;
 
-  ul {
-    @apply list-none;
+    ul {
+      @apply list-none;
 
-    li {
-      @apply my-2;
+      li {
+        @apply my-2;
+      }
     }
   }
-}
 
-@screen sm {
-  nav {
-    ul {
-      & {
-        @apply grid grid-cols-4;
+  @screen sm {
+    .navigation {
+      ul {
+        & {
+          @apply flex justify-between;
 
-        li {
-          @apply my-0 font-semibold;
+          li {
+            @apply my-0;
+          }
         }
       }
     }

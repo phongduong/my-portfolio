@@ -5,6 +5,7 @@
       :description="$page.metadata.siteDescription"
       :path="$page.page.path"
     />
+    <h1>Keep in touch with me</h1>
     <p>
       If you want to contact me, you can email me at
       <Link :to="email.url">

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import ProjectItem from "~/components/projects/ProjectItem.vue";
+import { ProjectItem } from "~/components/projects";
 import { SEO } from "~/components/layout";
 
 export default {
