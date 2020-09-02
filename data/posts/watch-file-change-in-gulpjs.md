@@ -28,7 +28,6 @@ const watchJS = () => {
 };
 
 exports.default = watchJS;
-
 ```
 
 It will copy all JS files to the `dist/js` directory when any JS file in `src/js` directory changes
@@ -39,4 +38,4 @@ Run `gulp` command
 gulp
 ```
 
-When the command runs, it will not exit and re-run every your watching files change
+When the command runs, it will not exit and re-run every time your watching files change
