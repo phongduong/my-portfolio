@@ -12,7 +12,7 @@ You install the plugin as a devDependencies
 npm install --save-dev gulp-rename
 ```
 
-After completing installation, you import the plugin and create task to rename files
+After completing installation, you import the plugin and create task to a rename files
 
 ```javascript
 const { src, dest } = require("gulp");
@@ -25,7 +25,6 @@ const renameFile = () => {
 };
 
 exports.default = renameFile;
-
 ```
 
 Run `gulp` command
@@ -33,3 +32,5 @@ Run `gulp` command
 ```
 gulp
 ```
+
+After running the command, you will see `test.min.js` in the `dist/js` directory. You can use gulp-rename to change dirname, add prefix or suffix to the fie name
