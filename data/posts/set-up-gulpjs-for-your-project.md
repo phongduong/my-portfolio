@@ -72,4 +72,4 @@ You will see the output about the information of your task
 
 ## Summary
 
-You have just installed Gulpjs and set up a task for your workflow. You can do many things with Gulpjs. I will introduce them later.
+You have just installed Gulpjs and set up a workflow for your project. You can do many things with Gulpjs. I will introduce them later.
