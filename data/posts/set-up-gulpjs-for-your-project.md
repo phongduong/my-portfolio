@@ -46,7 +46,7 @@ CLI version: 2.3.0
 Local version: 4.0.2
 ```
 
-Create a `gulpfile.js` in the root of your project with a function and export that function as default like below. Your function receive a callback function as a parameter. You need to call the function if it doesn't return anything
+Create a `gulpfile.js` in the root of your project with a function and export that function as default like below. Your function receive a callback function as a argument. You need to call the function if it doesn't return anything
 
 ```javascript
 function task(cb) {
