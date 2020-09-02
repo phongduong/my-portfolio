@@ -1,5 +1,5 @@
 ---
-title: Rename a file with gulp-rename
+title: Rename a file with gulp-rename plugin
 description: Sometime you need to rename your file for development and production
 date: 2020-09-22T12:53:40.129Z
 tag: gulpjs
