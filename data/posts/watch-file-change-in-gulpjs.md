@@ -4,7 +4,7 @@ description: Gulpjs provides watch function to help you do something when your f
 date: 2020-09-23T14:14:30.743Z
 tag: gulpjs
 ---
-You import `src`, `dest` function from `gulp` module and create a task that you want to execute when your files change. In this task, I want to copy all JS files in `src/js` directory to `dist/js` directory
+You import `src`, `dest` function from `gulp` module and create a task that you want to execute when your files change. In my task, I want to copy all JS files in `src/js` directory to `dist/js` directory
 
 ```javascript
 const { src, dest } = require("gulp");
