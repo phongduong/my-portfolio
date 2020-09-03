@@ -62,4 +62,4 @@ Run `gulp` command
 gulp
 ```
 
-You now see your CSS file was minified and rename to `min.css` in the output directory
+You now see your CSS file was minified and rename to `.min.css` in the output directory
