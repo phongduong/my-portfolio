@@ -6,7 +6,7 @@ tag: gulpjs
 ---
 Gulpjs has a lot of plugins that allow you to rename files. I will use gulp-rename plugin to do that. 
 
-You install the plugin as a devDependencies
+You install the plugin as a `devDependencies`
 
 ```
 npm install --save-dev gulp-rename
@@ -25,7 +25,6 @@ const renameFile = () => {
 };
 
 exports.default = renameFile;
-
 ```
 
 In my task, I rename `index.js` file to `test.min.js` file. You need to use `pipe` method to write your newly renamed file to the destination else it won't work 
