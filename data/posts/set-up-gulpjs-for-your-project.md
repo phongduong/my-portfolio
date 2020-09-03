@@ -37,14 +37,14 @@ Run the following command to check if your installation succeeds
 gulp --version
 ```
 
-It will print CLI version and your local Gulp version. Below is my Gulpjs version at the moment I am writing this post 
+It will print CLI version and your local Gulp version.
 
 ```
 CLI version: 2.3.0  
 Local version: 4.0.2
 ```
 
-Create a `gulpfile.js` in the root of your project with a `task` function and export it as default like below. Your function receives a callback function as the argument. You need to call this callback function if your `task` doesn't return anything
+Create a `gulpfile.js` in the root of your project with a `task` function and export it as default. Your function receives a callback function as the argument. You need to call this callback function if your `task` doesn't return anything
 
 ```javascript
 function task(cb) {
