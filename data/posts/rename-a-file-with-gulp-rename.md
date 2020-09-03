@@ -6,7 +6,7 @@ tag: gulpjs
 ---
 Gulpjs has a lot of plugins that allow you to rename files. I will use gulp-rename plugin to do that. 
 
-You install the plugin as a devDependencies
+You install the plugin as a `devDependencies`
 
 ```
 npm install --save-dev gulp-rename
@@ -25,7 +25,6 @@ const renameFile = () => {
 };
 
 exports.default = renameFile;
-
 ```
 
 In my task, I rename `index.js` file to `test.min.js` file. You need to use `pipe` method to write your newly renamed file to the destination else it won't work 
@@ -36,4 +35,4 @@ Run `gulp` command
 gulp
 ```
 
-After running the command, you will see `test.min.js` in the `src/js` directory. You can use gulp-rename to change dirname, add prefix or suffix to your file's name
+After running the command, you will see `test.min.js` in the `src/js` directory. You can use gulp-rename to change `dirname`, add `prefix` or `suffix` to your file's name
