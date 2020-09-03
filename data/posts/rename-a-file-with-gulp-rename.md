@@ -35,4 +35,4 @@ Run `gulp` command
 gulp
 ```
 
-After running the command, you will see `test.min.js` in the `src/js` directory. You can use gulp-rename to change dirname, add prefix or suffix to your file's name
+After running the command, you will see `test.min.js` in the `src/js` directory. You can use gulp-rename to change `dirname`, add `prefix` or `suffix` to your file's name
