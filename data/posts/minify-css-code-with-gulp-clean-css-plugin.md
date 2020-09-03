@@ -7,7 +7,7 @@ tag: gulpjs
 ---
 When you build your code for production, you need to minify CSS to reduce your application's size. Gulpjs has various plugins to do that. I will show you how to use gulp-clean-css plugin to minify CSS code
 
-You install gulp-clean-css plugin as devDependencies
+You install gulp-clean-css plugin as `devDependencies`
 
 ```
 npm install --save-dev gulp-clean-css
