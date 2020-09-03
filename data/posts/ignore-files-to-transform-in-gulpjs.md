@@ -1,7 +1,7 @@
 ---
 title: Ignore files to transform in Gulpjs
 description: Prevent files from being transformed by ignoring them in src globs
-date: 2020-09-03T07:37:59.554Z
+date: 2020-09-30T07:37:59.554Z
 tag: gulpjs
 ---
 When you need to transform a group of files inside of multiple directory, you may want some files not to be transformed. You can do this with negative globs in the `src` function.
