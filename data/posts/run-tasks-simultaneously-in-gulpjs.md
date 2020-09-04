@@ -2,7 +2,7 @@
 title: Run tasks simultaneously in Gulpjs
 description: "Gulpjs provide parallel function that helps you to run your tasks
   simultaneously "
-date: 2020-10-01T12:36:54.605Z
+date: 2020-09-30T12:36:54.605Z
 tag: gulpjs
 ---
 To run your tasks simultaneously, you pass your private tasks to the `parallel` function. You can pass them as an array or just arguments. The order of tasks is not important. 
