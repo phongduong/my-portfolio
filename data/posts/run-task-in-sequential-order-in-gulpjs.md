@@ -2,7 +2,7 @@
 title: Run task in sequential order in Gulpjs
 description: series() is a function that you can use to run tasks in sequential
   order in Gulpjs
-date: 2020-10-02T05:13:16.968Z
+date: 2020-10-01T05:13:16.968Z
 tag: gulpjs
 ---
 Gulpjs allows you to group your tasks into compositions and execute them as public tasks. `series()` function receives your tasks as an array or arguments. You can use `series()` function with `parallel()` function. 
