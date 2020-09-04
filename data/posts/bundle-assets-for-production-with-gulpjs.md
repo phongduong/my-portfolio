@@ -1,5 +1,5 @@
 ---
-title: Run multiple public tasks in Gulpjs
+title: Run multiple public tasks in Gulpjs command
 description: You can run multiple tasks in a single gulp command
 date: 2020-10-05T12:57:34.907Z
 tag: gulpjs
