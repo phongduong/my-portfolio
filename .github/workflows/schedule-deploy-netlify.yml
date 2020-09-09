@@ -1,0 +1,17 @@
+name: Schedule Deploy Netlify
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '0 15 * * 1-5'
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - shell: bash
+      env:
+        NETLIFY_WEB_HOOK: ${{ secrets.NETLIFY_WEB_HOOK }}
+      run: curl -X POST -d {} "$NETLIFY_WEB_HOOK"
