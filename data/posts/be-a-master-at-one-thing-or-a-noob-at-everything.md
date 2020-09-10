@@ -16,6 +16,6 @@ After I leaved the old company and joined a new one, I was a front-end developer
 
 I always wanted to learn more about Javascript and related topics of web development. I continued creating personal projects but I didn't learn much because of my full-time job. I heard that sharing is another way to learn. I also wanted to create a Youtube channel and write blog about programming to share with other developers. But the problem is that I didn't have enough time. Luckily, the COVID-19 epidemic came. I decided to quit my job. Now I create projects and programming tutorials full-time on my [Youtube channel](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA) and [blog](https://phongduong.dev/). (I will explain why COVID-19 epidemic is lucky to me in another post).
 
-At the moment, I am happy with my decision. I can create whatever I want and learn new things. I share everything I learned while building projects with people. 
+At the moment, I am happy with my decision and continue learning to master Javascript and web development. I create whatever I want and learn new things. I share everything I learned while building projects with people. 
 
 You can check out my [Youtube channel](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA) and [blog](https://phongduong.dev/)
