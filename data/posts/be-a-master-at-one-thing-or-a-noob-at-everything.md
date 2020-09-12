@@ -4,7 +4,7 @@ description: Which one do you choose to be?
 date: 2020-09-10T04:22:22.568Z
 tag: personal
 ---
-I am a Javascript developer. I want to share with you my story how I began my developer journey with learning every programming language I heard until I chose a languages to focus on and tried to master it. 
+I am a Javascript developer. I want to share with you my story how I began my developer journey with learning every programming language I heard until I chose a language to focus on and tried to master it. 
 
 When I began learning web development, I spent time looking for every programming language that I was suggested and learning them. I had believed that if I learned all of them, I would become a master of programming and have a high salary job. So that, I go to sites like FreeCodeCamp, Codecademy, Udemy to learn code. I learned Java, Ruby, Python, PHP, Javascript, HTML and CSS. I tried to learn concepts such as data type, variable and function and do as many assignment as I can. After 6 month, I figured out that there was no progress and all I learned was the same in languages. 
 
