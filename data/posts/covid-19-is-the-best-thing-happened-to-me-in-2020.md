@@ -4,14 +4,12 @@ description: I realize that I don't have time to procrastinate doing what I want
 date: 2020-09-14T04:44:44.417Z
 tag: personal
 ---
-2020 is a weird year. In the New Year, I had a list of plans. I believed it would be a great year and I could complete all my plans. 
+I like learning and creating new things. I have a lot of ideas and personal projects I want to create. The list is getting longer everyday but I procrastinated to work on and not completed one of the projects. Because after my full-time job, I was exhausted. I tried to work a bit every night. Someday I didn't do anything. My project still had a little progress but I almost felt like giving up and moving to a new thing. I know that was not good and I would create nothing in the end
 
-Suddenly, COVID-19 came and everything changed. I heard news about death everyday. People around me lost their job or had pay cut.
+Suddenly, COVID-19 pandemic came and everything changed. I heard news about death everyday. People had to work from home. Some lost their job or had pay cut. I was lucky to keep my job and get full salary. I didn't have to work from home. 
 
-Everything was still fine to me. I was lucky to keep my job and get full salary. I didn't have to work from home. 
+I heard bad news everyday: the infected cases and death increase. I not only wished the pandemic to end early but also thought about me. I wondered what if this pandemic continues and I would lose my job, what if I die tomorrow and completed the list. 
 
-I like learning and creating new things. I have a lot of ideas and personal projects I want to create. The list is getting longer everyday. But I procrastinated to work on my project. After my full-time job, I was exhausted. I tried to work a bit every night. Someday I didn't do anything. My project had a little progress but I almost felt like giving up.
+I thought so much about these scenarios. It may happen to me. Until one day, my grandpa got sick and almost died. I thought I would lose him. Fortunately, he recovered and be in good health now. At that time, I decided I would quit my job. I made that decision because I wanted to spend more time with my grandpa as well as my family. I also wanted to focus to execute my ideas and create projects.
 
- One day, my grandpa got sick and almost died. I thought I may lost him. Fortunately, he recovered and be in good health now. After this event, I wanted to have more time with my grandpa as well as my family. 
-
-I also thought about me. What if one day I never get up and do things I want? Maybe it is tomorrow.
+Before I clicked the send email button, I was afraid
