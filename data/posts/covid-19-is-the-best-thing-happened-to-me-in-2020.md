@@ -1,6 +1,6 @@
 ---
 title: COVID-19 is the best thing happened to me in 2020
-description: I realize that I don't have time to procrastinate to do what I want
+description: I realize that I don't have time to procrastinate doing what I want
 date: 2020-09-14T04:44:44.417Z
 tag: personal
 ---
