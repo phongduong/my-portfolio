@@ -1,5 +1,5 @@
 ---
-title: COVID-19 is the best thing happened to me in 2020
+title: COVID-19 is the greatest thing happened to me in 2020
 description: I realize that I don't have time to waste and procrastinate doing what I want
 date: 2020-09-14T04:44:44.417Z
 tag: personal
