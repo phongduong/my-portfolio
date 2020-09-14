@@ -12,4 +12,4 @@ I heard bad news everyday: the infected cases and death increase. I not only wis
 
 I thought so much about these scenarios. It may happen to me. Until one day, my grandpa got sick and almost died. I thought I would lose him. Fortunately, he recovered and be in good health now. At that time, I decided I would quit my job. I made that decision because I wanted to spend more time with my grandpa as well as my family. I also wanted to focus to execute my ideas and create projects.
 
-Before I clicked the send email button, I was afraid
+Before I sent the resignation letter, I was afraid of that I couldn't afford the life. But I still clicked the send button.
