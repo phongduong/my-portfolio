@@ -119,7 +119,7 @@ module.exports = {
   transformers: {
     remark: {
       plugins: ["@gridsome/remark-prismjs"],
-      externalLinksRel: ["noopener", "noreferrer"],
+      externalLinks: false,
     },
   },
   css: {
