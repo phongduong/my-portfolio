@@ -1,6 +1,6 @@
 ---
-title: You know something I don't
-description: Please share it
+title: Don't be afraid to share what you know
+description: What you know may be what I don't
 date: 2020-09-21T11:44:25.195Z
 tag: personal
 ---
