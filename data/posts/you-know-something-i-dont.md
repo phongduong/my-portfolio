@@ -1,6 +1,6 @@
 ---
 title: Don't be afraid to share what you know
-description: What you know may be what I don't
+description: Because what you know may be what I don't
 date: 2020-09-21T11:44:25.195Z
 tag: personal
 ---
