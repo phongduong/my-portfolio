@@ -6,14 +6,14 @@ tag: personal
 ---
 Have you ever looked for something on Google but can't find what you expected? I experienced this situation many times. 
 
-If I were stuck at a problem, I would search for the solution on Google. Sometimes I didn't find the solution for my problem. I wondered whether any solution existed or any people knew the solution. 
+If I were stuck at a problem, I would search for the solution on Google. Sometimes I didn't find the solution for my problem. I wondered whether any solution existed or any person knew the solution. 
 
-I believe that there is someone knows the solution but they don't share it. I was that person before. I knew something that was valuable to people but I was afraid to share it. I thought people may shared it before and my solution was redundant. 
+I believe that there is someone knows the solution but they doesn't share it. I were that person before. I knew something that was valuable to people but I were afraid to share it. I thought people may shared it before and my solution was redundant. 
 
-But things have changed. Recently, I have begun creating tutorials and sharing them with everyone. I realized that sharing is a another way to learn. When I create a tutorial about a concept, I will learn the concept and understand it more. It also makes me more creative because there are many ways to create a tutorial. It may be a blog post, a video or an image with my code using Carbon.
+But things have changed. Recently, I have begun creating [tutorials](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA) and sharing them with everyone. I realized that sharing is a another way to learn. When I create a tutorial about a concept, I will learn the concept and understand it more. It also makes me more creative because there are many ways to create a tutorial. It may be [a blog post](https://phongduong.dev/blog), [a video](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA) or an image with my code using [Carbon](https://carbon.now.sh/).
 
-Sharing is also a way to save knowledge. Programming is large and I can't remember everything. So my blog is the first source I will use when I am stuck. 
+Sharing tutorials is also a way to save my knowledge. Programming is large, there are many things to learn and I can't remember everything. So [my blog](https://phongduong.dev/blog) is the first source I will use when I am stuck. 
 
-I also share my thoughts. I want to write down everything in my mind. I think
+I also want to share my thoughts and write down everything in my mind. I think if I read my blog posts 10 years later, I will know how I thought 10 years ago.
 
-I believe that we have different experiences in our life. Even though we experience a same thing, we still have different perspectives on how it effects to our life. So don't be afraid to share something you know. It will be valuable to someone
+I believe that we have different experiences in our life. Even though we experience a same thing, we still have different perspectives on how it effects to our life. So why don't you your perspective with people? It will be valuable to someone.
