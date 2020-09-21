@@ -14,6 +14,6 @@ But things have changed. Recently, I have begun creating [tutorials](https://www
 
 Sharing tutorials is also a way to save my knowledge. Programming is large, there are many things to learn and I can't remember everything. So [my blog](https://phongduong.dev/blog) and [Youtube channel](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA) are the first sources I will use when I am stuck. 
 
-I also want to share my thoughts and write down everything in my mind. I think if I read my blog posts 10 years later, I will understand how I thought 10 years ago.
+I also want to share my thoughts and write down everything in my mind. I think if I read my [blog posts](https://phongduong.dev/blog) 10 years later, I will understand how I thought 10 years ago.
 
 I believe that we have different experiences in our life. Even though we experience a same thing, we still have different perspectives on how it effects to our life. So why don't you share your perspective and knowledge with people? It will be valuable to someone. It may be you and me.
