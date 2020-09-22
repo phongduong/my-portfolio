@@ -5,4 +5,10 @@ description: Netlify CLI allows you to do every outside of Netlify UI. You can
 date: 2020-10-12T15:11:31.434Z
 tag: netlify
 ---
-test
+To install Netlify CLI, you run the following command to install it globally
+
+```
+npm install -g netlify-cli
+```
+
+After installing, run `netlify` command to check the information of your installation
