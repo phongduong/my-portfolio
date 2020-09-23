@@ -44,5 +44,7 @@ You use Basic authentication in the header of your request. You need to pass a b
 fetch(url, {
     headers: {
       'Authorization': 'Basic encoded_string'
-    }});
+    }
+  }
+);
 ```
