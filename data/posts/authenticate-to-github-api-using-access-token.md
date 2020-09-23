@@ -34,7 +34,7 @@ curl -u username:access_token
 
 * In `Authorization` tab, select `Basic Auth` type
 * Enter your `username`
-* In the `Password` field, enter your personal access token instead you account's password
+* In the `Password` field, enter your personal access token 
 
 ### `fetch` function
 
