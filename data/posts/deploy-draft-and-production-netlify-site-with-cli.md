@@ -15,7 +15,7 @@ In your Netlify project, run
 netlify deploy
 ```
 
-It will deploy to a draft URL. You can use this URL for previewing and testing
+It will deploy to your deploy directory and return a draft URL. You can use this URL for previewing and testing
 
 ## Production deploy
 
@@ -25,4 +25,4 @@ To deploy for production, you pass the `--prod` or `-p` to the `deploy` command
 netlify deploy --prod
 ```
 
-After running this command, your site will be updated with the newest version.
+After running this command, your site will be updated with content of the deploy directory.
