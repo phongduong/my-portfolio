@@ -10,4 +10,4 @@ You need to set `build` command of your project and let Netlify know how your pr
 netlify build
 ```
 
-It  will run the configured command of your project using your `build`.
+It  will display the information of your project and run the configured command
