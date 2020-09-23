@@ -15,7 +15,7 @@ on:
 
 ## Configure input
 
-You can config the required input and the default value if the input is not provided.
+You can config the required input and default value if the input is not provided.
 
 ```yaml
 on:
@@ -27,7 +27,9 @@ on:
         default: 'CLI'
 ```
 
-You can retrieve the configured input in your jobs
+The `source` input is required. It is the information about where the API is triggered. The default value `CLI` will be used if you don't pass the input in the request
+
+After that, you can retrieve the configured input in your jobs. 
 
 ```yaml
 on:
@@ -44,12 +46,61 @@ jobs:
     - run: echo "Triggered from ${{ github.event.inputs.source }}!"
 ```
 
+In the `print` job, you echo the `source` value from `github.event.inputs` context
+
 ## Generate personal access token
 
-To request Github API, you need to authenticate first. Github supports you to use personal access token instead of typing password manually. You can generate the access token using this tutorial.
+You need to authenticate before using Github API. It requires you to use personal access token for requests.
+
+* You can generate personal access token in the **Settings** of your account
+* Choose the **Developer settings** tab of the left side bar
+* Select **Personal access tokens**
+* Click **Generate new token**
+* In the **Token description**, enter your token's name
+* Grant **repo** scope to your access token
+* Click **Generate token**
+* You need to copy the token and save somewhere safe. After you leave the page, you won't see the access token again
 
 ## Trigger the workflow
 
-To trigger the `workflow_dispatch`, you send a `POST` request to the
+To trigger the `workflow_dispatch` event, you send a `POST` request to the Github API with your generated personal access token
 
-##
+### Use CLI
+
+```
+curl \
+-u {owner}:{access_token} \
+-X POST \
+-d '{"ref": {ref}, "inputs": {inputs}}' \
+https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches
+```
+
+`owner`: your Github username
+
+`access_token`: your personal access token
+
+`repo`: Github repo's name
+
+`workflow_id`: workflow file name
+
+`ref`:  this is required. It can be branch, tag or commit SHA
+
+`inputs`:  the object with configured keys in your workflow
+
+After run the command, you can check the result in your Actions workflow
+
+### Use Postman
+
+* Select `POST` as request method
+* Enter `https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches` as request URL
+* In `Authorization` tab, select `Basic Auth` type
+* Enter your `username`
+* In the `Password` field, enter your personal access token instead you account's password
+* Select `Body` tab and choose `raw` option
+* Enter `{"ref": {ref}, "inputs": {inputs}}` in the textarea
+
+  `ref` and `inputs` values are similar to CLI method
+
+## Sources
+
+[Github API document](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#workflow_dispatch)
