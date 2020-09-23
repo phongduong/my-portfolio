@@ -20,7 +20,7 @@ Github encourages users to use personal access token to authenticate instead of 
 
 ## Authenticate to Github API
 
-You can authenticate to Github API by 2 methods
+You can authenticate to Github API by the following methods
 
 ### Command line
 
@@ -29,6 +29,12 @@ You pass your Github username and access token as password to `-u` or `--user` f
 ```
 curl -u username:access_token
 ```
+
+### Postman
+
+* In `Authorization` tab, select `Basic Auth` type
+* Enter your `username`
+* In the `Password` field, enter your personal access token instead you account's password
 
 ### `fetch` function
 
@@ -41,5 +47,3 @@ fetch(url, {
       'Authorization': 'Basic encoded_string'
     }});
 ```
-
-You will receive a response with status `204 No Content`
