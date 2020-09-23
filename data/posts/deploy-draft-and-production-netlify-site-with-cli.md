@@ -5,7 +5,13 @@ description: You can deploy Netlify site for draft and production from your
 date: 2020-10-15T15:17:44.289Z
 tag: netlify
 ---
-Before deploying Netlify site with CLI, you need to [set the deploy directory](https://docs.netlify.com/cli/get-started/#deploy-directories). 
+## Set deploy directory
+
+Before deploying Netlify site with CLI, you need to [](https://docs.netlify.com/cli/get-started/#deploy-directories)set the deploy directory. You can pass it when you set up for your project or pass it to the deploy command using `--dir` flag
+
+```
+netlify deploy --dir=dist
+```
 
 ## Draft deploy
 
