@@ -66,4 +66,4 @@ To get environment variables, you use your variables in shell commands with pref
     text: Hello!
 ```
 
-After you save the workflow configuration, you can check your action and see the output
+After you save the workflow configuration, you can check your actions and see the output
