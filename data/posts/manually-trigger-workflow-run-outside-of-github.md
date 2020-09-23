@@ -97,7 +97,7 @@ After run the command, you can check the result in your Actions workflow
 * Enter your `username`
 * In the `Password` field, enter your personal access token instead you account's password
 * Select `Body` tab and choose `raw` option
-* Enter `{"ref": {ref}, "inputs": {inputs}}` in the text area
+* Enter `{"ref": {ref}, "inputs": {inputs}}` as the body
 
   `ref` and `inputs` values are similar to CLI method
 * After send request, you will see status `204 No Content` in the response
