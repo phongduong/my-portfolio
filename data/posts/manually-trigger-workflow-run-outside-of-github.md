@@ -63,9 +63,9 @@ You need to authenticate before using Github API. It requires you to use persona
 
 ## Trigger the workflow
 
-To trigger the `workflow_dispatch` event, you send a `POST` request to the Github API with your generated personal access token
+To trigger the `workflow_dispatch` event, you send a `POST` request to the Github API with your generated personal access token. 
 
-### Use CLI
+### Command line
 
 ```
 curl \
@@ -87,9 +87,7 @@ https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/disp
 
 `inputs`:  the object with configured keys in your workflow
 
-After run the command, you can check the result in your Actions workflow
-
-### Use Postman
+### Postman
 
 * Select `POST` as request method
 * Enter `https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches` as request URL
@@ -98,10 +96,21 @@ After run the command, you can check the result in your Actions workflow
 * In the `Password` field, enter your personal access token instead you account's password
 * Select `Body` tab and choose `raw` option
 * Enter `{"ref": {ref}, "inputs": {inputs}}` as the body
-
-  `ref` and `inputs` values are similar to CLI method
 * After send request, you will see status `204 No Content` in the response
-* Check how your workflow runs in the Actions workflow
+
+### `fetch` function
+
+```javascript
+fetch("https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches", {
+    method: 'POST',
+    headers: {
+      'Authorization': 'Basic {encoded_string}'
+    },
+    body: JSON.stringify({"ref": {ref}, "inputs": {inputs}})
+});
+```
+
+In the `encoded_string` after Basic word, you need to pass a base64-encoded string `username:access_token`
 
 ## Sources
 
