@@ -100,6 +100,8 @@ After run the command, you can check the result in your Actions workflow
 * Enter `{"ref": {ref}, "inputs": {inputs}}` in the textarea
 
   `ref` and `inputs` values are similar to CLI method
+* After send request, you will see status `204 No Content` in the response
+* Check how your workflow runs in the Actions workflow
 
 ## Sources
 
