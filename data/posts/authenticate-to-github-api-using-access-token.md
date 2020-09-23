@@ -43,7 +43,6 @@ You use Basic authentication in the header of your request. You need to pass a b
 ```javascript
 fetch(url, {
     headers: {
-      'Content-Type': 'application/json',
       'Authorization': 'Basic encoded_string'
     }});
 ```
