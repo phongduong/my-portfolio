@@ -5,6 +5,8 @@ description: Netlify allows you to deploy your site using build hook. You can
 date: 2020-10-21T15:22:39.299Z
 tag: netlify
 ---
+There are many ways to build and deploy Netlify site. You can use CLI to build and deploy or send a `POST` request to site's build hook. I choose to use build hook.
+
 ## Generate Netlify site's build hook
 
 * In site **Setting**, select **Build & deploy** tab from left side bar
