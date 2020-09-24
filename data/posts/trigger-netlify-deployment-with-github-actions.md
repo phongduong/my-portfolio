@@ -29,7 +29,7 @@ You don't want everyone to know your build hook and request it continually. This
 
 In the **Actions** page of your repo, you set up a new workflow. 
 
-Name your file name and workflow name
+Name your file and workflow 
 
 Configure the events when this workflow will run
 
@@ -39,7 +39,7 @@ In your job's steps, run the following command
 run: curl -X POST ${{ secrets.{BUILD_HOOK_SECRET_NAME} }}
 ```
 
-It retrieves the encrypted secret of your build hook from `secret` context of your repo. This command will send a `POST` request to your site build hook. 
+It retrieves the encrypted secret of your build hook from `secrets` context and send a `POST` request to the build hook. 
 
 Commit your workflow configuration and check the result of your workflow in the **Actions** page. If your workflow listens to `push` event on `master` branch, you can see your job is running. 
 
