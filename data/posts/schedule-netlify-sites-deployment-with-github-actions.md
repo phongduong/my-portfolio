@@ -34,7 +34,31 @@ In the **Actions** page of your repo, you set up a new workflow.
 
 Name your file name and workflow name
 
-Configure `schedule` event and when the workflow run. 
+Configure `schedule` event and when the workflow run. In `schedule` event, you specify the `cron` syntax. The workflow will run your `cron `syntax at UTC times
+
+```
+┌───────────── minute (0 - 59)
+│ ┌───────────── hour (0 - 23)
+│ │ ┌───────────── day of the month (1 - 31)
+│ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+│ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+│ │ │ │ │                                   
+│ │ │ │ │
+│ │ │ │ │
+* * * * *
+```
+
+[Source](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events)
+
+When you are typing the `cron` syntax, you can hover the syntax and see a popup above it. It shows you when the workflow will be run 
+
+```yaml
+on:
+  schedule:
+    - cron: '0 16 * * 1-5'
+```
+
+Follow this cron syntax, my workflow will run at 16:00 UTC everyday from Monday to Friday.
 
 In your job's steps, run the following command
 
@@ -44,6 +68,6 @@ run: curl -X POST ${{ secrets.{BUILD_HOOK_SECRET_NAME} }}
 
 It retrieves the encrypted secret of your build hook from `secret` context of your repo. This command will send a `POST` request to your site build hook. 
 
-Commit your workflow configuration and check the result of your workflow in the **Actions** page. If your workflow listens to `push` event on `master` branch, you can see your job is running. 
+Commit your workflow configuration and check the result of your workflow in the **Actions** page. It will display the result at the time you schedule. 
 
 After the workflow completed, visit **Deploys** page of your Netlify site. You can see your triggered deploy in the deploy list.
