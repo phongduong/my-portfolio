@@ -5,7 +5,7 @@ description: Netlify allows you to deploy your site using build hook. You can
 date: 2020-10-21T15:22:39.299Z
 tag: netlify
 ---
-There are many ways to build and deploy Netlify site. You can use CLI to build and deploy or send a `POST` request to site's build hook. I choose to use build hook.
+There are various ways to build and deploy Netlify site. You can use CLI to build and deploy or send a `POST` request to site's build hook. I choose to use build hook.
 
 ## Generate Netlify site's build hook
 
@@ -19,7 +19,7 @@ There are many ways to build and deploy Netlify site. You can use CLI to build a
 
 ## Save your build hook as encrypted secret
 
-You don't want everyone to know your build hook and request it continually. This will waste your account's build usage. You need to save it as repo's secrets and retrieve it in the workflow's configuration
+You don't want everyone to know your build hook and request it. This will waste your account's build usage. You need to save it as repo's secrets and retrieve it in the workflow's configuration
 
 * Select repo's **Settings > Secrets**
 * Click **New secret**
