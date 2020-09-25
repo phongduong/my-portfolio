@@ -6,7 +6,7 @@ tag: github
 ---
 ## Listen for the trigger event
 
-To manually trigger Github Actions workflow with API, you need to listen for the event in `on` section of your workflow. 
+To manually trigger Github Actions workflow with API, you need to listen for the event `workflow_dispatch` in `on` section of your workflow. 
 
 ```yaml
 on:
@@ -50,7 +50,7 @@ In the `print` job, you echo the `source` value from `github.event.inputs` conte
 
 ## Generate personal access token
 
-You need to authenticate before using Github API. It requires you to use personal access token for requests.
+You need to authenticate before using Github API. It is recommended that you to use personal access token for requests.
 
 * You can generate personal access token in the **Settings** of your account
 * Choose the **Developer settings** tab of the left side bar
@@ -83,7 +83,7 @@ https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/disp
 
 `workflow_id`: workflow file name
 
-`ref`:  this is required. It can be branch, tag or commit SHA
+`ref`:  required. It can be branch, tag or commit SHA
 
 `inputs`:  the object with configured keys in your workflow
 
