@@ -59,7 +59,7 @@ You need to authenticate before using Github API. It is recommended that you to 
 * In the **Token description**, enter your token's name
 * Grant **repo** scope to your access token
 * Click **Generate token**
-* You need to copy the token and save somewhere safe. After you leave the page, you won't see the access token again
+* You need to save the token somewhere safe. After you leave the page, you won't see it again
 
 ## Trigger the workflow
 
