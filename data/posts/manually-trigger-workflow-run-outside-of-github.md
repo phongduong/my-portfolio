@@ -52,7 +52,7 @@ In the `print` job, you echo the `source` value from `github.event.inputs` conte
 
 You need to authenticate before using Github API. It is recommended that you to use personal access token for requests.
 
-* You can generate personal access token in the **Settings** of your account
+* Select **Settings** of your account
 * Choose the **Developer settings** tab of the left side bar
 * Select **Personal access tokens**
 * Click **Generate new token**
