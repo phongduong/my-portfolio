@@ -6,7 +6,7 @@ tag: netlify
 ---
 I schedule my posts to publish at night. I don't want to manually visit my Netlify site and trigger deploy every night because I sometimes forget to do that. I read [Auto trigger deploys on Netlify tutorial](https://flaviocopes.com/netlify-auto-deploy/) of Flavio Copes but he uses Zapier for automation. I don't want to use third-party service so I use Github Actions instead. It supports to trigger workflow run at a scheduled time. 
 
-There are many ways to build and deploy Netlify site. You can use CLI to build and deploy or send a `POST` request to site's build hook. I choose to use build hook.
+There are some ways to build and deploy Netlify site. You can use CLI to build and deploy or send a `POST` request to site's build hook. I choose to use build hook.
 
 ## Generate Netlify site's build hook
 
@@ -34,7 +34,7 @@ In the **Actions** page of your repo, you set up a new workflow.
 
 Name your file and workflow 
 
-Configure `schedule` event and when the workflow runs. In `schedule` event, you specify the `cron` syntax. The workflow will run your `cron `syntax at UTC times
+Configure `schedule` event and when the workflow runs. In `schedule` event, you specify the `cron` syntax. The workflow will run your `cron` syntax at UTC times
 
 ```
 ┌───────────── minute (0 - 59)
@@ -58,7 +58,7 @@ on:
     - cron: '0 16 * * 1-5'
 ```
 
-Follow this cron syntax, my workflow will run at 16:00 UTC everyday from Monday to Friday.
+My workflow will run at 16:00 UTC from Monday to Friday.
 
 In your job's steps, run the following command
 
