@@ -49,7 +49,7 @@ You can use `::set-env` command to set environment variables in your action. You
 echo "::set-env name={name}::{value}"
 ```
 
-`name`:environment variables name
+`name`: environment variables name
 
 `value`: new value to update
 
