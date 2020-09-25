@@ -5,18 +5,18 @@ description: Instead of typing password, we can use access token to authenticate
 date: 2020-10-27T15:27:33.049Z
 tag: github
 ---
-Github encourages users to use personal access token to authenticate instead of using account's password.
+Github encourages users to use personal access token for authentication instead of account's password.
 
 ## Generate personal access token
 
-* You can generate personal access token in the **Settings** page of your account
+* Select **Settings** page of your account
 * Choose the **Developer settings** tab of the left side bar
 * Select **Personal access tokens**
 * Click **Generate new token**
 * In the **Token description**, enter your token's name
 * Grant permission and scope to your access token
 * Click **Generate token**
-* You need to copy the token and save somewhere safe. After you leave the page, you won't see the access token again
+* You need to save the token somewhere safe. After you leave the page, you won't see it again
 
 ## Authenticate to Github API
 
