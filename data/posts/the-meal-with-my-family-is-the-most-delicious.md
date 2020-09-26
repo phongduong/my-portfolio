@@ -8,7 +8,7 @@ My parents go to work every day. We only have dinner together. It is the most pr
 
 I always want to enjoy this moment. I try to wait for my parents until they get back home from work. We have dinner quite late, it's around 21:00.
 
-I don't want to go out for dinner because I want don't feel private. Although our meal is simple, I still like it. My father made it. 
+I don't want to go out for dinner because I want don't feel private. Although our meal is simple, I still like it. My father makes it. 
 
 Dinner is the most delicious meal of the day. We can eat and laugh together. I ask them how their day is and tell them about mine.
 
