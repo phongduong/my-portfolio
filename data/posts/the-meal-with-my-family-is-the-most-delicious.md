@@ -4,7 +4,7 @@ description: I value every second with my family
 date: 2020-09-25T12:39:45.766Z
 tag: personal
 ---
-My parents go to work everyday. We only have dinner together. It is the most precious moment of the day to me.
+My parents go to work every day. We only have dinner together. It is the most precious moment of the day to me.
 
 I always want to enjoy this moment. I try to wait for my parents until they get back home from work. We have dinner quite late, it's around 20:00.
 
