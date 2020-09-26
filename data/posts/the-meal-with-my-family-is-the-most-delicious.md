@@ -6,7 +6,7 @@ tag: personal
 ---
 My parents go to work every day. We only have dinner together. It is the most precious moment of the day to me.
 
-I always want to enjoy this moment. I try to wait for my parents until they get back home from work. We have dinner quite late, it's around 20:00.
+I always want to enjoy this moment. I try to wait for my parents until they get back home from work. We have dinner quite late, it's around 21:00.
 
 I don't want to go out for dinner because I want don't feel private. Although our meal is simple, I still like it. My father made it. 
 
