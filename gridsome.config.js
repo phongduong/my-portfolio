@@ -65,7 +65,7 @@ module.exports = {
         feedItemOptions: (node) => ({
           title: node.title,
           description: node.description,
-          url: `${URL}/${node.path}`,
+          url: `${URL}${node.path}`,
           pubDate: node.date,
         }),
         output: {
