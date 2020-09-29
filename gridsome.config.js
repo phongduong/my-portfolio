@@ -66,6 +66,7 @@ module.exports = {
           title: node.title,
           description: node.description,
           url: `${URL}/${node.path}`,
+          pubDate: node.date,
         }),
         output: {
           dir: "./static",
