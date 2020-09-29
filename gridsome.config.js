@@ -61,12 +61,12 @@ module.exports = {
           title: "Phong Duong's Blog",
           feed_url: `${URL}/rss.xml`,
           site_url: URL,
+          pubDate: new Date(),
         },
         feedItemOptions: (node) => ({
           title: node.title,
           description: node.description,
           url: `${URL}${node.path}`,
-          pubDate: node.date,
         }),
         output: {
           dir: "./static",
