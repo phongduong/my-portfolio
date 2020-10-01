@@ -11,3 +11,5 @@ In the profile, I put my social links, technologies and tools I am using, latest
 ![My Github profile README](/uploads/test.png "My Github profile README")
 
 You can check my profile page at <https://github.com/phongduong>
+
+Feedback is welcome
