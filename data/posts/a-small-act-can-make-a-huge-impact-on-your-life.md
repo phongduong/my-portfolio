@@ -1,5 +1,5 @@
 ---
-title: A small act can make a huge impact on your life
+title: A small act can make a huge impact on someone's life
 description: It's an amazing Friday
 date: 2020-10-02T14:22:15.052Z
 tag: personal
