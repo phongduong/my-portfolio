@@ -89,33 +89,7 @@ module.exports = {
       options: {
         policy: [{ userAgent: "*", allow: "/" }],
       },
-    },
-    {
-      use: "gridsome-plugin-pwa",
-      options: {
-        // Service Worker Options
-        disableServiceWorker: process.env.NODE_ENV !== "production",
-        serviceWorkerPath: "service-worker.js",
-        cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg,gif",
-        // Manifest Options (https://developer.mozilla.org/en-US/docs/Web/Manifest)
-        manifestPath: "manifest.json",
-        title: NAME,
-        startUrl: "/",
-        display: "standalone",
-        statusBarStyle: "default",
-        themeColor: "#00838a",
-        backgroundColor: "#ffffff",
-        icon: "./src/favicon.png",
-        shortName: NAME,
-        description: DESCRIPTION,
-        categories: ["productivity", "personalization", "education"],
-        maskableIcon: true,
-        // Microsoft Windows Meta Tags
-        msTileColor: "#00838a",
-        // Apple MacOS Meta Tags
-        appleMaskIconColor: "#00838a",
-      },
-    },
+    }
   ],
   transformers: {
     remark: {
