@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@brettanda/gridsome-plugin-scheduled-posts": "^0.0.6",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
