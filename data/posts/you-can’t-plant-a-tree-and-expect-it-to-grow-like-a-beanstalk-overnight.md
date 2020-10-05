@@ -16,6 +16,6 @@ Day by day, I take care of my trees. I water them and catch snails. I enjoy it.
 
 Gardening is my hobby after work hours. It helps me relax and workout. It's good for both my mind and health.
 
-Gardening is also my teacher. It teaches me a lot of lessons. One of them is patience. We can't rush. We have to wait for the seed to germinate and take care of it until it's mature.
+Gardening is also my teacher. It teaches me a lot of lessons. One of them is patience. I can't rush. I have to wait for the seed to germinate and take care of it until it's mature.
 
 I apply the lesson to everything I do in my life. I don't rush and enjoy the growing process.
