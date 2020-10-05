@@ -96,7 +96,7 @@ module.exports = {
         // Service Worker Options
         disableServiceWorker: process.env.NODE_ENV !== "production",
         serviceWorkerPath: "service-worker.js",
-        cachedFileTypes: "png,jpg,jpeg,svg,gif",
+        cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg,gif",
         // Manifest Options (https://developer.mozilla.org/en-US/docs/Web/Manifest)
         manifestPath: "manifest.json",
         title: NAME,
