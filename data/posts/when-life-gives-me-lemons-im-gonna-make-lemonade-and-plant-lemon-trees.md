@@ -10,6 +10,8 @@ Do you know that you have the ability to improve difficult situations? Yes, you 
 
 More, you can make use of difficult situations as sources of growth. They will teach you invaluable lessons.
 
-You can view every situation as a lemon and its seeds as lessons. When life gives you one, you can make lemonade. But what about its seeds? You can take them to plant new lemon trees. The more trees you plant, the large your lemon garden is. You will have more lemons.
+You can view every situation as a lemon and its seeds as lessons. When life gives you one, you can make lemonade. But what about its seeds? You can take them to plant new lemon trees. The more trees you plant, the large your lemon garden is. 
+
+You will have more lemons and learn more lessons.
 
 **Don't be scared of difficult situations, love them.**
