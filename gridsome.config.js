@@ -94,9 +94,7 @@ module.exports = {
       use: "gridsome-plugin-pwa",
       options: {
         // Service Worker Options
-        disableServiceWorker: process.env.NODE_ENV !== "production",
-        serviceWorkerPath: "service-worker.js",
-        cachedFileTypes: "png,jpg,jpeg,svg,gif",
+        disableServiceWorker: true,
         // Manifest Options (https://developer.mozilla.org/en-US/docs/Web/Manifest)
         manifestPath: "manifest.json",
         title: NAME,
