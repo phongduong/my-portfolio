@@ -97,6 +97,6 @@ h1 {
 }
 
 h2 {
-  @apply my-2;
+  @apply my-4;
 }
 </style>

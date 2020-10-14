@@ -4,6 +4,7 @@ description: Learn how to use each method to iterate through a JS array
 date: 2020-07-20T15:16:00.941Z
 tag: pug
 ---
+
 If you want to iterate through an JS array in Pug and create template elements, you can use each block to do that.
 
 ```javascript
@@ -52,4 +53,6 @@ ul
 */
 ```
 
-I create a video if you prefer learning by watching <https://youtu.be/KwQX7V37DRA>
+I create a video if you prefer learning by watching
+
+https://youtu.be/KwQX7V37DRA

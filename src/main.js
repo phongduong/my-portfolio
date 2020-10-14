@@ -7,10 +7,15 @@ import Footer from "~/components/layout/Footer.vue";
 import Subscribe from "~/components/layout/Subscribe.vue";
 import "prismjs/themes/prism.css";
 
-export default function(Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.component("Header", Header);
   Vue.component("Footer", Footer);
   Vue.component("Subscribe", Subscribe);
+
+  head.script.push({
+    src: "https://platform.twitter.com/widgets.js",
+    body: true,
+  });
 }

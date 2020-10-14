@@ -4,6 +4,7 @@ description: Make your Pug code more usable by using mixin
 date: 2020-07-24T15:44:37.985Z
 tag: pug
 ---
+
 Pug allows you to reuse you elements with mixin. It is like a function, you can pass parameters and use them for attributes or value
 
 ```javascript
@@ -22,4 +23,6 @@ ul
 */
 ```
 
-I create a video if you prefer learning by waching <https://youtu.be/oP2oNHiUSpk>
+I create a video if you prefer learning by waching
+
+https://youtu.be/oP2oNHiUSpk

@@ -4,6 +4,7 @@ description: Learn how to define and use JS array and object in Pug
 date: 2020-07-17T15:06:56.328Z
 tag: pug
 ---
+
 To define a single line JS object or array, you initialize them as a normal JS line after the dash (`-`). In case you want to define a multiple line object, you need to put your variable under the dash and indent 1 tab.
 
 ```javascript
@@ -18,4 +19,6 @@ To define a single line JS object or array, you initialize them as a normal JS l
   }
 ```
 
-I create a video if you prefer learning by watching <https://youtu.be/seJ2Ro-rsPA>
+I create a video if you prefer learning by watching
+
+https://youtu.be/seJ2Ro-rsPA

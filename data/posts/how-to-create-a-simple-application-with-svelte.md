@@ -5,6 +5,7 @@ description: Learn main concepts of Svelte by building a simple application to
 date: 2020-08-18T07:06:32.488Z
 tag: svelte
 ---
+
 I have started learning Svelte recently. I think creating something is a best way to learn anything. So I created a simple application that fetches dog's images from <http://dog.ceo/> with Svelte. In this tutorial, I will show you how I created it.
 
 [Source code](https://github.com/phongduong/dog-image-app)
@@ -16,7 +17,7 @@ Run the following command in your folder
 ```
 npx degit sveltejs/template dog-image-app
 cd dog-image-app
-yarn install 
+yarn install
 yarn dev
 ```
 
@@ -42,13 +43,11 @@ You define a state named `image` in the `script` tag. You can remove `name` prop
 
 In Svelte, you should define state with let instead of const. Because you update a state by reassigning a new value. I leave the `src` empty and the `alt` property is default for all image.
 
-We need a component the that receives `image` state as property and display the image source. You create a new `Image.svelte` file, define a property named `image` and export it. 
+We need a component the that receives `image` state as property and display the image source. You create a new `Image.svelte` file, define a property named `image` and export it.
 
 ```javascript
 // Image.svelte
-<script>
-  export let image
-</script>
+<script>export let image</script>
 ```
 
 You may wonder how I name variables with a same name. I will explain this later. For HTML of `Image` component, you create a image element and spread the `image` property as its attribute
@@ -71,7 +70,7 @@ In `App` component, you import the `Image` component, put it under the title and
 </main>
 ```
 
-You can see that we repeat image twice. Svelte allows us to use shorthand attributes if the name and value are same. 
+You can see that we repeat image twice. Svelte allows us to use shorthand attributes if the name and value are same.
 
 ```javascript
 <Image {image}/>
@@ -116,7 +115,7 @@ const instance = axios.create({ baseURL: config.BASE_URL });
 export default instance;
 ```
 
-We create an axios instance with [dog.ceo](http://dog.ceo/) api as base url. Next we will call the api and get the breed list. 
+We create an axios instance with [dog.ceo](http://dog.ceo/) api as base url. Next we will call the api and get the breed list.
 
 ```javascript
 // utils.js
@@ -152,7 +151,7 @@ We want to call this api when the application mounted and display to user. In th
 </main>
 ```
 
-We need to format the return data from api and display it for user to select. 
+We need to format the return data from api and display it for user to select.
 
 ```javascript
 // utils.js
@@ -199,7 +198,7 @@ In `Input` component, we will format the `breedList` as soon as it is updated
   import { formatList } from "./utils"
   ...
   let formattedList = []
-  
+
   $: {
     formattedList = formatList(breedList)
   }
@@ -215,7 +214,7 @@ In `Input` component, we will format the `breedList` as soon as it is updated
 </form>
 ```
 
-The code after the dollar sign will be executed whenever the component updated. To iterate through the list, we use `each` block. The value between the bracket will be used as the key. 
+The code after the dollar sign will be executed whenever the component updated. To iterate through the list, we use `each` block. The value between the bracket will be used as the key.
 
 Now we have the list and update the value when user selects. We will fetch the image of the dog breed which user selected or random image.
 
@@ -305,7 +304,9 @@ We import `createEventDispatcher` from Svelte and create `dispatch` function. We
 
 In this post, I introduce to you some concepts of Svelte and how to use them to create a simple application. My post doesn't cover concepts like stores, transition and slot. These concepts are useful when your application scales.
 
-If you prefer learning by watching video, you can watch this tutorial here <https://youtu.be/8IyR6eTuikM>
+If you prefer learning by watching video, you can watch this tutorial here
+
+https://youtu.be/8IyR6eTuikM
 
 ## Sources
 
