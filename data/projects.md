@@ -10,10 +10,10 @@ projects:
     name: Pomotasks
     url: https://pomotasks.surge.sh
     date: 2019-02-20T17:00:00.000Z
-  - description: A platform helps user lend books
+  - date: 2019-08-13T14:45:32.356Z
     name: Weali
+    description: A platform helps user lend books
     url: https://weali.netlify.com/
-    date: 2019-08-13T17:00:00.000Z
   - description: A collection of projects. I create these projects to learn about
       mobile and desktop application development
     name: KOOGIO
