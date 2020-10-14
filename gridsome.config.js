@@ -123,7 +123,15 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      plugins: ["@gridsome/remark-prismjs"],
+      plugins: [
+        "@gridsome/remark-prismjs",
+        [
+          "@noxify/gridsome-plugin-remark-embed",
+          {
+            enabledProviders: ["Youtube", "Twitter", "Codepen"],
+          },
+        ],
+      ],
       externalLinks: false,
     },
   },
