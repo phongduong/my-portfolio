@@ -6,7 +6,7 @@
       :path="$page.page.path"
     />
     <h1>Search</h1>
-    <Search :keys="['title']" :list="list" @search="handleSearch" />
+    <Search :keys="['title']" :list="posts" @search="handleSearch" />
     <template v-if="!!resultList.length">
       <g-link v-for="(link, index) in resultList" :to="link.path" :key="index">
         <h2>
@@ -34,17 +34,6 @@ export default {
   computed: {
     posts() {
       return this.$page.posts.edges.map(({ node }) => node);
-    },
-    projects() {
-      return this.$page.projects.edges[0].node.projects.map(
-        ({ name, url }) => ({
-          title: name,
-          path: url,
-        })
-      );
-    },
-    list() {
-      return [...this.posts, ...this.projects];
     },
     resultList() {
       return this.searchData.result.map(({ item }) => ({ ...item }));
@@ -74,17 +63,6 @@ query {
       node {
         path
         title
-      }
-    }
-  }
-  
-  projects: allProject {
-    edges {
-      node {
-        projects {
-          name
-          url
-        }
       }
     }
   }
