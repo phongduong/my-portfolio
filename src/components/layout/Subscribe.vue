@@ -50,6 +50,6 @@ query {
 
 <style lang="scss" scoped>
 .subscribe {
-  @apply p-4 my-8 border-solid border-4 border-top-black border-bottom-black;
+  @apply p-4 my-8 border-solid border-t-4 border-b-4 border-black;
 }
 </style>
