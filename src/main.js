@@ -18,4 +18,16 @@ export default function (Vue, { router, head, isClient }) {
     src: "https://platform.twitter.com/widgets.js",
     body: true,
   });
+  head.script.push({
+    body: true,
+    innerHTML: `
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        for (const registration of registrations) {
+          console.log('serviceWorker unregistered');
+          registration.unregister();
+        }
+      });
+    }`,
+  });
 }
