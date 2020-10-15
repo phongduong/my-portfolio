@@ -4,20 +4,22 @@ description: Rejection is not the end. It is a new beginning
 date: 2020-11-06T12:54:12.961Z
 tag: personal
 ---
-You may experience the feeling of being rejected when you apply for a job. I know how it feels. It is really frustrating. As long as you keep trying, you can archive what you want.
+You may experience the feeling of being rejected when you apply for a job. I know how it feels. It is really frustrating. But the rejection is not always bad. As long as you keep trying, you can archive what you want.
 
 Rejection is two sides of the same coin. It sometimes gets you frustrating and feeling giving up. But it also gives you a chance to improve what doesn't work.
 
 Whenever you are rejected, don't be afraid to ask for feedback. People are generous to give feedback. You could know what you are good at and not.
 
-This means that after every rejection, you will have a chance to improve something.
+After every rejection, you will have a chance to improve something.
 
-You should take that chance. Constructive feedback is welcome.
+Constructive feedback is welcome.
 
-But how about destructive feedback? I know it's hard to deal with destructive feedback. But it's also a skill. You can learn and master it over time.
+But how about destructive feedback? Sometimes you will get destructive feedback. It's hard to deal with. But it's also a skill. You can learn and master it over time.
 
-There are a lot of opportunities around you. Every opportunity contains an opportunity waiting for you. If you try all possible opportunities, you not only learn more but also could find at least one that works for you.
+There are a lot of opportunities around you. Every opportunity contains a lesson. If you try all possible opportunities, you not only learn more but also could find at least one opportunity that changes your life.
 
-The more you are rejected, the more lesson you learn, the better you are.
+The more you are rejected, the more lesson you will learn, the better you are.
 
-Let's love rejection.
+So if you are struggling to find a job and being rejected, just ask HR what you did well and not. You can improve it and do well in the next interview.
+
+And don't forget to thank them.
