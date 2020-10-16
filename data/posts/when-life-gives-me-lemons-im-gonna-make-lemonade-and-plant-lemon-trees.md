@@ -4,14 +4,14 @@ description: Why you have to only make lemonade, you can take seeds and plant le
 date: 2020-11-09T06:53:17.635Z
 tag: personal
 ---
-Sometimes everything doesn't happen as you expected. You may lose your job, your house, or your family. You may get stuck in difficult situations. You can get hurt and frustrated but don't give up.
+Sometimes everything doesn't happen as you expected. You may get stuck in difficult situations. You may lose your job, your house, or your family. You would get hurt and frustrated but don't give up. But you can improve your situation and make it better. 
 
-Do you know that you have the ability to improve difficult situations? Yes, you do. You have the power to do everything. You can get out of difficult situations and make your life better.
+More, you can make use of difficult situations as a source of growth. They will teach you invaluable lessons.
 
-More, you can make use of difficult situations as sources of growth. They will teach you invaluable lessons.
+You can view every situation as a lemon and its seeds as lessons (I use lemon and seeds analogies because I like gardening). When life gives you one lemon, you make lemonade. You improve the situation.
 
-You can view every situation as a lemon and its seeds as lessons. When life gives you one, you can make lemonade. But what about its seeds? You can take them to plant new lemon trees. The more trees you plant, the large your lemon garden is. 
+But what about its seeds? After you have the seeds, you can take them to plant new lemon trees. You will harvest your own lemons. This is when you apply your lessons in difficult situations in the future. You will know how to solve the problem and improve it. 
 
-You will have more lemons and learn more lessons.
+The more trees you plant, the large your lemon garden is. You will learn more lessons and become a better person.
 
-**Don't be scared of difficult situations, love them.**
+> You don't need to be scared of difficult situations, just love and make use of them.
