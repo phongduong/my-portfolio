@@ -10,7 +10,7 @@ More, you can make use of difficult situations as a source of growth. They will 
 
 You can view every situation as a lemon and its seeds as lessons (I use lemon and seeds analogies because I like gardening). When life gives you one lemon, you make lemonade. You improve the situation.
 
-But what about its seeds? After you have the seeds, you can take them to plant new lemon trees. You will harvest your own lemons. This is when you apply your lessons in difficult situations in the future. You will know how to solve the problem and improve it. 
+But what about its seeds? After you have the seeds, you can take them to plant new lemon trees. You will harvest your own lemons. This is when you apply your lessons in difficult situations in the future. You are going to know how to solve the problem and improve it. 
 
 The more trees you plant, the large your lemon garden is. You will learn more lessons and become a better person.
 
