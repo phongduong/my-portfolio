@@ -1,10 +1,10 @@
 ---
 title: A small act can make a huge impact on someone's life
-description: It's an amazing Friday
 date: 2020-10-02T14:22:15.052Z
 tag: personal
 ---
-When I woke up this morning, I couldn't image how amazing today would be. 
+
+When I woke up this morning, I couldn't image how amazing today would be.
 
 An old friend contacted and asked me to helped him solve a problem. He asked me to extract a list of strings that match a pattern out of the given string. It was kind of easy problem to me. I just used a regex pattern and Javascript `match()` function to do it.
 

@@ -1,9 +1,9 @@
 ---
 title: "How to create pattern with CSS #1"
-description: Learn how to use CSS to create a simple and beautiful pattern
 date: 2020-08-19T15:00:00.000Z
 tag: css
 ---
+
 ```html
 <div></div>
 ```
@@ -23,8 +23,7 @@ div {
       var(--yellow) 4.68rem 8.04rem,
       var(--red) 8.04rem 8.92rem,
       var(--transparent) 8.92rem
-    ),
-    linear-gradient(
+    ), linear-gradient(
       -135deg,
       var(--yellow) 0 3.77rem,
       var(--red) 3.77rem 4.21rem,
@@ -33,15 +32,11 @@ div {
       var(--transparent) 8.46rem 14.4rem,
       var(--red) 14.4rem 14.82rem,
       var(--yellow) 14.82rem
-    ),
-    linear-gradient(
-      135deg,
-      var(--yellow) 0 12.28rem,
-      var(--red) 12.28rem 13.16rem,
-      var(--yellow) 13.16rem
-    );
+    ), linear-gradient(135deg, var(--yellow) 0 12.28rem, var(--red) 12.28rem 13.16rem, var(
+          --yellow
+        ) 13.16rem);
   background-size: 21rem 6rem;
- }
+}
 ```
 
 Result

@@ -1,18 +1,18 @@
 ---
 title: Use piped text in Pug
-description: You can use plain text in multiple lines inside of a tag with piped text
 date: 2020-10-08T12:57:06.526Z
 tag: pug
 ---
-In your tag, you use pipe character (`|`) in the new line and indent it to add plain text in multiple lines. 
+
+In your tag, you use pipe character (`|`) in the new line and indent it to add plain text in multiple lines.
 
 ```pug
-p 
+p
   | This is
   | piped text.
   |	This is another
   |	piped text
-  
+
  // Result: This is piped text. This is another piped text
 ```
 
@@ -24,7 +24,7 @@ p This is an inline text without space.
   | piped text.
   |	This is another
   |	piped text
-p This is an inline text with space. 
+p This is an inline text with space.
   | This is
   | piped text.
   |	This is another

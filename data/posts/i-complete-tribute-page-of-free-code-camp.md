@@ -1,7 +1,5 @@
 ---
 title: I complete Tribute Page of Free Code Camp
-description: Instead of using HTML, I use Pug to complete Tribute Page project
-  of Free Code Camp
 date: 2020-07-23T15:34:01.222Z
 tag: freecodecamp
 ---

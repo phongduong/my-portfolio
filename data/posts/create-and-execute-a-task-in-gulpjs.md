@@ -1,11 +1,10 @@
 ---
 title: Create and execute a task in Gulpjs
-description: Task is the main concept of Gulpjs. Everything you do in Gulpjs is
-  creating and executing them
 date: 2020-09-18T07:32:30.940Z
 tag: gulpjs
 ---
-A task is an asynchronous JS function. It has 2 types: public tasks and private tasks. 
+
+A task is an asynchronous JS function. It has 2 types: public tasks and private tasks.
 
 Public tasks: tasks that you export from gulpfile and run in gulp command
 
@@ -17,8 +16,8 @@ In the `gulpfile.js`, you write a function and export it as default
 
 ```javascript
 function greet(cb) {
-  console.log("Hi")
-  return Promise.resolve()
+  console.log("Hi");
+  return Promise.resolve();
 }
 
 exports.default = greet;
@@ -30,7 +29,7 @@ Run `gulp` command
 gulp
 ```
 
-It will exit, print `Hi`  and the information about your task
+It will exit, print `Hi` and the information about your task
 
 ```
 [19:24:29] Using gulpfile F:\app\gulptest\gulpfile.js

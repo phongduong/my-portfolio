@@ -1,6 +1,5 @@
 ---
 title: JS variable as Pug attribute
-description: Learn how to use JS variable as Pug attribute
 date: 2020-07-21T15:24:46.425Z
 tag: pug
 ---

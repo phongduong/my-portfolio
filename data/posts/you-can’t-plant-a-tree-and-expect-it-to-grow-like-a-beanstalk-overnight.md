@@ -1,6 +1,5 @@
 ---
 title: Be patient with everything
-description: A lesson I learned from gardening
 date: 2020-10-05T07:50:47.923Z
 tag: personal
 ---

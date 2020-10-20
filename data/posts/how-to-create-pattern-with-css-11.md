@@ -1,9 +1,9 @@
 ---
 title: "How to create pattern with CSS #11"
-description: Learn how to use CSS to create a simple and beautiful pattern
 date: 2020-09-03T13:30:33.144Z
 tag: css
 ---
+
 ```html
 <div></div>
 ```
@@ -24,31 +24,24 @@ div {
       var(--red) 1.25rem 1.75rem,
       var(--transparent) 1.75rem 2.75rem,
       var(--red) 2.75rem
-    ),
-    conic-gradient(
+    ), conic-gradient(
       at 50% -0.5rem,
       var(--red) 135deg,
       var(--transparent) 135deg 225deg,
       var(--red) 225deg
-    ),
-    conic-gradient(
+    ), conic-gradient(
       at 50% 6.5rem,
       var(--transparent) 45deg,
       var(--red) 45deg 315deg,
       var(--transparent) 315deg
-    ),
-    conic-gradient(
+    ), conic-gradient(
       at 50% 2rem,
       var(--yellow) 135deg,
       var(--transparent) 135deg 225deg,
       var(--yellow) 225deg
-    ),
-    conic-gradient(
-      at 50% 4rem,
-      var(--red) 45deg,
-      var(--yellow) 45deg 315deg,
-      var(--red) 315deg
-    );
+    ), conic-gradient(at 50% 4rem, var(--red) 45deg, var(--yellow) 45deg 315deg, var(
+          --red
+        ) 315deg);
   background-size: 3rem 6rem;
 }
 ```

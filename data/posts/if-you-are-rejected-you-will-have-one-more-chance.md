@@ -1,9 +1,9 @@
 ---
 title: "How rejection can make your life better? "
-description: Rejection is not the end. It is a new beginning
 date: 2020-11-06T12:54:12.961Z
 tag: personal
 ---
+
 You may experience the feeling of being rejected when you apply for a job. I know how it feels. It is really frustrated. But the rejection is not always bad. As long as you keep trying, you can archive what you want.
 
 Rejection is two sides of the same coin. It sometimes gets you frustrated and feeling giving up. It also gives you a chance to improve what doesn't work.

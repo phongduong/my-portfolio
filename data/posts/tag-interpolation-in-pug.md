@@ -1,6 +1,5 @@
 ---
 title: Tag interpolation in Pug
-description: Learn how to use tag interpolation inside text of Pug
 date: 2020-07-22T15:30:32.226Z
 tag: pug
 ---

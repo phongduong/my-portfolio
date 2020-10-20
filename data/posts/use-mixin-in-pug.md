@@ -1,6 +1,5 @@
 ---
 title: Use mixin in Pug
-description: Make your Pug code more usable by using mixin
 date: 2020-07-24T15:44:37.985Z
 tag: pug
 ---

@@ -1,10 +1,10 @@
 ---
 title: My learning plan
-description: I create a new learning plan that helps me to learn and share my knowledge
 date: 2020-04-23T17:00:00.000Z
 tag: personal
 ---
-So far, I have learned new tools and programming languages by building projects. But I think I can learn more by sharing the process I develop projects. This may include blog posts and Youtube videos. 
+
+So far, I have learned new tools and programming languages by building projects. But I think I can learn more by sharing the process I develop projects. This may include blog posts and Youtube videos.
 
 With blog posts, I am going to share what I learn from developing projects and the knowledge I gained from it. I create short tutorial for every project.
 

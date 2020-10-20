@@ -1,6 +1,5 @@
 ---
 title: Update state in Svelte
-description: Learn how to update state in Svelte
 date: 2020-08-07T15:00:00.000Z
 tag: svelte
 ---

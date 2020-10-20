@@ -1,10 +1,9 @@
 ---
 title: Set And Get Environment Variable In Github Actions
-description: Github Actions allows to set environment variable in your step and
-  use it in run statement
 date: 2020-10-20T15:21:38.937Z
 tag: github
 ---
+
 Environment variables are variables that are available to every step in the workflow. They are case-sensitive
 
 ## Set environment variable
@@ -43,7 +42,7 @@ env:
 
 ### Use `::set-env` command
 
-You can use `::set-env` command to set environment variables in your action. You use it in `run` keyword. The current action can't access the new value but actions below it can. This command can also be used for updating. 
+You can use `::set-env` command to set environment variables in your action. You use it in `run` keyword. The current action can't access the new value but actions below it can. This command can also be used for updating.
 
 ```yaml
 echo "::set-env name={name}::{value}"

@@ -6,7 +6,7 @@
 const postcssPlugins = [require("tailwindcss"), require("autoprefixer")];
 const NAME = "Phong Duong";
 const DESCRIPTION =
-  "Developer. I experiment new things, create funny projects and programming tutorials";
+  "Hi, I am Phong. I am a developer. I experiment new things, create fun things and programming tutorials";
 const URL = "https://phongduong.dev";
 
 module.exports = {
@@ -64,7 +64,7 @@ module.exports = {
         },
         feedItemOptions: (node) => ({
           title: node.title,
-          description: node.description,
+          description: node.cotent,
           url: `${URL}${node.path}`,
           date: node.date,
         }),
@@ -108,6 +108,7 @@ module.exports = {
             Twitter: {
               align: "center",
               hideMedia: false,
+              omitScript: false,
             },
           },
         ],

@@ -1,7 +1,5 @@
 ---
 title: Survey Form with Pug
-description: I complete the Survey Form project of Responsive Web Design
-  certifications on Free Code Camp using Pug
 date: 2020-07-30T15:00:00.000Z
 tag: freecodecamp
 ---

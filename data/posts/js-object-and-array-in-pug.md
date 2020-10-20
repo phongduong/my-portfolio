@@ -1,6 +1,5 @@
 ---
 title: JS object and array in Pug
-description: Learn how to define and use JS array and object in Pug
 date: 2020-07-17T15:06:56.328Z
 tag: pug
 ---

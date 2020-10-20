@@ -1,6 +1,5 @@
 ---
 title: State in Svelte
-description: How to define and use state in Svelte?
 date: 2020-08-03T15:00:00.000Z
 tag: svelte
 ---

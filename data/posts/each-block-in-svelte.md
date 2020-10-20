@@ -1,9 +1,9 @@
 ---
 title: Each block in Svelte
-description: Iterate array with each block in Svelte
 date: 2020-08-11T15:00:00.000Z
 tag: svelte
 ---
+
 To iterate array in Svelte, you use `each` block
 
 ```javascript

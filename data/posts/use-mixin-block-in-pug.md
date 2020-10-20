@@ -1,6 +1,5 @@
 ---
 title: Use mixin block in Pug
-description: Extend your mixin elements with block
 date: 2020-07-29T15:00:00.000Z
 tag: pug
 ---

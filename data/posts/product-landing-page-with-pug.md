@@ -1,7 +1,5 @@
 ---
 title: Product Landing Page with Pug
-description: Create a simple Product Landing Page with Pug and complete a
-  project of Free Code Camp
 date: 2020-07-31T15:00:00.000Z
 tag: freecodecamp
 ---

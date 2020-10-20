@@ -1,10 +1,6 @@
 <template>
   <Layout>
-    <SEO
-      :title="post.title"
-      :description="post.description"
-      :path="post.path"
-    />
+    <SEO :title="post.title" :description="post.excerpt" :path="post.path" />
     <article class="blog">
       <h1 class="blog__title">{{ post.title }}</h1>
       <p class="blog__info">
@@ -13,7 +9,6 @@
           #{{ post.tag.title }}
         </g-link>
       </p>
-      <h2 class="blog__description">{{ post.description }}</h2>
       <div class="blog__content" v-html="post.content"></div>
     </article>
   </Layout>
@@ -41,7 +36,7 @@ export default {
       path
       content
       title
-      description
+      excerpt
       date (format: "DD-MM-YYYY")
       tag {
         title
@@ -58,10 +53,6 @@ export default {
 
   &__info {
     @apply text-gray-800 my-4;
-  }
-
-  &__description {
-    @apply text-gray-900;
   }
 
   &__content {

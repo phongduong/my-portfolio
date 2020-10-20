@@ -1,7 +1,5 @@
 ---
 title: Pass additional attributes to mixin in Pug
-description: If you need to pass some additional attributes to mixin in Pug,
-  this tutorial will show you how
 date: 2020-07-27T15:00:00.000Z
 tag: pug
 ---

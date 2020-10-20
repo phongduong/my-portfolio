@@ -1,6 +1,5 @@
 ---
 title: Props in Svelte
-description: Learn how to define and export props in Svelte
 date: 2020-08-04T15:00:00.000Z
 tag: svelte
 ---

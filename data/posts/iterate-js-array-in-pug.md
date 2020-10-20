@@ -1,6 +1,5 @@
 ---
 title: Iterate JS array in Pug
-description: Learn how to use each method to iterate through a JS array
 date: 2020-07-20T15:16:00.941Z
 tag: pug
 ---

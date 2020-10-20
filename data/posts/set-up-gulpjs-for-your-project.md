@@ -1,10 +1,9 @@
 ---
 title: Set up Gulpjs for your project
-description: Gulpjs is a bundle tool that allows you to automate tasks and speed
-  up your workflow
 date: 2020-09-17T03:52:54.916Z
 tag: gulpjs
 ---
+
 Gulpjs and its ecosystem provide a variety of tools and libraries for you to bundle and transform files. You can use it to automate tasks and speed up your workflow
 
 Let's start setting up Gulpjs for your project by checking your environment. Gulpjs requires the following Nodejs and npm version
@@ -40,7 +39,7 @@ gulp --version
 It will print CLI version and your local Gulp version.
 
 ```
-CLI version: 2.3.0  
+CLI version: 2.3.0
 Local version: 4.0.2
 ```
 
@@ -51,7 +50,7 @@ function task(cb) {
   cb();
 }
 
-exports.default = task
+exports.default = task;
 ```
 
 Run gulp command

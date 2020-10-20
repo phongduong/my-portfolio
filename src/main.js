@@ -13,21 +13,4 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component("Header", Header);
   Vue.component("Footer", Footer);
   Vue.component("Subscribe", Subscribe);
-
-  head.script.push({
-    src: "https://platform.twitter.com/widgets.js",
-    body: true,
-  });
-  head.script.push({
-    body: true,
-    innerHTML: `
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function (registrations) {
-        for (const registration of registrations) {
-          console.log('serviceWorker unregistered');
-          registration.unregister();
-        }
-      });
-    }`,
-  });
 }

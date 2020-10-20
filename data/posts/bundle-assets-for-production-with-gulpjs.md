@@ -1,9 +1,9 @@
 ---
 title: Run multiple public tasks in Gulpjs command
-description: You can run multiple tasks in a single gulp command
 date: 2020-10-02T12:57:34.907Z
 tag: gulpjs
 ---
+
 When you create and export tasks to run in `gulp` command, you can execute them in a single command
 
 ```javascript
@@ -18,11 +18,10 @@ const copyPNG = () => {
 };
 
 exports.default = copyCSS;
-exports.copyPNG = copyPNG
-
+exports.copyPNG = copyPNG;
 ```
 
-You run `gulp` command and pass the export names as argument. The `default` task is a special case. If you run only `default` task, you don't have to pass `default` to command. 
+You run `gulp` command and pass the export names as argument. The `default` task is a special case. If you run only `default` task, you don't have to pass `default` to command.
 
 ```
 gulp

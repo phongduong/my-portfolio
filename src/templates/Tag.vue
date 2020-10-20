@@ -31,7 +31,6 @@ export default {
 query($id: ID!) {
   metadata {
     siteDescription
-    siteUrl
   }
 
   tag(id: $id) {

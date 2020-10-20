@@ -6,15 +6,8 @@ projects:
     name: Blockpage
     url: https://github.com/phongduong/blockpage/blob/master/blockpage.crx
     date: 2018-11-13T17:00:00.000Z
-  - description: A PWA combines Pomodoro technique and to do list
-    name: Pomotasks
-    url: https://pomotasks.surge.sh
-    date: 2019-02-20T17:00:00.000Z
-  - date: 2019-08-13T14:45:32.356Z
-    name: Weali
-    description: A platform helps user lend books
-    url: https://weali.netlify.com/
-  - description: A collection of projects. I create these projects to learn about
+  - description:
+      A collection of projects. I create these projects to learn about
       mobile and desktop application development
     name: KOOGIO
     url: https://phongduong.github.io/koogio/#/
@@ -24,4 +17,5 @@ projects:
     url: https://vncss.vercel.app/
     description: A css library of patterns created with gradient.
 ---
+
 <pages-Projects />

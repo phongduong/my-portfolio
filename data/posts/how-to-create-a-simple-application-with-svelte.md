@@ -1,7 +1,5 @@
 ---
 title: How to create a simple application with Svelte
-description: Learn main concepts of Svelte by building a simple application to
-  fetch dog's images
 date: 2020-08-18T07:06:32.488Z
 tag: svelte
 ---

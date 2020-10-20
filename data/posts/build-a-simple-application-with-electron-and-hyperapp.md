@@ -1,6 +1,5 @@
 ---
 title: Build a simple application with Electron and Hyperapp
-description: Learning how to build a simple desktop application with Electron and Hyperapp
 date: 2020-07-11T14:47:40.385Z
 tag: electronjs
 ---

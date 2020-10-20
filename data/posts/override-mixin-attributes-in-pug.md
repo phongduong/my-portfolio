@@ -1,6 +1,5 @@
 ---
 title: Override mixin attributes in Pug
-description: If you create a mixin with some default attributes, you can change it later
 date: 2020-07-28T15:00:00.000Z
 tag: pug
 ---

@@ -1,11 +1,10 @@
 ---
 title: Run tasks simultaneously in Gulpjs
-description: "Gulpjs provide parallel function that helps you to run your tasks
-  simultaneously "
 date: 2020-09-30T12:36:54.605Z
 tag: gulpjs
 ---
-To run your tasks simultaneously, you pass your private tasks to the `parallel` function. You can pass them as an array or just arguments. The order of tasks is not important. 
+
+To run your tasks simultaneously, you pass your private tasks to the `parallel` function. You can pass them as an array or just arguments. The order of tasks is not important.
 
 You export the `parallel` function as a public task and run it normally
 
@@ -23,5 +22,4 @@ const copyPNG = () => {
 exports.default = parallel(copyCSS, copyPNG);
 // Or
 // exports.default = parallel([copyCSS, copyPNG]);
-
 ```

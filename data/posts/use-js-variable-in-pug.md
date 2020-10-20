@@ -1,7 +1,5 @@
 ---
 title: Use JS variable in Pug
-description: How to use JS variable in Pug? This tutorial explain how to
-  initialize a variable in JS and display it in Pug
 date: 2020-07-16T14:53:38.634Z
 tag: pug
 ---
