@@ -5,7 +5,7 @@ tag: javascript
 ---
 ## Encode URL
 
-When you request a third-party API, you may pass parameters that contain reserved characters. This may cause errors for your request. To avoid this situation, you need to encode the URL before sending the request. 
+When you request a third-party API, you may pass parameters that contain special characters. This may cause errors for your request. To avoid this situation, you need to encode the URL before sending the request. 
 
 Javascript has 2 functions that help you encode URL
 
