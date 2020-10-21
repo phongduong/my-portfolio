@@ -50,4 +50,4 @@ console.log(decodeURIComponent("https%3A%2F%2Fphongduong.dev")) // https://phong
 
 ## Summary
 
-If you want to encode a full URL, use `encodeURI()`. If you want to encode a part of the URL, use `encodeURIComponent()`. To decode, use the corresponding function
+If you want to encode a full URL, use `encodeURI()`. If you want to encode a part of the URL, use `encodeURIComponent()`. To decode, use the corresponding function.
