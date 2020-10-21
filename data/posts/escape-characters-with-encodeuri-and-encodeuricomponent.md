@@ -7,10 +7,10 @@ tag: javascript
 
 When you request a third-party API, you may pass parameters that contain special characters. This may cause errors for your request. To avoid this situation, you need to encode the URL before sending the request. 
 
-Javascript has 2 functions that help you encode URL
+Javascript has 2 functions that help you encode a URL:
 
 * `encodeURI()`: encode a full URL. It doesn't encode `~!@#$&*()=:/,;?+'` 
-* `encodeURIComponent()`: encode a part of URL. It doesn't encode `-_.!~*'()` 
+* `encodeURIComponent()`: encode a part of the URL. It doesn't encode `-_.!~*'()` 
 
 ## Examples
 
@@ -39,7 +39,7 @@ console.log(`${URL}?q=${encodeURIComponent(searchQuery)}`) // https://phongduong
 
 ## Decode URL
 
-Javascript provides `decodeURI()` and `decodeURIComponent()`to decode URL.
+Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL.
 
 ```javascript
 const URL = "https://phongduong.dev"
@@ -50,4 +50,4 @@ console.log(decodeURIComponent("https%3A%2F%2Fphongduong.dev")) // https://phong
 
 ## Summary
 
-If you want to encode a full URL, use `encodeURI()`. If you want to encode a part of URL, use `encodeURIComponent()`. To decode, use the corresponding function
+If you want to encode a full URL, use `encodeURI()`. If you want to encode a part of the URL, use `encodeURIComponent()`. To decode, use the corresponding function
