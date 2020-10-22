@@ -98,6 +98,14 @@ ul {
   @apply list-disc list-inside;
 }
 
+ol {
+  @apply list-decimal list-inside;
+}
+
+li {
+  @apply my-2;
+}
+
 code {
   @apply text-gray-900 bg-gray-300 px-1;
 }
