@@ -17,37 +17,36 @@ Javascript has 2 functions that help you encode a URL:
 ### Encode URL
 
 ```javascript
-const URL = "https://phongduong.dev"
+const URL = "https://phongduong.dev/blog/kiểm tra tiếng Việt"
 
-console.log(encodeURI(URL)) // https://phongduong.dev
-console.log(encodeURIComponent(URL)) // https%3A%2F%2Fphongduong.dev
-
-
+console.log(encodeURI(URL)) // https://phongduong.dev/blog/ki%E1%BB%83m%20tra%20ti%E1%BA%BFng%20Vi%E1%BB%87t
+console.log(encodeURIComponent(URL)) // https%3A%2F%2Fphongduong.dev%2Fblog%2Fki%E1%BB%83m%20tra%20ti%E1%BA%BFng%20Vi%E1%BB%87t
 ```
 
 ### Encode parameters
 
 ```javascript
 const URL = "https://phongduong.dev"
-const seachURL = "https://example.com"
-const searchQuery = "Đây là tiếng Việt"
+const URLParam = "https://example.com"
+const queryParam = "Đây là tiếng Việt"
 
-console.log(`${URL}?url=${encodeURIComponent(seachURL)}`) // https://phongduong.dev?url=https%3A%2F%2Fexample.com
-console.log(`${URL}?q=${encodeURIComponent(searchQuery)}`) // https://phongduong.dev?q=%C4%90%C3%A2y%20l%C3%A0%20ti%E1%BA%BFng%20Vi%E1%BB%87t
-
+console.log(`${URL}?url=${encodeURIComponent(URLParam)}`) // https://phongduong.dev?url=https%3A%2F%2Fexample.com
+console.log(`${URL}?q=${encodeURIComponent(queryParam)}`) // https://phongduong.dev?q=%C4%90%C3%A2y%20l%C3%A0%20ti%E1%BA%BFng%20Vi%E1%BB%87t
 ```
 
 ## Decode URL
 
-Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL.
+Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL. You can use them to decode the corresponding encode function
 
 ```javascript
-const URL = "https://phongduong.dev"
-
-console.log(decodeURI("https://phongduong.dev")) // https://phongduong.dev
-console.log(decodeURIComponent("https%3A%2F%2Fphongduong.dev")) // https://phongduong.dev
+console.log(decodeURI("https://phongduong.dev/blog/ki%E1%BB%83m%20tra%20ti%E1%BA%BFng%20Vi%E1%BB%87t")) // https://phongduong.dev/blog/kiểm tra tiếng Việt
+console.log(decodeURIComponent("https%3A%2F%2Fphongduong.dev%2Fblog%2Fki%E1%BB%83m%20tra%20ti%E1%BA%BFng%20Vi%E1%BB%87t")) // https://phongduong.dev/blog/kiểm tra tiếng Việt
 ```
 
 ## Summary
 
-If you want to encode a full URL, use `encodeURI()`. If you want to encode a part of the URL, use `encodeURIComponent()`. To decode, use the corresponding function.
+If you want to encode a full URL, use `encodeURI()`. 
+
+If you want to encode a part of the URL, use `encodeURIComponent()`. 
+
+To decode, use the corresponding function.
