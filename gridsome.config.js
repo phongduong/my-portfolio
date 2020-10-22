@@ -64,7 +64,7 @@ module.exports = {
         },
         feedItemOptions: (node) => ({
           title: node.title,
-          description: node.cotent,
+          description: node.content,
           url: `${URL}${node.path}`,
           date: node.date,
         }),
