@@ -4,13 +4,13 @@ date: 2020-10-22T15:23:27.830Z
 tag: netlify
 ---
 
-I schedule my posts to publish at night. I don't want to manually visit my Netlify site and trigger deploy every night because I sometimes forget to do that. I read [Auto trigger deploys on Netlify tutorial](https://flaviocopes.com/netlify-auto-deploy/) of Flavio Copes but he uses Zapier for automation. I don't want to use third-party service so I use Github Actions instead. It supports to trigger workflow run at a scheduled time.
+I schedule my posts to publish at night. I don't want to manually visit my Netlify site and trigger deploy every night because I sometimes forget to do that. I read [Auto trigger deploys on Netlify tutorial](https://flaviocopes.com/netlify-auto-deploy/) of Flavio Copes but he uses Zapier for automation. I don't want to use a third-party service so I use Github Actions instead. It supports to trigger workflow run at a scheduled time.
 
-There are some ways to build and deploy Netlify site. You can use CLI to build and deploy or send a `POST` request to site's build hook. I choose to use build hook.
+There are some ways to build and deploy a Netlify site. You can use CLI to build and deploy or send a `POST` request to the site's build hook. I choose to use build hook.
 
 ## Generate Netlify site's build hook
 
-- In site **Setting**, select **Build & deploy** tab from left side bar
+- In site **Setting**, select **Build & deploy** tab from left sidebar
 - Select **Build hooks** section in **Continuous Deployment**
 - Select **Add build hook**
 - Enter **Build hook name**. It will be displayed in the deploy message
@@ -66,8 +66,8 @@ In your job's steps, run the following command
 run: curl -X POST ${{ secrets.{BUILD_HOOK_SECRET_NAME} }}
 ```
 
-It retrieves the encrypted secret of your build hook from `secrets` context and send a `POST` request to the build hook.
+It retrieves the encrypted secret of your build hook from `secrets` context and sends a `POST` request to the build hook.
 
-Commit your workflow configuration. It will run at the time you scheduled. You can check the result of your workflow in the **Actions** page
+Commit your workflow configuration. It will run at the time you scheduled. You can check the result of your workflow on the **Actions** page
 
 After the workflow runs, visit **Deploys** page of your Netlify site. You can see your triggered deploy in the deploy list.
