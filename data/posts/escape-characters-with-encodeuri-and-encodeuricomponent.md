@@ -3,9 +3,9 @@ title: How to encode and decode URL with Javascript
 date: 2020-10-30T14:40:43.083Z
 tag: javascript
 ---
-## Encode URL
-
 When you request a third-party API, you may pass parameters that contain special characters. This may cause errors for your request. To avoid this situation, you need to encode the URL before sending the request. 
+
+## Encode URL
 
 Javascript has 2 functions that help you encode a URL:
 
@@ -36,7 +36,7 @@ console.log(`${URL}?q=${encodeURIComponent(queryParam)}`) // https://phongduong.
 
 ## Decode URL
 
-Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL. You can use them to decode the corresponding encode function
+Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL. You can use them to decode the corresponding encoding function's result
 
 ```javascript
 console.log(decodeURI("https://phongduong.dev/blog/ki%E1%BB%83m%20tra%20ti%E1%BA%BFng%20Vi%E1%BB%87t")) // https://phongduong.dev/blog/kiểm tra tiếng Việt
