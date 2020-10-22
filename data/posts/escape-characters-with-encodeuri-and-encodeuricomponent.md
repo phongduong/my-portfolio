@@ -36,7 +36,7 @@ console.log(`${URL}?q=${encodeURIComponent(queryParam)}`) // https://phongduong.
 
 ## Decode URL
 
-Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL. You can use them to decode the corresponding encode function
+Javascript provides `decodeURI()` and `decodeURIComponent()`to decode a URL. You can use them to decode the corresponding encoding function's result
 
 ```javascript
 console.log(decodeURI("https://phongduong.dev/blog/ki%E1%BB%83m%20tra%20ti%E1%BA%BFng%20Vi%E1%BB%87t")) // https://phongduong.dev/blog/kiểm tra tiếng Việt
