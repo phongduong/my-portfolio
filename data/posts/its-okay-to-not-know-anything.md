@@ -20,4 +20,6 @@ Now I don't rush to learn new technologies as I did. I am not afraid of being ob
 
 If you just start learning web development or being a professional developer, you don't need to learn all of the latest technologies. Just learn the fundamentals and master them. You should also learn soft-skill. It is important. Although technologies change every day, companies don't change that much. I hear that some projects were written over the decades but still using old technologies.
 
-You don't become a professional developer if you learn all technologies. You also don't become obsolete if you don't learn new technologies. Pick something you want to learn and stick with it. As long as you know the fundamentals, there are still jobs for you.
+You don't become a professional developer if you learn all technologies. You also don't become obsolete if you don't learn new technologies. Pick something you want to learn and stick with it. As long as you know the fundamentals, there are many opportunities for you. 
+
+It's OKAY to not know everything. Be patient and enjoy learning.
