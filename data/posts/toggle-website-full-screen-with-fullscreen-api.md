@@ -5,7 +5,7 @@ tag: webapi
 ---
 Fullscreen API allows you to represent your application on the full screen. You can use it for your video player or game. 
 
-In this tutorial, we want to present the page in full-screen mode by clicking turn on button
+In this tutorial, we want to present the page in the full-screen mode by clicking turn on button
 
 ```javascript
 <h1>Fullscreen API</h1>
@@ -13,15 +13,15 @@ In this tutorial, we want to present the page in full-screen mode by clicking tu
 <button id="off">Turn off fullscreen</button>
 ```
 
-## Check the browser's support
+## Check the mode's support
 
-First, you need to check whether the full-screen mode is enabled first
+First, you need to check whether the full-screen mode is supported first
 
 ```javascript
 const fullscreenSupported = document.fullscreenEnabled;
 ```
 
-It returns `false` if your browser doesn't support fullscreen mode or `fullscreen` feature is not allowed.
+It returns `false` if your browser doesn't support the full-screen mode or `fullscreen` feature is not allowed.
 
 ## Get the current fullscreen element
 
