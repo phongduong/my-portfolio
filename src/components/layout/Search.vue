@@ -25,6 +25,7 @@ export default {
     const options = {
       keys: this.keys,
       shouldSort: false,
+      threshold: 0.4,
     };
     this.query = this.$route?.query?.query;
     this.fuse = new Fuse(this.list, options);
