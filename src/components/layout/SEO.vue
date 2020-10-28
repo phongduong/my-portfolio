@@ -1,4 +1,4 @@
-<template> </template>
+<template></template>
 
 <script>
 export default {
@@ -54,5 +54,4 @@ query {
     siteUrl
   }
 }
-
 </static-query>
