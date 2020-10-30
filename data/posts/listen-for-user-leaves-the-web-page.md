@@ -5,7 +5,7 @@ tag: webapi
 ---
 To know when users leave the web page, you listen to `beforeunload`**.** This event is fired before the `window` is unloaded. 
 
- It is because of the browser's support. In the event handler, you can call `preventDefault()` on the event, assign a string to the event's `returnValue` property and return a string. You can combine these methods if your web page runs on multiple browsers.
+ It is because of the browser's support. In the event handler, you can call `preventDefault()` on the event, assign a string to the event's `returnValue` property and return a string. You should combine these methods if your web page runs on multiple browsers.
 
 ```javascript
 window.addEventListener('beforeunload', (event) => {
