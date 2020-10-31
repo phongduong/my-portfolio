@@ -5,13 +5,13 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function(api) {
+module.exports = function (api) {
   api.loadSource(({ addCollection, addMetadata }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
     addMetadata("author", "Phong Duong");
     addMetadata(
       "keywords",
-      "developer, Youtuber, Javascript, Nodejs, experiment new things, programming, tutorials, web development, pwa, progressive web app, fullstack, frontend, backend, funny projects, project ideas"
+      "developer, Youtuber, Javascript, Nodejs, learn new things, programming, tutorials, web development, pwa, progressive web app, fullstack, frontend, backend, project ideas"
     );
     addMetadata("twitter_card", "summary");
     addMetadata("twitter_creator", "@koo_gio");

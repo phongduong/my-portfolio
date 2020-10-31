@@ -13,7 +13,7 @@ In your global data directory, you create a file named `siteConfig.json`. This f
 ```json
 {
   "title": "Phong Duong",
-  "description": "Experiment new things and create programming tutorials",
+  "description": "Hi, I am Phong Duong. I am a developer. I like learning and creating new things",
   "keywords": "javascript, programming tutorials",
   "author": "Phong Duong"
 }
@@ -37,7 +37,8 @@ If you want to use Javascript, you export an object
 ```javascript
 module.exports = {
   title: "Phong Duong",
-  description: "Experiment new things and create programming tutorials",
+  description:
+    "Hi, I am Phong Duong. I am a developer. I like learning and creating new things",
   keywords: "javascript, programming tutorials",
   author: "Phong Duong",
 };
