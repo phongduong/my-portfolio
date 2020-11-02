@@ -18,5 +18,7 @@ contact:
     url: https://www.buymeacoffee.com/phongduong
   - url: https://koogio.substack.com/
     name: Newsletter
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/phong-duong/
 ---
 <pages-Contact />
