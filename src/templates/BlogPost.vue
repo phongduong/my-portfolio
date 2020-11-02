@@ -50,7 +50,9 @@ export default {
 
 <style lang="scss">
 .blog {
-  &__title {
+  &__title,
+  h2,
+  h3 {
     @apply my-4;
   }
 

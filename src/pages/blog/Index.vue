@@ -53,9 +53,7 @@ query($page: Int) {
 </page-query>
 
 <style lang="scss" scoped>
-h1,
-h2,
-h3 {
+h1 {
   @apply my-6;
 }
 </style>
