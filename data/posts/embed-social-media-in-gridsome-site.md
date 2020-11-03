@@ -17,4 +17,16 @@ yarn add -D @noxify/gridsome-plugin-remark-embed
 
 ## Set up 
 
-In the
+You can set up the plugin for a specific source or globally
+
+###  Source
+
+
+
+### Globally
+
+
+
+## References
+
+[Remark embed document](https://webstone.info/documentation/gridsome-plugin-remark-embed)
