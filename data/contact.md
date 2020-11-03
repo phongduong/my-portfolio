@@ -20,7 +20,5 @@ contact:
     name: Newsletter
   - name: LinkedIn
     url: https://www.linkedin.com/in/phong-duong/
-  - name: Twitch
-    url: https://www.twitch.tv/koogio
 ---
 <pages-Contact />
