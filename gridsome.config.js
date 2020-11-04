@@ -105,11 +105,6 @@ module.exports = {
           "@noxify/gridsome-plugin-remark-embed",
           {
             enabledProviders: ["Youtube", "Twitter", "Codepen"],
-            Twitter: {
-              align: "center",
-              hideMedia: false,
-              omitScript: false,
-            },
           },
         ],
       ],
