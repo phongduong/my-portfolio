@@ -13,7 +13,7 @@ In this tutorial, we want to present the page in the full-screen mode by clickin
 <button id="off">Turn off fullscreen</button>
 ```
 
-## Check the mode's support
+## Check the mode is supported
 
 First, you need to check whether the full-screen mode is supported first
 
