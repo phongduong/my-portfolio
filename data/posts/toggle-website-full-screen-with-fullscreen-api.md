@@ -7,13 +7,13 @@ Fullscreen API allows you to represent your application on the full screen. You 
 
 In this tutorial, we want to present the page in the full-screen mode by clicking turn on button
 
-```javascript
+```html
 <h1>Fullscreen API</h1>
 <button id="on">Turn on fullscreen</button>
 <button id="off">Turn off fullscreen</button>
 ```
 
-## Check the mode's support
+## Check the mode is supported
 
 First, you need to check whether the full-screen mode is supported first
 
@@ -59,7 +59,6 @@ offButton.addEventListener("click", () => {
 		document.exitFullscreen()
 	}
 });
-
 ```
 
 This is the Codepen demo for the tutorial
