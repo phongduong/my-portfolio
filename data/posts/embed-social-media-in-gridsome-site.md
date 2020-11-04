@@ -36,7 +36,7 @@ In the `plugins` configuration of Remark, you add the embed plugin
 }
 ```
 
-In this configuration, I enable Youtube, Twitter, and Codepen ember providers. I use the default configuration for Youtube and Codepen. With Twitter, I want it to align the center, show the media and emit the script automatically. 
+In this configuration, I enable Youtube, Twitter, and Codepen embed providers. I use the default configuration for Youtube and Codepen. With Twitter, I want it to align the center, show the media and emit the script automatically. 
 
 ## Add the URL
 
