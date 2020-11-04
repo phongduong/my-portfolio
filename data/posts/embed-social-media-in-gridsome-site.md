@@ -15,17 +15,36 @@ In this tutorial, I will show you how to transform your social media links into 
 yarn add -D @noxify/gridsome-plugin-remark-embed
 ```
 
-## Set up 
+## Set up
 
-You can set up the plugin for a specific source or globally
+In the `plugins` configuration of Remark, you add the embed plugin
 
-###  Source
+```javascript
+{
+  remark: {
+    [ '@noxify/gridsome-plugin-remark-embed', 
+      {
+        enabledProviders: ["Youtube", "Twitter", "Codepen"],
+        Twitter: {
+          align: "center",
+          hideMedia: false,
+          omitScript: false,
+        },
+      },
+    ]
+  }
+}
+```
 
+In this configuration, I enable Youtube, Twitter, and Codepen ember providers. I use the default configuration for Youtube and Codepen. With Twitter, I want it to align the center, show the media and emit the script automatically. 
 
+## Add the URL
 
-### Globally
+When you add the URL to your Markdown file, make sure it is in a new paragraph. If you place it in the paragraph with text, the plugin can't transform the link. 
 
+## Run the site
 
+After setting up and adding the URL, you run your site and check the transformation. Different providers may be transformed in different ways. You can see the provider's configuration and customize it to suit your site.
 
 ## References
 
