@@ -8,3 +8,5 @@ When you use `input` element for selecting files, you can specify the file types
 ```html
 <input type="file" accept="image/*" multiple />
 ```
+
+If the user clicks the `input` element, the dialog will only show the image files and the user can select one or multiple files.
