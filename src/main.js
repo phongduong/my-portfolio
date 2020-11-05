@@ -25,7 +25,6 @@ export default function (Vue, { router, head, isClient }) {
   head.script.push({
     src:
       "https://platform-api.sharethis.com/js/sharethis.js#property=5fa40ec1a809f500123873d3&product=undefined",
-    body: true,
     async: true,
   });
 }
