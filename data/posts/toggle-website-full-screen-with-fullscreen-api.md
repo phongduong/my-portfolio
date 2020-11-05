@@ -23,6 +23,18 @@ const fullscreenSupported = document.fullscreenEnabled;
 
 It returns `false` if your browser doesn't support the full-screen mode or `fullscreen` feature is not allowed.
 
+If the full-screen mode is not supported, you should show a notification for the user
+
+```javascript
+if (!fullscreenSupported) {
+	const para = document.createElement("p");
+	para.textContent = "Full screen mode is not supported";
+	document.body.appendChild(para);
+	onButton.style.display = "none";
+	offButton.style.display = "none";
+}
+```
+
 ## Get the current fullscreen element
 
 You can present any element in full-screen mode. To get the current element that is being represented in full-screen, you call `fullscreenElement` property of `document`
