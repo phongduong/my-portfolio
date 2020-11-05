@@ -10,19 +10,19 @@
         </g-link>
       </p>
       <div class="blog__content" v-html="post.content"></div>
-      <Share :title="post.title" :path="post.path" />
+      <!-- ShareThis BEGIN -->
+      <div class="sharethis-inline-share-buttons"></div>
+      <!-- ShareThis END -->
     </article>
   </Layout>
 </template>
 
 <script>
 import { SEO } from "~/components/layout";
-import { Share } from "~/components/blog";
 
 export default {
   components: {
     SEO,
-    Share,
   },
   computed: {
     post() {

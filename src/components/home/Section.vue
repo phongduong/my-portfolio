@@ -3,7 +3,7 @@
     <h1>{{ title }}</h1>
     <slot />
     <p>
-      <g-link :to="link">View all</g-link>
+      <g-link :to="link">View all {{ title }}</g-link>
     </p>
   </section>
 </template>

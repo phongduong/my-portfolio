@@ -7,13 +7,7 @@
 </template>
 
 <script>
-import { Link } from "~/components/layout";
-
-export default {
-  components: {
-    Link,
-  },
-};
+export default {};
 </script>
 
 <static-query>

@@ -7,8 +7,13 @@
         </h2>
       </g-link>
     </div>
-    <div class="article__date">
-      <p>{{ post.node.date }}</p>
+    <div class="article__info">
+      <p>
+        {{ post.node.date }} |
+        <g-link :to="`blog/tag/${post.node.tag.title}`">
+          #{{ post.node.tag.title }}
+        </g-link>
+      </p>
     </div>
   </article>
 </template>
@@ -21,18 +26,10 @@ export default {
 
 <style lang="scss" scoped>
 .article {
-  @apply mb-6;
+  @apply mb-8;
 
   p {
-    @apply my-2 text-gray-800;
-  }
-
-  @screen sm {
-    @apply grid grid-cols-4;
-
-    &__title {
-      @apply col-span-3;
-    }
+    @apply my-4 text-gray-800;
   }
 }
 </style>

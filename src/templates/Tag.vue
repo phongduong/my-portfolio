@@ -44,6 +44,9 @@ query($id: ID!) {
             path
             title
             date (format: "DD-MM-YYYY")
+            tag {
+              title
+            }
           }
         }
       }

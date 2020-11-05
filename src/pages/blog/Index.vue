@@ -35,7 +35,7 @@ query($page: Int) {
     path
   }
 
-  posts: allBlogPost(perPage: 20, page: $page) @paginate {
+  posts: allBlogPost(page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -46,6 +46,9 @@ query($page: Int) {
         path
         title
         date(format: "DD-MM-YYYY")
+        tag {
+          title
+        }
       }
     }
   }

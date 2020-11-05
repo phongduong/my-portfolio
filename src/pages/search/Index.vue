@@ -8,21 +8,18 @@
     <h1>Search</h1>
     <Search :keys="['title']" :list="posts" @search="handleSearch" />
     <template v-if="!!resultList.length">
-      <g-link v-for="(link, index) in resultList" :to="link.path" :key="index">
-        <h2>
-          {{ link.title }}
-        </h2>
-      </g-link>
+      <BlogItem v-for="(post, index) in resultList" :key="index" :post="post" />
     </template>
     <template v-else><p>No results</p></template>
   </Layout>
 </template>
 
 <script>
+import { BlogItem } from "~/components/blog";
 import { SEO, Search } from "~/components/layout";
 
 export default {
-  components: { SEO, Search },
+  components: { SEO, Search, BlogItem },
   data() {
     return {
       searchData: {
@@ -36,7 +33,7 @@ export default {
       return this.$page.posts.edges.map(({ node }) => node);
     },
     resultList() {
-      return this.searchData.result.map(({ item }) => ({ ...item }));
+      return this.searchData.result.map(({ item }) => ({ node: item }));
     },
   },
   methods: {
@@ -63,6 +60,10 @@ query {
       node {
         path
         title
+        date(format: "DD-MM-YYYY")
+        tag {
+          title
+        }
       }
     }
   }
@@ -72,9 +73,5 @@ query {
 <style lang="scss" scoped>
 h1 {
   @apply my-6;
-}
-
-h2 {
-  @apply my-4;
 }
 </style>

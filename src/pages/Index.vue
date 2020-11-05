@@ -60,11 +60,14 @@ query {
         path
         title
         date (format: "DD-MM-YYYY")
+        tag {
+          title
+        }
       }
     }
   }
 
-  projects: allProject {
+  projects: allProject(limit: 5) {
     edges {
       node {
         projects {

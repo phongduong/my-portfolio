@@ -8,35 +8,35 @@
     <h1>Keep in touch with me</h1>
     <p>
       If you want to contact me, you can email me at
-      <Link :to="email.url">
+      <a :href="email.url">
         {{ email.url.split("mailto:")[1] }}
-      </Link>
+      </a>
     </p>
     <p>
       Follow me on
-      <Link
+      <a
         class="contact-link"
         v-for="(link, i) in social"
         :key="i"
-        :to="link.url"
+        :href="link.url"
         >{{ link.name }}
-      </Link>
+      </a>
     </p>
     <p>
-      I also write on <Link :to="dev.url">{{ dev.name }}</Link>
+      I also write on <a :href="dev.url">{{ dev.name }}</a>
     </p>
     <p>
-      You can find my code on <Link :to="github.url">{{ github.name }}</Link>
+      You can find my code on <a :href="github.url">{{ github.name }}</a>
     </p>
   </Layout>
 </template>
 
 <script>
-import { Link, SEO } from "~/components/layout";
+import { SEO } from "~/components/layout";
 import { Contacts } from "~/utils";
 
 export default {
-  components: { SEO, Link },
+  components: { SEO },
   computed: {
     contacts() {
       return new Contacts(this.$page.contact);
@@ -45,7 +45,7 @@ export default {
       return this.contacts.getContactDetail("Email");
     },
     social() {
-      return ["Twitter", "Facebook"].map((social) =>
+      return ["Twitter", "Facebook", "LinkedIn"].map((social) =>
         this.contacts.getContactDetail(social)
       );
     },

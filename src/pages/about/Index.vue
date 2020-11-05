@@ -7,26 +7,26 @@
     />
     <div v-html="$page.about.edges[0].node.content"></div>
     <p>You can find me on</p>
-    <Link :to="email.url">
+    <a :href="email.url">
       {{ email.name }}
-    </Link>
-    <Link
+    </a>
+    <a
       class="contact-link"
       v-for="(contact, i) in contactList"
       :key="i"
-      :to="contact.url"
+      :href="contact.url"
     >
       {{ contact.name }}
-    </Link>
+    </a>
   </Layout>
 </template>
 
 <script>
-import { SEO, Link } from "~/components/layout";
+import { SEO } from "~/components/layout";
 import { Contacts } from "~/utils";
 
 export default {
-  components: { SEO, Link },
+  components: { SEO },
   computed: {
     contacts() {
       return new Contacts(this.$page.contact);
@@ -35,7 +35,14 @@ export default {
       return this.contacts.getContactDetail("Email");
     },
     contactList() {
-      const contactList = ["Youtube", "Twitter", "Facebook", "Github", "DEV"];
+      const contactList = [
+        "Youtube",
+        "Twitter",
+        "Facebook",
+        "Github",
+        "LinkedIn",
+        "DEV",
+      ];
 
       return contactList.map((contact) =>
         this.contacts.getContactDetail(contact)

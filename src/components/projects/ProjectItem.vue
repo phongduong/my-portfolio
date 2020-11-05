@@ -1,9 +1,9 @@
 <template>
   <div class="project">
     <h2>
-      <Link class="project__title" :to="project.url">
+      <a class="project__title" :href="project.url">
         {{ project.name }}
-      </Link>
+      </a>
       <span class="project__description">
         {{ project.description }}
       </span>
@@ -12,13 +12,8 @@
 </template>
 
 <script>
-import { Link } from "~/components/layout";
-
 export default {
   props: ["project"],
-  components: {
-    Link,
-  },
 };
 </script>
 
