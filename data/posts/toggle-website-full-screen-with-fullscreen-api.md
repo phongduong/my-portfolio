@@ -76,9 +76,4 @@ offButton.addEventListener("click", () => {
 
 This is the Codepen demo for the tutorial
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="phongduong" data-slug-hash="JjKNPKx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Toggle fullscreen mode with Fullscreen API">
-  <span>See the Pen <a href="https://codepen.io/phongduong/pen/JjKNPKx">
-  Toggle fullscreen mode with Fullscreen API</a> by Phong Duong (<a href="https://codepen.io/phongduong">@phongduong</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+https://codepen.io/phongduong/pen/JjKNPKx
