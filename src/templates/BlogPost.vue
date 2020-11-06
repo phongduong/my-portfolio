@@ -33,9 +33,11 @@ export default {
     script: [
       {
         src: "https://static.codepen.io/assets/embed/ei.js",
+        async: true,
       },
       {
         src: "https://platform.twitter.com/widgets.js",
+        async: true,
       },
     ],
   },

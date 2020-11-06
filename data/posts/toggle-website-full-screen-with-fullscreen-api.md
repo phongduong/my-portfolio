@@ -3,7 +3,8 @@ title: Toggle fullscreen mode with Fullscreen API
 date: 2020-11-04T04:23:52.899Z
 tag: webapi
 ---
-Fullscreen API allows you to represent your application on the full screen. You can use it for your video player or game. 
+
+Fullscreen API allows you to represent your application on the full screen. You can use it for your video player or game.
 
 In this tutorial, we want to present the page in the full-screen mode by clicking turn on button
 
@@ -27,11 +28,11 @@ If the full-screen mode is not supported, you should show a notification for the
 
 ```javascript
 if (!fullscreenSupported) {
-	const para = document.createElement("p");
-	para.textContent = "Full screen mode is not supported";
-	document.body.appendChild(para);
-	onButton.style.display = "none";
-	offButton.style.display = "none";
+  const para = document.createElement("p");
+  para.textContent = "Full screen mode is not supported";
+  document.body.appendChild(para);
+  onButton.style.display = "none";
+  offButton.style.display = "none";
 }
 ```
 
@@ -40,7 +41,7 @@ if (!fullscreenSupported) {
 You can present any element in full-screen mode. To get the current element that is being represented in full-screen, you call `fullscreenElement` property of `document`
 
 ```javascript
-document.fullscreenElement
+document.fullscreenElement;
 ```
 
 It returns `null`, if the document is not in full-screen mode
@@ -53,26 +54,28 @@ You listen to the click event in the turn on button. In the event handler, you c
 const onButton = document.getElementById("on");
 
 onButton.addEventListener("click", () => {
-	if (fullscreenSupported && !document.fullscreenElement) {
-		document.documentElement.requestFullscreen();
-	}
+  if (fullscreenSupported && !document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  }
 });
 ```
 
 ## Turn off full-screen mode
 
-To turn off the full-screen mode, you listen to the click event of the turn off button. In the event handler, you call the `exitFullscreen()` method of `document`. It returns a `Promise` that is resolved after the mode is off. You need to check whether the mode is supported and the mode is on. 
+To turn off the full-screen mode, you listen to the click event of the turn off button. In the event handler, you call the `exitFullscreen()` method of `document`. It returns a `Promise` that is resolved after the mode is off. You need to check whether the mode is supported and the mode is on.
 
 ```javascript
 const offButton = document.getElementById("off");
 
 offButton.addEventListener("click", () => {
-	if (fullscreenSupported && document.fullscreenElement) {
-		document.exitFullscreen()
-	}
+  if (fullscreenSupported && document.fullscreenElement) {
+    document.exitFullscreen();
+  }
 });
 ```
 
 This is the Codepen demo for the tutorial
 
 https://codepen.io/phongduong/pen/JjKNPKx
+
+https://twitter.com/koo_gio/status/1324377942772756481
