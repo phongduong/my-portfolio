@@ -99,15 +99,7 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      plugins: [
-        "@gridsome/remark-prismjs",
-        [
-          "@noxify/gridsome-plugin-remark-embed",
-          {
-            enabledProviders: ["Youtube", "Twitter", "Codepen"],
-          },
-        ],
-      ],
+      plugins: ["@gridsome/remark-prismjs"],
       externalLinks: false,
     },
   },
