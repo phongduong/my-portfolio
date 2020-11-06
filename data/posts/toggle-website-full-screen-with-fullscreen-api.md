@@ -74,6 +74,36 @@ offButton.addEventListener("click", () => {
 });
 ```
 
-This is the Codepen demo for the tutorial
+Full code
 
-https://codepen.io/phongduong/pen/JjKNPKx
+```html
+<h1>Fullscreen API</h1>
+<button id="on">Turn on fullscreen</button>
+<button id="off">Turn off fullscreen</button>
+
+<script>
+  const onButton = document.getElementById("on");
+  const offButton = document.getElementById("off");
+  const fullscreenSupported = document.fullscreenEnabled;
+
+  if (!fullscreenSupported) {
+    const para = document.createElement("p");
+    para.textContent = "Full screen mode is not supported";
+    document.body.appendChild(para);
+    onButton.style.display = "none";
+    offButton.style.display = "none";
+  }
+
+  onButton.addEventListener("click", () => {
+    if (fullscreenSupported && !document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+    }
+  });
+
+  offButton.addEventListener("click", () => {
+    if (fullscreenSupported && document.fullscreenElement) {
+      document.exitFullscreen();
+    }
+  });
+</script>
+```
