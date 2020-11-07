@@ -45,7 +45,7 @@ export default {
       return this.contacts.getContactDetail("Email");
     },
     social() {
-      return ["Twitter", "Facebook", "LinkedIn"].map((social) =>
+      return ["Twitter", "Facebook", "LinkedIn", "Twitch"].map((social) =>
         this.contacts.getContactDetail(social)
       );
     },

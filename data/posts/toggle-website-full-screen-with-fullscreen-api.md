@@ -74,7 +74,7 @@ offButton.addEventListener("click", () => {
 });
 ```
 
-Full code
+Here is full code
 
 ```html
 <h1>Fullscreen API</h1>

@@ -36,9 +36,9 @@ export default {
     },
     contactList() {
       const contactList = [
-        "Youtube",
         "Twitter",
         "Facebook",
+        "Twitch",
         "Github",
         "LinkedIn",
         "DEV",
