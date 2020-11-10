@@ -2,10 +2,6 @@
 layout: OtherLayout
 title: Projects
 projects:
-  - description: A Chrome extension to block specific websites
-    name: Blockpage
-    url: https://github.com/phongduong/blockpage/blob/master/blockpage.crx
-    date: 2018-11-13T17:00:00.000Z
   - description:
       A collection of projects. I create these projects to learn about
       mobile and desktop application development

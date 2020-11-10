@@ -6,8 +6,6 @@ tag: svelte
 
 I have started learning Svelte recently. I think creating something is a best way to learn anything. So I created a simple application that fetches dog's images from <http://dog.ceo/> with Svelte. In this tutorial, I will show you how I created it.
 
-[Source code](https://github.com/phongduong/dog-image-app)
-
 ## Set up
 
 Run the following command in your folder
