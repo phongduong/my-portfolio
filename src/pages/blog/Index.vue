@@ -35,7 +35,7 @@ query($page: Int) {
     path
   }
 
-  posts: allBlogPost(page: $page) @paginate {
+  posts: allBlogPost(perPage: 100, page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage
