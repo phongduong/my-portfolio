@@ -1,6 +1,6 @@
 <template>
   <section class="pager">
-    <Pager :info="info" linkClass="pager-link" />
+    <Pager :info="info" linkClass="pager-link" :showNavigation="false" />
   </section>
 </template>
 

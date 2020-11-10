@@ -6,7 +6,7 @@
       :path="$page.page.path"
     />
     <div v-html="$page.about.edges[0].node.content"></div>
-    <p>You can find me on</p>
+    <p>You also can find me on</p>
     <a :href="email.url">
       {{ email.name }}
     </a>
@@ -35,14 +35,7 @@ export default {
       return this.contacts.getContactDetail("Email");
     },
     contactList() {
-      const contactList = [
-        "Twitter",
-        "Facebook",
-        "Twitch",
-        "Github",
-        "LinkedIn",
-        "DEV",
-      ];
+      const contactList = ["Twitter", "Facebook", "Github", "LinkedIn", "DEV"];
 
       return contactList.map((contact) =>
         this.contacts.getContactDetail(contact)
