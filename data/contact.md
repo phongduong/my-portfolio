@@ -19,7 +19,9 @@ contact:
   - url: https://koogio.substack.com/
     name: Newsletter
   - name: LinkedIn
-    url: https://www.linkedin.com/in/phong-duong/
+    url: https://www.linkedin.com/in/phong-duong
+  - name: Twitch
+    url: https://www.twitch.tv/koogio
 ---
 
 <pages-Contact />

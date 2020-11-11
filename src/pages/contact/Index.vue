@@ -23,7 +23,7 @@
       </a>
     </p>
     <p>
-      I also write on <a :href="dev.url">{{ dev.name }}</a>
+      I cross-post on <a :href="dev.url">{{ dev.name }}</a>
     </p>
     <p>
       You can find my code on <a :href="github.url">{{ github.name }}</a>
@@ -45,7 +45,7 @@ export default {
       return this.contacts.getContactDetail("Email");
     },
     social() {
-      return ["Twitter", "Facebook", "LinkedIn"].map((social) =>
+      return ["Twitter", "Facebook", "LinkedIn", "Twitch"].map((social) =>
         this.contacts.getContactDetail(social)
       );
     },
