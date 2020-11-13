@@ -11,4 +11,4 @@ document.addEventListener("mousemove", ({ pageX, pageY }) => {
 });
 ```
 
-These positions can change if you scroll the page. For example: if you scroll the page down 800px and move the cursor to 200px from the top edge of the document, `pageY` returns 1000px.
+These positions can change if you scroll the page. For example: if you scroll the page down 800px and move the cursor to 200px from the top edge of the document, `pageY` returns 1000.
