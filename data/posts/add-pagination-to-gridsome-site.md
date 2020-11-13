@@ -24,7 +24,12 @@ Gridsome provides a `Pager` component for pagination. You import the component f
 ```
 <template>
   <Layout>
-    <Pager :info="$page.allPost.pageInfo"/>
+    <Pager 
+      :info="$page.allPost.pageInfo" 
+      :showNavigation="false" 
+      range="10"
+      linkClass="pager-link"
+     />
   </Layout>
 </template>
 
@@ -51,4 +56,4 @@ query ($page: Int) {
 </page-query>
 ```
 
-You can also customize the `Pager` component's properties like show links and navigation, the number of nodes per page, or the custom class of links for styling.
+You can also customize the `Pager` component's properties like show links and navigation, the number of links to show, or the custom class of links for styling.
