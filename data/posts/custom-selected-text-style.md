@@ -3,7 +3,7 @@ title: Custom selected text style
 date: 2020-11-25T14:52:22.132Z
 tag: css
 ---
-To custom selected text style, you custom the style of `::selection` pseudo element. You can custom 
+To custom selected text style, you custom the style of `::selection` pseudo element. You can custom these properties with `::selection`:
 
 * `color`
 * `background-color`
@@ -31,7 +31,6 @@ p::selection {
 	color: black;
 	text-shadow: red 2px 5px;
 }
-
 ```
 
 When you select text in the paragraph, it will show green background, black text and red shadow
@@ -46,7 +45,6 @@ You can apply the style for the entire page by using just the `::selection` pse
 	color: black;
 	text-shadow: red 2px 5px;
 }
-
 ```
 
 When you select any text, it will show the style above
