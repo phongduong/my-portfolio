@@ -1,6 +1,6 @@
 ---
 title: Add the pagination for Gridsome site
-date: 2020-11-18T13:54:52.885Z
+date: 2020-11-20T13:54:52.885Z
 tag: gridsome
 ---
 To add the pagination for the site, you use `@paginate` in your GraphQL query. The query will receive a `$page: Int` parameter. The default number of nodes per page is 25. 
