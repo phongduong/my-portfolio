@@ -9,29 +9,7 @@ When I started creating content, I usually asked myself what format I should cre
 
 But it had changed when I watched [this video](https://www.youtube.com/watch?v=RVKofRN1dyI). Gary's idea was so brilliant: you document your life. You do what you like and share it with the world instead of creating something from the void. I liked this idea so much.
 
-It's been 4 months since I started creating content. I am creating content on some popular platforms. I [write blogs](https://phongduong.dev/blog/), [make videos on Youtube](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA), [stream on Twitch](https://www.twitch.tv/koogio), and [publish a weekly newsletter](http://koogio.substack.com/).
-
-In this post, I am going to share some tips you can use to create more content.
-
-## Streaming
-
-Streaming is a great way to share with the world what you are doing. You can live code while you are developing your side project or learning new technologies. You can also host a Q&A session with everyone or just simply talk about how your day was.
-
-## Blog posts
-
-The most primitive content format. You can make notes of what you are learning in, daily journal. You write tutorials, share lessons you learned in your life or your thought about an issue
-
-## Videos
-
-You use videos for multiple purposes like a vlog, create tutorials, or reaction.
-
-## Links
-
-This format is the simplest format to share on the social network. Most of the websites have share buttons on their pages. When you read a useful blog post or watch an interesting video, you can share it on platforms. If you can tag the creators in the shared link, please do it to let them know. They appreciate that.
-
-## Help and compliment
-
-There are many people who are looking for solutions to their problems every day. But most of them can't find out the solution. You may know the solution to their problems and help them. When you look for the solution to your problem and people share the solution with you, please give them a compliment. 
+It's been 4 months since I started creating content. In this post, I am going to share some tips I use to create content on some popular platforms. I [write blogs](https://phongduong.dev/blog/), [make videos on Youtube](https://www.youtube.com/channel/UCXykqt3V2-9bYXKWZRcH0rA), [stream on Twitch](https://www.twitch.tv/koogio), and [publish a weekly newsletter](http://koogio.substack.com/).
 
 ## Bundle and unbundle
 
