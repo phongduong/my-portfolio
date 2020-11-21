@@ -1,5 +1,5 @@
 ---
-title: Add the pagination on Gridsome site
+title: Add the pagination for Gridsome site
 date: 2020-11-20T13:54:52.885Z
 tag: gridsome
 ---
