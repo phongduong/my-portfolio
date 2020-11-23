@@ -29,7 +29,7 @@ There is no one size fits all tip in creating content. That's the truth. My tips
 
 ## Your creativity
 
-The only way you know what content works best for you is to keep consuming, creating, and trying. Don't be afraid of failure. You will find out your way. 
+The only way to know what content works best for you is to keep consuming, creating, and trying. Don't be afraid of failure. You will find out your way. 
 
 ## The very last tip
 
