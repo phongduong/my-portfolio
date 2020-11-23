@@ -25,14 +25,12 @@ If you want to create more content, you should consume more content. The process
 
 ## There is no right or wrong answer
 
-There is no one size fits all tip in creating content. My tips work for me but may not work for you. That's true. Because you have your own content that's you feel comfortable to work and share. You shouldn't blindly follow any advice and tips you receive. 
+There is no one size fits all tip in creating content. That's the truth. My tips work for me but may not work for you. Because you have your own content that's you feel comfortable to work and share. You shouldn't blindly follow any advice or tips you receive. This is when the last tip comes into play. 
 
 ## Your creativity
 
-If the tips above can work for you, that's great! Don't worry if they don't. There are no right or wrong answers. You are a unique piece of content. Your knowledge, experiences, and thoughts can be shared and helped people. Keep trying and you will find your way. Believe me. 
+The only way you know what content works best for you is to keep consuming, creating, and trying. Don't be afraid of failure. You will find out your way. 
 
-## Summary
+## The very last tip
 
-In this post, I shared some tips you can use for creating content. It is not rocket science. You can share what you know, experiences, or thoughts. You will find the content format and medium that work for you. Keep trying and don't be afraid of failure. If you have anything that you like and want to share with the world, don't hesitate to do it.  
-
-> People can't read or watch your content but at least they still see you. That's enough
+If people don't consume your content, that's fine. Don't get frustrated. At least they still see you. The most important thing is that you like what you create and enjoy. That's enough.
