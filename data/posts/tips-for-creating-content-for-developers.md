@@ -33,4 +33,4 @@ The only way you know what content works best for you is to keep consuming, crea
 
 ## The very last tip
 
-If people don't consume your content, that's fine. Don't get frustrated. At least they still see you. The most important thing is that you like what you create and enjoy. That's enough.
+If people don't consume your content, that's fine. Don't get frustrated. At least they still see you. The most important thing is that you like what you create and enjoy it. That's enough.
