@@ -25,7 +25,7 @@ If you want to create more content, you should consume more content. The process
 
 ## There is no right or wrong answer
 
-There is no one size fits all tip in creating content. That's the truth. My tips work for me but may not work for you. Because you have your own content that's you feel comfortable to work and share. You shouldn't blindly follow any advice or tips you receive. This is when the last tip comes into play. 
+There is no one size fits all tip in creating content. That's the truth. My tips work for me but may not work for you. Because you have your own content that's you feel comfortable to create and share. You shouldn't blindly follow any advice or tips you receive. This is when the last tip comes into play. 
 
 ## Your creativity
 
