@@ -1,7 +1,7 @@
 ---
 title: "Tips for creating content "
 date: 2020-11-26T14:05:54.950Z
-tag: personal
+tag: content creation
 ---
 Creating content is the best way to build your online presence, share knowledge, and promote your product. There are many formats of content: videos, blog posts, images, stories, streams, you name it.
 
