@@ -31,6 +31,6 @@ There is no one size fits all tip in creating content. That's the truth. My tips
 
 The only way to know what content works best for you is to keep consuming, creating, and trying. Don't be afraid of failure. You will find out your way. 
 
-## The very last tip
+## The last tip
 
 If people don't consume your content, that's fine. Don't get frustrated. At least they still see you. The most important thing is that you like what you create and enjoy it. That's enough.
