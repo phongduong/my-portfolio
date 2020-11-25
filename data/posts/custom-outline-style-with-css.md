@@ -31,4 +31,4 @@ When you click the button, you will see the blue dotted outline around the butto
 
 ![Outline when user clicks the button](/uploads/outline-click.png "Outline when user clicks the button")
 
-The outline doesn't take up space. It won't affect the layout if it shows up.
+The outline doesn't take up space. It won't affect the layout when it shows up.
