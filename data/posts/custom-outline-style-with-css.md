@@ -9,7 +9,7 @@ You can custom the outline of the component when you focus on it. CSS allows you
 * `outline-style`
 * `outline-width`
 
-The order of these properties doesn't matter. You can use only one, two, or all three of them.
+The order of these properties doesn't matter. You can use just one, two, or all three of them.
 
 ## For example:
 
@@ -25,11 +25,10 @@ button {
 button:focus {
     outline: blue dotted 5px;
 }
-
 ```
 
 When you click the button, you will see the blue dotted outline around the button. 
 
 ![Outline when user clicks the button](/uploads/outline-click.png "Outline when user clicks the button")
 
-The outline doesn't take up space. It won't affect the layout if it shows up.
+The outline doesn't take up space. It won't affect the layout when it shows up.
