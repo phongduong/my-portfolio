@@ -47,4 +47,4 @@ You can apply the style for the entire page by using just the `::selection` pse
 }
 ```
 
-When you select any text, it will show the style above
+When you select any text, it will show the style above. You should use this pseudo element with care because it could be hard for people with low vision conditions to read text.
