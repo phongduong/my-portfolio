@@ -35,7 +35,7 @@ p::selection {
 
 When you select text in the paragraph, it will show green background, black text and red shadow
 
-![Selected text](/uploads/selection_image.png "Selected text")
+![Selected text style](/uploads/selection_image.png "Selected text style")
 
 You can apply the style for the entire page by using just the `::selection` pseudo element. 
 
