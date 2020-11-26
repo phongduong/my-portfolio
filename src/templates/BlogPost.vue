@@ -5,9 +5,7 @@
       <h1 class="blog__title">{{ post.title }}</h1>
       <p class="blog__info">
         {{ post.date }} |
-        <g-link :to="`blog/tag/${post.tag.title}`">
-          #{{ post.tag.title }}
-        </g-link>
+        <g-link :to="post.tag.path"> #{{ post.tag.title }} </g-link>
       </p>
       <div class="blog__content" v-html="post.content"></div>
       <Share :title="post.title" :path="post.path" />
@@ -29,6 +27,15 @@ export default {
       return this.$page.post;
     },
   },
+  metaInfo: {
+    script: [
+      {
+        src: "https://platform.twitter.com/widgets.js",
+        async: true,
+        body: true,
+      },
+    ],
+  },
 };
 </script>
 
@@ -43,6 +50,7 @@ export default {
       date (format: "DD-MM-YYYY")
       tag {
         title
+        path
       }
     }
   }

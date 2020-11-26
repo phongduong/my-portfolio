@@ -39,12 +39,6 @@ export default {
           content: `${this.$static.metadata.siteUrl}/image/logo.png`,
         },
       ],
-      script: [
-        {
-          src: "https://static.codepen.io/assets/embed/ei.js",
-          async: true,
-        },
-      ],
     };
   },
 };

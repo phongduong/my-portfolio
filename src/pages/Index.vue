@@ -62,6 +62,7 @@ query {
         date (format: "DD-MM-YYYY")
         tag {
           title
+          path
         }
       }
     }

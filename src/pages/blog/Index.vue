@@ -48,6 +48,7 @@ query($page: Int) {
         date(format: "DD-MM-YYYY")
         tag {
           title
+          path
         }
       }
     }

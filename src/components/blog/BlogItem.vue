@@ -10,9 +10,7 @@
     <div class="article__info">
       <p>
         {{ post.node.date }} |
-        <g-link :to="`blog/tag/${post.node.tag.title}`">
-          #{{ post.node.tag.title }}
-        </g-link>
+        <g-link :to="post.node.tag.path"> #{{ post.node.tag.title }} </g-link>
       </p>
     </div>
   </article>
