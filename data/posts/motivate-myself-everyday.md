@@ -9,4 +9,4 @@ I have to motivate myself to keep going. I have watched an anime series recently
 
 There are many inspiring quotes in the series. I rewatch it 3 times and will watch one more time. These quotes help to motivate me. I find myself in the series. I am doing what I like and happy with it. But I can't be happy all the time. My process is not always linear. 
 
-To motivate myself, I choose to consume other content. I read blogs and books, watch videos and anime, or do nothing and sit quietly. While consuming other's content, I can have new ideas for my content. It also inspires me to keep going because if they can, me too.
+To motivate myself, I choose to consume other creator's content. I read blogs and books, watch videos and anime. While consuming content, I can have new ideas for my content. It also inspires me to keep going because if they can, me too.
