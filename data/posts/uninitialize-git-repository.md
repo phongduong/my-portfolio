@@ -11,4 +11,4 @@ You can also delete the folder by running `rm` command in the root of your repo
 rm -rf .git
 ```
 
-`-r` option means it will delete the folder recursively. `-f` option means forcibly delete without confirming. You should use this command carefully and in the correct folder.
+`-r` option means it will delete the folder recursively. `-f` option means forcibly delete without confirming. You should use this command carefully and in the correct repo.
