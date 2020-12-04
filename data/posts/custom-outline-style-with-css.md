@@ -17,8 +17,6 @@ The order of these properties doesn't matter. You can use just one, two, or all 
 button {
   background: tomato;
   color: white;
-  width: 200px;
-  height: 200px;
   border: none;
 }
 
