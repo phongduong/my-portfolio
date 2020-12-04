@@ -1,6 +1,46 @@
 ---
-title: Custom input caret style with CSS
+title: caret-color CSS property
 date: 2020-12-11T15:11:53.301Z
 tag: css
 ---
-test
+Caret is a cursor in the `input`, `textarea` elements. It shows where the next typed character will be inserted. `caret-color` property sets the color of the caret. It can also be used for the elements with `contenteditable` attribute. The default value of this attribute is `auto`. It will take `currentcolor` and usually black. 
+
+```pug
+input
+```
+
+```css
+input {
+	color: red;
+}
+```
+
+When you type the text in the input, the text color is red. `caret-color` will take the value of `color` property. 
+
+```pug
+textarea(rows="5")
+```
+
+```css
+textarea {
+	caret-color: transparent;
+}
+```
+
+`caret-color` can take `transparent` value but it is hard to see where the cursor is especially when you are inserting in between the text.
+
+```pug
+p(contenteditable="true") Please click this text and edit it
+
+```
+
+```css
+p[contenteditable="true"] {
+	background: black;
+	color: yellowgreen;
+	caret-color: tomato;
+}
+
+```
+
+Although `caret-color` takes the value of `color` property by default, you can set a different value to ensure good visibility.
