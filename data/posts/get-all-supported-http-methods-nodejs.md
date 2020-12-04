@@ -3,7 +3,7 @@ title: Get all supported HTTP methods with Nodejs
 date: 2020-12-09T14:56:05.514Z
 tag: nodejs
 ---
-To get all HTTP methods that are supported by NodeJS, you can retrieve `METHODS` property of `http` module.  It will return an array with all sorted methods.
+To get all HTTP methods that are supported by NodeJS, you can retrieve `METHODS` property of `http` module.  It will return a sorted array of all methods.
 
 ```javascript
 console.log(require("http").METHODS)
