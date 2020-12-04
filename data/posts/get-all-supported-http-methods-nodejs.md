@@ -6,7 +6,7 @@ tag: nodejs
 To get all HTTP methods that are supported by NodeJS, you can retrieve `METHODS` property of `http` module.  It will return an array with all sorted methods.
 
 ```javascript
-require("http").METHODS
+console.log(require("http").METHODS)
 /*
 [
   'ACL',         'BIND',       'CHECKOUT',
