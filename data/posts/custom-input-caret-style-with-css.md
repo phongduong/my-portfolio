@@ -44,3 +44,10 @@ p[contenteditable="true"] {
 ```
 
 Although `caret-color` takes the value of `color` property by default, you can set a different value to ensure good visibility.
+
+Here is the full example
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="caret-color CSS property" src="https://codepen.io/phongduong/embed/preview/pobVQbY?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/phongduong/pen/pobVQbY'>caret-color CSS property</a> by Phong Duong
+  (<a href='https://codepen.io/phongduong'>@phongduong</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
