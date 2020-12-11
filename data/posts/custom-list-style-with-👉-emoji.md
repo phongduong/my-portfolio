@@ -13,7 +13,7 @@ ul
     li= item
 ```
 
- We will have a list that includes 5 items. 
+ You will have a list that includes 5 items. 
 
 ```scss
 ul {
@@ -21,7 +21,7 @@ ul {
 }
 ```
 
-We set the `list-style-type` property with the emoji 👉. It will display the emoji as the marker. 
+You set the `list-style-type` property with the emoji 👉. It will display the emoji as the marker. 
 
 You can also set the marker for an individual item with pseudo-class.
 
@@ -33,7 +33,6 @@ ul {
 		list-style-type: "👉";
 	}
 }
-
 ```
 
 I found another way that you can set the marker with `::before` pseudo-element.
@@ -46,7 +45,6 @@ ul {
 		content: "👉";
 	}
 }
-
 ```
 
 Here is the full code of the example
