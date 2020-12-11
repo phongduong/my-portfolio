@@ -21,7 +21,35 @@ ul {
 }
 ```
 
-We will disable the `list-style-type` property of the list. Because this 
+We set the `list-style-type` property with the emoji 👉. It will display the emoji as the marker. 
+
+You can also set the marker for an individual item with pseudo-class.
+
+```scss
+ul {
+	list-style-type: none;
+
+	li:first-child {
+		list-style-type: "👉";
+	}
+}
+
+```
+
+I found another way that you can set the marker with `::before` pseudo-element.
+
+```scss
+ul {
+	list-style-type: none;
+
+	li::before {
+		content: "👉";
+	}
+}
+
+```
+
+Here is the full code of the example
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Custom list style with emoji" src="https://codepen.io/phongduong/embed/preview/yLaVzgO?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/phongduong/pen/yLaVzgO'>Custom list style with emoji</a> by Phong Duong
