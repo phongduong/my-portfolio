@@ -23,9 +23,6 @@
       </a>
     </p>
     <p>
-      I cross-post on <a :href="dev.url">{{ dev.name }}</a>
-    </p>
-    <p>
       You can find my code on <a :href="github.url">{{ github.name }}</a>
     </p>
   </Layout>
@@ -48,9 +45,6 @@ export default {
       return ["Twitter", "Facebook", "LinkedIn"].map((social) =>
         this.contacts.getContactDetail(social)
       );
-    },
-    dev() {
-      return this.contacts.getContactDetail("DEV");
     },
     github() {
       return this.contacts.getContactDetail("Github");

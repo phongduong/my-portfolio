@@ -35,7 +35,7 @@ export default {
       return this.contacts.getContactDetail("Email");
     },
     contactList() {
-      const contactList = ["Twitter", "Facebook", "Github", "LinkedIn", "DEV"];
+      const contactList = ["Twitter", "Facebook", "Github", "LinkedIn"];
 
       return contactList.map((contact) =>
         this.contacts.getContactDetail(contact)
