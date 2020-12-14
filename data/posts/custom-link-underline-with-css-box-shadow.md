@@ -54,7 +54,7 @@ The text color and the background will change in `0.1s` while the box-shadow is 
 
 Full code
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Custom link underline with CSS box-shadow" src="https://codepen.io/phongduong/embed/OJRRqBj?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="265" style="width: 100%;" scrolling="no" title="Custom link underline with CSS box-shadow" src="https://codepen.io/phongduong/embed/preview/OJRRqBj?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/phongduong/pen/OJRRqBj'>Custom link underline with CSS box-shadow</a> by Phong Duong
   (<a href='https://codepen.io/phongduong'>@phongduong</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
