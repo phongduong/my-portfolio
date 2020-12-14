@@ -5,13 +5,13 @@ tag: css
 ---
 When you create a website, you can customize the text color with `color` property. It will change the color of your text as well as the link underline color. But what if you want to set the link underline a different color from the text's color? There are various ways to do that. In this tutorial, I will show you how to use `box-shadow` property to customize the link underline.
 
-You create an anchor element.
+To start, you create an anchor element.
 
 ```pug
 a(href="/") This is a link
 ```
 
-In CSS, you disable the `text-decoration` property with `none` value. The reason we set the text color `black` is that it will change after activating. You will set the `tomato` color for the underline. We need to create space between the text and the underline. We set the `padding` of the link `4px`.
+In CSS, you disable the `text-decoration` property with `none` value. The reason we set the text color `black` is that it won't change after the link is activated. You use `tomato` color for the underline. We need to create space between the text and the underline. We set the `padding` of the link `4px`.
 
 ```scss
 a {
@@ -39,7 +39,7 @@ a {
 }
 ```
 
-The link will be `white` with `tomato` background. It also had a gray shadow under the link when you hover the link. But it's quite lagging. To make it smoother, we will use `transition` property. 
+The link will be `white` with `tomato` background. It also had a gray shadow under when you hover the link. But it's quite lagging. To make it smoother, we will use `transition` property. 
 
 ```scss
 a {
