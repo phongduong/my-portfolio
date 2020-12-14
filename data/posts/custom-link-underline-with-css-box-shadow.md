@@ -5,7 +5,7 @@ tag: css
 ---
 When you create a website, you can customize the text color with `color` property. It will change the color of your text as well as the link underline color. But what if you want to set the link underline a different color from the text's color? There are various ways to do that. In this tutorial, I will show you how to use `box-shadow` property to customize the link underline.
 
-You create an anchor element.
+To start, you create an anchor element.
 
 ```pug
 a(href="/") This is a link
