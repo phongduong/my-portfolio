@@ -26,6 +26,10 @@ export default {
           content: this.$static.metadata.twitter_creator,
         },
         {
+          name: "twitter:site",
+          content: this.$static.metadata.twitter_creator,
+        },
+        {
           name: "twitter:image",
           content: `${this.$static.metadata.siteUrl}/image/logo.png`,
         },
