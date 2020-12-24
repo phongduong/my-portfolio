@@ -1,5 +1,5 @@
 ---
-title: Create text gradient
+title: "Create gradient text "
 date: 2020-12-25T13:41:57.638Z
 tag: css
 ---
