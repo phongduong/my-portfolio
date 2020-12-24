@@ -32,9 +32,9 @@ p {
 }
 ```
 
-Now you can see the text with two colors: green and tomato. There is an interesting thing that the `background-clip` and `background-image` properties only change the background's properties. It means we can 
+Now you can see the text with two colors: green and tomato. There is an interesting thing that the `background-clip` and `background-image` properties only change the background's properties. It means that we can create gradient text for a specific element of the text like the first line or the first letter with CSS `pseudo-elemnt`
 
-
+You change the CSS
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Gradient text" src="https://codepen.io/phongduong/embed/preview/KKgmMaV?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/phongduong/pen/KKgmMaV'>Gradient text</a> by Phong Duong
