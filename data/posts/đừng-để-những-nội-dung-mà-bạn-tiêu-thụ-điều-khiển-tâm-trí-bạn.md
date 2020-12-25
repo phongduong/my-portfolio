@@ -1,5 +1,5 @@
 ---
-title: Đừng để những nội dung mà bạn tiêu thụ điều khiển tâm trí bạn
+title: Những nội dung mà bạn tiêu thụ điều khiển tâm trí bạn
 date: 2020-12-30T13:44:10.404Z
 tag: personal
 ---
