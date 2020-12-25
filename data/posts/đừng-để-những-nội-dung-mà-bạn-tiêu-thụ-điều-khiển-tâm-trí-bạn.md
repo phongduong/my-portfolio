@@ -7,4 +7,4 @@ Ngày nay, nội dung có ở khắp nơi với đủ mọi thể loại từ vi
 
 Cho dù bạn dùng nội dung với mục đích gì. Bạn đừng nên để nó tác động đến suy nghĩ của bạn. Khi người ta tạo ra nội dung, họ sẽ có một mục đích riêng của mình. Họ có thể muốn chia sẻ những điều mình biết hoặc là hướng sự chú ý của người dùng đến một vấn đề nào đó. 
 
-Những nội dung đó
+Những nội dung đó thể hiện suy nghĩ của người tạo ra chúng nhưng để chúng điều khiển suy nghĩ của bạn.
