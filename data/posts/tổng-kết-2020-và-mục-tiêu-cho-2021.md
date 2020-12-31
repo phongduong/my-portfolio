@@ -34,4 +34,6 @@ Nhiều mục tiêu trong năm 2020 không thể thực hiện được. Trong 2
 
 Bài đến đây cũng đã dài. Có lẽ đây là bài dài nhất mình từng viết. Ở Huế bây giờ rất lạnh, trong khi mọi người đang count down ở ngoài đường dưới mưa lạnh thì mình sẽ dừng bài viết ở đây và đếm cừu ở trên giường trong chăn ấm.
 
-Chúc bạn và gia đình một năm 2021 nhiều hạnh phúc và có thể thực hiện được mục tiêu mình đặt ra.
+Chúc bạn và gia đình một năm 2021 nhiều hạnh phúc và có thể thực hiện được mục tiêu mình đặt ra. 
+
+**CHÚC MỪNG NĂM MỚI**
