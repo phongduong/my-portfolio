@@ -1,5 +1,5 @@
 ---
-title: Nội dung mà bạn tiêu thụ không phải là suy nghĩ và cảm xúc của bạn
+title: Nội dung mà bạn tiêu thụ không phải là suy nghĩ của bạn
 date: 2020-12-30T13:44:10.404Z
 tag: personal
 ---
