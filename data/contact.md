@@ -10,16 +10,18 @@ contact:
     url: https://www.facebook.com/phongduonglh
   - name: Twitter
     url: https://twitter.com/phongduonglh
+  - name: Instagram
+    url: https://www.instagram.com/phongduonglh
+  - name: Twitch
+    url: https://www.twitch.tv/koogio
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/phongduonglh
   - name: Github
     url: https://github.com/phongduong
   - name: Buy me a coffee
     url: https://www.buymeacoffee.com/phongduong
   - url: https://koogio.substack.com
     name: Newsletter
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/phongduonglh
-  - name: Twitch
-    url: https://www.twitch.tv/koogio
 ---
 
 <pages-Contact />
