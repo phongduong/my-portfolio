@@ -22,6 +22,8 @@ contact:
     url: https://www.buymeacoffee.com/phongduong
   - url: https://koogio.substack.com
     name: Newsletter
+  - name: Tiktok
+    url: https://www.tiktok.com/@koogio
 ---
 
 <pages-Contact />
