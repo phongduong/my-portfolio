@@ -3,7 +3,7 @@ title: Set required Node version for your application
 date: 2021-01-07T07:53:34.122Z
 tag: nodejs
 ---
-You can require the Node version that your application will run on. You do that by specifying the `node` version in the `engines` property of your project's `package.json`.
+You can require the Node version that your application will run on. You do that by specifying the `node` version in the `engines` property of your application's `package.json`.
 
 ```json
 { "engines" : { "node" : "14" } }
