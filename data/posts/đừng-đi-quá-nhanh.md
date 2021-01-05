@@ -1,5 +1,5 @@
 ---
-title: Đừng đi quá nhanh
+title: Làm thật chậm và học hỏi
 date: 2021-01-05T14:11:26.942Z
 tag: personal
 ---
