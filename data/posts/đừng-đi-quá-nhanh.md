@@ -7,4 +7,4 @@ Chúng ta ai cũng muốn hoàn thành mọi việc nhanh chóng và thành côn
 
 Cho dù kết quả ra sao bạn hãy cứ tận hưởng công việc đó. Hãy làm và thử những cách mới. Sẽ luôn có nhiều giải pháp cho một vấn đề. Nếu bạn muốn chọn cách tối ưu nhất để hoàn thành công việc, bản phải thử hết tất cả mọi cách. 
 
-Mình rất thích thử nhiều cách để làm một việc. Khi mình lười, mình sẽ cố làm một việc thật nhanh với một cách bất kỳ. Miễn sao là có kết quả. Nhưng khi mình có thời gian, mình sẽ làm việc đó thật chậm và thử nhiều cách. Bởi vì khi chúng ta thử nhiều cách chúng ta sẽ học thêm nhiều thứ và có thể áp dụng cho những công việc khác.
+Mình rất thích thử nhiều cách để làm một việc. Khi mình lười, mình sẽ cố làm một việc thật nhanh với một cách bất kỳ. Miễn sao là có kết quả. Nhưng khi mình có thời gian, mình sẽ làm việc đó thật chậm và thử nhiều cách mới. Bởi vì khi mình thử nhiều cách mới, mình sẽ học thêm nhiều thứ mới và có thể áp dụng cho những công việc khác.
