@@ -27,7 +27,7 @@ path.normalize("foo/bar/baz/////foo")
 // foo\\bar\\baz\\foo
 ```
 
- In case you combine `/` and `\` in the path, they are still replaced with a platform-specific separator.
+In case you combine `/` and `\` in the path, they are still replaced with a platform-specific separator.
 
 ```javascript
 path.normalize("foo/bar/baz//\\/\\/foo")
