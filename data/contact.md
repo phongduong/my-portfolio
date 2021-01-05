@@ -22,6 +22,8 @@ contact:
     name: Newsletter
   - name: Tiktok
     url: https://www.tiktok.com/@koogio
+  - name: Twitch
+    url: https://www.twitch.tv/koogio
 ---
 
 <pages-Contact />
