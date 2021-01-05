@@ -12,8 +12,6 @@ contact:
     url: https://twitter.com/phongduonglh
   - name: Instagram
     url: https://www.instagram.com/phongduonglh
-  - name: Twitch
-    url: https://www.twitch.tv/koogio
   - name: LinkedIn
     url: https://www.linkedin.com/in/phongduonglh
   - name: Github
