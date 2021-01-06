@@ -9,7 +9,15 @@ fields:
   name: date
   label: Date
   default: now
-- type: text
-  name: tag
+- name: tag
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: tags
+      file: 
+      path: 
   label: Tag
-  default: personal
