@@ -1,6 +1,7 @@
 ---
 label: Blog post
-hide_body: false
+hide_body: true
+display_field: title
 fields:
 - type: text
   name: title
@@ -9,7 +10,3 @@ fields:
   name: date
   label: Date
   default: now
-- name: tag
-  type: tag_list
-  default: []
-  label: Tag
