@@ -4,10 +4,12 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
+  default: now
 - type: text
   name: tag
-  label: tag
+  label: Tag
+  default: personal
