@@ -11,4 +11,4 @@ Bạn có thể dành rất nhiều thời gian để cân nhắc một lựa ch
 
 Sự lựa chọn bạn chọn có thể là sai nhưng ít ra bạn cũng biết nó sai. Còn hơn là bạn phải phân vân rất nhiều để rồi cuối cùng không lựa chọn cái nào. 
 
-Cuộc sống cho bạn nhiều sự lựa chọn không phải để bạn chọn ra cái đúng và tốt nhất mà là để bạn biết cái nào là sai và không hợp với bạn.
+Cuộc sống cho bạn nhiều sự lựa chọn không phải để bạn chọn ra cái đúng và tốt nhất mà để bạn biết cái nào sai và không hợp với bạn.
