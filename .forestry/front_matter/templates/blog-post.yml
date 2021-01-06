@@ -21,3 +21,5 @@ fields:
       file: 
       path: 
   label: Tag
+pages:
+- data/posts/test-forestry.io.md
