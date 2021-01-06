@@ -1,21 +1,18 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: static/admin
 webhook_url: 
 sections:
 - type: document
   path: data/about.md
   label: About
-  match: "**/*"
 - type: document
   path: data/projects.md
   label: Projects
-  match: "**/*"
 - type: document
   path: data/contact.md
   label: Contact
-  match: "**/*"
 - type: directory
   path: data/tags
   label: Tags
