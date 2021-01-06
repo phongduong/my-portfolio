@@ -10,16 +10,8 @@ fields:
   label: Date
   default: now
 - name: tag
-  type: select
+  type: tag_list
   default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: tags
-      file: 
-      path: 
   label: Tag
 pages:
 - data/posts/test-forestry.io.md
