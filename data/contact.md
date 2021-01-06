@@ -20,8 +20,6 @@ contact:
     url: https://www.buymeacoffee.com/phongduong
   - url: https://koogio.substack.com
     name: Newsletter
-  - name: Twitch
-    url: https://www.twitch.tv/koogio
 ---
 
 <pages-Contact />
