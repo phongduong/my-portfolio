@@ -10,3 +10,7 @@ fields:
   name: date
   label: Date
   default: now
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
