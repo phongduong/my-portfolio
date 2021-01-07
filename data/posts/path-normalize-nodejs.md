@@ -14,31 +14,31 @@ To normalize the path with Node, you call the `normalize()` method of the `path`
 It receives a path as a parameter
 
 ```javascript
-path.normalize("foo/bar/baz/../foo")
-// foo\\bar\\foo
+path.normalize("path1/path2\\../path3")
+// path1\\path3
 ```
 
-The path above is resolved at `'..'` segment. It goes up from `baz` to `bar` and continues with `foo`. I am using Windows so that the path segment separator is replaced with `\\`. 
+The path above is resolved at `'..'` segment. It goes up from `path2` to `path1` and continues with `path3`. I am using Windows so that the path segment separator is replaced with `\\`. 
 
 If there are multiple separators, they will be replaced with a single separator.
 
 ```javascript
-path.normalize("foo/bar/baz/////foo")
-// foo\\bar\\baz\\foo
+path.normalize("path1/path2////path3")
+// path1\\path2\\path3
 ```
 
 In case you combine `/` and `\` in the path, they are still replaced with a platform-specific separator.
 
 ```javascript
-path.normalize("foo/bar/baz//\\/\\/foo")
-// foo\\bar\\baz\\foo
+path.normalize("path1\\path2//\\path3")
+// path1\\path2\\path3
 ```
 
 The method preserves the trailing separators.
 
 ```javascript
-path.normalize("foo/bar\\")
-// foo\\bar\\
+path.normalize("path1/path2/")
+// path1\\path2\\
 ```
 
 If you pass a zero-length string, the method return `'.'`, which is the current directory.
@@ -47,3 +47,5 @@ If you pass a zero-length string, the method return `'.'`, which is the current 
 path.normalize("")
 // '.'
 ```
+
+If you don't pass any parameter, a TypeError is thrown.
