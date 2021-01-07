@@ -9,5 +9,3 @@ fields:
     min: 
     max: 
   label: Tag
-pages:
-- data/posts/tags.md
