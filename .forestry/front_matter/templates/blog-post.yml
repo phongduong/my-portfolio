@@ -22,7 +22,7 @@ fields:
       file: data/tags.md
       path: tags
   label: Tag
-- name: body
+- name: content
   type: textarea
   default: ''
   config:
