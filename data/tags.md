@@ -1,6 +1,21 @@
 ---
 tags:
-  - css
-  - html
-  - javascript
+	- css
+	- electronjs
+	- eleventy
+	- freecodecamp
+	- gamedev
+	- git
+	- github
+	- gridsome
+	- gulpjs
+	- html
+	- javascript
+	- netlify
+	- nodejs
+	- personal
+	- pug
+	- svelte
+	- webapi
+
 ---
