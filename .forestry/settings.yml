@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: data/tags.md
+  label: Tags
+  match: "**/*"
+- type: document
   path: data/about.md
   label: About
 - type: document
