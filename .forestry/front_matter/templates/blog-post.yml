@@ -22,14 +22,5 @@ fields:
       file: data/tags.md
       path: tags
   label: Tag
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Content
 pages:
 - data/posts/test-forestry.md
