@@ -22,5 +22,3 @@ fields:
       file: data/tags.md
       path: tags
   label: Tag
-pages:
-- data/posts/test-forestry.md
