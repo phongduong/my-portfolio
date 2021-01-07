@@ -1,6 +1,6 @@
 ---
 title: Khi chúng ta có quá nhiều lựa chọn
-date: 2021-01-06T15:16:51.944Z
+date: 2021-01-09T15:16:51.944Z
 tag: personal
 ---
 Chúng ta có rất nhiều sự lựa chọn trong cuộc sống. Nhưng những sự lựa chọn đó chỉ có giá trị khi bạn thực hiện chúng.
