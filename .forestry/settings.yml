@@ -17,11 +17,6 @@ sections:
   path: data/contact.md
   label: Contact
 - type: directory
-  path: data/tags
-  label: Tags
-  create: all
-  match: "**/*"
-- type: directory
   path: data/posts
   label: Posts
   create: all
