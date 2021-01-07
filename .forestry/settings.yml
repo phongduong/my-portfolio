@@ -6,8 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: data/tags.md
-  label: Tags
-  match: "**/*"
+  label: Tag
 - type: document
   path: data/about.md
   label: About
