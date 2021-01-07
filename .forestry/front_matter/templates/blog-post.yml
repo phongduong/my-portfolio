@@ -11,6 +11,14 @@ fields:
   label: Date
   default: now
 - name: tag
-  type: tag_list
-  default: []
+  type: select
+  default: css
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: tags-aea069bf-fabe-4281-9b92-02f7e4b00890
+      file: data/tags.md
+      path: tags
   label: Tag
