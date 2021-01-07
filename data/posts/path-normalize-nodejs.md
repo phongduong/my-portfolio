@@ -47,5 +47,3 @@ If you pass a zero-length string, the method return `'.'`, which is the current 
 path.normalize("")
 // '.'
 ```
-
-If you don't pass any parameter, a TypeError is thrown.
