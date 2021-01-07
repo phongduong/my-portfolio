@@ -1,7 +1,7 @@
 ---
 title: Hôm nay nhà mình mới treo lịch 2021
 date: 2021-01-02T13:02:13.709Z
-tag: personal
+tag: me
 ---
 Năm nay nhà mình mua lịch trễ. Mọi năm là mẹ mình mua từ đầu tháng 12 nhưng năm nay nhà có nhiều chuyện nên quên. Đối với mình treo lịch là một thú vui mỗi năm có một lần.
 

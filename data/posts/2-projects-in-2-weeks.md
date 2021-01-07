@@ -1,7 +1,7 @@
 ---
 title: 2 projects in 2 weeks
 date: 2019-04-10T17:00:00.000Z
-tag: personal
+tag: me
 ---
 
 I have an idea about a platform that helps users rent books. I am quite a

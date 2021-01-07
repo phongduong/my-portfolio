@@ -1,7 +1,7 @@
 ---
 title: Làm thật chậm và học hỏi
 date: 2021-01-05T14:11:26.942Z
-tag: personal
+tag: me
 ---
 Chúng ta ai cũng muốn hoàn thành mọi việc nhanh chóng và thành công ngay tức thì. Nhưng thời gian bạn dành cho việc đó tỷ lệ thuận với thành quả mà bạn nhận được. Việc càng khó thì thành quả sẽ càng lớn. Nhưng đôi khi kết quả đạt được không như bạn mong muốn.
 

@@ -1,7 +1,7 @@
 ---
 title: Be patient with everything
 date: 2020-10-05T07:50:47.923Z
-tag: personal
+tag: me
 ---
 I like gardening. I like not only having a green corner in my house but also the feeling of watching the trees growing every day.
 

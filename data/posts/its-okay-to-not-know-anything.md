@@ -2,7 +2,7 @@
 title: It's OKAY to not know everything
 description: You are rich. You have a lot of things to learn
 date: 2020-10-28T12:07:52.980Z
-tag: personal
+tag: me
 ---
 There are many fields in programming. Each field contains many topics. We can't learn and know all of them. 
 

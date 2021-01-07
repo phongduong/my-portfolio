@@ -1,7 +1,7 @@
 ---
 title: Chuẩn bị hoàn thành chương trình Associate
 date: 2021-01-03T15:17:59.614Z
-tag: personal
+tag: me
 ---
 Tuần này là tuần cuối cùng của học kỳ 2. Kỳ này mình đăng ký 2 môn, Operating Systems 2 và Greek and Roman Civilization. Cả 2 môn đều là môn bắt buộc. Bởi vì mình đã chuyển được 15 môn vào UoPeople nên bây giờ mình chỉ cần hoàn thành 6 môn nữa là hoàn thành chương trình học.
 

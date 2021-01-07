@@ -1,7 +1,7 @@
 ---
 title: Cách để học những điều mới
 date: 2020-12-23T14:30:30.266Z
-tag: personal
+tag: me
 ---
 Tuần trước mình có nhờ cậu mình sửa vòi bình nước nóng bị hư. Cậu mình là thợ sửa xe máy nhưng thao tác sửa ống nước rất thuần thục. Cậu làm rất nhanh. Cậu còn có thể sửa điện và biết rất nhiều thứ. Mình nhận ra rằng chúng ta có thể học và làm những điều mới. 
 

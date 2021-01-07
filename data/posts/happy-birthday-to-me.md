@@ -1,7 +1,7 @@
 ---
 title: Happy birthday to me
 date: 2020-10-17T12:34:03.731Z
-tag: personal
+tag: me
 ---
 
 It's my birthday today. I turned 24 years old.

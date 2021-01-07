@@ -1,7 +1,7 @@
 ---
 title: Tổng kết 2020 và mục tiêu cho 2021
 date: 2020-12-31T11:58:36.276Z
-tag: personal
+tag: me
 ---
 ## Tổng kết 2020
 

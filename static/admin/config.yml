@@ -22,7 +22,7 @@ collections:
           collection: tag,
           valueField: title,
           searchFields: [title],
-          default: "personal"
+          default: "me"
         }
       - { label: Body, name: body, widget: markdown }
   - label: Tag

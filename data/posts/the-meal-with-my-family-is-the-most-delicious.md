@@ -1,7 +1,7 @@
 ---
 title: "Family meal is the most delicious "
 date: 2020-09-25T12:39:45.766Z
-tag: personal
+tag: me
 ---
 
 My parents go to work every day. We only have dinner together. It is the most precious moment of the day to me.

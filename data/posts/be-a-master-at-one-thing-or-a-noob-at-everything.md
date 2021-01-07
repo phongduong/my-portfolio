@@ -1,7 +1,7 @@
 ---
 title: Be a master at one thing or a noob at everything?
 date: 2020-09-10T04:22:22.568Z
-tag: personal
+tag: me
 ---
 
 I am a Javascript developer. I want to share with you my story how I began my developer journey with learning every programming language I heard until I chose a language to focus on and tried to master it.

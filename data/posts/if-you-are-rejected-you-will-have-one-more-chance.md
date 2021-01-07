@@ -1,7 +1,7 @@
 ---
 title: "How rejection can make your life better? "
 date: 2020-11-06T12:54:12.961Z
-tag: personal
+tag: me
 ---
 
 You may experience the feeling of being rejected when you apply for a job. I know how it feels. It is really frustrated. But the rejection is not always bad. As long as you keep trying, you can archive what you want.

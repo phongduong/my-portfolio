@@ -1,7 +1,7 @@
 ---
 title: COVID-19 is the greatest thing happened to me in 2020
 date: 2020-09-14T04:44:44.417Z
-tag: personal
+tag: me
 ---
 
 I like learning and creating new things. I have a list of ideas and personal projects I want to create. The list is getting longer everyday but I procrastinated working on and not complete one of the projects. Because after my full-time job, I was exhausted. I tried to work a bit every night. Someday I didn't do anything. My project had a little progress but I almost felt like giving up and moving to a new thing. I knew that was not good and I would create nothing in the end

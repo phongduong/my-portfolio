@@ -1,7 +1,7 @@
 ---
 title: Làm những điều bạn thích
 date: 2020-12-24T13:02:12.867Z
-tag: personal
+tag: me
 ---
 Bạn luôn có những điều mình muốn làm, những kế hoạch được lập từ nhiều năm trước nhưng vẫn còn nằm trên giấy. Có nhiều thứ ngăn cản bạn thực hiện chúng. Có thể là khách quan hoặc chủ quan. Nếu là khách quan thì không sao vì bạn không thể thay đổi được. Nhưng nếu đó là điều chủ quan nhưng bạn lại nghĩ là khách quan thì sao?
 

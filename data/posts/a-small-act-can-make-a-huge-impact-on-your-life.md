@@ -1,7 +1,7 @@
 ---
 title: A small act can make a huge impact on someone's life
 date: 2020-10-02T14:22:15.052Z
-tag: personal
+tag: me
 ---
 
 When I woke up this morning, I couldn't image how amazing today would be.

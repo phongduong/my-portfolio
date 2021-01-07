@@ -1,7 +1,7 @@
 ---
 title: I like being lost
 date: 2020-09-28T07:41:19.813Z
-tag: personal
+tag: me
 ---
 
 I like traveling without map because I am free to choose a way to go. There are many ways to the destination. I can also ask local residents for the way. It is interesting if I travel abroad. I communicate with people who don't speak the same language. If I am lucky, I can speak to whom speak English. Else, I have to use gestures to communicate with them. Fortunately, they understand and show me the correct way.

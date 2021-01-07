@@ -1,7 +1,7 @@
 ---
 title: Viết 365 ngày
 date: 2021-01-01T15:29:15.152Z
-tag: personal
+tag: me
 ---
 Năm mới là thời điểm tốt nhất để bắt đầu một thói quen mới. Năm nay mình sẽ bắt đầu thói quen viết mỗi ngày. 
 

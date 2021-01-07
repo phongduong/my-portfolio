@@ -1,7 +1,7 @@
 ---
 title: Mong đợi và ảo tưởng
 date: 2021-01-04T14:11:53.881Z
-tag: personal
+tag: me
 ---
 Ai trong chúng ta cũng có những mong đợi trong cuộc sống. Chúng ta mong đợi mọi việc sẽ thành công, mọi người xung quanh sẽ làm những gì chúng ta muốn. Nhưng đôi khi những mong đợi quá mức không thành sự thật sẽ biến thành những ảo tưởng. 
 

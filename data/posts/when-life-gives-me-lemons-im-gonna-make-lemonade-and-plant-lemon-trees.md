@@ -1,7 +1,7 @@
 ---
 title: When life gives you lemons, make lemonade and plant lemon trees
 date: 2020-11-19T06:53:17.635Z
-tag: personal
+tag: me
 ---
 Sometimes everything doesn't happen as you expected. You may get stuck in difficult situations. You may lose your job, your house, or your family. You would get hurt and frustrated but don't give up. But you can improve your situation and make it better.
 
