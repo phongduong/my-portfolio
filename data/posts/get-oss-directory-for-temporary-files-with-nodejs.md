@@ -8,7 +8,7 @@ Temporary files are useful when you create files but don't want to save them per
 To know where the temporary files are saved in the operating system with Node, you can use the `tmpdir()` method of the `os` module. 
 
 ```javascript
-console.log(require("os").tmpdir());
+require("os").tmpdir();
 // C:\Users\phong\AppData\Local\Temp
 ```
 
