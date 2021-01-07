@@ -9,7 +9,7 @@ To know where the temporary files are saved in the operating system with Node, y
 
 ```javascript
 os.tmpdir();
-// C:\Users\phong\AppData\Local\Temp
+// C:\\Users\\phong\\AppData\\Local\\Temp
 ```
 
 It doesn't accept any parameters and returns the operating system's default directory for temporary files as a string.
