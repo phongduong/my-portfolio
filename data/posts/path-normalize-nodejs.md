@@ -41,11 +41,9 @@ path.normalize("path1/path2/")
 // path1\\path2\\
 ```
 
-If you pass a zero-length string, the method return `'.'`, which is the current directory.
+If you pass a zero-length string, the method returns `'.'`, which is the current directory.
 
 ```javascript
 path.normalize("")
 // '.'
 ```
-
-If you don't pass any parameter, a TypeError is thrown.
