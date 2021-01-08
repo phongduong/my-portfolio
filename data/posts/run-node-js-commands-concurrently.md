@@ -3,4 +3,54 @@ title: Run Node.js commands concurrently
 date: 2021-01-15T06:55:40.550Z
 tag: nodejs
 ---
-822245Running multiple commands at the same time
+If you are developing an application, you may be running commands using operators like this `"npm run develop && npm run start"` or in separate terminals. This is still normal but when you have more commands to run than these, it is really cumbersome.
+
+``[`concurrently`](https://www.npmjs.com/package/concurrently) library will help you solve this problem. You can install the library globally 
+
+```
+npm install -g concurrently
+
+```
+
+or locally and use it from `npm` scripts
+
+```
+npm install concurrently --save
+
+```
+
+After installing, you can use it to run commands above like this
+
+```
+concurrently "npm run develop" "npm run start"
+
+```
+
+The command now is prettier.
+
+One thing to note that commands are surrounded with quotes. When you use it in `npm` scripts, you need to escape the quotes
+
+```json
+{
+  "scripts": {
+     "start": "concurrently \"npm run develop\" \"npm run start\"
+"
+  }
+}
+```
+
+ You can also shorten the commands with `yarn` or `npm`.
+
+```
+concurrently "npm:develop" "npm:start"
+
+```
+
+One thing I like about [`concurrently`](https://www.npmjs.com/package/concurrently) is that you can kill other processes if one process fails. To do that, you pass `--kill-others (-k)` option to the command.
+
+```
+concurrently -k "npm run develop" "npm run start"
+
+```
+
+You can find more options [here](https://www.npmjs.com/package/concurrently#usage)
