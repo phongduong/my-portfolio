@@ -7,18 +7,15 @@ To create a symbolic link (symlink) with Node, you call the `symlink()` method o
 
 ```javascript
 const fs = require("fs")
-```
-
-It receives 4 parameters
-
-```javascript
 fs.symlink(target, path, type, callback)
 ```
 
-* **`target`:** string, buffer, or URL. The path which the symlink will point to.
-* **`path`:** string, buffer, or URL. The path where the symlink will be created.
-* **`type`:** string. The type of symlink to be created. It can be set to `file`, `dir`, or `junction`. If the target does not exist, `file` will be used. This parameter is only available on Windows. On other platforms, Node.js will autodetect `target` type and use `file` or `dir`.
-* **`callback`:** the function that would be called when the method is completed. It receives an `err` parameter
+It receives 4 parameters:
+
+* **`target`:** `string` | `buffer` | `URL`. The path which the symlink will point to.
+* **`path`:** `string` | `buffer` | `URL`. The path where the symlink will be created.
+* **`type`:** `string`. The type of symlink to be created. It can be set to `file`, `dir`, or `junction`. This parameter is only available on Windows. On other platforms, Node will autodetect `target` type and use `file` or `dir`. If the target doesn't exist, `file` will be used. 
+* **`callback`:** the function that would be called when the method completed. It receives an `err` parameter
 
   * **`err`:** an error that would be thrown if the method fails.
 
@@ -39,11 +36,10 @@ fs.symlink("example.txt", "symlink.txt", "file", (err) => {
 })
 ```
 
-After the method completes, a `symlink.txt` file is created and `Success` is printed. Otherwise, you will see the error. You can check the link by running.  
+After the method completes, a `symlink.txt` file is created and `Success` is printed. Otherwise, you will see the error. You can check the link by running 
 
 ```
 ls -l
-
 ```
 
 You see `symlink.txt` is pointing to `example.txt`
