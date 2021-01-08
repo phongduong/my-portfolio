@@ -15,4 +15,4 @@ Thật sự rất khó để bắt đầu sự thay đổi. Chúng ta đã quá 
 
 Nhưng khi chúng ta bắt đầu muốn thay đổi, cũng là lúc chúng ta nhận ra rằng hoàn cảnh hiện tại không còn phù hợp. Chúng ta muốn một sự mới mẻ trong cuộc đời ta và khiến nó tốt hơn. 
 
-Để có được sự thay đổi, chúng ta phải bỏ lại đằng sau những điều đã từng quen thuộc với chúng ta. Mọi người xung quanh có thể không thích điều đó nhưng đây là vì bản thân của chúng ta.
+Để có được sự thay đổi, chúng ta phải bỏ lại đằng sau những điều quen thuộc. Mọi người xung quanh có thể không thích điều đó nhưng đây là vì bản thân của chúng ta.
