@@ -11,6 +11,6 @@ Viêc càng khó thì cần thời gian càng dài để thực hiện. Nhưng n
 
 Nếu bạn muốn đạt được phần thưởng lớn bạn phải kiên nhẫn và bỏ ra nhiều công sức để thực hiện. 
 
-Nhưng đôi khi bạn có thể cảm thấy nản và muốn bỏ cuộc. Lúc đó bạn có thể tạm dừng lại công việc và đánh giá xem mình đã làm được những gì. Bạn có thể điều chỉnh công việc đó và thực hiện theo một cách khác. 
+Nhưng đôi khi bạn có thể cảm thấy chán nản và muốn bỏ cuộc. Lúc đó bạn có thể tạm dừng và đánh giá lại công việc. Bạn có thể điều chỉnh công việc và thực hiện theo một cách khác. 
 
-Kiên nhẫn không có nghĩa là bạn phải làm theo một cách mà không phù hợp với bạn trong một thời gian dài. Bạn luôn có thể linh hoạt điều chỉnh.
+Kiên nhẫn không có nghĩa là bạn phải làm theo một cách không phù hợp với bạn trong một thời gian dài. Bạn luôn có thể linh hoạt điều chỉnh. Kiên nhẫn cũng không có nghĩa là bạn chỉ chờ đợi và không làm gì. Nếu bạn không làm gì, bạn sẽ chỉ tốn thời gian và không đạt được kết quả.
