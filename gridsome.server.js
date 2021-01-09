@@ -14,7 +14,7 @@ module.exports = function (api) {
       "developer, Youtuber, Javascript, Nodejs, learn new things, programming, tutorials, web development, pwa, progressive web app, fullstack, frontend, backend, project ideas"
     );
     addMetadata("twitter_card", "summary");
-    addMetadata("twitter_creator", "@koo_gio");
+    addMetadata("twitter_creator", "@phongduonglh");
   });
 
   api.createPages(({ createPage }) => {
