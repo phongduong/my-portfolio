@@ -1,6 +1,6 @@
 ---
 title: Resolve path with Node
-date: 2021-01-11T07:21:37.597Z
+date: 2021-01-13T07:21:37.597Z
 tag: nodejs
 ---
 A resolved path is an absolute path. To resolve a path with Node, you use `resolve()` method of the `path` module.
