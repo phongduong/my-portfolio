@@ -1,5 +1,5 @@
 ---
-title: Khi chúng ta có quá nhiều lựa chọn
+title: Khi có quá nhiều lựa chọn
 date: 2021-01-09T15:16:51.944Z
 tag: me
 ---
