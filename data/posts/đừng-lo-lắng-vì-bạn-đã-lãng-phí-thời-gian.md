@@ -3,7 +3,7 @@ title: Đừng lo lắng vì bạn đã lãng phí thời gian
 date: 2021-01-18T14:18:20.899Z
 tag: me
 ---
-Bạn có đang lãng phí thời gian? Bạn nghĩ có cũng đúng, mà không cũng đúng. Điều này tùy thuộc vào cách bạn nhìn nhận điều bạn đã dành thời gian.
+Bạn có đang lãng phí thời gian? Bạn nghĩ có cũng đúng, mà không cũng đúng. Điều này tùy thuộc vào cách bạn nhìn nhận điều mà bạn đã dành thời gian.
 
 Thời gian tuy có hạn nhưng mỗi giây trôi qua, bạn đều dành nó cho một điều gì đó có ý nghĩa với bạn. 
 
