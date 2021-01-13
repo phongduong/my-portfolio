@@ -15,4 +15,4 @@ Nếu hiệu quả, bạn sẽ tiếp tục theo cách đó. Nếu không, bạn
 
 Còn nếu càng suy nghĩ thì bạn sẽ càng phân vân vì có hàng vạn cách để làm việc đó.
 
-Cũng giống như khi đi trên đường. Chỉ có lên đường, bạn mới biết mình sẽ đi đường nào. Khi đó bạn cũng sẽ biết được, con đường mình chọn để đi đến đích là xa hay gần.
+Cũng giống như khi đi trên đường. Chỉ có lên đường, bạn mới biết mình sẽ đi đường nào. Khi đó bạn cũng sẽ biết được con đường mình chọn để đi đến đích là xa hay gần.
