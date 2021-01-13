@@ -9,7 +9,7 @@ A resolved path is an absolute path. To resolve a path with Node, you use `resol
 const path = require("path")
 ```
 
-It receives a sequence of paths. The sequence is processed from right to left. The subsequent `path` is prepended until an absolute path is constructed. 
+It receives a sequence of paths. The sequence is processed from right to left. The subsequent paths are prepended until an absolute path is constructed. 
 
 ```javascript
 path.resolve("/path1", "/path2", "path3")
