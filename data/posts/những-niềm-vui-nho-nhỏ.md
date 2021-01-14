@@ -13,6 +13,6 @@ Thay vì tập trung vào chúng, tại sao không tập trung vào những đi�
 
 Chúng không cần phải quá lớn lao. Chúng có thể là ăn một món ăn do bạn tự nấu, dọn dẹp nhà cửa, sửa chữa những thứ bị hỏng, trồng một cái cây,...
 
-Những điều này không những giữ cho bạn luôn bận rộn để tránh suy nghĩ quá nhiều về những điều tiêu cực mà còn giúp bạn có tận hưởng một chúng hương vị cuộc sống. 
+Những điều này không những giữ cho bạn luôn bận rộn để tránh suy nghĩ quá nhiều về những điều tiêu cực mà còn giúp bạn tận hưởng một chút hương vị của cuộc sống. 
 
 Những niềm vui nho nhỏ này giúp bạn tạo ra một thứ gì đó có ích cho cuộc sống của bạn và những người xung quanh.
