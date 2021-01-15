@@ -17,4 +17,4 @@ Mình lần đầu tiên đi đường Bạch Đằng và thấy có rất nhi�
 
 Có một hồ phun nước đang được xây ở công viên gần bia Quốc Học.
 
-Thưc sự là có rất nhiều sự thay đổi. Mình thực sự thích cảm giác này. Cái cảm giác ngạc nhiên khi ra đường sau nhiều ngày và thay nhiều sự thay đổi.
+Thưc sự là có rất nhiều sự thay đổi. Mình thực sự thích cảm giác này. Cái cảm giác ngạc nhiên khi ra đường sau nhiều ngày và chứng kiến nhiều sự thay đổi.
