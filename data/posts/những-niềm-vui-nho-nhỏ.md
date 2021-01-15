@@ -11,8 +11,8 @@ Nhưng bạn hãy cứ để những suy nghĩ tiêu cực đến với tâm tr�
 
 Thay vì tập trung vào chúng, tại sao không tập trung vào những điều tích cực và niềm vui xung quanh bạn?
 
-Chúng không cần phải quá lớn lao. Chúng có thể là ăn một món ăn do bạn tự nấu, dọn dẹp nhà cửa, sửa chữa những thứ bị hỏng, trồng một cái cây,...
+Những điều tích cực không cần phải quá lớn lao. Chúng có thể là ăn một món ăn do bạn tự nấu, dọn dẹp nhà cửa, sửa chữa những thứ bị hỏng, trồng một cái cây,...
 
 Những điều này không những giữ cho bạn luôn bận rộn để tránh suy nghĩ quá nhiều về những điều tiêu cực mà còn giúp bạn tận hưởng một chút hương vị của cuộc sống. 
 
-Những niềm vui nho nhỏ này giúp bạn tạo ra một thứ gì đó có ích cho cuộc sống của bạn và những người xung quanh.
+Những niềm vui nho nhỏ này giúp bạn tạo ra một thứ gì đó bạn có thể tự hào và cảm thấy tự tin thêm một chút về bản thân mình. Chúng cũng sẽ có ích cho cuộc sống của bạn và những người xung quanh.
