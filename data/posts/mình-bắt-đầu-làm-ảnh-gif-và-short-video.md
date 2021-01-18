@@ -13,7 +13,7 @@ Mình nghĩ về việc tạo thêm nội dung từ những phim này như ảnh
 
 Mình rất thích ảnh GIF vì nó vừa là ảnh vừa là video. Có thể dùng cho nhiều trường hợp.
 
-Short video cũng là một dạng nội dung rất hay. Trên Youtube có nhiều video có độ dài chưa tới 10 giây nhưng có cả triệu lượt xem. Mình cũng có thể dùng nó cho Tiktok.
+Short video cũng là một dạng nội dung rất hay. Trên Youtube có nhiều video có độ dài chưa tới 10 giây nhưng có cả triệu lượt xem. Đây là lĩnh vực mình rất muốn thử. Mình cũng có thể dùng nó cho Tiktok.
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/A4qzG2VcLD6UHInLUT" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/animation-cartoon-whatishappening-A4qzG2VcLD6UHInLUT">via GIPHY</a></p>
 
