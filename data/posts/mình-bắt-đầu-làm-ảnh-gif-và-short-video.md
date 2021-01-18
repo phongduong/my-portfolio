@@ -1,5 +1,5 @@
 ---
-title: Mình bắt đầu làm ảnh GIF và short video
+title: Mình bắt đầu tạo ảnh GIF và short video
 date: 2021-01-26T12:24:55.430Z
 tag: me
 ---
