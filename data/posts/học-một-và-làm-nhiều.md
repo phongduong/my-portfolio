@@ -13,6 +13,6 @@ Khi mình đã học được cách sử dụng một phần mềm, mình có th
 
 Những kiến thức này cộng hưởng và kết hợp với nhau. Chúng bù đắp lẫn nhau. 
 
-Càng học mình sẽ càng có nhiều ý tưởng để sáng tạo hơn.
+Càng học mình sẽ càng có nhiều ý tưởng sáng tạo hơn.
 
 Thật sự rất thú vị.
