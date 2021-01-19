@@ -24,7 +24,7 @@ document.addEventListener("copy", (event) => {
 });
 ```
 
-Before starting, you cancel the event's default action. Because you will modify the selected text and set it back to the clipboard. If you don't cancel, the event will use the original selected text.
+Before starting, you cancel the event's default action. Else, the event will use the original selected text. Because you will modify the selected text and set it back to the clipboard. 
 
 You retrieve the selected text from `getSelection()` method of the `document`.
 
