@@ -10,4 +10,4 @@ currentcolor keyword represents the value of the `color` property. It could also
   (<a href='https://codepen.io/phongduong'>@phongduong</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-In the example, the current color of <h1> element
+In the example, the current color of `<h1>` element's color is not `tomato`. This is because the `currentcolor` keyword takes value the from inherited value of div's `color` property. It is `seagreen`.
