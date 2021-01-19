@@ -24,9 +24,9 @@ document.addEventListener("copy", (event) => {
 });
 ```
 
-Before starting, you cancel the event's default action. Else, the event will use the original selected text. Because you will modify the selected text and set it back to the clipboard. 
+Because you will modify the selected text and set it back to the clipboard. You need to cancel the event's default action. Else, the event will use the original selected text. 
 
-You retrieve the selected text from `getSelection()` method of the `document`.
+You retrieve the selection from `getSelection()` method of the `document`.
 
 ```javascript
 document.addEventListener("copy", (event) => {
@@ -54,6 +54,8 @@ event.clipboardData.setData("text/plain", reversedSelection);
 ```
 
 You use the `setData` method on the event's `clipboardData` property. The method requires data format and the data to set to the clipboard. You use `text/plain` format for the selected text.
+
+Here is full code of the example
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Copy event " src="https://codepen.io/phongduong/embed/preview/gOwqNdw?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/phongduong/pen/gOwqNdw'>Copy event </a> by Phong Duong
