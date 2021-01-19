@@ -1,5 +1,5 @@
 ---
-title: Cảm hứng để viết
+title: Cảm hứng để viết mỗi ngày
 date: 2021-01-30T14:25:13.658Z
 tag: me
 ---
