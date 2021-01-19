@@ -9,7 +9,7 @@ The event handler can modify the copied content by using `setData` on the event
 
 ## Example
 
-In this example, you will reverse the words in the `paragraph` when the user copies the text and paste it to the `textarea`. You are going to create two elements: a `paragraph` and a `textarea`.
+In this example, you reverse the words in the `paragraph` when the user copies the text and paste it to the `textarea`. You are going to create two elements: a `paragraph` and a `textarea`.
 
 ```pug
 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et dolor magna. Curabitur mauris eros, scelerisque eleifend odio in, luctus mattis lorem.
