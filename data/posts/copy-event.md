@@ -5,11 +5,11 @@ tag: javascript
 ---
 Copy event fires when you copy the selection to the clipboard.
 
-The event handler can modify the copied content by using `setData` on the event's `ClipboardEvent.clipboardData` property. You can also cancel the event's default action using `event.preventDefault()`. 
+The event handler can modify the copied content by using `setData` on the event's `ClipboardEvent.clipboardData` property.
 
 ## Example
 
-In this example, you will reverse the words in the `paragraph` when the user copies the text and past it to the `textarea`. You are going to create two elements: a `paragraph` and a `textarea`.
+In this example, you will reverse the words in the `paragraph` when the user copies the text and paste it to the `textarea`. You are going to create two elements: a `paragraph` and a `textarea`.
 
 ```pug
 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et dolor magna. Curabitur mauris eros, scelerisque eleifend odio in, luctus mattis lorem.
