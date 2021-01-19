@@ -5,7 +5,7 @@ tag: javascript
 ---
 Copy event fires when you copy the selection to the clipboard.
 
-The event handler can modify the copied content by using `setData` on the event's  `ClipboardEvent.clipboardData` property. You can also cancel the event using `event.preventDefault()`. 
+The event handler can modify the copied content by using `setData` on the event's `ClipboardEvent.clipboardData` property. You can also cancel the event's default action using `event.preventDefault()`. 
 
 ## Example
 
@@ -16,17 +16,21 @@ p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et dolor magna.
 textarea(cols="30", rows="10")
 ```
 
-You listen to the `copy` event
+You listen to the `copy` event. You do all works in this event listener.
 
 ```javascript
 document.addEventListener("copy", (event) => {
+	event.preventDefault();
 });
 ```
+
+Before starting, you cancel the event's default action. Because you will modify the selected text and set it back to the clipboard. If you don't cancel, the event will use the original selected text.
 
 You retrieve the selected text from `getSelection()` method of the `document`.
 
 ```javascript
 document.addEventListener("copy", (event) => {
+  // ...
   const selection = document.getSelection();
 });
 ```
@@ -42,6 +46,14 @@ You now have the selected text. You reverse the words of the selected text by us
 ```javascript
 const reversedSelection = selection.split(" ").reverse().join(" ");
 ```
+
+You have just retrieved and reversed the selected text. You need to set it back to the clipboard
+
+```javascript
+event.clipboardData.setData("text/plain", reversedSelection);
+```
+
+You use the `setData` method on the event's `clipboardData` property. The method requires data format and the data to set to the clipboard. You use `text/plain` format for the selected text.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Copy event " src="https://codepen.io/phongduong/embed/preview/gOwqNdw?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/phongduong/pen/gOwqNdw'>Copy event </a> by Phong Duong
