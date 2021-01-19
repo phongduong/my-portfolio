@@ -5,11 +5,11 @@ tag: javascript
 ---
 Copy event fires when you copy the selection to the clipboard.
 
-The event handler can modify the copied content by using `setData` method on the event's  `ClipboardEvent.clipboardData` property. You can also cancel the event using `event.preventDefault()`. 
+The event handler can modify the copied content by using `setData` on the event's  `ClipboardEvent.clipboardData` property. You can also cancel the event using `event.preventDefault()`. 
 
 ## Example
 
-You are going to create two elements: a `paragraph` and a `textarea`. You will reverse the words of the `paragraph` when the user copies the text and paste it to the `textarea`.
+In this example, you will reverse the words in the `paragraph` when the user copies the text and past it to the `textarea`. You are going to create two elements: a `paragraph` and a `textarea`.
 
 ```pug
 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et dolor magna. Curabitur mauris eros, scelerisque eleifend odio in, luctus mattis lorem.
@@ -23,41 +23,25 @@ document.addEventListener("copy", (event) => {
 });
 ```
 
-You do all works in this event handler. 
-
-You retrieve the selected text by calling `getSelection()` method of the `document`.
+You retrieve the selected text from `getSelection()` method of the `document`.
 
 ```javascript
 document.addEventListener("copy", (event) => {
-  const selection = document.getSelection()
+  const selection = document.getSelection();
 });
 ```
 
-The method returns a `Selection` object. It contains all information about the selection. You call `toString()` method to get the selected text
+The method returns a `Selection` object. It contains all information about the selection. To get the selected text, you call the `toString()` method.
 
 ```javascript
-document.addEventListener("copy", (event) => {
-  const selection = document.getSelection().toString()
-});
+const selection = document.getSelection().toString();
 ```
 
-You reverse the words by using array methods
+You now have the selected text. You reverse the words of the selected text by using array methods
 
 ```javascript
 const reversedSelection = selection.split(" ").reverse().join(" ");
 ```
-
-You have just retrieved and reversed the selected text. You need to set the reversed selection back to the clipboard.
-
-```javascript
-document.addEventListener("copy", (event) => {
-  const selection = document.getSelection().toString();
-  const reversedSelection = selection.split(" ").reverse().join(" ");
-  event.clipboardData.setData("text/plain", reversedSelection);
-})
-```
-
-You use `setData` method of the `event`'s `clipboardData` property. It requires two parameters: data format and data. The format of our `reversedSelection` is `text/plain` 
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Copy event " src="https://codepen.io/phongduong/embed/preview/gOwqNdw?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/phongduong/pen/gOwqNdw'>Copy event </a> by Phong Duong
