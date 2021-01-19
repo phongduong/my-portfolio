@@ -1,6 +1,6 @@
 ---
 title: Cảm hứng để viết
-date: 2021-01-19T14:25:13.658Z
+date: 2021-01-30T14:25:13.658Z
 tag: me
 ---
 Khi mình bắt đầu đặt mục tiêu viết trong 365 ngày hồi đầu năm, mình cũng không biết là sẽ viết về cái gì.
