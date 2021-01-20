@@ -7,4 +7,4 @@ tag: javascript
 
 ## Example
 
-In this example, you are going to reverse the words of the text when the user pastes it to the textarea.
+In this example, you are going to reverse the words of the text when the user pastes them to the textarea.
