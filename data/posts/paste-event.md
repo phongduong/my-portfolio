@@ -10,4 +10,4 @@ document.addEventListener('paste', (event) => {
 });
 ```
 
-You can modify the pasted data or cancel the event in the handler.
+You can access the pasted data by calling the `getData()` method on the event's `clipboardData` property.
