@@ -13,4 +13,4 @@ Nhưng có một điều chắc chắn là nếu như chỉ dựa vào may mắn
 
 May mắn có thể tích góp qua thời gian. Mỗi ngày chúng ta làm việc hết mình là mỗi ngày tích góp được một ít may mắn.
 
-Khi may mắn đạt được mức cần thiết, thành công chắc chắn tới.
+Khi may mắn đạt được mức cần thiết, thành công chắc chắn sẽ tới.
