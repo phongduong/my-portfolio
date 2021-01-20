@@ -1,7 +1,7 @@
 ---
 title: Toggle fullscreen mode with Fullscreen API
 date: 2020-11-04T04:23:52.899Z
-tag: webapi
+tag: javascript
 ---
 
 Fullscreen API allows you to represent your application on the full screen. You can use it for your video player or game.
