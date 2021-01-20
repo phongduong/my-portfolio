@@ -1,7 +1,7 @@
 ---
 title: Alert when user leaves the web page
 date: 2020-11-05T14:41:59.431Z
-tag: webapi
+tag: javascript
 ---
 To know when users leave the web page, you listen to `beforeunload`**.** This event is fired before the `window` is unloaded. 
 
