@@ -9,8 +9,10 @@ Mỗi việc chúng ta làm đều có một phần đóng góp của may mắn.
 
 Đôi khi chúng ta có được nhiều may mắn và thực hiện được điều mình muốn. Và đôi khi phần may mắn chúng ta có được lại không giúp được gì.
 
-Nhưng có một điều chắc chắn là nếu như chỉ dựa vào may mắn mà không làm hết mình, bạn sẽ không làm được việc mình muốn.
+Bởi vì may mắn là điều mà chúng ta không thể can thiệp hay điều chỉnh. Chúng ta chỉ có thể điều chỉnh mức độ tận tâm và sức lực chúng ta dành cho công việc.
+
+Do đó nếu như chỉ dựa vào may mắn mà không làm hết mình, bạn sẽ không làm được việc mình muốn.
 
 May mắn có thể tích góp qua thời gian. Mỗi ngày chúng ta làm việc hết mình là mỗi ngày tích góp được một ít may mắn.
 
-Khi may mắn đạt được mức cần thiết, thành công chắc chắn sẽ tới.
+Khi may mắn đạt được mức cần thiết, thành công sẽ tới.
