@@ -48,7 +48,7 @@ $props.query
 */
 ```
 
-Here is the demo. You check the result in the `console` tab
+Here is the demo. You can check the result in the `console` tab
 
 <iframe src="https://codesandbox.io/embed/purple-cache-vtsci?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
