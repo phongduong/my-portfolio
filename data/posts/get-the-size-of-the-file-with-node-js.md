@@ -14,8 +14,8 @@ fs.stat("./package.json", (err, stats) => {
     return
   }
 
-  console.log(stats.size)
+  console.log(stats.size) // 499
 })
 ```
 
-`size` property returns the size of the file in bytes.
+`size` property returns the size of the file in bytes. In this case, my `package.json` file's size is `499` bytes
