@@ -8,6 +8,17 @@ To copy a file with Node.js, you run `fs.copyFile()` method.
 ```javascript
 const fs = require("fs")
 
+fs.copyFile("file.txt", "file_copy.txt", (err) => {
+  if (err) {
+    console.log(err)
+    return
+  }
+  
+  console.log("Copied successfully")
+})
+
 ```
 
-It
+`file_copy.txt` will be overwritten if it already exists. You will see an error if `file.txt` doesn't exist.
+
+After the program executes, a `file_copy.txt` will be created and a success message is printed
