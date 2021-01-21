@@ -27,7 +27,7 @@ $route.query
 
 You can also pass the query as the `props` to the component. This allows you to reuse it for different URLs.
 
-When you create the router instance
+When you create the router instance, you pass the props property 
 
 ```javascript
 const router = new VueRouter({
