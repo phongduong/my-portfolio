@@ -15,4 +15,4 @@ Việc dễ thứ hai cũng sẽ dễ hơn các việc còn lại trừ việc d
 
 Cái này cũng giống như khi bạn leo lên một cái thang. Nếu bạn chỉ đứng yên một chỗ quá lâu, bạn sẽ mau thấy chán. Bạn muốn thử thách bản thân và trèo lên cao hơn. Nhưng nếu leo liền một lần hai ba bậc thì sẽ khó và mau mệt hơn. 
 
-Nên cách tôt nhất là leo lên từng bậc môt. Việc này sẽ dễ hơn và ít tốn sức hơn.
+Nên cách tôt nhất là leo lên từng bậc môt. Việc này sẽ dễ hơn và ít tốn sức hơn. Nó cũng sẽ giúp bạn xây dựng tự tin và không bị ngợp.
