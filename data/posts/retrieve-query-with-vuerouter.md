@@ -5,18 +5,18 @@ tag: vuejs
 ---
 You can retrieve the URL's query from the component by using `$route.query`. 
 
-It returns an object of query values. The object's property is the queries and the value is the queries values.
+It returns an object of query values. The object's properties are the queries and the values are the queries values.
 
-I have a URL's query like below
+I have a URL query like below
 
 ```
 /search?title=text&description=hello
 ```
 
-`$route.query` return the following object
+`$route.query` returns the following object
 
 ```javascript
-$route.query
+route.query
 /*
 {
   title: "text",
@@ -37,3 +37,22 @@ const routes = [
 ```
 
 Now you can retrieve the query by using `$props` in your component.
+
+```javascript
+$props.query
+/*
+{
+  title: "text",
+  description: "hello"
+}
+*/
+```
+
+Here is the demo. You check the result in `console` tab
+
+<iframe src="https://codesandbox.io/embed/purple-cache-vtsci?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="purple-cache-vtsci"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
