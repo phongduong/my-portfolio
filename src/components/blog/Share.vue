@@ -28,7 +28,7 @@ export default {
         {
           label: "Twitter",
           url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-            `${this.title} by ${this.$static.metadata.twitter_creator} ${this.url}`
+            `${this.title} ${this.url}`
           )}`,
         },
         {
