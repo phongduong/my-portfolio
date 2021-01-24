@@ -13,4 +13,4 @@ Cuộc đời bạn là một chuỗi những quyết định. Chúng sẽ đưa
 
 Không ai biết trước những quyết định sẽ có kết quả như thế nào. Nhưng đừng vì vậy mà sợ những điều đó.
 
-Hãy cứ sống cuộc sống bình thường của bạn và tận hưởng nó.
+Hãy cứ sống cuộc sống bình thường của bạn và tận hưởng nó. Hãy tự tin đưa ra những quyết định và xem chúng đưa bạn đến đâu.
