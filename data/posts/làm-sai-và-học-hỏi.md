@@ -7,7 +7,7 @@ Khi bạn muốn làm gì đó, bạn có thể sợ rằng mình sẽ làm sai.
 
 Bởi vì khi chúng ta bắt đầu một cái gì đó hoàn toàn mới, chúng ta không biết phải làm như thế nào và kết quả sẽ ra sao.
 
-Ai cũng rất tệ khi bắt đầu làm. Nhưng phải có làm, có sai rồi sửa sai thì bạn mới làm tốt được.
+Ai cũng rất tệ khi mới bắt đầu làm. Nhưng phải có làm, có sai rồi sửa sai thì bạn mới làm tốt được.
 
 Làm sai cũng chỉ là một kết quả trên quá trình học hỏi những điều mới. Để thành thạo một điều gì đó, cần rất nhiều lần sai.
 
