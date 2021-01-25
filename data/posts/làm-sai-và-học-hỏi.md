@@ -13,4 +13,4 @@ Làm sai cũng chỉ là một kết quả trên quá trình học hỏi những
 
 Nhưng đừng vì làm sai một vài lần hoặc sợ làm sai mà bỏ cuộc giữa chừng. Hãy cứ tiếp tục.
 
-Mỗi lần sai, bạn sẽ biết cách để sửa sai. Sau mỗi lần như thế bạn sẽ học được hai điều: vì sao lại sai và làm thế nào để sửa sai. Hai điều này sẽ giúp bạn tránh những sai lầm trong lần kết tiếp.
+Mỗi lần sai, bạn sẽ biết cách để sửa sai. Sau mỗi lần như thế bạn sẽ học được hai điều: vì sao lại sai và làm thế nào để sửa sai. Hai điều này sẽ giúp bạn tránh những sai lầm trong lần kế tiếp.
