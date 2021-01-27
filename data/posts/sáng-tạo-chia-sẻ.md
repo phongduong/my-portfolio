@@ -9,4 +9,4 @@ Có rất nhiều creator làm đủ mọi thể loại nội dung. Họ không 
 
 Những creator cũng thể hiện chuyên môn của mình bằng những nội dung. Họ [lồng tiếng và đóng làm nhân vật trong phim](https://www.youtube.com/user/ProZD). Họ cũng có thể làm phim hoạt hình: [kekeflipnote](https://www.youtube.com/user/kekeflipnote), [からめる](https://www.youtube.com/c/%E3%81%8B%E3%82%89%E3%82%81%E3%82%8B/videos), [Juny](https://www.youtube.com/c/JunyIsHere). Hay là [diễn viên hài](https://www.youtube.com/user/labelled4).
 
-Sáng tạo và chia sẻ cũng là một cách để chứng tỏ giá trị của bản thân. Với sự trợ giúp của Internet thì điều này càng dễ dàng hơn.
+Sáng tạo và chia sẻ cũng là một cách để chứng tỏ bản thân.
