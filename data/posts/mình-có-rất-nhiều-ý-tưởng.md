@@ -13,6 +13,6 @@ Nếu kết hợp với meme thì càng vui hơn. Mình đang có rất nhiều 
 
 Mình có thể dùng những video không chỉ cho Youtube mà còn Facebook, Tiktok, Instagram.
 
-Mình cùng đang luyện tập chỉnh sửa ảnh. Mình muốn chỉnh sửa ảnh để đa dạng nội dung.
+Mình cùng đang luyện tập chỉnh sửa ảnh để đa dạng nội dung.
 
 ![Bỏ cuộc nghĩa là biết dừng lại đúng lúc](/uploads/never-give-up.png "Bỏ cuộc nghĩa là biết dừng lại đúng lúc")
