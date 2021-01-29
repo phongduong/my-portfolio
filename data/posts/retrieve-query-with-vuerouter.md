@@ -1,6 +1,6 @@
 ---
 title: Retrieve query with Vue Router
-date: 2021-01-29T12:31:21.221Z
+date: 2021-02-05T12:31:21.221Z
 tag: vuejs
 ---
 You can retrieve the URL's query from the component by using `$route.query`. 
