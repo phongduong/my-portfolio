@@ -8,8 +8,10 @@ tag: html
 It accepts an integer.
 
 * `-1`: the element can't be focused by sequential keyboard navigation but could be focused with Javascript or by clicking
-* `0`:  The element can be focused by sequential keyboard navigation. It will be focused after positive `tabindex`. If there are many elements with `tabindex="0"`, their order is defined by the document's source order. This is the default value
+* `0`:  The element can be focused by sequential keyboard navigation. It will be focused after positive `tabindex`. This is the default value
 * A positive value: the element can be focused on by sequential keyboard navigation. Its order is defined by the value of the number. The elements with positive values will be focused before those with `0` value
+
+If there are many elements with the same value, their order is defined by the document's source order
 
 ## Example
 
