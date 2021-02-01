@@ -3,13 +3,13 @@ title: Càng ít là càng nhiều
 date: 2021-02-21T07:03:08.695Z
 tag: me
 ---
-Mấy bữa nay mình đang gặp vấn đề về quản lý thời gian. Mình cứ cố gắng lấp đầy quãng thời gian trống trong thời gian biểu của mình bằng những hoạt động khác.
+Mấy bữa nay mình đang gặp vấn đề về quản lý thời gian. Mình cứ cố gắng lấp đầy quãng thời gian trống trong thời gian biểu của mình bằng những hoạt động không quan trọng khác.
 
 Nhưng mình phát hiện ra rằng việc này làm mình tốn nhiều thời gian hơn và những việc quan trong thì không thể hoàn thành đúng hạn.
 
-Bởi vì mình có rất nhiều ý tưởng muốn thực hiện nhưng không thể quản lý được. Mình cảm thấy bị mắc kẹt vì không biết phải là gì tiếp theo. 
+Bởi vì mình có rất nhiều ý tưởng muốn thực hiện nên cảm thấy bị mắc kẹt vì không biết phải là gì tiếp theo. 
 
-Trong năm nay mình cũng dự định xuất bản một cuốn sách của riêng mình nên việc quản lý thời gian càng phải được lưu tâm. 
+Trong năm nay mình có dự định xuất bản một cuốn sách của riêng mình nên việc quản lý thời gian càng phải được lưu tâm. 
 
 Bây giờ mình sẽ lựa chọn làm những việc quan trọng nhất. Mình cũng hạn chế số lần tạo nội dung trên mạng xã hội xuống 1 lần mỗi ngày. 
 
