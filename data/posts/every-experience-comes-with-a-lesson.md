@@ -10,8 +10,6 @@ Chúng cũng chứa trong đó những bài học quý giá.
 
 Hãy cứ mở lòng tận hưởng chúng. Sau tất cả bạn sẽ có những trải nghiệm và bài học quý giá.
 
-Nhiều người né tránh thất bại và nỗi buồn nhưng chúng là một phần của cuộc sống.
-
-Bạn không thể điều khiển hay né tránh chúng. 
+Nhiều người né tránh thất bại và nỗi buồn nhưng chúng là một phần của cuộc sống. Bạn không thể điều khiển hay né tránh chúng. 
 
 Vậy tại sao không đối mặt và tận hưởng chúng để xem chúng sẽ dạy bạn bài học gì?
