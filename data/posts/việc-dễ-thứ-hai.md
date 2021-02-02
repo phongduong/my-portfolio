@@ -1,6 +1,6 @@
 ---
 title: Việc dễ thứ hai
-date: 2021-02-02T14:55:53.095Z
+date: 2021-02-22T14:55:53.095Z
 tag: me
 ---
 Làm cái gì dễ quá thì sẽ mau chán.
