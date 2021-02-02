@@ -11,4 +11,4 @@ Mình từng bắt đầu từ con số 0, sau 3 tháng mới lên 1. Bây giờ
 
 Mình thấy có nhiều người muốn đạt được càng nhiều người theo dõi hay đăng ký trong thời gian ngắn càng tốt. Nhưng đối với mình, việc tạo ra nhiều nội dung có ích và làm lâu dài mới là mục tiêu.
 
-Bởi vì kiên nhẫn làm một việc hàng ngày, hàng tuần mới khó nhất.
+Bởi vì kiên nhẫn làm một việc hàng ngày, hàng tuần mới dễ hơn.
