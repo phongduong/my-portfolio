@@ -1,6 +1,6 @@
 ---
 title: tabindex
-date: 2021-02-05T04:06:26.254Z
+date: 2021-02-26T04:06:26.254Z
 tag: html
 ---
 `tabindex` attribute indicates whether the element can be focused. It also shows the order in the sequential keyboard navigation.
