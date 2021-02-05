@@ -8,3 +8,7 @@ Hôm nay lớp trưởng của mình chụp một đống ảnh giấy chép ph�
 ![Học tiếng anh dễ lắm](/uploads/146473358_1837594839724665_5346601456917827507_o.jpg "Học tiếng anh dễ lắm")
 
 Để học tiếng anh tốt thì phải thực hành thật nhiều. Chép phạt cũng là cách tốt để thực hành viết.
+
+Học tiếng anh không khó.
+
+*Nhìn tờ giấy chép phạt, biết vậy ngày xưa viết chục tờ luôn.*
