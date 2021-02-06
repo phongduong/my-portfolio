@@ -11,4 +11,4 @@ Mình cứ có cảm giác là tết giống như deadline mà mỗi năm chỉ 
 
 Nếu như mọi người dùng tinh thần của ngày tết vào những việc hàng ngày thì tốt biết mấy. Khi đó không có việc gì là không thể hoàn thành.
 
-Bởi vì đối với chúng ta không ai muốn làm một việc đến 2 năm.
+Bởi vì không ai muốn làm một việc đến 2 năm.
