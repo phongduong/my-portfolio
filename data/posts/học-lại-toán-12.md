@@ -11,4 +11,4 @@ Hồi lớp 12 mình chật vật lắm mới làm được tìm giới hạn. B
 
 Có cái đạo hàm thì mình vẫn nhớ mấy cái đơn giản còn cao siêu như đạo hàm lượng giác thì thua. 
 
-Nhìn chung là kì này có lẽ sẽ phải lăn lộn các kiểu để qua được môn này.
+Kì này có lẽ sẽ phải lăn lộn các kiểu để qua được môn này.
