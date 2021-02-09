@@ -9,6 +9,6 @@ Nhưng mà hôm nay trời mưa. Dự báo thời tiết nói có không khí l�
 
 Khi mình ngồi vá con gấu, mình thấy rất là thích bởi vì được tạo ra một thứ gì đó mới.
 
-Mình không tạo ra mộtcon gấu mới, nhưng những mảnh vá là những cái mới. Mình cắt chúng từ cái khăn được cho. Bây giờ con gấu đã có diện mạo mới.
+Mình không tạo ra được một con gấu mới, nhưng những mảnh vá là những cái mới. Mình cắt chúng từ cái khăn được cho. Bây giờ con gấu đã có diện mạo mới.
 
 Cho dù vá không đẹp, nhưng mình vẫn tự hào với thành quả tạo ra.
