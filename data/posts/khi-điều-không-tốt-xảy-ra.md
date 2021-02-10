@@ -11,4 +11,4 @@ Khi bạn bình tĩnh, bạn sẽ biết được tại sao nó xảy ra. Bởi 
 
 Cho dù việc xảy ra xấu đến mấy, hãy cứ giữ tinh thần lạc quan. Bởi vì những điều xấu chỉ xảy ra tại một thời điểm. Chúng sẽ không kéo dài mãi mãi. Việc giữ tinh thần lạc quan cũng sẽ giúp bạn nhìn nhận vấn đề theo một góc nhìn khác. Khi đó bạn sẽ thấy nó không quá xấu như bạn nghĩ. 
 
-Điều tốt hay điều xấu cũng chỉ là những trải nghiệm trong cuộc sống. Khi chúng xảy ra, hãy cứ đón nhận, tận hưởng và học hỏi những bài học chúng dành cho bạn.
+Điều tốt hay điều xấu cũng chỉ là những trải nghiệm trong cuộc sống. Khi chúng xảy ra, bạn hãy cứ đón nhận, tận hưởng và học hỏi những bài học chúng dành cho bạn.
