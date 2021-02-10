@@ -1,6 +1,6 @@
 ---
 title: Get currently focused element
-date: 2021-02-10T05:14:02.078Z
+date: 2021-02-24T05:14:02.078Z
 tag: javascript
 ---
 To get the currently focused element, you retrieve the `activeElement` property of the `document` 
