@@ -1,6 +1,6 @@
 ---
 title: Học tiếng anh
-date: 2021-02-12T06:26:23.279Z
+date: 2021-02-05T06:26:23.279Z
 tag: me
 ---
 Hôm nay lớp trưởng của mình chụp một đống ảnh giấy chép phạt của lớp trong giờ tiếng Anh. Trong đó có tờ chép phạt của mình.
