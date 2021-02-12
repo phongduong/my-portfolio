@@ -9,7 +9,7 @@ Hôm nay là ngày mồng 1, ngày đầu tiên của năm Tân Sửu.
 
 Vì năm nay nhà mình có tang nên không thể đi đến nhà khác. Không biết tập tục này có từ bao giờ nhưng nghe thì thấy rất là chuối.
 
-Nhưng mà hôm nay có cái hay là cả đại gia đình nhà mình ăn bữa trưa cùng nhau. Bình thường mọi năm mồng 1 là nhà mình đi về làng và thăm bà con.
+Nhưng mà hôm nay có cái hay là cả đại gia đình nhà mình ăn bữa trưa cùng nhau. Bình thường mọi năm mồng 1 thì nhà mình đi về làng và thăm bà con.
 
 Tuần này mình có ít bài tập vì có graded-quizz nên mình định dành thời gian để live game trên Facebook.
 
