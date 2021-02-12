@@ -11,7 +11,7 @@ Vì năm nay nhà mình có tang nên không thể đi đến nhà khác. Không
 
 Nhưng mà hôm nay có cái hay là cả đại gia đình nhà mình ăn bữa trưa cùng nhau. Bình thường mọi năm mồng 1 thì nhà mình đi về làng và thăm bà con.
 
-Tuần này mình có ít bài tập vì có graded-quizz nên mình định dành thời gian để live game trên Facebook.
+Tuần này mình có ít bài tập ở trường vì có graded-quizz nên mình định dành thời gian để live game trên Facebook.
 
 Từ đây đến mồng 3 là mình sẽ không làm việc nhiều. Chỉ dành thời gian để nghỉ ngơi, xem phim và live game. 
 
