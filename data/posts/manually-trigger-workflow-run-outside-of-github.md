@@ -3,7 +3,6 @@ title: "Manually Trigger Workflow Run Outside Of Github "
 date: 2020-10-23T15:25:19.532Z
 tag: github
 ---
-
 ## Listen for the trigger event
 
 To manually trigger Github Actions workflow with API, you need to listen for the event `workflow_dispatch` in `on` section of your workflow.
@@ -52,14 +51,14 @@ In the `print` job, you echo the `source` value from `github.event.inputs` conte
 
 You need to authenticate before using Github API. It is recommended that you to use personal access token for requests.
 
-- Select **Settings** of your account
-- Choose the **Developer settings** tab of the left side bar
-- Select **Personal access tokens**
-- Click **Generate new token**
-- In the **Token description**, enter your token's name
-- Grant **repo** scope to your access token
-- Click **Generate token**
-- You need to save the token somewhere safe. After you leave the page, you won't see it again
+* Select **Settings** of your account
+* Choose the **Developer settings** tab of the left side bar
+* Select **Personal access tokens**
+* Click **Generate new token**
+* In the **Token description**, enter your token's name
+* Grant **repo** scope to your access token
+* Click **Generate token**
+* You need to save the token somewhere safe. After you leave the page, you won't see it again
 
 ## Trigger the workflow
 
@@ -89,14 +88,18 @@ https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/disp
 
 ### Postman
 
-- Select `POST` as request method
-- Enter `https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches` as request URL
-- In `Authorization` tab, select `Basic Auth` type
-- Enter your `username`
-- In the `Password` field, enter your personal access token
-- Select `Body` tab and choose `raw` option
-- Enter `{"ref": {ref}, "inputs": {inputs}}` as the body
-- After send request, you will see status `204 No Content` in the response
+* Select `POST` as request method
+* Enter the request URL
+
+  ```
+  https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches
+  ```
+* In `Authorization` tab, select `Basic Auth` type
+* Enter your `username`
+* In the `Password` field, enter your personal access token
+* Select `Body` tab and choose `raw` option
+* Enter `{"ref": {ref}, "inputs": {inputs}}` as the body
+* After send request, you will see status `204 No Content` in the response
 
 ### `fetch` function
 
