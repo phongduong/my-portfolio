@@ -7,6 +7,6 @@ Hôm nay là Valentine. Mình không có người yêu nên thôi ở nhà làm 
 
 Hôm nay nhà mình cúng đưa mồng 3. Trưa nay gia đình o dượng lên chơi cũng có đem theo hai con chó mới đẻ. Hai con chó dễ thương mập ú.
 
-Mình có đặt hàng trước một con nhưng mà con em mình đi xin một con khác trước ngày hai con đó đẻ. Thành ra bây giờ nuôi con này. 
+Mình có đặt hàng trước một con nhưng mà con em mình đi xin một con khác trước ngày hai con đó đẻ. Thành ra bây giờ nuôi con này. Có một điều hay là nhà mình ai cũng bị nghiền chó.
 
 Hôm nay tiếp tục thử vận may với cào. Mình đánh thuê và giúp em mình ăn được hơn 100 ngàn.
