@@ -1,6 +1,6 @@
 ---
 title: Mình có rất nhiều ý tưởng
-date: 2021-02-15T03:48:30.702Z
+date: 2021-03-09T03:48:30.702Z
 tag: me
 ---
 Gần đây mình phát hiện ra rằng có nhiều video có thể dùng làm meme. Đó là những video ngắn có độ dài chủ yếu dưới 1 phút.
