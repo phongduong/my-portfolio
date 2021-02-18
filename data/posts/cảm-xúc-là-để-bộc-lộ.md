@@ -11,4 +11,8 @@ Nhiều người nói là con trai thì đừng khóc. Tại sao lại không kh
 
 Khi bị kìm nén quá lâu, bạn sẽ thấy rằng càng ngày tinh thần của bạn càng đi xuống. Tâm trạng lúc nào cũng u uất chán chường. 
 
-Những người xung quanh chúng ta cũng sẽ bị ảnh hưởng bởi cảm xúc của chúng ta.
+Khi tinh thần của bạn giảm sút, sức khỏe của bạn cũng sẽ giảm theo. Những người xung quanh bạn cũng sẽ bị ảnh hưởng bởi cảm xúc của bạn.
+
+Cuộc sống sẽ không bao giờ một màu hồng. Cái gì đến rồi cũng sẽ đến. Hãy đón nhận nó một cách tự nhiên. Khi bạn vui, hãy cứ cười. Khi bạn buồn, bạn cứ khóc. 
+
+Đừng để những cảm xúc trong bạn dồn ứ quá lâu. Hãy để dành chỗ cho những cảm xúc mới.
