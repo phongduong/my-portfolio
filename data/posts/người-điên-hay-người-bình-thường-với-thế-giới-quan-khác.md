@@ -11,6 +11,6 @@ Họ chỉ là những người có thế giới quan khác với chúng ta. H�
 
 Chúng ta có thể nghĩ họ là những người điên trong thế giới quan của chúng ta. Nhưng trong thế giới quan của họ, chúng ta có phải là những người bình thường?
 
-Nếu chúng ta nhìn thế giới bằng thế giới quan của người điên, liệu chúng ta có bị điên? Hay chúng ta sẽ thấy được những điều chưa từng tồn tại trong thế giới quan của chúng ta?
+Nếu chúng ta nhìn thế giới bằng thế giới quan của người điên, liệu chúng ta có bị điên? Hay chúng ta sẽ thấy được những điều chưa từng tồn tại trong thế giới của chúng ta?
 
 Sẽ như thế nào đây?
