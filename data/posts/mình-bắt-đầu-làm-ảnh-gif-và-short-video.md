@@ -1,6 +1,6 @@
 ---
 title: Mình bắt đầu tạo ảnh GIF và short video
-date: 2021-01-26T12:24:55.430Z
+date: 2021-01-24T12:24:55.430Z
 tag: me
 ---
 Tuần này mình vừa thi xong nên được nghỉ. Mình đã dành thời gian cuối tuần để xem phim.
