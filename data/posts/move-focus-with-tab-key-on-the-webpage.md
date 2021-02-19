@@ -1,6 +1,6 @@
 ---
-title: Navigate the focus with tab key on the webpage
-date: 2021-03-03T04:48:01.958Z
+title: Navigate the focus on the webpage
+date: 2021-03-16T04:48:01.958Z
 tag: html
 ---
 I have found a way to navigate the focus on the webpage with `tab` key recently. I knew to move only forward with the `tab` key previously but now I know how to move backward.
