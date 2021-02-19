@@ -14,4 +14,4 @@ The property will be reset to its inherited value if the property naturally inhe
 
 In the demo, the first paragraph is green, the second one is black. The second paragraph's `color` has the `unset` keywork. It is reset the property to the `initial` value, black. 
 
-In the `div` element, its color will be red. But I set the paragraph's `color` to yellow. After that, I reset the `color` property. Because the paragraph inherits `color`'s value from its parent element, `div`. So that after resetting, the paragraph is red.
+In the `div` element, its `color` will be `red`. But I set the paragraph's `color` to yellow. After that, I reset the `color` property. Because the paragraph inherits `color`'s value from its parent element, `div`. So that after resetting, the paragraph is red.
