@@ -13,4 +13,4 @@ Mọi sự việc trong cuộc sống không bao giờ là tuyệt đối. Chún
 
 Khi nhìn theo góc nhìn của người khác cũng là lúc bạn bắt đầu biết lắng nghe. Và khi lắng nghe những người khác nói, bạn sẽ hiểu thêm về bản chất của sự việc.
 
-Thà rằng là người sai để biết đâu là đúng còn hơn là luôn cho mình đúng để rồi không có cơ hội sửa sai.
+Thà rằng là người sai để biết đâu là đúng mà sửa, còn hơn là luôn cho mình đúng để rồi không có cơ hội sửa sai.
