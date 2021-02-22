@@ -24,4 +24,4 @@ Chuyến phượt này cũng mở màn cho một năm đi du lịch trong và ng
 * Mình định qua Lào chơi một ngày nhưng mà chỉ nhờ bác xe ôm chở đi vòng vòng rồi về
 * Lúc về, mình chạy đường Hồ Chí Mình để về A Lưới
 
-Chuyến đi này để lại cho mình rất nhiều kỷ niệm. Nhưng thứ để lại đáng nhớ nhất là 4 con dấu đầu tiên trong hộ chiếu của mình lúc mình qua Lào. Sau đó là Thái Lan và Malaysia.
+Chuyến đi này để lại cho mình rất nhiều kỷ niệm. Nhưng thứ để lại đáng nhớ nhất là 4 con dấu đầu tiên trong hộ chiếu của mình lúc mình qua Lào. Sau đó là Thái Lan và Malaysia trong năm 2018.
