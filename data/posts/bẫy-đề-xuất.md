@@ -1,6 +1,6 @@
 ---
 title: Bẫy đề xuất
-date: 2021-02-23T12:41:23.015Z
+date: 2021-03-23T12:41:23.015Z
 tag: me
 ---
 Những nền tảng mạng xã hội sử dụng thuật toán để đề xuất nội dung phù hợp sở với thích của người dùng. Họ muốn người dùng dành càng nhiều thời gian sử dụng nền tảng và tiêu thụ nội dung càng tốt.
