@@ -9,4 +9,4 @@ Mọi chuyện đối với họ thật là tốt đẹp cho tới khi có ngư�
 
 Cái này mình gọi là đỉnh cao của sự cố chấp. Họ bất chấp mọi thứ để giữ cho mình luôn là người đúng nhất. Họ không sai, người sai là mọi người xung quanh họ. Những người này cũng cực kỳ nhạy cảm với mọi người xung quanh.
 
-![]()
+![Những người là đỉnh cao của sự cố chấp cũng là những người tâm thần](/uploads/img_20210223_115457.jpg "Những người là đỉnh cao của sự cố chấp cũng là những người tâm thần")
