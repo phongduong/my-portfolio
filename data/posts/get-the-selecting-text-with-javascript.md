@@ -12,4 +12,4 @@ Finally, I figure out the solution for this issue. You can call `getSelection()`
   (<a href='https://codepen.io/phongduong'>@phongduong</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-`getSelection()` method returns a [`Selection`](https://developer.mozilla.org/en-US/docs/Web/API/Selection) object. To get the selected text, you call its `toString()` method
+`getSelection()` method returns a [`Selection`](https://developer.mozilla.org/en-US/docs/Web/API/Selection) object. To get the selected text, you call its `toString()` method.
