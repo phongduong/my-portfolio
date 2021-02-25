@@ -5,7 +5,7 @@ tag: javascript
 ---
 I sometimes get confused with [`onchange`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange) and [`oninput`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput) event. So I create this tutorial to show how they are different.
 
-`input` event fires every time you change the element's value.
+`input` event fires every time you change the element's `value`.
 
 `change` event fires after you commit the change of the element's `value`, when you click outside of the element or switch the focus to a different control.
 
