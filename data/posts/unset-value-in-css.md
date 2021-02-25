@@ -1,6 +1,6 @@
 ---
 title: Reset a property in CSS
-date: 2021-02-25T15:34:58.695Z
+date: 2021-03-25T15:34:58.695Z
 tag: css
 ---
 To reset a property in CSS, you use the `unset` keywork for its value.
