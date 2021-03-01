@@ -15,4 +15,6 @@ Lúc dậy mình thấy người nó ướt đẫm. Hỏi ba mình thì ba nói 
 
 Vậy là nó rớt vào bể cá từ 10 rưỡi đến 5 giờ sáng. Không biết nó đã xoay sở để sống xót như thế nào trong 7 tiếng đồng hồ đó. 
 
-Nó chỉ là một con chó con mới đẻ hơn 50 ngày. Không biết nó có biết bơi không. Cũng may là nó không bị lạnh mà chết. Hú hồn.
+Nó chỉ là một con chó con mới đẻ hơn 50 ngày. Không biết nó có biết bơi không. Cũng may là nó không bị lạnh mà chết.
+
+Mới đầu tuần đầu tháng mà gặp một phen hú hồn. Hôm nay nó đã dần quen với chỗ ở. Mình cũng thả chó nhà mình ra để kèm nó cho nó khỏi kêu.
