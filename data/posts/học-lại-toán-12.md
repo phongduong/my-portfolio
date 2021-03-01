@@ -1,6 +1,6 @@
 ---
 title: Học lại toán 12
-date: 2021-03-01T14:46:43.493Z
+date: 2021-03-29T14:46:43.493Z
 tag: me
 ---
 Học kì này mình có đăng ký môn Calculus, google translate ra là giải tích. 
