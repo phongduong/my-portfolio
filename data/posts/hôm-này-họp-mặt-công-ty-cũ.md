@@ -3,7 +3,7 @@ title: Hôm này họp mặt công ty cũ
 date: 2021-02-27T07:37:41.526Z
 tag: me
 ---
-Tối nay mình đi họp mặt công ty cũ, Flow. Đây là công ty đầu tiên mình đi làm chính thức với vai trò là Developer.
+Tối nay mình đi họp mặt công ty cũ, Flow. Đây là công ty đầu tiên mình thực tập và đi làm chính thức với vai trò là Developer.
 
 Đây cũng là công ty mà mình có nhiều kỷ niệm cả vui và cả buồn nhất.
 
