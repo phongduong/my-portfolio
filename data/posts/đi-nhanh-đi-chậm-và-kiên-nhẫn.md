@@ -1,6 +1,6 @@
 ---
 title: Đi nhanh, đi chậm và kiên nhẫn
-date: 2021-02-28T15:26:50.866Z
+date: 2021-03-28T15:26:50.866Z
 tag: me
 ---
 Muốn đi nhanh thì đi một mình.
