@@ -14,7 +14,7 @@ module.exports = {
   siteDescription: DESCRIPTION,
   siteUrl: URL,
   templates: {
-    BlogPost: "/blog/:title",
+    BlogPost: "/blog/:year/:month/:title",
     Tag: "/blog/tag/:title",
   },
   plugins: [
