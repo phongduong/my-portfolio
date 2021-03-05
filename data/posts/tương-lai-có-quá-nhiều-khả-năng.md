@@ -11,4 +11,4 @@ Khi đi phỏng vấn việc làm, mình thường được hỏi: "bạn có mu
 
 Bạn không thể thấy trước tương lai của bạn. Có quá nhiều khả năng có thể xảy ra. Nếu bạn muốn làm gì đó trong tươi lai, bạn có thể sẽ không làm được nó. Luôn có khả năng này. Nhưng cũng có thể bạn sẽ làm nó ngay bây giờ. Bởi vì bây giờ chính là tương lai của quá khứ.
 
-Tươi lai có nhiều ngã rẽ. Bạn sẽ đi những con đường khác với con đường mà bạn muốn đi. Nhưng đó chính là còn đường bạn muốn đi tại thời điểm đó.
+Tươi lai có nhiều ngã rẽ. Bạn sẽ đi những con đường khác với con đường mà bạn muốn đi lúc này. Nhưng đó chính là còn đường bạn muốn chọn. Đừng lo lắng về tương lai.
