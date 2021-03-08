@@ -7,6 +7,6 @@ Hôm nay mình có nghe được một lời chúc của một bạn đang học
 
 Mình nghe xong cảm thấy rất buồn cười nhưng lại rất thích vì nó hồn nhiên và ngây thơ.
 
-Mình có chỉnh sửa một chút và mình muốn dành lời chúc này cho những người phụ nữ xung quanh mình.
+Mình có chỉnh sửa một chút và mình muốn dành lời chúc này cho những người phụ nữ trên thế giời này.
 
 "Hôm nay mồng 8 tháng 3. Chúc các cô, các dì, cô chị, các em thật nhiều sức khỏe, vui vẻ, an khang thịnh vượng, phát tài phát lộc và sống lâu trăm tuổi 🎉🎉🎉🎉🎉🎉🎉🎉🎉".
