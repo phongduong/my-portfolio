@@ -3,7 +3,7 @@ title: Hôm nay 8-3
 date: 2021-03-08T07:44:47.733Z
 tag: me
 ---
-Hôm nay mình có nghe được một lời chúc của một bạn đang học tiểu học chuẩn bị tặng cho mẹ mình.
+Hôm nay mình có nghe được một lời chúc của một bạn đang học tiểu học chuẩn bị dành tặng cho mẹ mình.
 
 Mình nghe xong cảm thấy rất buồn cười nhưng lại rất thích vì nó hồn nhiên và ngây thơ.
 
