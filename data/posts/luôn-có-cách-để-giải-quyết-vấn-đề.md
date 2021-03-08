@@ -1,6 +1,6 @@
 ---
 title: Luôn có cách để giải quyết vấn đề
-date: 2021-03-07T04:27:03.557Z
+date: 2021-04-05T04:27:03.557Z
 tag: me
 ---
 Mỗi một vấn đề sẽ có không chỉ một mà là rất nhiều cách để giải quyết. Cho dù là vấn đề đó khó đến mấy.
