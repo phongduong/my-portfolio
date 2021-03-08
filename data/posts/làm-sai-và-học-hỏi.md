@@ -1,6 +1,6 @@
 ---
 title: Làm sai, sửa và học hỏi
-date: 2021-03-06T07:16:58.631Z
+date: 2021-04-04T07:16:58.631Z
 tag: me
 ---
 Khi bạn muốn làm gì đó, bạn có thể sợ rằng mình sẽ làm sai. Đây là chuyện bình thường.
