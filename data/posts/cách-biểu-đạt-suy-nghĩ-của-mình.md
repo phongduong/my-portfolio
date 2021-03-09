@@ -11,4 +11,4 @@ Ngày xưa mình cứ nghĩ là chỉ những người hướng ngoại và nói
 
 Có rất nhiều cách để biểu đạt suy nghĩ. Không nhất thiết là phải nói. Mình có thể viết và dùng cử chỉ. Kết hợp những cách này có hiệu quả còn cao hơn là chỉ nói không.
 
-Mình hay thấy người lớn cứ nghĩ là ít nói là chậm và khờ. Họ đề cao việc nói nhiều có nghĩa là lanh và khôn. Nhưng mình thấy việc nói nhiều hay nói ít có liên quan gì tới khả năng phản xạ đâu.
+Mình hay thấy người lớn cứ nghĩ là ít nói là chậm và khờ. Họ đề cao việc nói nhiều có nghĩa là lanh và khôn. Nhưng mình thấy việc nói nhiều hay nói ít chẳng liên quan gì tới khả năng phản xạ.
