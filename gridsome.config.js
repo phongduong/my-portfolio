@@ -90,12 +90,12 @@ module.exports = {
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
-    {
-      use: "@gridsome/plugin-google-analytics",
-      options: {
-        id: "UA-123178606-7",
-      },
-    },
+    // {
+    //   use: "@gridsome/plugin-google-analytics",
+    //   options: {
+    //     id: "UA-123178606-7",
+    //   },
+    // },
   ],
   transformers: {
     remark: {
