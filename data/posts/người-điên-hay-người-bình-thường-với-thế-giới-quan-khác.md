@@ -1,6 +1,6 @@
 ---
 title: Người điên hay người bình thường với thế giới quan khác
-date: 2021-03-14T14:57:02.300Z
+date: 2021-04-11T14:57:02.300Z
 tag: me
 ---
 Bữa nay mình đang đọc cuốn Thiên Tài Bên Trái, Kẻ Điên Bên Phải. 
