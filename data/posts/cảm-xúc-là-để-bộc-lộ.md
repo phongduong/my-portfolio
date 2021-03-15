@@ -1,6 +1,6 @@
 ---
 title: Cảm xúc là để bộc lộ
-date: 2021-03-15T07:18:44.692Z
+date: 2021-04-12T07:18:44.692Z
 tag: me
 ---
 Bộc lộ cảm xúc cũng giống như khi bạn đi vệ sinh. Bạn không thể nhịn quá lâu.
