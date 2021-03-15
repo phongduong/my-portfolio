@@ -9,4 +9,6 @@ Trong quãng thời gian làm sáng tạo nội dung, mình luôn tự hỏi quy
 
 Mình cũng hay thắc mắc là những việc mình đang làm có thể nuôi sống bản thân trong tương lai? Suy nghĩ nhiều quá làm mình tê liệt. Nhưng mình cũng muốn biết điều đó. Mình biết được kết quả việc mình đang làm.
 
-Những điều không chắc chắn mâu thuẫn
+Những điều không chắc chắn hay lắm. Chúng đầy mâu thuẫn. Khi suy nghĩ quá nhiều về chúng, bạn sẽ thấy bi quan, lo lắng và tiêu cực. Nhưng những điều đó chỉ tồn tại được một thời gian. Chúng cũng giúp bạn cảm thấy may mắn và tự hào với những điều đã xảy ra, háo hức và mong đợi tương lai sắp tới. 
+
+Bạn cứ chấp nhận những điều đó. Hãy xem chúng như những cột mốc trên hành trình bạn đã đi qua, là những cột mốc mà bạn sẽ đạt được trên con đường dài phía trước.
