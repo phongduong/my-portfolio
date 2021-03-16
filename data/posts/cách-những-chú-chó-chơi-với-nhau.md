@@ -9,4 +9,4 @@ Nếu khi chơi mà một chú lỡ cắn bạn quá đau, bạn sẽ kêu lên,
 
 Bạn có thể học cách này khi đối xử với mọi người xung quanh. Bạn nên giữ khoảng cách vừa phải với mọi người. Khi bạn lỡ can thiệp quá sâu, hãy quan sát người đó. Nếu người đó cảm thấy khó chịu, hãy dừng lại và lui ra xa. Hãy cho người đó thêm không gian. Sau một thời gian, người đó sẽ lại tìm đến bạn. 
 
-Mỗi người có một không gian riêng và họ không muốn ai can thiệp quá sâu vào cuộc sống của mình. Nếu bạn can thiệp quá sâu mặc kệ cảm xúc của đối phương, người đó sẽ rời càng xa bạn.
+Mỗi người có một không gian riêng và họ không muốn ai can thiệp quá sâu vào cuộc sống của mình. Nếu bạn can thiệp quá sâu mặc kệ cảm xúc của đối phương, người đó sẽ càng rời xa bạn.
