@@ -9,6 +9,6 @@ Mình nhớ lại hồi cấp 2, mấy đứa trong lớp bắt đầu hút thu�
 
 Khi ở trong trường học thì hút thuốc bị cấm. Bạn mình không thể hút công khai trong lớp. Cho nên tụi bạn mình chỉ còn cách chui vào nhà vệ sinh để hút. Nhiều khi đi vệ trong giờ ra chơi mà nhìn tàn thuốc giữa nền nhà kết hợp với ngửi mùi khói thuốc cộng mùi amoniac mà nản.
 
-Tối qua, mình hỏi ba mình tại sao ngày xưa ba bắt đầu hút thuốc? Ba mình trả lời do hồi còn trẻ đi vào trong Bình Thuận, ở một mình nên buồn quá hút thuốc. Lý do hợp lý! Bây giờ mình kêu ba bỏ thuốc thì ba nói bỏ là bị lên huyết áp. Lại một lý do hợp lý!
+Tối qua, mình hỏi ba mình tại sao ngày xưa ba bắt đầu hút thuốc? Ba mình trả lời do hồi còn trẻ đi vào Bình Thuận, ở một mình nên buồn quá hút thuốc. Lý do hợp lý! Bây giờ mình kêu ba bỏ thuốc thì ba nói bỏ là bị lên huyết áp. Lại một lý do hợp lý!
 
 Mình đã quen với mùi thuốc lá từ khi còn nhỏ. Kể cả khi đi học hay đi làm cũng ngửi mùi thuốc lá. Có một câu hỏi mình hay hỏi ba mình là hút thuốc có lợi gì?
