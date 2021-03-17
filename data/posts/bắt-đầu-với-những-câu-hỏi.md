@@ -1,6 +1,6 @@
 ---
 title: Bắt đầu với những câu hỏi
-date: 2021-03-17T14:36:55.529Z
+date: 2021-04-15T14:36:55.529Z
 tag: me
 ---
 Hỏi một câu hỏi để bắt đầu làm quen với một người.
