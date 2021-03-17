@@ -5,7 +5,7 @@ tag: me
 ---
 Hôm qua mình nhìn thấy mấy đứa cấp 2 trong xóm hút thuốc. Tụi nó không hút thuốc lá bình thường mà hút thuốc lá điện tử. Nghe mấy đứa nói hình như có cả mùi dâu. Mình thấy có đứa hút xong bị say đứng không vững.
 
-Mình nhớ lại hồi cấp 2, mấy đứa trong lớp bắt đầu hút thuốc. Tụi nó tập để thở ra được vòng tròn như hay thấy trong phim. Có khi tụi nó còn cố nín thở để giữ khói trong miệng. Mình không biết làm vậy có ích gì. 
+Mình nhớ lại hồi cấp 2, mấy đứa trong lớp bắt đầu hút thuốc. Tụi nó tập để thở ra được vòng tròn như hay thấy trong phim. Có khi tụi nó còn cố nín thở để giữ khói trong miệng. Mình không biết làm vậy được gì. 
 
 Hút thuốc bị cấm ở trong trường. Bạn mình không thể hút công khai trong lớp. Cho nên tụi nó chỉ còn cách chui vào nhà vệ sinh để hút. Nhiều khi đi vệ trong giờ ra chơi mà nhìn tàn thuốc giữa nền nhà kết hợp với ngửi mùi khói thuốc cộng mùi amoniac mà nản.
 
