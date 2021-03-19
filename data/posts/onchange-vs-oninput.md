@@ -1,6 +1,6 @@
 ---
 title: onchange vs oninput
-date: 2021-03-19T04:58:41.960Z
+date: 2021-04-17T04:58:41.960Z
 tag: javascript
 ---
 I sometimes get confused with [`onchange`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange) and [`oninput`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput) event. So I create this tutorial to show how they are different.
