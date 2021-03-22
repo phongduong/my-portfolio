@@ -13,4 +13,4 @@ Có một điều mình chưa tận dụng hết của MOOCS là ít khi tham gi
 
 Sau khi học ở UoPeople, mình thấy việc tham gia thảo luận hay viết luận giúp mình hiểu rõ hơn về khái niệm đang học. Nó còn giúp mình củng cố kiến thức và nhớ lâu hơn. 
 
-Vì sắp hoàn thành chương trình ở UoPeople, mình đang dự định quay lại học MOOCS sau khi xong. Có một điều mới ở những nền tảng cung cấp MOOCS là họ còn cung cấp cả các chương trình học Master.
+Vì sắp hoàn thành chương trình ở UoPeople, mình đang dự định quay lại học MOOCS sau khi xong. Có một điều mới ở những nền tảng cung cấp MOOCS là họ còn cung cấp cả các chương trình học Master online.
