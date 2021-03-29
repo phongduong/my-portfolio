@@ -9,4 +9,4 @@ Mình sẽ kể lại những điều mình đã trải nghiệm, đã học đ�
 
 Lúc đầu mình định đặt tên là "Từ lớp 12 đến nay" nhưng phạm vi của nó quá rộng. "Đến nay" là khi nào? Mình tự hỏi. Sau một lúc mình rút ngắn thành "Từ lớp 12". 
 
-Trong quá trình viết bài này, mình nghĩ ra một tên vừa phù hợp với những điều mình viết, vừa phù hợp với phạm vi của cuốn sách: " **7 NĂM TỪ LỚP 12**".
+Trong quá trình viết bài này, mình nghĩ ra một tên vừa phù hợp với những điều mình viết, vừa phù hợp với phạm vi của cuốn sách: " **8 NĂM TỪ LỚP 12**".
