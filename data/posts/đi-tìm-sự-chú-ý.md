@@ -9,4 +9,4 @@ Từ khi tham gia Facebook, mình bình luận tất cả nội dung của bạn
 
 Mình còn làm phiền người khác bằng cách đăng nội dung lên tường họ rồi mong chờ mọi người sẽ trầm trồ. Để rồi mình bị họ block. 
 
-Nhưng từ khi bắt đầu làm Youtube cũng như sáng tạo nội dung, mình luôn cố gắng để tạo ra những nội dung có thể không hay nhưng có ích. Mình đặt ra một quy tắc cho bản thân: "Làm những thứ mình thích nhưng có ích dù chỉ với một người". Mình bây giờ không muốn đi tìm sự chú ý, mình chỉ muốn đi tìm giá trị của bạn thân.
+Nhưng từ khi bắt đầu làm Youtube cũng như sáng tạo nội dung, mình luôn cố gắng để tạo ra những nội dung có thể không hay nhưng có ích. Mình đặt ra một quy tắc cho bản thân: "Làm những thứ mình thích nhưng có ích dù chỉ với một người". Mình bây giờ không muốn đi tìm sự chú ý, mình chỉ muốn đi tìm giá trị của bản thân.
