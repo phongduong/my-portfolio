@@ -11,4 +11,4 @@ Cái chính là sau khó khăn, còn điều gì đọng lại trong bạn. Đó
 
 Những thời điểm khó khăn cũng có giá trị quan trọng như những thời điểm thuận lợi. Nhiều lúc chúng ta nhớ về thời điểm gặp khó khăn nhiều hơn những thời điểm mà mọi thứ xung quanh chúng ta êm đẹp. 
 
-Bạn hãy trân trọng những thời điểm đó. Bởi vì chỉ có vượt qua khó khăn, chúng ta mới trưởng thành và phát triển. Khó khăn khiến cuộc đời bạn trở nên thú vị với những thử thách mà bạn phải vượt qua, những vấn đề cần bạn giải quyết. Nó cũng tô điểm thêm những màu sắc rực rỡ cho cuộc sống của bạn.
+Bạn hãy trân trọng những thời điểm đó. Bởi vì chỉ có vượt qua khó khăn, chúng ta mới trưởng thành và phát triển. Khó khăn khiến cuộc sống bạn trở nên thú vị với những thử thách mà bạn phải vượt qua, những vấn đề cần bạn giải quyết. Nó cũng tô điểm thêm những màu sắc rực rỡ cho cuộc sống của bạn.
