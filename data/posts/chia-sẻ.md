@@ -11,7 +11,7 @@ Cách này có lợi cho cả mình và hàng xóm.
 
 Đồ ăn để lâu sẽ hỏng kể cả bỏ tủ lạnh. Mẹ mình cứ mua đồ liên tục nên phải chia sẻ mới không bị để quá lâu. 
 
-Ăn một thứ liên tục cũng mau ngán. Chia sẻ đồ ăn để có thể ăn những thứ khác cũng như bổ sung các chất dinh dưỡng.
+Ăn một thứ liên tục cũng mau ngán. Chia sẻ đồ ăn để có thể ăn những thứ khác và bổ sung các chất dinh dưỡng.
 
 Đồ không ăn hết vứt đi cũng khiến ô nhiễm môi trường. Thay vì vứt đi, tại sao lại không chia sẻ cho người khác ngay từ đầu?
 
