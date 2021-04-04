@@ -15,4 +15,4 @@ Hôm nay mẹ mình mua một bao toàn là bầu. Trái nào trái nấy dài g
 
 Hàng xóm của mình tiết kiệm được một khoản.
 
-Chia sẻ cũng giúp nhà mình và hàng xóm thân thiết hơn. Cái này là quan trọng nhất.
+Chia sẻ cũng giúp nhà mình và hàng xóm thân thiết hơn. Cái này quan trọng nhất.
