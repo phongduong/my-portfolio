@@ -9,6 +9,6 @@ Mục tiêu càng lớn thì thời gian đạt được nó càng dài. Để �
 
 Nếu có người nói rằng, họ có thể giúp bạn thành công thì bạn nên cẩn thận. Bạn hãy xác định xem mục đích bạn muốn đạt được là gì? Mỗi người có một mục tiêu khác nhau. Họ không thể giúp bạn đạt được mục tiêu hay định hướng cho bạn đến mục tiêu.
 
-Quá trình đạt được mục tiêu không phải là một đường thẳng từ khi xác định mục tiêu đến lúc đạt được. Nó là một quá trình thay đổi lên xuống. Bạn phải liên tục điều chỉnh để xác định mục tiêu.
+Quá trình đạt được mục tiêu không phải là một đường thẳng từ khi xác định mục tiêu đến lúc đạt được. Nó là một quá trình thay đổi lên xuống. Bạn phải liên tục điều chỉnh để xác định mục tiêu. 
 
 Dù mục tiêu lớn hay nhỏ, bạn phải luôn kiên nhẫn.
