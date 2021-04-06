@@ -9,4 +9,4 @@ Trong quá trình viết sách, mình sẽ chia sẻ những trải nghiệm mì
 
 Mình cũng sẽ tiếp tục đăng video lên Youtube mỗi tuần và tạo nội dung trên Instagram và Facebook hàng ngày. Làm vậy thì mình phải sắp xếp lịch hợp lý để không ảnh hưởng đến việc viết sách.
 
-Đây sẽ là một chuyến du hành ngược thời gian thú vị. Mình sẽ di chuyển từ hiện tại về quá khứ và ngược lại liên tục.
+Đây sẽ là một chuyến du hành ngược thời gian thú vị. Mình sẽ đi từ hiện tại về quá khứ và ngược lại liên tục.
