@@ -7,4 +7,4 @@ Hôm nay, mình bắt tay vào viết "**8 NĂM TỪ LỚP 12**". Mình đã tr�
 
 Trong quá trình viết sách, mình sẽ chia sẻ những khó khăn cũng như trải nghiệm mình đã có trong suốt 8 năm qua.
 
-Mình nghĩ đây là một chuyến du hành ngược thời gian thú vị.
+Đây sẽ là một chuyến du hành ngược thời gian thú vị.
