@@ -7,4 +7,4 @@ Trong lúc mình viết sách, mình có một vấn đề về cách sử dụn
 
 Mình thấy dùng "mình" có cảm giác gần gũi hơn. Còn "tôi" thì xa cách và lạnh lùng. 
 
-Nhưng "mình" cũng dùng để nói về ngôi thứ hai và thứ ba. Do đó, mình buộc phải dùng "tôi" để chỉ bản thân mình tránh gây nhầm lẫn.
+Nhưng "mình" cũng có thể dùng để nói về ngôi thứ hai và thứ ba. Do đó, mình buộc phải dùng "tôi" để chỉ bản thân để tránh gây nhầm lẫn.
