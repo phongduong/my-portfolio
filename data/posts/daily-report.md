@@ -7,4 +7,4 @@ Lúc trước đi làm, mình rất ngán làm daily report. Nó cứ có cảm 
 
 Bây giờ mình phải áp dụng nó cho cuốn sách. Nếu không, mình sẽ không theo dõi được tiến độ công việc. Mình cũng muốn lưu lại trải nghiệm khi viết cuốn sách này như khi mình viết blog. Mình lưu nó trên Notion.
 
-Mình viết lại những viết mình đã làm và vấn đề mình gặp phải cuối mỗi ngày.
+Mình viết lại những gì mình đã làm và vấn đề mình gặp phải cuối mỗi ngày.
