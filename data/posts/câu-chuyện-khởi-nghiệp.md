@@ -7,4 +7,4 @@ Câu chuyện thành công của những người khởi nghiệp rất hấp d�
 
 Nhưng nhiều khi những câu chuyện đó có một chút hư cấu hoặc được chải chuốt quá nhiều. Bạn đừng nên quá tin vào những điều đó.
 
-Một điều nữa là câu chuyện của họ không phải là câu chuyện của bạn. Cho dù bạn bắt chước làm theo những điều được nghe từ cầu chuyện, kết quả cuối cùng cũng không thể giống như họ.
+Một điều nữa là câu chuyện của họ không phải là câu chuyện của bạn. Cho dù bạn bắt chước làm theo những điều được nghe từ cầu chuyện, kết quả cuối cùng cũng không thể giống như họ. Hãy tự kể câu chuyện của mình.
