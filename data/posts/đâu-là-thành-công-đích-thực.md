@@ -11,4 +11,4 @@ Mỗi người có một định nghĩa cũng như thước đo riêng về thà
 
 Nhưng mình thấy mấy quảng cáo trên ti-vi cứ cố đặt ra một quy luật để thành công chung là phải mua sản phẩm của họ.
 
-Vậy thì mình thắc mắc là nếu mua về nhưng lại không thích sản phẩm đó thì người khách hàng đã thành công hay thất bại?
+Nhưng mình thắc mắc là nếu mua về nhưng lại không thích sản phẩm đó thì người khách hàng đã thành công hay thất bại?
