@@ -13,4 +13,4 @@ Khói từ việc đốt những thứ này làm cho không khí bị ô nhiễm
 
 Mình đã không thắp hương được gần bảy năm. Mình muốn tạo ra một không gian không khói xung quanh mình. 
 
-Nhưng có rất nhiều người thân và người quen của mình đang kiếm sống từ ngành thủ công đầy khói này. Sự thay đổi không cần phải diễn ra ngay lập tức, vì sẽ có người bị sốc. Nhưng chắc chắn phải có sự thay đổi dù cho nó có thể mất một thời gian rất dài.
+Nhưng có rất nhiều người thân và người quen của mình đang kiếm sống từ ngành thủ công đầy khói này. Sự thay đổi không cần phải diễn ra ngay lập tức, vì sẽ có người bị sốc. Nhưng chắc chắn phải có sự thay đổi dù cho nó có thể mất nhiều thời gian.
