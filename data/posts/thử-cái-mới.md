@@ -11,4 +11,4 @@ Một tuần mình sẽ sử dụng một mẫu thumbnail. Mình chỉ thay đ�
 
 Hết tuần mình sẽ thay đổi mẫu - đổi màu sắc, font chữ hay vị trí hiện tại - cho tuần tiếp theo.
 
-Việc thử nghiệm này giúp mình tìm ra được cái gì hiệu quả, cái gì không.
+Việc thử nghiệm này giúp mình tìm ra được cái gì hiệu quả, cái gì không cho các video trong tương lai.
