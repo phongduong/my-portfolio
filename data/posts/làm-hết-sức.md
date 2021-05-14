@@ -15,6 +15,6 @@ Nếu bạn muốn những điều to lớn nhưng lại dành cho nó chỉ m�
 
 Có thể điều bạn nhận được sau khi bỏ ra nhiều công sức không giống với điều bạn mong muốn.
 
-Đừng nản lòng, thành quả mà bạn nhận được chưa chắc là thành quả cuối cùng.
+Đừng nản lòng, thành quả mà bạn nhận được đó chưa chắc là thành quả cuối cùng.
 
-Hãy cứ tiếp tục.
+Hãy cứ tiếp tục làm hết mình.
