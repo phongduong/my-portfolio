@@ -21,4 +21,4 @@ Thời gian làm việc trong CV sẽ được xem như kinh nghiệm làm việ
 
 Trong gần một năm nay, mình chỉ dành thời gian cho bản thân và gia đình. Mấy ngày gần đây, mình bắt đầu dành cả buổi chiều để chơi trốn tìm, tán lon, đá bóng với mấy đứa con nít trong xóm, vì tụi nó bắt đầu nghỉ hè. Mình cũng dành một chút thời gian để chơi và bắt rận cho chó nhà mình; ngoài ra còn nuôi thêm chó nhà hàng xóm. Hiện tại mình không có ý định đi kiếm việc làm từ đây cho tới Tết năm sau.
 
-Mình không thể đưa khoảng thời gian này vào CV vì như vậy người ta sẽ đánh giá "không chuyên nghiệp" theo một tiêu chuẩn tào lao nào đó khi lướt CV. Nếu sau này mình có ý định đi làm lại, mình có niềm tin to lớn rằng sẽ bị loại ngay từ vòng nộp CV chỉ vì thất nghiệp hơn một năm.
+Mình không thể đưa khoảng thời gian này vào CV vì như vậy người ta sẽ đánh giá "không chuyên nghiệp" theo một tiêu chuẩn tào lao nào đó khi lướt CV. Nếu sau này có ý định đi làm lại, mình có niềm tin to lớn rằng sẽ bị loại ngay từ vòng nộp CV chỉ vì thất nghiệp hơn một năm.
