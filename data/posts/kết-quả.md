@@ -11,4 +11,4 @@ Bạn không biết được kết quả sẽ ra sao nếu không hoàn thành c
 
 Cái kết quả mà bạn nghĩ là cuối cùng thật ra chỉ là những suy nghĩ trong đầu bạn hay của ai đó.
 
-Đôi khi bạn chấp nhận rằng suy nghĩ có thể phản bội lại bạn.
+Đôi khi bạn phải chấp nhận rằng suy nghĩ có thể phản bội lại bạn.
