@@ -13,4 +13,4 @@ Gia đình cũng là điểm yếu của mỗi chúng ta.
 
 Dù bạn mạnh mẽ, cứng rắn đến thế nào, mỗi khi nhắc đến gia đình, trong bạn sẽ luôn có một cảm xúc đặc biệt dành cho nó.
 
-Chúng ta xuất phát từ gia đình và kết thúc ở gia đình.
+Chúng ta xuất phát từ gia đình và sẽ kết thúc ở gia đình.
