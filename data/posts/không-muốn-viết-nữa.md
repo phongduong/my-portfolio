@@ -13,6 +13,6 @@ Thêm nữa là cách viết và kể chuyện của mình đang có vấn đề
 
 Nhưng nếu bây giờ không viết thì mình sẽ bị lố thêm nhiều thời gian, cuối cùng sẽ không hoàn thành được cuốn sách mình mong muốn.
 
-Cách viết và kể chuyện của mình cũng chẳng được cải thiện nhiều vì dừng viết.
+Cách viết và kể chuyện của mình cũng chẳng được cải thiện nhiều nếu dừng viết.
 
 Cho nên mình phải tiếp tục thôi.
