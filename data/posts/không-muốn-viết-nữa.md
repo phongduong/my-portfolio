@@ -15,4 +15,4 @@ Nhưng nếu bây giờ không viết thì mình sẽ bị lố thêm nhiều th
 
 Cách viết và kể chuyện của mình cũng chẳng được cải thiện nhiều nếu dừng viết.
 
-Cho nên mình phải tiếp tục thôi.
+Do đó mình phải tiếp tục thôi.
