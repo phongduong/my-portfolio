@@ -14,3 +14,5 @@ Nhưng viết ra là một chuyện, làm sao để những điều được vi�
 Có những lúc, mình tự đưa câu chuyện vào ngõ cụt bởi vì những điều mình viết ra không ăn khớp với nhau.
 
 Lúc đó có thể mình phải xóa đi một vài phần, hoặc tìm cách thêm thắt thế nào đó để câu chuyện được tiếp tục mà không bị vấp.
+
+Làm những việc này khiến cho mình có cảm giác được sống trong chính câu chuyện của mình thêm một lần nữa, khi đó mình cảm thấy rất vui.
