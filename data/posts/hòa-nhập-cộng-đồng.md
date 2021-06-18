@@ -11,4 +11,4 @@ Nhiều khi mình cũng lười không muốn đi đâu.
 
 Những lần mình đi chơi cũng là những lần hiếm hoi mình có cơ hội được hòa nhập với cộng đồng.
 
-Những lần đó cũng giúp mình không trở thành "người tối cổ"
+Những lần đó cũng giúp mình trở về với xã hội văn mình và không trở thành "người tối cổ".
