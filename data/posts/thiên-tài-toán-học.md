@@ -11,7 +11,7 @@ Nhìn cái cách nó làm bài tập, mình không hiểu tại sao nó có th�
 
 Nó không nhớ khái niệm của tiểu học như hỗn số hay hàng đẳng thức đáng nhớ của lớp 8.
 
-Tất cả nó làm là bắt chước các bài giải trước của thầy.
+Tất cả những gì nó làm là bắt chước các bài giải trước của thầy.
 
 Có khi mình thấy nó chép lại cũng sai.
 
