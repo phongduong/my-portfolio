@@ -9,7 +9,7 @@ Bạn hít một hơi thật sâu và chậm.
 
 Giữ hơi đó một lúc.
 
-Và thỏ ra thật chậm.
+Và thở ra thật chậm.
 
 Cứ tiếp tục như vậy cho đến khi bạn cảm thấy thoải mái.
 
