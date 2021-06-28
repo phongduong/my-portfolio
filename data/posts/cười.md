@@ -15,4 +15,4 @@ Có lẽ những lúc khó khăn nhất cũng là lúc mà mình nên cười nh
 
 Vì khi kể về những lúc khó khăn này, mình nhận ra nó giống như tình huống bị xoay 180 độ sang một diễn biến khác.
 
-Và khi một diễn biến không ai ngờ tới xuất hiện, mình lại càng thích.
+Và khi một diễn biến không ai ngờ tới xuất hiện, câu chuyện sẽ trở nên hấp dẫn hơn.
