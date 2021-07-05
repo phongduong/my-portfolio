@@ -19,7 +19,7 @@ Mình thấy Facebook cho phép người dùng thay đổi thứ tự tên trong
 
 Còn đối với những nền tảng khác mà mình lỡ dùng Phong Duong, mình vẫn đang suy nghĩ.
 
-Mình tính sẽ linh hoạt trên những nền tảng này. Dù vậy, mình nghĩ đổi tên theo một kiểu sẽ tốt hơn. Mình không cần phải điền họ mình vào last name hay family name. Mình hoàn toàn có quyền điền vào tên của mình trong tiếng Việt. Như vậy sẽ không bị bỡ ngỡ nếu người ta gọi tên mình. 
+Mình tính sẽ linh hoạt trên những nền tảng này. Dù vậy, mình nghĩ đổi tên theo một kiểu sẽ tốt hơn. Mình không cần phải điền họ mình vào last name hay family name. Bởi vì nếu điền đúng, nhưng thứ tự sai thì có thể bị gọi sai. Mình hoàn toàn có quyền điền vào tên của mình trong tiếng Việt. Như vậy sẽ không bị bỡ ngỡ nếu người ta gọi tên mình. 
 
 Mình tôn trọng gọi đúng tên người ta, thì mình cũng nên tôn trọng cái tên mà mình có cho dù là phù hợp với tiếng Anh.
 
