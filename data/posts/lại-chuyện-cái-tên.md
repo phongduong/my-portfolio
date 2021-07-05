@@ -5,7 +5,7 @@ tag: me
 ---
 Mấy bữa nay mình đang gặp vấn đề với chuyện viết tên của mình trên các nền tảng.
 
-Mình mới phát hiện ra là lúc mình điền form yêu cầu tốt nghiệp ở UoPeople, mình lấy tên là Phong Duong rồi. Bây giờ thì bằng tốt nghiệp gửi về cho mình sẽ chỉ là Phong Duong.
+Mình mới phát hiện ra là lúc mình điền form yêu cầu tốt nghiệp ở UoPeople, mình lấy tên là Phong Duong rồi. Bây giờ thì bằng tốt nghiệp gửi về cho mình sẽ chỉ là Phong Duong. Mình thì muốn trên bằng ghi đầy đủ là Duong Le Hoai Phong.
 
 Để đổi tên, người ta yêu cầu phải chứng minh bản thân và cung cấp tên muốn đổi gồm first name, middle name và last name.
 
@@ -13,10 +13,10 @@ Cái này có lẽ không là vấn đề gì, nhưng mình lại nghĩ rằng s
 
 Khi đó đổi lại sẽ rất rắc rối, vậy nên mình phải thống nhất một cách dùng tên ngay từ bây giờ.
 
-Đối với những giấy tờ và nền tảng quan trọng, mình sẽ dùng Dương Lê Hoài Phong. Như vậy mình sẽ dùng Dương cho first name, Lê Hoài cho middle name và Phong cho last name. Còn nếu yêu cầu full name thì cứ viết ra như cũ.
+Đối với những giấy tờ trọng như bằng tốt nghiệp hay chứng chỉ, mình sẽ dùng Dương Lê Hoài Phong. Mình cũng sẽ dùng tên này cho Edx và Coursera trong trường hợp mình chọn nhận chứng chỉ. Như vậy mình sẽ dùng Dương cho first name, Lê Hoài cho middle name và Phong cho last name. Còn nếu yêu cầu full name thì cứ viết ra như cũ.
 
-Mình thấy Facebook cho phép người dùng thay đổi thứ tự tên trong phần cài đặt. Chắc là do Facebook hoạt động ở nhiều nền văn hóa khác nhau nên nó cho phép người dùng làm vậy để phù hợp với văn hóa của họ.
+Mình thấy Facebook cho phép người dùng thay đổi thứ tự tên trong phần cài đặt. Chắc là do Facebook hoạt động ở nhiều nền văn hóa khác nhau nên nó cho phép người dùng làm vậy để phù hợp với văn hóa của người dùng.
 
 Còn đối với những nền tảng khác mà mình lỡ dùng Phong Duong, mình vẫn đang suy nghĩ.
 
-Bởi vì trước nay mình chỉ dùng Dương Lê Hoài Phong hoặc là Phong Duong.
+Mình tính sẽ linh hoạt trên những nền tảng này. Nhưng mình nghĩ rằng không cần phải quá sát sao chuyện điền họ mình vào last name hay family name. Mình hoàn toàn có quyền điền vào tên của mình trong tiếng Việt. Như vậy sẽ không bị bỡ ngỡ nếu người ta gọi tên mình.
