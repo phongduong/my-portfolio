@@ -14,3 +14,5 @@ Nhờ những sự kiện trùng hợp và ngẫu nhiên đến lạ thường, 
 Mình lần đầu tiên đến những nơi xa hơn và làm những việc chưa từng làm.
 
 Đây cũng là năm mình có công việc chính thức toàn thời gian đầu tiên.
+
+Nó là tiền đề cho những chuyến đi xa hơn nữa của mình trong năm 2018.
