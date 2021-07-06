@@ -22,8 +22,3 @@ Còn đối với những nền tảng khác mà mình lỡ dùng Phong Duong, m
 Mình tính sẽ linh hoạt trên những nền tảng này. Dù vậy, mình nghĩ đổi tên theo một kiểu sẽ tốt hơn. Mình không cần phải điền họ mình vào last name hay family name. Bởi vì nếu điền đúng, nhưng thứ tự sai thì có thể bị gọi sai. Mình hoàn toàn có quyền điền vào tên của mình trong tiếng Việt. Như vậy sẽ không bị bỡ ngỡ nếu người ta gọi tên mình. 
 
 Mình tôn trọng gọi đúng tên người ta, thì mình cũng nên tôn trọng cái tên mà mình có cho dù là phù hợp với tiếng Anh.
-
-Mình có sử dụng một vài tư liệu tham khảo để quyết định việc này:
-
-* <https://uet.vnu.edu.vn/~nnbinh/TenNguoiVietTrongTiengAnh(NNBinh).pdf>
-* [Cách gọi tên mới của người Nhật sẽ có hiệu lực từ năm 2020](https://nhandan.vn/tin-tuc-the-gioi/cach-goi-ten-moi-cua-nguoi-nhat-se-co-hieu-luc-tu-nam-2020-376724)
