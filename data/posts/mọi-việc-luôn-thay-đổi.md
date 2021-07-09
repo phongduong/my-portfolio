@@ -9,7 +9,7 @@ Những điều bạn nghĩ là tốt nhất hôm nay có thể ngày mai sẽ k
 
 Đó là điều bình thường.
 
-Bởi không có gì tồn tại mãi mãi.
+Bởi không có thể gì tồn tại mãi mãi.
 
 Khi sự thay đổi xảy ra, bạn hãy cứ vui vẻ đón nhận nó.
 
