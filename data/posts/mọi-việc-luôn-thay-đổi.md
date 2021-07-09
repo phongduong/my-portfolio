@@ -15,6 +15,6 @@ Khi sự thay đổi xảy ra, bạn hãy cứ vui vẻ đón nhận nó.
 
 Nếu thuận lợi cho bạn thì tốt, nhưng nếu nó gây cho bạn nhiều khó khăn cũng không sao.
 
-Đó là sẽ lúc để bạn khám phá ra điều gì đó.
+Đó là sẽ lúc để bạn khám phá ra những điều mới mẻ về bản thân.
 
 Bạn hoàn toàn có thể thay đổi mọi thứ.
