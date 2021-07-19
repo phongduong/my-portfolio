@@ -9,7 +9,7 @@ Mình sẽ có rất nhiều việc phải làm để viết và phân phối cu
 
 Bây giờ mình chỉ viết tới đầu năm 2018, nhưng những điều diễn ra trong khoảng thời gian này là rất nhiều.
 
-Có thể mình sẽ không viết kịp đến lúc đó.
+Có thể mình sẽ không viết kịp.
 
 Mình đặt ra một hạn chót là cuối tháng 8, khi đó mình phải viết xong năm 2020.
 
@@ -26,3 +26,7 @@ Trong khoảng thời gian này, mình sẽ viết năm 2021 và dự kiến cu�
 Sang tháng 1 năm sau, mình bắt đầu đăng podcast và video thu giọng đọc của mình lên Youtube.
 
 Cả hành trình này có thể sẽ kéo dài hơn hai năm, vì càng viết mình càng có nhiều thứ muốn kể.
+
+Mình cũng thử nộp bản thảo để xuất bản sách giấy. Nhưng mình không mong đợi quá nhiều.
+
+Mình sẽ tập trung vào việc phân phối trên càng nền tảng hơn là chờ một ai đó xuất bản sách của mình.
